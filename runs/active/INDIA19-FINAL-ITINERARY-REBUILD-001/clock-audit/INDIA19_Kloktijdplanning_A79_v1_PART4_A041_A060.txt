@@ -1,0 +1,86 @@
+INDIA19_Kloktijdplanning_A79_v1 — FROZEN AUDIT MIRROR
+PDF SHA256: 0adec758a0b156d56fdd7c8552fa214b78f8e24291d9be759e367dde99d00716
+DOCX SHA256: 6f2369a804972da9325bbdac26033e07ca18833d6562859d7a6954b5ebc7619f
+Frozen A-ledger commit: a2b71b2563f446480b012f0b9176a87e96fcb003
+PDF pages: 26
+
+=== DETAILED A041-A060 CARDS ===
+A041  A  Sankat Mochan Hanuman Temple  [VNS-30]
+Wat is het? Living Hanuman temple traditionally connected with Tulsidas in south Varanasi. Waarom voor Mark? Major devotional temple that combines efficiently with Durga Kund. AOAY/persoon: Hanuman/Tulsidas devotional context; no direct AOAY event claimed.
+Klokblok: 08:00-09:00. Vorige A: Vanaf Assi-basis: ~2-3 km / 10-20 min. Volgende A: Naar A042: ~1.3 km / 5-10 min. Uitvoeringsstatus: SCHEDULED.
+
+A042  A  Durga Temple and Durga Kund  [VNS-31]
+Wat is het? Red-painted Durga temple with adjoining sacred tank. Waarom voor Mark? A distinct living temple/tank complex and natural companion to Sankat Mochan. AOAY/persoon: No direct AOAY link.
+Klokblok: 09:15-10:15. Vorige A: Vanaf A041: ~1.3 km / 5-10 min. Volgende A: Naar A043: ~3 km / 15-25 min. Uitvoeringsstatus: SCHEDULED.
+
+A043  A  Kedareshwar Temple and Kedar Ghat  [VNS-33]
+Wat is het? Shiva temple and ghat on the south-central riverfront. Waarom voor Mark? Governance explicitly protects this as A; it therefore gets its own real visit block. AOAY/persoon: No direct AOAY link.
+Klokblok: 15:30-17:00. Vorige A: Vanaf A042: ~3 km / 15-25 min. Volgende A: Laatste A; terug Assi ~2-3 km. Uitvoeringsstatus: SCHEDULED.
+
+A044  A  Adi Keshava Ghat + Temple  [VNS-41]
+Wat is het? Vishnu shrine at the Varuna-Ganges confluence, classical northern boundary of sacred Kashi. Waarom voor Mark? Creates a meaningful geographic start to the long north-to-south sacred ghat day. AOAY/persoon: No direct AOAY link.
+Klokblok: 07:00-08:00. Vorige A: Vanaf Assi: ~8-10 km / 30-45 min. Volgende A: Naar A045: ~3 km / 20-30 min. Uitvoeringsstatus: SCHEDULED.
+
+A045  A  Shri Tailanga Swami Math  [VNS-25]
+Wat is het? Math/shrine associated with the 19th-century yogi Trailanga/Tailanga Swami. Waarom voor Mark? Strong yogic-saint context within the Panchganga sacred microcluster. AOAY/persoon: Trailanga Swami - yogic saint context. AOAY relevance is indirect; no specific episode is required for this planning claim.
+Klokblok: 08:30-09:15. Vorige A: Vanaf A044: ~3 km / 20-30 min. Volgende A: Naar A046: <0.2 km / 2-5 min. Uitvoeringsstatus: SCHEDULED.
+
+A046  A  Panchganga Ghat  [VNS-29]
+Wat is het? Historic ghat at the traditional confluence of five rivers. Waarom voor Mark? Physical centre of the Tailanga/Bindu Madhav cluster. AOAY/persoon: No direct AOAY link.
+Klokblok: 09:15-09:45. Vorige A: Vanaf A045: <0.2 km. Volgende A: Naar A047: <0.3 km / 5 min. Uitvoeringsstatus: SCHEDULED.
+
+A047  A  Bindu Madhav Temple  [VNS-36]
+Wat is het? Vishnu temple in the Panchganga area. Waarom voor Mark? A distinct sacred temple inside the same walkable microcluster. AOAY/persoon: No direct AOAY link.
+Klokblok: 09:45-10:15. Vorige A: Vanaf A046: <0.3 km. Volgende A: Naar A048: ~1.5 km / 20-30 min lopen. Uitvoeringsstatus: SCHEDULED.
+
+A048  A  Lalita Ghat  [VNS-34]
+Wat is het? Ghat known for its Nepalese architectural setting on the core old-city riverfront. Waarom voor Mark? A route-side A that must remain visible on the heavy ghat walk. AOAY/persoon: No direct AOAY link.
+Klokblok: 11:15-11:45. Vorige A: Vanaf A047: ~1.5 km / 20-30 min. Volgende A: Naar A049: <0.2 km / 2-5 min. Uitvoeringsstatus: SCHEDULED.
+
+A049  A  Nepali / Kathwala Temple  [VNS-35]
+Wat is het? Nepalese-style wooden pagoda temple at/near Lalita Ghat. Waarom voor Mark? Architectural and devotional content immediately on the route. AOAY/persoon: No direct AOAY link.
+Klokblok: 11:45-12:15. Vorige A: Vanaf A048: <0.2 km. Volgende A: Naar A050: ~0.7 km / 10-15 min. Uitvoeringsstatus: SCHEDULED.
+
+A050  A  Sankatha Devi Temple  [VNS-32]
+Wat is het? Devi temple on the old-city ghat-walk corridor. Waarom voor Mark? Route-side A with little extra transfer burden, but still a distinct physical visit. AOAY/persoon: No direct AOAY link.
+Klokblok: 13:30-14:00. Vorige A: Vanaf A049: ~0.7 km / 10-15 min. Volgende A: Naar A051: ~0.5 km / 10 min. Uitvoeringsstatus: SCHEDULED.
+
+A051  A+  Ratneshwar Mahadev leaning river temple  [VNS-05]
+Wat is het? The famous leaning/submerged temple beside the Manikarnika world. Waarom voor Mark? A distinctive A+ landmark with a full hour protected before Manikarnika. AOAY/persoon: No direct AOAY link.
+Klokblok: 14:15-15:15. Vorige A: Vanaf A050: ~0.5 km / 10 min. Volgende A: Naar A052: ~0.2 km / 5 min. Uitvoeringsstatus: SCHEDULED.
+
+A052  A+  Manikarnika Ghat  [VNS-01]
+Wat is het? Varanasi's principal cremation ghat and one of the city's most intense sacred places. Waarom voor Mark? Deep experiential/spiritual anchor and intentionally the final, open-ended content of the heaviest Varanasi day. AOAY/persoon: No direct AOAY person-link; powerful sacred-Kashi context.
+Klokblok: 15:15-18:30. Vorige A: Vanaf A051: ~0.2 km / 5 min. Volgende A: Laatste A; terug Assi ~5-6 km / 25-40 min. Uitvoeringsstatus: SCHEDULED.
+
+A053  A+  Sarnath sacred-archaeological world  [VNS-04]
+Wat is het? The broader physical Buddhist sacred/archaeological world where the Buddha's first sermon is commemorated. Waarom voor Mark? The parent A+ remains explicitly visible even though its child monuments are individually timed below. AOAY/persoon: Buddha context; no direct site-specific AOAY biographical link.
+Klokblok: 08:20-08:40. Vorige A: Vanaf Assi: ~13 km / 35-50 min. Volgende A: Naar A054: ~0.6 km / 10 min. Uitvoeringsstatus: SCHEDULED.
+
+A054  A  Chaukhandi Stupa  [VNS-16]
+Wat is het? Stupa marking the traditional meeting of the Buddha with his first five disciples. Waarom voor Mark? A distinct Sarnath physical site and useful opening stop before the museum/central complex. AOAY/persoon: Buddha context; no direct AOAY site link.
+Klokblok: 08:40-09:15. Vorige A: Vanaf A053: ~0.6 km / 10 min. Volgende A: Naar A055: ~1.2 km / 10-20 min. Uitvoeringsstatus: SCHEDULED.
+
+A055  A  Sarnath Archaeological Museum  [VNS-38]
+Wat is het? Museum of excavated Sarnath material, including the Lion Capital heritage layer. Waarom voor Mark? Important enough to force the Sarnath day off Friday; official hours are currently 09:00-17:00, closed Friday. AOAY/persoon: Buddhist/heritage context; no direct AOAY link.
+Klokblok: 09:30-10:45. Vorige A: Vanaf A054: ~1.2 km / 10-20 min. Volgende A: Naar A056: ~0.4 km / 5-10 min. Uitvoeringsstatus: SCHEDULED - official 09:00-17:00, Friday closed.
+
+A056  A  Dhamek Stupa  [VNS-14]
+Wat is het? Large stupa marking the first-sermon sacred zone. Waarom voor Mark? Core Buddhist pilgrimage monument inside the A+ Sarnath world. AOAY/persoon: Buddha context; no direct AOAY site link.
+Klokblok: 11:00-11:45. Vorige A: Vanaf A055: ~0.4 km. Volgende A: Naar A057: 0-0.2 km. Uitvoeringsstatus: SCHEDULED.
+
+A057  A  Deer Park  [VNS-17]
+Wat is het? The Deer Park landscape traditionally associated with the Buddha's first sermon. Waarom voor Mark? Gives the Sarnath visit physical landscape and breathing room beyond monuments. AOAY/persoon: Buddha context; no direct AOAY site link.
+Klokblok: 11:45-12:15. Vorige A: Vanaf A056: 0-0.2 km. Volgende A: Naar A058: ~0.4 km / 5-10 min. Uitvoeringsstatus: SCHEDULED.
+
+A058  A  Mulagandha Kuti Vihara  [VNS-15]
+Wat is het? Modern Buddhist vihara with murals of the Buddha's life. Waarom voor Mark? Adds living Buddhist practice/art to the archaeological day. AOAY/persoon: Buddha context; no direct AOAY site link.
+Klokblok: 13:15-14:00. Vorige A: Vanaf A057: ~0.4 km. Volgende A: Naar A059: ~1 km / 10-15 min. Uitvoeringsstatus: SCHEDULED.
+
+A059  A  Shreyansanath Jain Tirth  [VNS-23]
+Wat is het? Jain pilgrimage site within the wider Sarnath sacred landscape. Waarom voor Mark? Broadens the day beyond a single religious tradition while remaining geographically efficient. AOAY/persoon: Jain sacred context; no AOAY link.
+Klokblok: 14:15-15:00. Vorige A: Vanaf A058: ~1 km / 10-15 min. Volgende A: Naar A060: ~1-2 km / 10-20 min. Uitvoeringsstatus: SCHEDULED.
+
+A060  A  Saranganath Temple  [VNS-18]
+Wat is het? Temple in the Sarnath area distinct from the Buddhist archaeological complex. Waarom voor Mark? Retained A and therefore scheduled as a real separate stop before returning to Varanasi. AOAY/persoon: No direct AOAY link.
+Klokblok: 15:15-16:00. Vorige A: Vanaf A059: ~1-2 km / 10-20 min. Volgende A: Laatste A; terug Assi ~13 km / 35-50 min. Uitvoeringsstatus: SCHEDULED.

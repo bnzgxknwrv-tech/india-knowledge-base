@@ -1,0 +1,216 @@
+INDIA19_Kloktijdplanning_A79_v1 — FROZEN AUDIT MIRROR
+PDF SHA256: 0adec758a0b156d56fdd7c8552fa214b78f8e24291d9be759e367dde99d00716
+DOCX SHA256: 6f2369a804972da9325bbdac26033e07ca18833d6562859d7a6954b5ebc7619f
+Frozen A-ledger commit: a2b71b2563f446480b012f0b9176a87e96fcb003
+PDF pages: 26
+
+=== DAILY CLOCK TABLES 39-72 ===
+-- TABLE 40 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+05:10 | Opstaan. |  |  | 
+05:30-08:00 | A025 Ganges dawn rowboat incl. embark/disembark. | Vanaf Assi-basis: ~0-0.5 km | Naar A026: ~5-6 km / 20-35 min | SCHEDULED
+08:00-09:00 | Ontbijt. |  |  | 
+09:00-09:45 | Transfer/security richting Vishwanath-zone. |  |  | 
+10:00-11:00 | A026 Shri Kashi Vishwanath Temple. | Vanaf A025-eindpunt/Assi: ~5-6 km / 20-35 min | Naar A027: ~0.1 km / 2-5 min | SCHEDULED
+11:05-11:30 | A027 Maa Annapurna Temple. | Vanaf A026: ~0.1 km | Naar A028: ~0.3 km / 5-10 min | SCHEDULED
+11:40-12:05 | A028 Vishalakshi Gauri Temple. | Vanaf A027: ~0.3 km / 5-10 min | Naar A029: ~0.4-0.8 km / 10-20 min | SCHEDULED
+12:15-13:15 | A029 Bengali Tola - Thatheri Bazaar - Chowk lanes: echte route-through. | Vanaf A028: ~0.4-0.8 km | Naar A030: ~0.1 km / 2-5 min | SCHEDULED
+13:15-13:35 | A030 Banarasi paan. | Vanaf A029: ~0.1 km | Naar A031: ~3 km / 20-30 min auto | SCHEDULED
+13:35-14:30 | Lunch. |  |  | 
+14:30-15:00 | Auto naar Kabir Chaura. |  |  | 
+15:00-16:00 | A031 Kabir Chaura Math. | Vanaf A030: ~3 km / 20-30 min | Laatste A; terug Assi ~5 km / 25-40 min | SCHEDULED
+16:00-avond | Terug / rust. |  |  | 
+
+-- TABLE 42 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+05:15 | Opstaan. |  |  | 
+05:30-08:30 | A032 Assi-Tulsi slow dawn ghat walk. | Vanaf Assi-basis: ~0-0.3 km | A033 ligt in het startgebied: 0 km extra | SCHEDULED
+05:35-06:05 | A033 Assi Ghat - fysieke A+ stop binnen de dawn walk. | Binnen A032: 0 km extra | Naar A034: ~1.0-1.3 km lopen | SCHEDULED
+06:45-07:15 | A034 Tulsi Ghat. | Vanaf A033: ~1.0-1.3 km / 15-25 min lopen | Naar A035: ~0.3-0.5 km / 5-10 min | SCHEDULED
+07:20-07:45 | A035 Lolark Kund. | Vanaf A034: ~0.3-0.5 km | Naar A036: ~0.8-1.2 km / 10-20 min | SCHEDULED
+08:30-09:30 | Ontbijt. |  |  | 
+10:00-11:30 | A036 Shree Shree Ma Anandamayi Ashram, Bhadaini. | Vanaf A035: ~0.8-1.2 km / 10-20 min | Laatste A; terug Assi-basis ~1 km | SCHEDULED
+12:00-avond | Lichte middag / herstel. |  |  | 
+
+-- TABLE 44 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+05:10 | Opstaan. |  |  | 
+05:30-07:30 | A037 Subah-e-Banaras bij Assi. | Vanaf Assi-basis: ~0-0.5 km | Naar A038: ~4 km / 20-30 min | SCHEDULED; exact winterprogramma LRL
+07:30-09:15 | Ontbijt/rust. |  |  | 
+09:15-09:50 | Transfer naar Ramapura-Luxa. |  |  | 
+10:00-11:30 | A038 New Bhrigu Karyalaya / Bhadury Sadan. | Vanaf A037: ~4 km / 20-30 min | Naar A039: ~2-4 km / 15-30 min, exact adresroute LRL | SCHEDULED
+11:30-13:15 | Lunch + rust. |  |  | 
+13:15-14:00 | Transfer naar Lahiri-zone. |  |  | 
+14:00-15:00 | A039 Lahiri Mahasaya family house - alleen met bevestigde toegang. | Vanaf A038: ~2-4 km / 15-30 min | Naar A040: ~1-3 km / 15-25 min, exact LRL | SCHEDULED; ACCESS MUST CONFIRM
+15:30-16:30 | A040 Lahiri Mahasaya Samadhi / Satyalok. | Vanaf A039: ~1-3 km / 15-25 min | Laatste A; Assi-basis ~4-6 km | SCHEDULED
+17:00-avond | Vrij/herstel. |  |  | 
+
+-- TABLE 46 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+07:30 | Ontbijt. |  |  | 
+08:00-09:00 | A041 Sankat Mochan Hanuman Temple. | Vanaf Assi-basis: ~2-3 km / 10-20 min | Naar A042: ~1.3 km / 5-10 min | SCHEDULED
+09:15-10:15 | A042 Durga Temple + Durga Kund. | Vanaf A041: ~1.3 km / 5-10 min | Naar A043: ~3 km / 15-25 min | SCHEDULED
+10:30-14:30 | Vrij / lunch / rust. |  |  | 
+15:00-15:25 | Transfer naar Kedar Ghat. |  |  | 
+15:30-17:00 | A043 Kedareshwar Temple + Kedar Ghat. | Vanaf A042: ~3 km / 15-25 min | Laatste A; terug Assi ~2-3 km | SCHEDULED
+
+-- TABLE 48 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+06:15 | Ontbijt/thee. |  |  | 
+06:30-07:00 | Auto naar Adi Keshava. |  |  | 
+07:00-08:00 | A044 Adi Keshava Ghat + Temple. | Vanaf Assi: ~8-10 km / 30-45 min | Naar A045: ~3 km / 20-30 min | SCHEDULED
+08:00-08:30 | Auto/loop naar Panchganga-zone. |  |  | 
+08:30-09:15 | A045 Shri Tailanga Swami Math. | Vanaf A044: ~3 km / 20-30 min | Naar A046: <0.2 km / 2-5 min | SCHEDULED
+09:15-09:45 | A046 Panchganga Ghat. | Vanaf A045: <0.2 km | Naar A047: <0.3 km / 5 min | SCHEDULED
+09:45-10:15 | A047 Bindu Madhav Temple. | Vanaf A046: <0.3 km | Naar A048: ~1.5 km / 20-30 min lopen | SCHEDULED
+10:15-10:30 | A* S06 Alamgir Mosque/Dharahara alleen incidental; eerste drop. |  |  | A* SKIP_FIRST
+10:30-11:15 | Thee + lopen zuidwaarts. |  |  | 
+11:15-11:45 | A048 Lalita Ghat. | Vanaf A047: ~1.5 km / 20-30 min | Naar A049: <0.2 km / 2-5 min | SCHEDULED
+11:45-12:15 | A049 Nepali / Kathwala Temple. | Vanaf A048: <0.2 km | Naar A050: ~0.7 km / 10-15 min | SCHEDULED
+12:15-13:15 | Lunch/rust. |  |  | 
+13:30-14:00 | A050 Sankatha Devi Temple. | Vanaf A049: ~0.7 km / 10-15 min | Naar A051: ~0.5 km / 10 min | SCHEDULED
+14:15-15:15 | A051 Ratneshwar Mahadev. | Vanaf A050: ~0.5 km / 10 min | Naar A052: ~0.2 km / 5 min | SCHEDULED
+15:15-18:30 | A052 Manikarnika Ghat - open einde, geen strak vertrekdoel. | Vanaf A051: ~0.2 km / 5 min | Laatste A; terug Assi ~5-6 km / 25-40 min | SCHEDULED
+18:30-19:30 | Terug naar Assi. |  |  | 
+
+-- TABLE 50 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+07:00 | Ontbijt. |  |  | 
+07:30-08:20 | Auto Assi -> Sarnath (~13 km). |  |  | 
+08:20-08:40 | A053 Sarnath sacred-archaeological world: oriëntatie/wandeling. | Vanaf Assi: ~13 km / 35-50 min | Naar A054: ~0.6 km / 10 min | SCHEDULED
+08:40-09:15 | A054 Chaukhandi Stupa. | Vanaf A053: ~0.6 km / 10 min | Naar A055: ~1.2 km / 10-20 min | SCHEDULED
+09:30-10:45 | A055 Sarnath Archaeological Museum. | Vanaf A054: ~1.2 km / 10-20 min | Naar A056: ~0.4 km / 5-10 min | SCHEDULED - official 09:00-17:00, Friday closed
+11:00-11:45 | A056 Dhamek Stupa. | Vanaf A055: ~0.4 km | Naar A057: 0-0.2 km | SCHEDULED
+11:45-12:15 | A057 Deer Park. | Vanaf A056: 0-0.2 km | Naar A058: ~0.4 km / 5-10 min | SCHEDULED
+12:15-13:15 | Lunch. |  |  | 
+13:15-14:00 | A058 Mulagandha Kuti Vihara. | Vanaf A057: ~0.4 km | Naar A059: ~1 km / 10-15 min | SCHEDULED
+14:15-15:00 | A059 Shreyansanath Jain Tirth. | Vanaf A058: ~1 km / 10-15 min | Naar A060: ~1-2 km / 10-20 min | SCHEDULED
+15:15-16:00 | A060 Saranganath Temple. | Vanaf A059: ~1-2 km / 10-20 min | Laatste A; terug Assi ~13 km / 35-50 min | SCHEDULED
+16:00-17:00 | Terugrit. |  |  | 
+
+-- TABLE 52 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+08:30 | Langzaam ontbijt. |  |  | 
+ochtend | Was, administratie, fotografie, vrije ghat-tijd. |  |  | 
+middag | Gerichte retry alleen indien A039 Lahiri house / andere access-dependent A niet lukte. Geen nieuwe A toegevoegd. |  |  | 
+avond | Pakken en vroeg slapen. |  |  | 
+
+-- TABLE 54 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+06:30 | Ontbijt/check-out. |  |  | 
+07:30-09:00 | Transfer naar VNS airport + buffer. |  |  | 
+10:30-12:00 | Werkvenster VNS -> CCU vlucht; exacte vlucht LRL. |  |  | 
+12:00-14:00 | Bagage/lunch. |  |  | 
+14:00-15:30 | CCU -> Dakshineswar slaapbasis. |  |  | 
+15:30-avond | Check-in en herstel. Geen A+ meer op aankomstdag. |  |  | 
+
+-- TABLE 56 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+06:15 | Ontbijt. |  |  | 
+06:30-07:00 | Naar tempelingang/security. |  |  | 
+07:00-09:30 | A061 Dakshineswar Kali Temple incl. Ramakrishna-room/Panchavati voor zover toegankelijk. | Vanaf Dakshineswar-basis: ~0.5-2 km / 5-15 min | Naar A062: ~0.8-1.5 km / 10-20 min | SCHEDULED; official temple open 06:30-12:30
+09:45-11:30 | A062 Yogoda Satsanga Math, Dakshineswar. | Vanaf A061: ~0.8-1.5 km / 10-20 min | Naar A063: ~8 km road / 30-45 min; ferryoptie LRL | SCHEDULED
+11:30-12:30 | Lunch. |  |  | 
+12:30-13:30 | Transfer naar Belur Math. |  |  | 
+13:30-17:00 | A063 Belur Math + museum/lineagecomplex. | Vanaf A062: ~8 km road / 30-45 min (of ferrycorridor) | Laatste A; terug basis ~8-12 km | SCHEDULED
+
+-- TABLE 58 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+08:00 | Ontbijt. |  |  | 
+09:00-10:15 | Transfer Dakshineswar -> Garpar. |  |  | 
+10:30-12:00 | A064 4 Garpar Road - alleen met vooraf bevestigde toegang. | Vanaf basis: ~15-20 km / 45-75 min | Naar A065: ~0.5-1 km / 5-15 min lopen | SCHEDULED; PRE-ARRIVAL EMAIL REQUIRED
+12:00-13:30 | Lunch/rust. |  |  | 
+14:00-16:00 | A065 YSS Dhyana Kendra Garpar; verlengen bij passende groepsmeditatie. | Vanaf A064: ~0.5-1 km / 5-15 min | Laatste A; terug basis/hotel ~15-20 km | SCHEDULED; exact Jan-2027 programme LRL
+
+-- TABLE 60 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+05:30 | Opstaan/check-out. |  |  | 
+06:00-07:30 | Naar CCU + airportbuffer. |  |  | 
+08:30-11:00 | Werkvenster CCU -> MAA; exacte vlucht LRL. |  |  | 
+11:00-12:00 | Bagage/lunch. |  |  | 
+12:00-16:00 | Road MAA -> Tiruvannamalai ~175 km / 3.5-4.5 h. |  |  | 
+16:00-16:40 | Check-in/thee. |  |  | 
+16:45-17:30 | A066 Arunachala / Ramana sacred mountain world: bewuste eerste oriëntatie en stille aanwezigheid. | Vanaf slaapbasis: 0-2 km / zicht-/loopafstand | Naar A067: ~1-2 km / 5-15 min | SCHEDULED
+19:00-20:30 | A067 Diner bij The Dreaming Tree. | Vanaf A066/base: ~1-2 km / 5-15 min | Laatste A | SCHEDULED
+
+-- TABLE 62 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+06:45 | Ontbijt. |  |  | 
+07:30-08:00 | Naar Ramanasramam/hill trail. |  |  | 
+08:00-09:30 | A068 Virupaksha Cave. | Vanaf basis/ashramzone: ~1.5-2 km trail / 30-50 min | Naar A069: ~0.7 km omhoog / 20-30 min | SCHEDULED
+09:45-10:45 | A069 Skandashram. | Vanaf A068: ~0.7 km / 20-30 min klim | Naar A070: afdaling + road totaal ~5 km / 45-60 min | SCHEDULED
+10:45-12:30 | Afdalen. |  |  | 
+12:30-14:30 | Lunch + rust. |  |  | 
+15:00-15:30 | Auto naar Gurumurtam. |  |  | 
+15:30-16:15 | A070 Gurumurtam. | Vanaf A069 via afdaling/base: ~5 km / 45-60 min totaal | Naar A071: ~2.5 km / 10-20 min | SCHEDULED
+16:30-17:15 | A071 Pavalakunru. | Vanaf A070: ~2.5 km / 10-20 min | Naar A072: ~2 km / 10-15 min | SCHEDULED
+19:00-20:15 | A072 Diner bij The Inner Child. | Vanaf A071/base: ~2 km / 10-15 min | Laatste A | SCHEDULED
+
+-- TABLE 64 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+03:45 | Opstaan. |  |  | 
+04:30-09:00 | A073 Giripradakshina/Girivalam 14 km, start/einde echte slaapbasis. | Start = slaapbasis | Naar A074 na herstel: ~2-3 km / 10-20 min | SCHEDULED
+09:00-10:00 | Ontbijt/douchen. |  |  | 
+10:00-15:30 | Volledige herstelperiode, voeten/siesta/lunch. |  |  | 
+16:00-18:00 | A074 Arunachaleswarar / Annamalaiyar Temple. | Vanaf basis: ~2-3 km / 10-20 min | Naar A075: ~1 km / 5-10 min | SCHEDULED
+18:30-19:45 | A075 Diner bij Amutham. | Vanaf A074: ~1 km / 5-10 min | Laatste A | SCHEDULED
+
+-- TABLE 66 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+06:45 | Ontbijt. |  |  | 
+07:30-12:00 | A076 Sri Ramanasramam: meditatie, samadhi hallen, bibliotheek/terrein naar beschikbaarheid. | Vanaf slaapbasis: streef ~0-2 km / 5-15 min | Enige A vandaag | SCHEDULED
+12:00-14:00 | Lunch + rust. |  |  | 
+14:00-16:30 | Terug naar Ramanasramam / stille immersie, zelfde A076. |  |  | 
+avond | Rustig diner / pakken. |  |  | 
+
+-- TABLE 68 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+08:00 | Ontbijt/check-out. |  |  | 
+09:30-14:00 | Road naar Chennai airportzone ~175 km / 3.5-4.5 h. |  |  | 
+14:00-avond | Hotel, lunch, wassen/pakken, slaap. Geen A+/A in Chennai-canon. |  |  | 
+
+-- TABLE 70 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+03:15 | Opstaan. |  |  | 
+03:45-04:15 | Naar MAA. |  |  | 
+~05:45-08:45 | Werkvenster vroege MAA -> DEL nonstop; exacte vlucht LRL. |  |  | 
+08:45-10:15 | Bagage + hotel/day-room/bag drop + ontbijt. |  |  | 
+10:15-11:00 | Auto richting Chhawla/Nirmal Dham. |  |  | 
+11:00-13:00 | A077 Nirmal Dham. | Vanaf DEL/hotelzone: ~15-25 km / 35-60 min | Naar A078: ~35-40 km / 75-100 min | SCHEDULED; flight safety outranks visit if disruption
+13:00-14:30 | Transfer + lunch. |  |  | 
+15:00-16:15 | A078 Lotus Temple / Baha'i House of Worship. | Vanaf A077: ~35-40 km / 75-100 min | Naar A079: ~12-14 km / 30-45 min | SCHEDULED
+16:15-17:30 | Transfer / vroege maaltijd. |  |  | 
+18:30-21:30 | A079 PVR Priya IMAX - alleen bij geschikte film/showtime. | Vanaf A078: ~12-14 km / 30-45 min | Laatste A; hotel/IGI ~8-15 km / 20-45 min | SCHEDULED CONDITIONALLY
+22:00 | Hotel. Direct slapen. |  |  | 
+
+-- TABLE 72 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+07:30 | Ontbijt/check-out. |  |  | 
+08:30-09:00 | Naar DEL / internationale buffer. |  |  | 
+~12:20 | AI155 DEL -> AMS (canonwerktijd). |  |  | 
+
+=== A* SPECIAL-STATUS TABLE ===
+S-nr | Bron-ID | Locatie | Status in deze alpha | Behandeling
+S01 | KUM-13 | Sattal / Seven Lakes | A* SKIP_FIRST | Condition not triggered in current topology; do not create a dedicated detour.
+S02 | KUM-14 | Sakley's Restaurant & Pastry Shop | A* CONDITIONAL | Optional on Nainital recovery day if energy is good.
+S03 | KUM-15 | Kakrighat / Karkrighat | A* SKIP_FIRST | Only if naturally on the 23 Dec road corridor and day remains comfortable.
+S04 | KUM-16 | Dwarahat historic temple groups | A* SKIP_FIRST | Only if daylight/arrival margin remains after transfer.
+S05 | BOD-06 | Rajgir Brahmakund hot springs | A* CONDITION_NOT_TRIGGERED | Not on natural corridor; no 7-9 h dedicated round trip.
+S06 | VNS-42 | Alamgir Mosque / Dharahara | A* SKIP_FIRST | Incidental Panchganga view/stop only; first drop on 9 Jan if the long day runs late.
+S07 | BOD-08 | Gaya Tilkut | A* SKIP_FIRST | Short stop only if naturally passing a suitable producer/shop on 1 Jan.
+
+=== CRITICAL DAYS / PACING ===
+Datum | Waarom kritisch | Wat eerst verschuiven voordat A->B nodig is
+5 jan | 7 A-items plus dawn boat en Old City security/queues. | Jan 11 buffer kan Kabir of een Old City microcluster absorberen.
+9 jan | 8 gewone A + 1 A* in een lange noord-zuid ghatwandeling; fysiek en mentaal zwaar. | Alamgir A* valt eerst; daarna 1-2 gewone A naar Jan 11 verschuiven voordat grades veranderen.
+13 jan | Dakshineswar + YSS Math + Belur in één volle dag. | Belur kan alleen naar 12 jan als een zeer vroege vlucht en reële toegang dit aantoonbaar menselijk maken; huidige alpha kiest rust op 12 jan.
+16 jan | Hill climb + twee Ramana-biografische town-sites. | Lunch/rust verlengen; town-sites kunnen onderling schuiven binnen 16/18 jan.
+17 jan | 14 km Girivalam plus tempel. | Tempel eventueel naar 18 jan na Ramanasramam als herstel zwaarder blijkt.
+20 jan | Vroege vlucht + Nirmal Dham + Lotus + conditioneel cinema. | PVR vervalt eerst als showtime/energie niet klopt; vluchtveiligheid blijft absoluut boven content.
+
+=== BODH3/TIRU4 VS BODH2/TIRU5 ===
+3 Bodh / 4 Tiru - deze PDF | 2 Bodh / 5 Tiru - alternatief
+Meer ruimte voor Sujata-Dungeshwari en Mahabodhi; minder tijdsdruk. | Meer losse hersteldag en meer ruimte om Ramana-sites minder te stapelen.
+Ramanasramam krijgt in deze alpha toch een volledige standalone dag op 18 jan. | Ramanasramam kan nog ruimer en vrijdagse puja kan zonder aankomstdagstress.
+15 jan blijft een zware aankomstdag; puja standaard overslaan. | Minder reden om aankomst-puja te forceren.
+Sluit aan bij Marks eerder uitgesproken gevoel: Bodh te kort, Tiru te lang. | Operationeel rustiger Tiru, maar Bodh-excursiedag wordt krapper.
