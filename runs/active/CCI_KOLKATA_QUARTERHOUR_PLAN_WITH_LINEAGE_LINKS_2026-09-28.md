@@ -61,13 +61,13 @@ Zie `runs/active/CCI_KOLKATA_UITGEBREIDE_LEESVERSIE_2026-09-28.md` voor de eerde
 TIJD: ~15:25–19:30 (ruim 4 uur, zoals jij zelf aangaf — "mss wel vier uur of langer". Terrein open tot 21:00, dus ruime marge; blijf langer als je wilt.)
 
 WAT IS DIT IN GEWOON NEDERLANDS?
-Yogananda's eigen, door hemzelf gestichte ashram — **fysiek een apart terrein, 1 km van de Kali-tempel, geen onderdeel daarvan.**
+Yogananda's eigen instituut, gevestigd vanuit zijn visie en richting — **fysiek een apart terrein, 1 km van de Kali-tempel, geen onderdeel daarvan.**
 
 WAAROM WIL JIJ, MARK, HIERHEEN, EN NU ALS EERSTE?
-De enige plek in dit hele cluster die 100% "van Yogananda zelf" is. En praktisch: dit is de plek waar je (per onderzoek) het beste terechtkunt voor begeleiding/informatie over de rest van je Kolkata-verblijf, dus logisch om als eerste te gaan, niet als laatste.
+**Correctie 29 sep (WORK):** niet "de enige plek die 100% van Yogananda zelf is" — 4 Garpar Road en Serampore zijn minstens zo direct (daar woonde en mediteerde hij zelf jarenlang). Wel: de enige YSS-hoofdinstelling/ashrambasis in dit hele cluster. En praktisch: dit is de plek waar je (per onderzoek) het beste terechtkunt voor begeleiding/informatie over de rest van je Kolkata-verblijf, dus logisch om als eerste te gaan.
 
 WIE WAS HIER / WAT GEBEURDE HIER?
-Yogananda schrijft zelf, AOAY Hoofdstuk 46: *"A stately Yogoda Math in Dakshineswar, fronting the Ganges, was dedicated in 1939."* Gesticht tijdens zijn 1935-36-terugkeerbezoek aan India; nu hoofdkwartier in India van Yogoda Satsanga Society.
+Yogananda schrijft zelf, AOAY Hoofdstuk 46: *"A stately Yogoda Math in Dakshineswar, fronting the Ganges, was dedicated in 1939."* **Belangrijke nuance (WORK, 29 sep):** Yogananda was sinds 1936 alweer terug in de VS toen dit terrein in 1939 werd gevestigd — zijn fysieke aanwezigheid op DIT specifieke 1939-terrein is niet bewezen. Het is zijn eigen organisatie, onder zijn visie gesticht, niet een plek waar hij zelf met zijn voeten heeft gestaan (in tegenstelling tot Garpar en Serampore, waar dat wel zo is).
 
 WAT MOET JE HIER PRECIES ZOEKEN EN DOEN?
 De shrine-ruimte (foto's/relieken van de Kriya-lijn: Babaji, Lahiri Mahasaya, Sri Yukteswar, Yogananda — exacte inrichting niet apart bevestigd, ter plekke zien). Vraag de aanwezige swami/staff naar: Serampore-bezoek regelen, het gastenverblijf (zie open items — mogelijk toekomstige basis), en eventuele andere Kolkata-tips.
@@ -116,7 +116,7 @@ HOE WIL JE HIER ZIJN?
 Stil zitten waar Ramakrishna zat, en waar Yogananda zelf mediteerde — een dubbele lineage-laag op één plek.
 
 UNIEK HERKENNINGSPUNT
-De enige plek in dit hele complex met een directe, bronvermelde bevestiging dat Yogananda zelf hier mediteerde.
+**Correctie 29 sep:** niet de enige — Panchavati heeft dezelfde YSS-bronvermelding. Wel de plek met de rijkste extra laag (Ramakrishna's eigen visioenen/Kathamrita, bewaarde persoonlijke spullen).
 
 MAGNETISCHE PLEK? Ja — bewaarde kamer met persoonlijke bezittingen, functioneert als shrine.
 
@@ -130,7 +130,7 @@ WAT IS DIT IN GEWOON NEDERLANDS?
 Een groep van vijf heilige bomen (oorspronkelijk banyan, peepal, neem, amalaki/ashoka, bel) direct ten noorden van het tempelterrein, waar Ramakrishna het grootste deel van zijn intensieve sadhana deed.
 
 WAAROM WIL JIJ, MARK, HIERHEEN?
-**Correctie 28 sep:** eerdere tekst hier claimde dat Yogananda zelf "urenlang onder de banyanboom" mediteerde — dat is bij nader onderzoek NIET bevestigd. Yogananda's eigen tamarinde-bosje-visioen (AOAY hoofdstuk 9) wordt in geen enkele bron die ik kon vinden expliciet gelijkgesteld aan Panchavati; die link is onbevestigde devotee-associatie, geen vaststaand feit. Wat wél blijft staan: dit is de plek van Ramakrishna's hoogste yogische verwezenlijking (zie hieronder) — de reden om hierheen te gaan is dus Ramakrishna-lineage, niet een bevestigde eigen Yogananda-ervaring.
+**Correctie 29 sep (WORK vond dit, mijn eigen "correctie" van 28 sep was zelf fout):** YSS' eigen officiële pagina (yssofindia.org/location/dakshineswar) bevestigt expliciet dat Yogananda "used to meditate for several hours" — zowel in de portico, in Ramakrishna's kamer, ÉN onder de banyanboom in Panchavati. Dat is dus een rechtstreeks aan YSS toe te schrijven Yogananda-aanwezigheidsclaim, geen verzinsel. Wat WEL onbevestigd blijft: dat dit hetzelfde is als het tamarinde-bosje-visioen uit AOAY hoofdstuk 9 — die specifieke gelijkstelling is niet gesourced en moet niet als feit gepresenteerd worden. Dus: wél een bevestigde Yogananda-meditatieplek (via YSS), niet bewezen dat het óók de AOAY-visioenplek is.
 
 WIE WAS HIER / WAT GEBEURDE HIER?
 Hier initieerde de rondtrekkende monnik Totapuri Ramakrishna in het sannyas en leidde hem naar Nirvikalpa Samadhi — de hoogste non-duale verzonkenheid, die dagen tot maanden duurde volgens overlevering. Ook hier, volgens eigen overlevering, had Ramakrishna een visioen van Christus tijdens het wandelen.
@@ -144,7 +144,7 @@ Voor een Kriya-beoefenaar wellicht spiritueel nog zwaarder dan de tempel zelf �
 UNIEK HERKENNINGSPUNT
 De letterlijke plek van Ramakrishna's hoogste yogische attainment.
 
-MAGNETISCHE PLEK? Ja voor de Ramakrishna-lineage — klein platform/schrijn, gemarkeerd. **Niet** bevestigd als Yogananda's eigen meditatieplek (zie correctie hierboven).
+MAGNETISCHE PLEK? Ja — klein platform/schrijn, gemarkeerd, én een door YSS zelf bevestigde Yogananda-meditatieplek (zie correctie hierboven). Niet bevestigd: dat dit óók de AOAY-tamarindebosjevisioen-plek is.
 
 ### Nahabat — Sarada Devi's kamer [B, bijvangst]
 
@@ -168,11 +168,13 @@ MAGNETISCHE PLEK? Deels — bewaarde leefruimte, geen apart altaar/foto-shrine g
 
 Twaalf identieke Shiva-schrijnen langs de rivier, plus de baadghat waar Totapuri naar verluidt aankwam. Geen specifiek AOAY- of Ramakrishna-citaat gevonden voor een van beide — puur architecturale/sfeer-bijvangst tijdens de wandeling door het complex, geen aparte tijd nodig.
 
+**CORRECTIE 29 sep (WORK): de tempel zelf sluit dagelijks 12:30-15:30** (officiële uren: 06:30-12:30 en 15:30-19:30, dakshineswarkalitemple.org) — "open-ended vanaf 10:50" kon dus niet kloppen, dat liep tegen de sluiting aan. Herzien naar twee sessies:
+
 10:20–10:50 lunch/rust op het terrein of net erbuiten.
 
-### Dakshineswar Kali Temple — hoofdtempel (Sri Sri Bhavatarini Kali) [A+]
+### Dakshineswar Kali Temple — hoofdtempel, sessie 1 (Sri Sri Bhavatarini Kali) [A+]
 
-TIJD: vanaf 10:50, minimaal tot 11:35 gereserveerd — **daarna volledig open. Blijf zolang je wilt. Geen vervolgprogramma vandaag.**
+TIJD: 10:50–12:25 (~1u35, tot vlak vóór de middagsluiting om 12:30 — niet later plannen).
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 De negen-torige (navaratna) hoofdtempel van het hele complex, met het zwarte stenen Kali-beeld ("Bhavatarini") op een zilveren lotus met duizend gedreven bladeren, en een klein zilveren Shiva-beeld eronder.
@@ -194,9 +196,15 @@ De negen torenspitsen (navaratna), van buiten te tellen — architectonisch afwi
 
 MAGNETISCHE PLEK? Ja — actief vereerd altaar, direct object van meerdere Top-X-visioenen.
 
-BRONNEN: en.wikipedia.org/wiki/Dakshineswar_Kali_Temple, en.wikisource.org/wiki/Autobiography_of_a_Yogi (hfst. 9, 22).
+BRONNEN: en.wikipedia.org/wiki/Dakshineswar_Kali_Temple, en.wikisource.org/wiki/Autobiography_of_a_Yogi (hfst. 9, 22), dakshineswarkalitemple.org (openingstijden).
 
-Transfer naar hotel: zodra je zelf vertrekt, realistisch 30-50 min terug (zelfde BT Road-route als de ochtendtransfer, geen probleem want dit is toch al het open einde van de dag).
+12:25–15:30 middagsluiting van de tempel (officieel, dagelijks) — terug naar de basis voor rust, of blijf in de buurt. Met de nieuwe YSS-basis (10 min lopen) is teruggaan geen probleem.
+
+### Dakshineswar Kali Temple — hoofdtempel, sessie 2/avondsessie [A+]
+
+TIJD: 15:30–19:30 (tempel sluit om 19:30) — **dit is nu het echte open-eind-blok: blijf tot sluiting of tot je zelf wilt vertrekken, geen vervolgprogramma vandaag.** Avond-aarti valt doorgaans in dit venster — LIVE_RECHECK exact tijdstip.
+
+Transfer naar basis: zodra je zelf vertrekt, met de nieuwe 10-min-loopafstand-basis nauwelijks een transfer meer (was 30-50 min vanaf de oude Shyambazar-aanname).
 
 ---
 
@@ -252,7 +260,7 @@ De kamer waar hij stierf (bewaard als shrine); de plek in de tuin onder de boom 
 VOLLEDIGE EERLIJKHEID: geen specifiek AOAY-citaat gevonden voor Cossipore zelf — de link loopt via Ramakrishna/Vivekananda's gedocumenteerde geschiedenis, niet via Yogananda's boek.
 
 UNIEK HERKENNINGSPUNT
-De enige gedocumenteerde **sterfplek** van een Top-X-figuur op deze hele reis, gecombineerd met de letterlijke overdracht van het meesterschap aan Vivekananda.
+**Correctie 29 sep (WORK):** niet de énige sterfplek van een Top-X-figuur op de reis — Vivekananda stierf zelf in Belur Math (wo 13 jan), en Ramana's Nirvana Room volgt in Tiruvannamalai. Wel de sterfplek van Ramakrishna zelf, gecombineerd met de letterlijke overdracht van het meesterschap aan Vivekananda — dat op zich is al uniek genoeg.
 
 MAGNETISCHE PLEK? Ja — de sterfkamer is expliciet bewaard als shrine.
 
@@ -262,7 +270,7 @@ BRONNEN: belurmath.org, rkmudyanbati.org.
 
 12:40–13:10 transfer naar Balaram Mandir, Bagbazar (**geen betrouwbare bron gevonden voor dit specifieke traject** — onderzoek 28 sep. Geografische inferentie, laag vertrouwen: Cossipore en Bagbazar zijn aangrenzende wijken, dus vermoedelijk 2-4 km / 10-20 min, ter plekke te bevestigen met chauffeur/gids. Ruimer ingepland dan die inferentie voorschrijft, als marge).
 
-### Balaram Mandir [A, geen AOAY-citaat maar zeer sterke Ramakrishna/Vivekananda-link]
+### Balaram Mandir [A+, GECORRIGEERD 29 sep — CURRENT_TRUTH zegt A+, niet A; Mark's 1,5u/inkort-optie verandert de grade niet, alleen de geplande tijd]
 
 TIJD: 13:10–14:40 (1,5 uur, zoals jij zelf aangaf 28 sep — wel iets minder aangetrokken dan Cossipore). **Mark's eigen voorwaarde: "als dat enorm veel tijd kost misschien niet."** Dit is dus bewust de eerste plek om in te korten als de dag tegen die tijd al lang loopt — niet Cossipore, niet het Yogoda-eindblok.
 
@@ -475,7 +483,7 @@ MAGNETISCHE PLEK? Ja — levende meditatiepraktijk in directe lijn van Yogananda
 
 10:15–10:25 lopen naar Nagendra Math.
 
-### Nagendra Math — Bhaduri Mahasaya's huis [A]
+### Nagendra Math — Bhaduri Mahasaya's huis [A+, GECORRIGEERD 29 sep — CURRENT_TRUTH/Mark-besluit zegt A+, niet A]
 
 TIJD: 10:25–11:00
 
