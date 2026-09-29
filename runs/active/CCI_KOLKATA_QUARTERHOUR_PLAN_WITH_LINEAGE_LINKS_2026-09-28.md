@@ -10,15 +10,23 @@ Mark: *"De belangrijkste meter... of er een plek is waar een foto van Yogananda 
 
 ## HOTEL/BASIS — NOG NIET GEBOEKT, VOORSTEL
 
-Geen hotel/ashram vastgelegd. Mark gaf volledige vrije keuze, eventueel meerdere bases. **Onderzoeksbevinding:** YSS Dakshineswar Math accepteert alleen gasten met een SRF/YSS-lesnummer — jij bent Kriyaban via de Ananda-lijn, dus waarschijnlijk niet in aanmerking (wel een mailtje waard om te bevestigen, niet op plannen). Ramakrishna Math/Belur heeft een gastenverblijf, maar overvraagd en alleen per e-mail te boeken, geen garantie. **CCI-advies: één vaste basis in de Shyambazar/Fariapukur-zone** (bv. Glenburn Penthouse, 5 Radha Kanta Jew Street — een karaktervol 9-kamers-hotel van de Glenburn Tea Estate-familie), centraal tussen Dakshineswar/Belur (noord) en Garpar/College Street (zuid), 15-30 min van bijna alles in dit plan. Een gesplitste basis is hier niet nodig — Serampore is sowieso een dagtocht vanaf elke noord-Kolkata-basis.
+**GECORRIGEERD 28-9-2026 — deze sectie was stale, tegengesproken door de Open Items-sectie verderop. Nu consistent gemaakt.** Geen hotel/ashram vastgelegd, Mark heeft volledige vrije keuze. Drie echte opties, geen verzonnen:
+
+1. **YSS Dakshineswar Math heeft een eigen gastenverblijf**, open voor iedereen die de YSS/SRF Lessons volgt — dus ook jou als Kriyaban, niet alleen ingewijde SRF/YSS-leden zoals eerder hier ten onrechte stond. Boekbaar via yssofindia.org/request-accommodation, max 5 dagen, goedkeuring via gesprek met de aanwezige swami (discretionair, geen automatisme). Grootste voordeel: je slaapt letterlijk op het Dakshineswar-terrein, direct naast je eerste stop (za 9 jan).
+2. **Tulsi Bose Shrine** (Ananda Sangha, Garpar-buurt) — devotee-gerund, verzorger + huisgemaakt eten, overnachtingen sinds 2022.
+3. **Fallback, neutrale heritage-homestay in de juiste zone:** Glenburn Penthouse (5 Radha Kanta Jew Street, Shyambazar/Fariapukur) of Bhubanbari/Tilottama Heritage Homestay — centraal tussen Dakshineswar/Belur (noord) en Garpar/College Street (zuid), 15-30 min van bijna alles in dit plan.
+
+Zie `runs/active/CCI_KOLKATA_UITGEBREIDE_LEESVERSIE_2026-09-28.md` voor de volledige vergelijking. **CCI-advies: eerst optie 1 navragen** (YSS Dakshineswar-gastenverblijf), dan pas een regulier hotel boeken als dat niet lukt. Een gesplitste basis is niet nodig — Serampore is sowieso een dagtocht vanaf elke noord-Kolkata-basis.
 
 ## VERTREK NAAR TIRUVANNAMALAI — VRIJDAG 15 JAN
 
 **HERZIEN 28-9-2026 (Mark-keuze):** de eerdere 06:00-08:00-vertrekvenster was gebaseerd op het openhouden van de avond-Sri Chakra Puja als vaste optie — maar die puja is inmiddels A*/optioneel (je beslist toch ter plekke, geen geforceerde keuze, want je slaapt al in Tiruvannamalai zelf). Zonder die druk is een vroege vlucht niet nodig.
 
-**GEKOZEN: vertrek 09:00** (CCU→MAA is een drukke binnenlandse route, ~63 wekelijkse non-stopvluchten, IndiGo/Air India/Air India Express/SpiceJet, vluchtduur 2u10-2u20). Aankomst Chennai ~11:10-11:20, dan de 175km/3,5-4,5u rit naar Tiruvannamalai, aankomst ~15:00-16:30 — nog steeds ruim op tijd om in te checken en desgewenst de avondpuja mee te maken. CCU-luchthavenbuffer: 2 uur vóór vertrek → **vertrek hotel ~06:30-07:00**, een normale, niet-uitputtende ochtend. Exacte januari-2027-dienstregeling nog niet gepubliceerd — dit is het huidige daggemiddelde patroon, niet een geboekte vlucht.
+**GEKOZEN: vertrek 09:00** (CCU→MAA is een drukke binnenlandse route, ~63 wekelijkse non-stopvluchten, IndiGo/Air India/Air India Express/SpiceJet, vluchtduur 2u10-2u20). Aankomst Chennai ~11:10-11:20, dan de 175km/3,5-4,5u rit naar Tiruvannamalai, aankomst ~15:00-16:30 — nog steeds ruim op tijd om in te checken en desgewenst de avondpuja mee te maken. Exacte januari-2027-dienstregeling nog niet gepubliceerd — dit is het huidige daggemiddelde patroon, niet een geboekte vlucht.
 
-**Hotelbasis-gevolg:** met een normale 06:30-07:00-vertrektijd is een aparte overnachting bij het vliegveld niet nodig — **één vaste basis voor alle 6 nachten** (Shyambazar/Fariapukur-zone) blijft de eenvoudigste keuze, geen extra inpak-/verhuismoment op donderdagavond.
+**GECORRIGEERD 28-9-2026 — was hier nog niet bijgewerkt, staat nu consistent met de vrijdag-dagsectie:** CCU-luchthavenbuffer 2 uur, dus aankomst luchthaven ~07:00. De rit hotel→CCU is **realistisch 30-90 min**, niet de eerder aangenomen 25-35 min (VIP Road-congestie + actieve Metro-bouw + Uber/Ola-annuleringsrisico vroeg in de ochtend). **Advies: vertrek hotel 05:30-05:45 met vooraf geboekte hotelauto** — dit is dus geen "normale, niet-uitputtende ochtend" meer, nog niet door Mark bevestigd.
+
+**Hotelbasis-gevolg:** een vroege 05:30-05:45-vertrektijd is nog steeds haalbaar vanaf één vaste basis voor alle 6 nachten (geen extra inpak-/verhuismoment nodig), maar wél vroeger opstaan dan eerder aangenomen. Overnachten bij/op het vliegveld de laatste nacht blijft een alternatief dat Mark zelf opperde — nog niet verder uitgewerkt of gekozen.
 
 ---
 
@@ -32,7 +40,7 @@ Geen hotel/ashram vastgelegd. Mark gaf volledige vrije keuze, eventueel meerdere
 | Di 12 jan | Serampore-dagtocht: Sri Yukteswar's hermitage (3u) + Rai Ghat + Anandaloka | ZWAAR qua klok (reistijd), rijk qua inhoud |
 | Wo 13 jan | Belur Math (volledige dag) | MIDDEN, één grote locatie |
 | Do 14 jan | Garpar-microcluster (ochtend) → J.C. Bose/Acharya Bhaban (14:00-16:00, enige geldige dag) → vroege afsluiting voor de vlucht | VOLWAARDIG maar bewust vroeg afgerond |
-| Vr 15 jan | Vertrek hotel ~06:30-07:00 → CCU-vlucht 09:00 → Chennai ~11:10-11:20 → Tiruvannamalai | Valt buiten Kolkata's 6 nachten, zie Tiruvannamalai-plan |
+| Vr 15 jan | Vertrek hotel ~05:30-05:45 (gecorrigeerd, vooraf geboekte auto) → CCU-vlucht 09:00 → Chennai ~11:10-11:20 → Tiruvannamalai | Vroege ochtend, geen "normale" start meer — valt buiten Kolkata's 6 nachten, zie Tiruvannamalai-plan |
 
 **Nog niet ingepland, bewust:** Kalighat Kali Temple (geen geverifieerde lineage-link — puur "als er tijd over is", geen vaste dag) en Vivekananda Birthplace (wel A+, geen AOAY-citaat gevonden — voorgesteld als optioneel donderdagmiddag-verlengstuk, zie onder). De Lonely Planet-laag (Victoria Memorial, Howrah Bridge, etc.) staat aan het eind, nog niet gegradeerd door jou.
 
