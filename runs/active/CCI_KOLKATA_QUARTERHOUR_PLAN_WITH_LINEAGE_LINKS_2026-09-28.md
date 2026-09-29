@@ -48,13 +48,13 @@ Zie `runs/active/CCI_KOLKATA_UITGEBREIDE_LEESVERSIE_2026-09-28.md` voor de eerde
 |---|---|---|
 | Za 9 jan | Aankomst nachttrein ~13:05, inchecken → Yogoda Satsanga Math, ruim 4u (verplaatst hierheen, eerste inhoudelijke stop + info vragen over de rest van de week) | MINDER LICHT dan voorheen — bewuste keuze van Mark |
 | Zo 10 jan | Dakshineswar-complex — eigen dag: kleinere onderdelen 's ochtends, hoofdtempel (Ramakrishna) als flexibel eind-van-dag-blok | ZWAAR qua inhoud, open einde |
-| Ma 11 jan | Shyampukur Bati → Cossipore Udyanbati (2u, Mark's wens) → Balaram Mandir (1,5u, eerste inkort-optie) | ZWAAR maar weer één blok — Yogoda Math is eruit, naar zaterdag |
+| Ma 11 jan | Shyampukur Bati → Cossipore Udyanbati (2u, Mark's wens) → Balaram Mandir (1,5u, eerste inkort-optie) | **GECORRIGEERD 29 sep: ZWAARSTE dag van de week qua klok** — ruim 4u reistijd vanaf de YSS-basis (was ~1-1,5u vanaf de oude Shyambazar-aanname) |
 | Di 12 jan | Serampore-dagtocht: Sri Yukteswar's hermitage (3u) + Rai Ghat + Anandaloka | ZWAAR qua klok (reistijd), rijk qua inhoud |
-| Wo 13 jan | Belur Math (volledige dag) | MIDDEN, één grote locatie |
-| Do 14 jan | Garpar-microcluster (ochtend) → J.C. Bose/Acharya Bhaban (14:00-16:00, enige geldige dag) → vroege afsluiting voor de vlucht | VOLWAARDIG maar bewust vroeg afgerond |
-| Vr 15 jan | Vertrek hotel ~05:30-05:45 (gecorrigeerd, vooraf geboekte auto) → CCU-vlucht 09:00 → Chennai ~11:10-11:20 → Tiruvannamalai | Vroege ochtend, geen "normale" start meer — valt buiten Kolkata's 6 nachten, zie Tiruvannamalai-plan |
+| Wo 13 jan | Belur Math, nu 2 sessies (ochtend + avond, middagsluiting ertussen) | MIDDEN, één grote locatie, gecorrigeerd voor echte openingstijden |
+| Do 14 jan | Garpar-microcluster (ochtend, dwell-tijden Mark's eigen keuze) → J.C. Bose/Acharya Bhaban (14:00-16:00, enige geldige dag, OPEN/UNGRADED) → transfer naar vliegveldhotel | **GECORRIGEERD 29 sep:** transfer naar Garpar nu 60-80 min (was 10-20 min); eindigt bij het vliegveld, niet meer bij de basis |
+| Vr 15 jan | Al bij/op het vliegveld → CCU-vlucht ~09:00 → Chennai ~11:10-11:20 → Tiruvannamalai (realistisch 4-5u rijden, Pongal-periode) | **Vereenvoudigd 29 sep** — geen risicovolle vroege stadstransfer meer, valt buiten Kolkata's 6 nachten |
 
-**Nog niet ingepland, bewust:** Kalighat Kali Temple (geen geverifieerde lineage-link — puur "als er tijd over is", geen vaste dag) en Vivekananda Birthplace (wel A+, geen AOAY-citaat gevonden — voorgesteld als optioneel donderdagmiddag-verlengstuk, zie onder). De Lonely Planet-laag (Victoria Memorial, Howrah Bridge, etc.) staat aan het eind, nog niet gegradeerd door jou.
+**Nog niet ingepland — REËLE GAT, WORK-vondst 29 sep:** Kalighat Kali Temple is géén "geen lineage-link" — het staat als **A+ CORE gelockt in CURRENT_TRUTH.md** (Yogananda's eigen jeugd-Kali-beeld-heiligingsgebeurtenis). Dit hele plan mist dus momenteel een volledig gelockte A+ locatie zonder toegewezen dag — **aan Mark voor te leggen, niet stilzwijgend oplossen.** Ook nog zichtbaar te maken: 50 Amherst Street [A*] en Dihika Retreat [A*], die nu nergens in dit plan voorkomen. Vivekananda Birthplace (A+, geen AOAY-citaat) blijft voorgesteld als optioneel donderdagmiddag-verlengstuk. De Lonely Planet-laag (Victoria Memorial, Howrah Bridge, etc.) staat aan het eind, nog niet gegradeerd door jou.
 
 ---
 
@@ -223,15 +223,17 @@ Transfer naar basis: zodra je zelf vertrekt, met de nieuwe 10-min-loopafstand-ba
 
 ## MA 11 JAN — Ramakrishna's laatste hoofdstuk: Shyampukur → Cossipore → Balaram Mandir
 
-**VERTREK HOTEL: 08:30.**
+**VERTREK BASIS: 08:00** (uitzondering op 08:30 — nodig door de nu veel langere transfer vanaf de YSS-basis).
 
 **Chronologische logica van deze dag:** Ramakrishna werd medio 1885 ziek (keelkanker), verhuisde voor behandeling naar Shyampukur (70 dagen), daarna naar de tuinvilla in Cossipore voor zijn laatste 249 dagen tot zijn dood op 16 augustus 1886. Balaram Mandir was zijn "Calcutta-citadel" tijdens zijn gezonde jaren én de plek waar Vivekananda in 1897 de Ramakrishna Mission formeel oprichtte — chronologisch een uitstapje terug, maar geografisch in dezelfde noordelijke zone. **Update 28 sep:** Yogoda Satsanga Math stond hier kort gepland als tweede eind-blok, maar is nu verplaatst naar ZA 9 JAN (direct na aankomst) op Marks verzoek — deze dag eindigt weer gewoon na Balaram Mandir.
 
-08:30–09:00 transfer naar Shyampukur (~20-30 min, CCI-inschatting, noordelijke zone dichtbij Dakshineswar-as, nog niet apart geverifieerd).
+**CORRECTIE 29 sep (WORK, nieuwe basis): dit is nu een aanzienlijk zwaardere dag dan eerder gedacht.** Vanaf de YSS-basis zijn alle transfers hier 50-70 min (niet de oude "20-30 min" die van Shyambazar uitging) — in totaal loopt deze dag op tot ruim 4 uur pure reistijd.
+
+08:00–09:10 transfer naar Shyampukur (50-70 min vanaf YSS-basis, conservatief — WORK-onderzoek 29 sep, live Google Maps; vooraf geboekte auto aanbevolen).
 
 ### Shyampukur Bati [A*, Mark's eigen grade 28 sep — geen AOAY-citaat, wel sterke Ramakrishna-lineage-waardering]
 
-TIJD: 09:00–09:45
+TIJD: 09:10–09:55
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Een gehuurd huis in Shyampukur/Shyambazar waar Ramakrishna's discipelen hem heen brachten voor medische behandeling toen zijn keelziekte serieus werd — de eerste fase van zijn laatste ziekte, vóór Cossipore.
@@ -252,11 +254,11 @@ Het enige punt in de hele cluster dat Ramakrishna toont terwijl hij, ziek, tóch
 
 MAGNETISCHE PLEK? Deels — actieve Ramakrishna Math-tak, geen specifiek bevestigd foto-altaar gevonden.
 
-09:45–10:10 transfer naar Cossipore/Kashipur (afstand 3,5 km — bevestigd door twee onafhankelijke bronnen, redelijk vertrouwen; reistijd zelf niet gesourced, schatting 15-25 min gezien smalle, drukke noord-Kolkata woonstraten).
+09:55–10:20 transfer naar Cossipore/Kashipur (afstand 3,5 km — bevestigd door twee onafhankelijke bronnen, redelijk vertrouwen; reistijd zelf niet gesourced, schatting 15-25 min gezien smalle, drukke noord-Kolkata woonstraten — dit is een intra-clusterhop, niet afhankelijk van de YSS-basis).
 
 ### Cossipore (Kashipur) Udyanbati [A+]
 
-TIJD: 10:10–12:10 (2 uur, zoals jij zelf aangaf 28 sep — "trekt me wel erg aan")
+TIJD: 10:20–12:20 (2 uur, zoals jij zelf aangaf 28 sep — "trekt me wel erg aan")
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 De tuinvilla waar Ramakrishna zijn laatste 249 dagen doorbracht en op 16 augustus 1886 stierf — de sterkste Ramakrishna-plek van de hele cluster na Dakshineswar zelf.
@@ -279,13 +281,13 @@ MAGNETISCHE PLEK? Ja — de sterfkamer is expliciet bewaard als shrine.
 
 BRONNEN: belurmath.org, rkmudyanbati.org.
 
-12:10–12:40 lunch/rust.
+12:20–12:50 lunch/rust.
 
-12:40–13:10 transfer naar Balaram Mandir, Bagbazar (**geen betrouwbare bron gevonden voor dit specifieke traject** — onderzoek 28 sep. Geografische inferentie, laag vertrouwen: Cossipore en Bagbazar zijn aangrenzende wijken, dus vermoedelijk 2-4 km / 10-20 min, ter plekke te bevestigen met chauffeur/gids. Ruimer ingepland dan die inferentie voorschrijft, als marge).
+12:50–13:20 transfer naar Balaram Mandir, Bagbazar (**geen betrouwbare bron gevonden voor dit specifieke traject** — onderzoek 28 sep. Geografische inferentie, laag vertrouwen: Cossipore en Bagbazar zijn aangrenzende wijken, dus vermoedelijk 2-4 km / 10-20 min, ter plekke te bevestigen met chauffeur/gids. Ruimer ingepland dan die inferentie voorschrijft, als marge — intra-clusterhop, niet afhankelijk van de YSS-basis).
 
 ### Balaram Mandir [A+, GECORRIGEERD 29 sep — CURRENT_TRUTH zegt A+, niet A; Mark's 1,5u/inkort-optie verandert de grade niet, alleen de geplande tijd]
 
-TIJD: 13:10–14:40 (1,5 uur, zoals jij zelf aangaf 28 sep — wel iets minder aangetrokken dan Cossipore). **Mark's eigen voorwaarde: "als dat enorm veel tijd kost misschien niet."** Dit is dus bewust de eerste plek om in te korten als de dag tegen die tijd al lang loopt — niet Cossipore, niet het Yogoda-eindblok.
+TIJD: 13:20–14:50 (1,5 uur, zoals jij zelf aangaf 28 sep — wel iets minder aangetrokken dan Cossipore). **Mark's eigen voorwaarde: "als dat enorm veel tijd kost misschien niet."** Dit is dus bewust de eerste plek om in te korten als de dag tegen die tijd al lang loopt — niet Cossipore, niet het Yogoda-eindblok. **Extra reden om dit hier te overwegen (29 sep): de terugrit naar de YSS-basis is nu zelf ook 50-70 min, dus inkorten hier verkort ook een lange dag.**
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Het voormalige privéhuis van Balaram Bose, een welgestelde lekendiscipel — Ramakrishna's "Calcutta-citadel", zijn meest gebruikte stadsbasis buiten Dakshineswar.
@@ -306,7 +308,7 @@ Het hoogste aantal gedocumenteerde persoonlijke bezoeken van Ramakrishna van all
 
 MAGNETISCHE PLEK? Ja — actieve Mission-tak met huisschrijn.
 
-14:40–~15:10 transfer terug naar hotel (~25-45 min, zelfde route als de ochtendtransfer). **Yogoda Satsanga Math is verplaatst naar ZA 9 JAN** (direct na aankomst, zie dat dagdeel) — deze dag eindigt nu gewoon na Balaram Mandir, geen tweede open eindblok meer.
+14:50–~16:00 transfer terug naar de YSS-basis (**gecorrigeerd 29 sep: 50-70 min, niet 25-45 min** — WORK-onderzoek, live Google Maps, conservatieve namiddag-plannorm). **Yogoda Satsanga Math is verplaatst naar ZA 9 JAN** (direct na aankomst, zie dat dagdeel) — deze dag eindigt nu gewoon na Balaram Mandir, geen tweede open eindblok meer. **Totale reistijd vandaag: ruim 4 uur** — dit is nu de zwaarste dag van de week qua klok, ook al is de inhoud zelf niet veranderd.
 
 ---
 
