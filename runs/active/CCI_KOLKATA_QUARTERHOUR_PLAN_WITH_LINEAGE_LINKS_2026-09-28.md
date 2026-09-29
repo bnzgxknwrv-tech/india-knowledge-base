@@ -8,25 +8,24 @@ Scope: **Kolkata/Dakshineswar/Serampore only**, 6 nachten (9/10–14 jan 2027), 
 
 Mark: *"De belangrijkste meter... of er een plek is waar een foto van Yogananda staat met bloemen eromheen. Shrines. Of die in de AOAY staan en écht als shrine ingericht zijn omdat hij daar geweest is."* Elke kaart hieronder heeft daarom een apart veld **MAGNETISCHE PLEK?** — is dit een levende shrine (foto/altaar/bewaarde relikwieën/kamer, actief vanwege de aanwezigheid van de figuur), of is het "alleen" historisch/institutioneel belangrijk zonder dat shrine-karakter? Beide categorieën staan in het plan, maar eerlijk gelabeld.
 
-## HOTEL/BASIS — NOG NIET GEBOEKT, VOORSTEL
+## HOTEL/BASIS — WERKAANNAME VAN MARK, 29-9-2026 (nog niet definitief geboekt)
 
-**GECORRIGEERD 28-9-2026 — deze sectie was stale, tegengesproken door de Open Items-sectie verderop. Nu consistent gemaakt.** Geen hotel/ashram vastgelegd, Mark heeft volledige vrije keuze. Drie echte opties, geen verzonnen:
+**GEKOZEN DOOR MARK, 29-9-2026: reken met een homestay op ~10 minuten lopen van YSS Dakshineswar Math als basis voor za t/m woe/do-nachten, en een hotel bij/op het vliegveld voor de láátste nacht (do 14→vr 15 jan) i.v.m. rust vóór de vlucht.** Dit vervangt de eerdere Shyambazar/Fariapukur-aanname als rekenbasis voor de hele planning. Mark heeft ook zelf een mail gestuurd naar YSS Dakshineswar (zie Open Items) met de vraag naar hun eigen gastenverblijf of een homestay-aanbeveling in de buurt — zodra dat antwoord er is, wordt de exacte 10-min-optie concreet ingevuld; tot die tijd rekent dit hele plan met die 10-minuten-loopafstand als aanname.
 
-1. **YSS Dakshineswar Math heeft een eigen gastenverblijf**, open voor iedereen die de YSS/SRF Lessons volgt — dus ook jou als Kriyaban, niet alleen ingewijde SRF/YSS-leden zoals eerder hier ten onrechte stond. Boekbaar via yssofindia.org/request-accommodation, max 5 dagen, goedkeuring via gesprek met de aanwezige swami (discretionair, geen automatisme). Grootste voordeel: je slaapt letterlijk op het Dakshineswar-terrein, direct naast je eerste stop (za 9 jan).
-2. **Tulsi Bose Shrine** (Ananda Sangha, Garpar-buurt) — devotee-gerund, verzorger + huisgemaakt eten, overnachtingen sinds 2022.
-3. **Fallback, neutrale heritage-homestay in de juiste zone:** Glenburn Penthouse (5 Radha Kanta Jew Street, Shyambazar/Fariapukur) of Bhubanbari/Tilottama Heritage Homestay — centraal tussen Dakshineswar/Belur (noord) en Garpar/College Street (zuid), 15-30 min van bijna alles in dit plan.
+**Concreet gevolg voor de reistijden in dit bestand — GROTENDEELS NOG TE HERZIEN:**
+- Za 9 jan, Zo 10 jan, Wo 13 jan (via de Dakshineswar↔Belur Math-veerdienst, 10-15 min): transfers worden VEEL korter dan hieronder her en der nog staat (die teksten gingen nog uit van de Shyambazar-basis) — **nog niet overal herrekend, zie taak aan WORK hieronder.**
+- Ma 11 jan (Shyampukur/Cossipore/Balaram Mandir) en Do 14 jan (Garpar): transfers vanaf een Dakshineswar-basis zijn WAARSCHIJNLIJK LANGER dan de huidige "~20-30 min"-teksten (die gingen uit van Shyambazar, dat dichter bij die cluster ligt) — **nieuwe reistijden nog niet onderzocht, expliciete taak aan WORK.**
+- Do 14 jan avond: in plaats van terug naar de Dakshineswar-basis, nu een transfer naar een hotel bij/op het vliegveld — **nieuwe transfer (Garpar→vliegveld-zone), nog niet onderzocht.**
 
-Zie `runs/active/CCI_KOLKATA_UITGEBREIDE_LEESVERSIE_2026-09-28.md` voor de volledige vergelijking. **CCI-advies: eerst optie 1 navragen** (YSS Dakshineswar-gastenverblijf), dan pas een regulier hotel boeken als dat niet lukt. Een gesplitste basis is niet nodig — Serampore is sowieso een dagtocht vanaf elke noord-Kolkata-basis.
+Zie `runs/active/CCI_KOLKATA_UITGEBREIDE_LEESVERSIE_2026-09-28.md` voor de eerdere hotel-vergelijking (blijft relevant als YSS geen plek/suggestie heeft).
 
 ## VERTREK NAAR TIRUVANNAMALAI — VRIJDAG 15 JAN
 
-**HERZIEN 28-9-2026 (Mark-keuze):** de eerdere 06:00-08:00-vertrekvenster was gebaseerd op het openhouden van de avond-Sri Chakra Puja als vaste optie — maar die puja is inmiddels A*/optioneel (je beslist toch ter plekke, geen geforceerde keuze, want je slaapt al in Tiruvannamalai zelf). Zonder die druk is een vroege vlucht niet nodig.
+**HERZIEN 29-9-2026 — dit hele vraagstuk vereenvoudigt drastisch door de nieuwe basis-aanname.** Met een hotel bij/op het vliegveld de nacht ervoor, vervalt het hele probleem van de vroege/onzekere ochtendtransfer door de stad (het eerder gevonden risico: VIP Road-congestie, Metro-bouw, Uber/Ola-annuleringen, advies 05:30-05:45 vertrek) — dat gold allemaal voor een vertrek vanaf een Dakshineswar/Shyambazar-basis, niet meer relevant als je al bij het vliegveld slaapt.
 
-**GEKOZEN: vertrek 09:00** (CCU→MAA is een drukke binnenlandse route, ~63 wekelijkse non-stopvluchten, IndiGo/Air India/Air India Express/SpiceJet, vluchtduur 2u10-2u20). Aankomst Chennai ~11:10-11:20, dan de 175km/3,5-4,5u rit naar Tiruvannamalai, aankomst ~15:00-16:30 — nog steeds ruim op tijd om in te checken en desgewenst de avondpuja mee te maken. Exacte januari-2027-dienstregeling nog niet gepubliceerd — dit is het huidige daggemiddelde patroon, niet een geboekte vlucht.
+**Vlucht: CCU→MAA 09:00** (drukke binnenlandse route, ~63 wekelijkse non-stopvluchten, IndiGo/Air India/Air India Express/SpiceJet, vluchtduur 2u10-2u20). Aankomst Chennai ~11:10-11:20, dan de 175km/3,5-4,5u rit naar Tiruvannamalai, aankomst ~15:00-16:30. Exacte januari-2027-dienstregeling nog niet gepubliceerd.
 
-**GECORRIGEERD 28-9-2026 — was hier nog niet bijgewerkt, staat nu consistent met de vrijdag-dagsectie:** CCU-luchthavenbuffer 2 uur, dus aankomst luchthaven ~07:00. De rit hotel→CCU is **realistisch 30-90 min**, niet de eerder aangenomen 25-35 min (VIP Road-congestie + actieve Metro-bouw + Uber/Ola-annuleringsrisico vroeg in de ochtend). **Advies: vertrek hotel 05:30-05:45 met vooraf geboekte hotelauto** — dit is dus geen "normale, niet-uitputtende ochtend" meer, nog niet door Mark bevestigd.
-
-**Hotelbasis-gevolg:** een vroege 05:30-05:45-vertrektijd is nog steeds haalbaar vanaf één vaste basis voor alle 6 nachten (geen extra inpak-/verhuismoment nodig), maar wél vroeger opstaan dan eerder aangenomen. Overnachten bij/op het vliegveld de laatste nacht blijft een alternatief dat Mark zelf opperde — nog niet verder uitgewerkt of gekozen.
+**Nog te doen:** welk vliegveldhotel (of vliegveld-nabije optie), en de exacte Garpar→vliegveld-transfertijd donderdagavond — zie taak aan WORK hieronder.
 
 ---
 
