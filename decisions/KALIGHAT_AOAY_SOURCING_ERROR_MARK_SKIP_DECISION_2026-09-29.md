@@ -19,14 +19,14 @@ De eerder vastgelegde episode lijkt een conflatie van deze twee losse passages, 
 
 ## MARK'S BESLISSING, 2026-09-29
 
-Na deze correctie voorgelegd te krijgen (inclusief het praktische punt dat Kalighat bekendstaat om agressieve donatie-afdwingende "gidsen"/priesters, en dat het geografisch los van de rest van het Kolkata-programma ligt): **"Okee kalighat skippen."**
+Na deze correctie voorgelegd te krijgen (inclusief het praktische punt dat Kalighat bekendstaat om agressieve donatie-afdwingende "gidsen"/priesters, en dat het geografisch los van de rest van het Kolkata-programma ligt): **"Okee kalighat skippen."**, direct gevolgd door: **"Downgrade meteen naar B."**
 
-Kalighat Kali Temple wordt dus NIET meer ingepland in de Kolkata-cluster.
+**Definitieve grade: Kalighat Kali Temple = B** (niet volledig geschrapt uit de ledger, maar niet meer A+ en niet ingepland in de kwartierplanning — lagere prioriteit, zelfde categorie als andere B-items elders in het project).
 
 ## WAT DIT VOOR ANDERE BESTANDEN BETEKENT
 
-- `governance/CURRENT_TRUTH.md` regel 140: Kalighat verwijderd uit de A+-lijst voor Kolkata, met verwijzing naar dit bestand.
-- `runs/active/CCI_KOLKATA_QUARTERHOUR_PLAN_WITH_LINEAGE_LINKS_2026-09-28.md`: "nog niet ingepland"-status voor Kalighat vervangen door "bewust gecut, zie deze beslissing".
+- `governance/CURRENT_TRUTH.md` regel 140: Kalighat verwijderd uit de A+-lijst voor Kolkata, nu vermeld als B, met verwijzing naar dit bestand.
+- `runs/active/CCI_KOLKATA_QUARTERHOUR_PLAN_WITH_LINEAGE_LINKS_2026-09-28.md`: "nog niet ingepland"-status voor Kalighat vervangen door "B, niet ingepland, zie deze beslissing".
 - De oudere 2026-09-13-bestanden die het verhaal nog bevatten, zijn NIET aangepast (historisch archief) — maar dit bestand is nu de autoritatieve correctie; bij twijfel wint dit bestand.
 - **Les voor een opvolger:** een specifieke persoonlijke gebeurtenis die al maanden in de canon staat, is niet automatisch waar — bronnen blijven controleerbaar, ook als een grade al lang "vaststaat".
 
