@@ -391,7 +391,7 @@ WAT IS DIT IN GEWOON NEDERLANDS?
 Yogananda's eigen studentenkamer bij zijn oom Sarada Prasad Ghosh, tijdens zijn Serampore College-jaren — later omgebouwd tot meditatieschrijn door zijn neef.
 
 WAAROM WIL JIJ, MARK, HIERHEEN?
-Een ander soort link dan de guru-hermitage: dit is zijn gewone, niet-monastieke familieleven als student, een tegenhanger van de buitengewone guru-training hierboven.
+**Correctie 29 sep (WORK): dit is meer dan "gewoon studentenleven" — het is bijna letterlijk jouw eigen "magnetische plek"-criterium.** Dit is de exacte kamer waar Yogananda daadwerkelijk woonde, die precies DAAROM later tot meditatieschrijn werd omgebouwd — een directe Yogananda-aanwezigheidsplek, zelfstandig een volwaardig doel, niet alleen een tegenhanger van de guru-hermitage hierboven.
 
 WIE WAS HIER / WAT GEBEURDE HIER?
 Yogananda's neef Sri Prabhas Chandra Ghosh zette de kamer waar Yogananda verbleef om tot de schrijn "Anandaloka" ("verblijf van vreugde"). Nu onderdeel van het functionerende YSS Serampore Retreat-terrein (ochtendmeditatie 07:00-08:00, avondsatsang 17:30-19:00).
@@ -426,7 +426,7 @@ WAT IS DIT IN GEWOON NEDERLANDS?
 Het internationale hoofdkwartier van de Ramakrishna Math en Mission, gesticht door Vivekananda, op de westelijke Hooghly-oever.
 
 WAAROM WIL JIJ, MARK, HIERHEEN?
-De enige plek op deze lijst die een actief, functionerend kloosterhoofdkwartier is — geen huis-museum maar levend religieus leven, met Ramakrishna's eigen relieken.
+**Aangevuld 29 sep (WORK): meer dan "functionerend hoofdkwartier" — dit zijn meerdere zelfstandige shrines/kamers op één terrein**, binnen jouw eigen bredere lineage (Ramakrishna/Vivekananda): Ramakrishna's relieken verzegeld onder het altaarbeeld, de Old Shrine die Vivekananda en zijn directe discipelen persoonlijk consacreerden en gebruikten, Vivekananda's eigen bewaarde kamer waar hij leefde én stierf, zijn crematie-schrijn, Sarada Devi's shrine, en avond-aarti. Je dwell hangt af van hoeveel van deze aparte plekken je wilt zien — geen Yogananda-bezoek nodig, dit is al genoeg op zichzelf.
 
 WIE WAS HIER / WAT GEBEURDE HIER?
 Vivekananda verwierf begin 1898 dit terrein voor een permanent thuis voor de monastieke orde. Op 9 december 1898 consacreerde hij het terrein zelf door een urn met Ramakrishna's relieken te plaatsen — de formele stichtingsdaad. Citaat bij de consecratie: *"The blazing light of universal harmony that will emanate from here will flood the whole world."* De relieken werden 40 jaar in de "Oude Schrijn" bewaard tot de huidige hoofdtempel gereed was (14 januari 1938) — een levensgroot marmeren Ramakrishna-beeld op een honderdbladige lotus, met de relieken in de trommelvormige sokkel eronder. Vivekananda zelf stierf hier in 1902.
@@ -470,13 +470,13 @@ Transfer naar basis: zodra je vertrekt, ferry 45-75 min deur tot deur of auto 35
 
 ### 4 Garpar Road — Yogananda's familiehuis [A+, VASTGELEGD]
 
-TIJD: 09:15–10:00 (BASIS 45 min — **kies zelf hoeveel langer je hier wilt zijn**; dit is de zwaarste AOAY-plek van de hele cluster, drie hoofdstukken diep, dus een langere tijd is goed te verdedigen als de rest van de dag dat toelaat)
+TIJD: 09:15–10:00 (BASIS 45 min — **kies zelf hoeveel langer je hier wilt zijn**. Correctie 29 sep (WORK): dit is niet "drie hoofdstukken" maar waarschijnlijk de zwaarste AOAY-plek van heel Kolkata — de AOAY-atlas van dit project raakt Garpar Road in minstens tien hoofdstukken, waaronder 5, 7, 8, 9, 10, 17, 25, 30, 37 en 46. Een langere tijd is dus zeer goed te verdedigen als de rest van de dag dat toelaat.)
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Het huis in Noord-Kolkata waar de tienerjaren-Yogananda (toen Mukunda Lal Ghosh) zijn eigen kamer had en zijn vroegste meditaties deed — nog steeds in familiebezit.
 
 WAAROM WIL JIJ, MARK, HIERHEEN?
-Het meest tekstueel verankerde adres van de hele reis — AOAY noemt het letterlijke huisnummer.
+Het meest tekstueel verankerde adres van de hele reis — AOAY noemt het letterlijke huisnummer, en minstens tien hoofdstukken raken deze plek. Maar de kern: **dit is waar Babaji in persoon aan de voordeur verscheen** (Hoofdstuk 37) om Yogananda's missie naar het Westen te bevestigen en te zegenen — het huis waar, in zekere zin, jouw eigen Kriya-lijn in het Westen werd bekrachtigd.
 
 WIE WAS HIER / WAT GEBEURDE HIER?
 Hoofdstuk 4: *"The family was living now in Calcutta... now at 4 Gurpar Road."* Hoofdstuk 9: na een bezoek aan Master Mahasaya keert Yogananda hierheen terug, rouwend om zijn moeder: *"My steps were eager as I returned to my Gurpar Road home. Seeking the seclusion of my small attic, I remained in meditation until ten o'clock..."* — gevolgd door het Divine Mother-visioen: *"Always have I loved thee! Ever shall I love thee!"*
