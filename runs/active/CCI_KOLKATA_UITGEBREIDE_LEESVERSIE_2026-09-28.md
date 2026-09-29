@@ -47,9 +47,9 @@ MAGNETISCHE PLEK? Ja, onveranderd — actief vereerd altaar, origineel object va
 
 **Hoe lang blijven andere devotees:** geen apart cijfer gevonden — onderdeel van het 2-3 uur complex-bezoek. Eén TripAdvisor-titel: "Metal peace in Meditation Room of Thakur Sri Ramakrishna" — sfeer, geen tijdsduur.
 
-**Yogananda-connectie: GEEN gedocumenteerd bezoek van Yogananda aan specifiek deze kamer gevonden.** Zijn twee Dakshineswar-episodes (h.9, h.22) noemen de hoofdtempel en "de heilige gronden", niet deze kamer met naam. Eerlijk: dit is een Ramakrishna-lineage-plek, niet direct Yogananda-biografisch.
+**Yogananda-connectie, GECORRIGEERD 29 sep (WORK vond dit, deze passage was achterhaald):** YSS' eigen officiële pagina (yssofindia.org/location/dakshineswar) bevestigt expliciet dat Yogananda hier mediteerde: "used to often visit the temple and meditate, first in the portico in front of the temple, then in Sri Ramakrishna's room." Dit IS dus een directe, YSS-bevestigde Yogananda-meditatieplek — de eerdere "geen bezoek gevonden" hier was fout.
 
-MAGNETISCHE PLEK? Ja — bewaarde kamer, functioneert als shrine, maar zonder eigen Yogananda-link.
+MAGNETISCHE PLEK? Ja — bewaarde kamer, functioneert als shrine, én een door YSS bevestigde eigen Yogananda-meditatieplek.
 
 ### Panchavati (boomgroep)
 
@@ -59,7 +59,7 @@ MAGNETISCHE PLEK? Ja — bewaarde kamer, functioneert als shrine, maar zonder ei
 
 **Hoe lang blijven andere devotees:** geen apart cijfer gevonden.
 
-**Yogananda-connectie: geen bevestigde link gevonden.** Zijn tamarinde-bosje-visioen (h.9) wordt NIET expliciet geïdentificeerd als Panchavati in enige bron die ik kon vinden — behandel die gelijkstelling als onbevestigd, niet als vaststaand feit.
+**Yogananda-connectie, GECORRIGEERD 29 sep:** dezelfde YSS-pagina bevestigt dat Yogananda ook "onder de Panchavati-banyan" mediteerde — dus wél een bevestigde eigen meditatieplek. Wat WEL onbevestigd blijft: zijn tamarinde-bosje-visioen (AOAY h.9) wordt in geen enkele bron expliciet gelijkgesteld aan Panchavati — behandel die specifieke gelijkstelling als onbevestigd, niet als vaststaand feit. Ook: alleen de oude peepal-boom is aantoonbaar origineel, de banyan waaronder gemediteerd zou zijn is vermoedelijk vervangen (zie grootte hierboven) — het is dus de plek, niet gegarandeerd dezelfde boom.
 
 MAGNETISCHE PLEK? Ja voor de Ramakrishna-lineage (gemarkeerd platform/schrijn), maar zonder bevestigde Yogananda-link — eerder gecorrigeerd dan het kwartierplan nu zegt.
 
