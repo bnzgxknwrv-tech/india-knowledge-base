@@ -113,11 +113,13 @@ MAGNETISCHE PLEK? Waarschijnlijk ja (YSS-ashrams hebben doorgaans een lineage-sh
 
 **Herstructurering op verzoek van Mark (28 sep):** de kleinere onderdelen van het Kali-tempelcomplex staan nu 's ochtends, en de hoofdtempel zelf (waar de Ramakrishna/Yogananda-visioenen plaatsvonden) is verplaatst naar het eind van de dag als open, flexibel blok — geen vast eindtijdstip, geen vervolgprogramma erna.
 
-08:30–~09:10 transfer naar Dakshineswar (auto, **realistisch 30-50 min, niet 20-30 min** — onderzoek 28 sep: ~7-8,5 km via de BT Road-corridor, bekende congestie vooral in het weekend en op drukke darshan-dagen; sourced via reisaggregators + algemene kennis van Kolkata-verkeer, geen live-geverifieerd cijfer). **Consequentie:** de dag kan 10-20 min later op gang komen dan de onderstaande kaarttijden suggereren — dat schuift in het open eindblok aan het eind van de dag, niet in de vaste onderdelen.
+**GECORRIGEERD 29 sep (WORK): dit was nog de oude Shyambazar-berekening en gaf bovendien een intern onmogelijke klok** (vertrek 08:30 + 30-50 min kon nooit een 08:50-start opleveren). Vanaf de nieuwe YSS-basis ligt de Kali-tempel zelf ~1 km verder dan Yogoda Math — reken **20-30 min lopen of een korte riksja**, geen autorit meer.
+
+08:30–09:00 naar Dakshineswar Kali-tempel (lopen/korte riksja, 20-30 min vanaf de basis).
 
 ### Ramakrishna's kamer [A+]
 
-TIJD: 08:50–09:35
+TIJD: 09:00–09:45
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Een bescheiden kamer in de noordwesthoek van het tempelterrein, met een halfronde veranda aan de Ganges, waar Ramakrishna de laatste ~30 jaar van zijn leven daadwerkelijk woonde — hier vonden de meeste van zijn opgetekende visioenen en gesprekken (de Kathamrita) plaats.
@@ -143,7 +145,7 @@ BRONNEN: yssofindia.org (Dakshineswar-ashrampagina).
 
 ### Panchavati (de boomgroep) [A]
 
-TIJD: 09:35–10:05
+TIJD: 09:45–10:15
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Een groep van vijf heilige bomen (oorspronkelijk banyan, peepal, neem, amalaki/ashoka, bel) direct ten noorden van het tempelterrein, waar Ramakrishna het grootste deel van zijn intensieve sadhana deed.
@@ -167,7 +169,7 @@ MAGNETISCHE PLEK? Ja — klein platform/schrijn, gemarkeerd, én een door YSS ze
 
 ### Nahabat — Sarada Devi's kamer [B, bijvangst]
 
-TIJD: 10:05–10:20 (kort, geen apart hoofdblok)
+TIJD: 10:15–10:30 (kort, geen apart hoofdblok)
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Een tweeverdiepingen bakstenen gebouw ~23 meter noordelijk van Ramakrishna's kamer, waar Sarada Devi ("Holy Mother") ~8 jaar in een piepklein achthoekig kamertje (~4,6 m²) woonde, kookte en vanuit daar het huishouden beheerde.
@@ -189,11 +191,11 @@ Twaalf identieke Shiva-schrijnen langs de rivier, plus de baadghat waar Totapuri
 
 **CORRECTIE 29 sep (WORK): de tempel zelf sluit dagelijks 12:30-15:30** (officiële uren: 06:30-12:30 en 15:30-19:30, dakshineswarkalitemple.org) — "open-ended vanaf 10:50" kon dus niet kloppen, dat liep tegen de sluiting aan. Herzien naar twee sessies:
 
-10:20–10:50 lunch/rust op het terrein of net erbuiten.
+10:30–11:00 lunch/rust op het terrein of net erbuiten.
 
 ### Dakshineswar Kali Temple — hoofdtempel, sessie 1 (Sri Sri Bhavatarini Kali) [A+]
 
-TIJD: 10:50–12:25 (~1u35, tot vlak vóór de middagsluiting om 12:30 — niet later plannen).
+TIJD: 11:00–12:25 (~1u25, tot vlak vóór de middagsluiting om 12:30 — niet later plannen).
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 De negen-torige (navaratna) hoofdtempel van het hele complex, met het zwarte stenen Kali-beeld ("Bhavatarini") op een zilveren lotus met duizend gedreven bladeren, en een klein zilveren Shiva-beeld eronder.
@@ -217,13 +219,13 @@ MAGNETISCHE PLEK? Ja — actief vereerd altaar, direct object van meerdere Top-X
 
 BRONNEN: en.wikipedia.org/wiki/Dakshineswar_Kali_Temple, en.wikisource.org/wiki/Autobiography_of_a_Yogi (hfst. 9, 22), dakshineswarkalitemple.org (openingstijden).
 
-12:25–15:30 middagsluiting van de tempel (officieel, dagelijks) — terug naar de basis voor rust, of blijf in de buurt. Met de nieuwe YSS-basis (10 min lopen) is teruggaan geen probleem.
+12:25–15:30 middagsluiting van de tempel (officieel, dagelijks) — terug naar de basis voor rust (~20-30 min lopen/riksja, correctie 29 sep: de tempel ligt ~1 km verder dan Yogoda Math), of blijf in de buurt.
 
 ### Dakshineswar Kali Temple — hoofdtempel, sessie 2/avondsessie [A+]
 
 TIJD: 15:30–19:30 (tempel sluit om 19:30) — **dit is nu het echte open-eind-blok: blijf tot sluiting of tot je zelf wilt vertrekken, geen vervolgprogramma vandaag.** Avond-aarti valt doorgaans in dit venster — LIVE_RECHECK exact tijdstip.
 
-Transfer naar basis: zodra je zelf vertrekt, met de nieuwe 10-min-loopafstand-basis nauwelijks een transfer meer (was 30-50 min vanaf de oude Shyambazar-aanname).
+Transfer naar basis: zodra je zelf vertrekt, ~20-30 min lopen/riksja (gecorrigeerd 29 sep — was ten onrechte "nauwelijks een transfer", dat gold alleen voor Yogoda Math, niet de tempel zelf).
 
 ---
 
