@@ -342,6 +342,8 @@ AOAY Hoofdstuk 36: na het voltooien van zijn boek *The Holy Science* (1894), lie
 WAT MOET JE HIER PRECIES ZOEKEN?
 De banyanboom zelf (naar verluidt nog steeds levend/staand) en de ghat-trappen naar de rivier.
 
+**EERLIJKE VRAAG VAN MARK, ONDERZOCHT 28 sep: is dit nog dezelfde boom uit 1894, of een latere aanplant?** Geen enkele bron — niet YSS zelf, niet botanisch, niet gemeentelijk — bevestigt of ontkent continuïteit. Devotee-bronnen spreken elkaar zelfs tegen (sommigen "dezelfde boom sinds 1894", anderen schatten "zo'n 100 jaar oud", wat op aanplant in de jaren 1920 zou wijzen). Banyanbomen kunnen makkelijk eeuwen oud worden, dus het is niet onwaarschijnlijk, maar er is geen bewijs. Zie dit ter plekke als "de plek waar de overlevering het legt", niet als gegarandeerd hetzelfde fysieke object.
+
 UNIEK HERKENNINGSPUNT
 Een directe, bij naam genoemde Babaji-materialisatie op een gewone, bezoekbare plek.
 
