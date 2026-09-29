@@ -414,13 +414,13 @@ MAGNETISCHE PLEK? Ja — expliciet omgebouwd tot shrine, actief te bezoeken.
 
 **CORRECTIE 29 sep (WORK): een doorlopend 09:15-13:00-bezoek is fysiek onmogelijk.** Belur Math sluit voor de lunch: campus/tempels 06:30-11:30 en 15:30-20:30, museum 08:30-11:30 en 15:30-17:30 (gesloten op maandag/feestdagen). Herzien naar twee sessies, net als zondag.
 
-**VERTREK BASIS: 08:00** (uitzondering op 08:30 — nodig om vóór de 11:30-sluiting nog echt tijd te hebben).
+**VERTREK BASIS: 07:30 — GECORRIGEERD 29 sep (WORK): 08:00 was intern te strak.** De ferry duurt realistisch 45-75 min deur tot deur, niet de gunstige 45 min die een 08:00-08:45-venster veronderstelde — met dat vertrek zou sessie 1 ongemerkt tot 30 min korter worden. Eerder vertrekken behoudt de volledige ochtendsessie in plaats van de inhoud te knijpen.
 
-08:00–08:45 naar Belur Math: **voorkeur de veerdienst vanaf Ma Bhabatarini Ferry Ghat** (officiële route, kale overtocht 10-25 min, maar deur-tot-deur inclusief lopen/wachten realistisch 45-75 min — WORK-onderzoek 29 sep), **achtervang: auto over de weg via Vivekananda Setu, 35-50 min**. Boot geeft de mooiste binnenkomst (rivierervaring), maar houd een oproepbare auto als fallback (weersafhankelijk, geen gegarandeerde januari-2027-dienstregeling).
+07:30–08:45 naar Belur Math: **voorkeur de veerdienst vanaf Ma Bhabatarini Ferry Ghat** (officiële route, kale overtocht 10-25 min, maar deur-tot-deur inclusief lopen/wachten realistisch 45-75 min — WORK-onderzoek 29 sep, dus reken het volle venster), **achtervang: auto over de weg via Vivekananda Setu, 35-50 min**. Boot geeft de mooiste binnenkomst (rivierervaring), maar houd een oproepbare auto als fallback (weersafhankelijk, geen gegarandeerde januari-2027-dienstregeling).
 
 ### Belur Math, sessie 1/ochtend [A, ongewijzigd — CURRENT_TRUTH bevestigt A]
 
-TIJD: ~08:45–11:15 (tot vlak vóór de 11:30-sluiting)
+TIJD: 08:45–11:15 (volledige 2,5 uur behouden, tot vlak vóór de 11:30-sluiting)
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Het internationale hoofdkwartier van de Ramakrishna Math en Mission, gesticht door Vivekananda, op de westelijke Hooghly-oever.
