@@ -38,7 +38,9 @@ Zie `runs/active/CCI_KOLKATA_UITGEBREIDE_LEESVERSIE_2026-09-28.md` voor de eerde
 
 **Vlucht: CCU→MAA 09:00** (drukke binnenlandse route, ~63 wekelijkse non-stopvluchten, IndiGo/Air India/Air India Express/SpiceJet, vluchtduur 2u10-2u20). Aankomst Chennai ~11:10-11:20, dan de 175km/3,5-4,5u rit naar Tiruvannamalai, aankomst ~15:00-16:30. Exacte januari-2027-dienstregeling nog niet gepubliceerd.
 
-**Nog te doen:** welk vliegveldhotel (of vliegveld-nabije optie), en de exacte Garpar→vliegveld-transfertijd donderdagavond — zie taak aan WORK hieronder.
+**INGEVULD 29 sep (WORK, live onderzoek):**
+- **Garpar/Acharya Bhaban → vliegveldzone: 45-75 min met vooraf geboekte auto** (live meting 30-32 min via VIP Road, ruimer ingepland als plannorm). Vertrek ~15:30 → aankomst realistisch 16:15-16:45, buffer tot 17:00.
+- **Vliegveldhotel-keuze: Holiday Inn Express Kolkata Airport** (28 Jessore Road, Dum Dum) als werkdefault — ~800m/korte rit van de terminal, 125 kamers, ontbijt inbegrepen (let op: officieel ontbijtvenster 06:30-10:30, voor een 09:00-vlucht dus Grab & Go vooraf bevestigen, geen gratis shuttle). Alternatieven: **Ethnotel** (71/1 Jessore Road, ~5 min van het vliegveld, 3-sterren) of **Airport City Hotel** (budget, iets minder zekerheid). Vóór boeken bij alle drie bevestigen: buitenlandse-gastregistratie, vervoer/veilige looproute in het donker, ontbijt/packed breakfast, kosteloos annuleren.
 
 ---
 
@@ -584,7 +586,7 @@ KORTE NUANCE: alleen open wo/do 14:00-16:00 — dit is dus de enige dag in dit h
 
 BRONNEN: en.wikisource.org/wiki/Autobiography_of_a_Yogi (hfst. 8).
 
-**GEWIJZIGD 29 sep: geen terugkeer naar de YSS-basis meer vanavond.** In plaats daarvan een transfer naar het hotel bij/op het vliegveld (Mark's beslissing, i.v.m. rust vóór de vroege vlucht) — **deze specifieke Garpar→vliegveld-transfertijd is nog niet onderzocht, taak staat uit bij WORK.** Voorlopig ruim inplannen (schatting, niet gesourced): 15:30–17:00 transfer, dan inchecken/rust/pakken/vroeg diner op of bij het vliegveld.
+**GEWIJZIGD 29 sep: geen terugkeer naar de YSS-basis meer vanavond.** In plaats daarvan een transfer naar **Holiday Inn Express Kolkata Airport** (28 Jessore Road, Dum Dum — WORK-onderzoek 29 sep, live Google Maps: ~30-32 min via VIP Road, conservatieve plannorm 45-75 min met vooraf geboekte auto). 15:30–~16:45 transfer, dan inchecken/rust/pakken/vroeg diner op of bij het vliegveld. Ontbijt daar is officieel pas 06:30 — voor een 09:00-vlucht vooraf Grab & Go bevestigen.
 
 **OPTIONEEL, NIET INGEPLAND:** Vivekananda Birthplace (A+, geen AOAY-citaat) zou hier eventueel tussen 11:00-12:00 of na Acharya Bhaban kunnen, als je energie/tijd overhoudt — exacte reistijd vanaf Garpar niet apart geverifieerd, geschatte 10-20 min gezien beide in Noord-Kolkata liggen. Niet vast ingepland om de dag niet te overladen vlak vóór de vroege vertrekdag.
 
