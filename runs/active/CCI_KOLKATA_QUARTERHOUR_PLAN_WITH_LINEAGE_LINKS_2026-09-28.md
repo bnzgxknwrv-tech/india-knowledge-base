@@ -314,13 +314,13 @@ MAGNETISCHE PLEK? Ja — actieve Mission-tak met huisschrijn.
 
 ## DI 12 JAN — Serampore-dagtocht: Sri Yukteswar's hermitage, Rai Ghat, Anandaloka
 
-**VERTREK HOTEL: 08:00** (uitzondering op standaard 08:30 — Serampore is de verste bestemming, ~45-75 min enkele reis, en dit is de dag met de rijkste, langste inhoud).
+**VERTREK BASIS: 08:30 — GECORRIGEERD 29 sep (WORK): geen harde externe reden voor 08:00.** De protocolregel is standaard 08:30 tenzij een vaste afspraak/trein/veer een echte uitzondering vereist — "verste/rijkste dag" is dat niet. Terug naar de standaardtijd; de dag eindigt hierdoor ~30 min later, nog steeds ruim op tijd.
 
-08:00–09:00 transfer naar Serampore (auto, ~45-60 min vanaf Dakshineswar-zone, geverifieerd; trein is een alternatief maar vergt overstappen — auto aanbevolen voor flexibiliteit met deze volle dag).
+08:30–09:30 transfer naar Serampore (auto, ~45-60 min vanaf de YSS-basis; trein is een alternatief maar vergt overstappen — auto aanbevolen voor flexibiliteit met deze volle dag).
 
 ### Sri Yukteswar's hermitage, Serampore [A+, beschermd, 3 uur]
 
-TIJD: 09:00–12:00 (3 uur, zoals jij zelf aangaf)
+TIJD: 09:30–12:30 (3 uur, zoals jij zelf aangaf)
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Sri Yukteswar's eigen ashram — de plek waar Yogananda ongeveer tien jaar onder zijn guru trainde. Waarschijnlijk de belangrijkste fysieke AOAY-locatie buiten Dakshineswar/Puri.
@@ -346,11 +346,11 @@ MAGNETISCHE PLEK? Ja — de Smriti Mandir is een echte gedenktempel.
 
 BRONNEN: en.wikisource.org/wiki/Autobiography_of_a_Yogi (hfst. 10, 12, 36, 42, 43), yssofindia.org.
 
-12:00–12:15 korte wandeling naar Rai Ghat (vlakbij, zelfde ochtendwandel-route als Yogananda en Sri Yukteswar zelf namen).
+12:30–12:45 korte wandeling naar Rai Ghat (vlakbij, zelfde ochtendwandel-route als Yogananda en Sri Yukteswar zelf namen).
 
 ### Rai Ghat — de heilige banyanboom [A+]
 
-TIJD: 12:15–12:45
+TIJD: 12:45–13:15
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Een badghat aan de Hooghly, vlak bij de hermitage, met een oude banyanboom.
@@ -371,13 +371,13 @@ Een directe, bij naam genoemde Babaji-materialisatie op een gewone, bezoekbare p
 
 MAGNETISCHE PLEK? Ja, in de zin van een gemarkeerd wonder-plek — YSS heeft in 2023 ook een gebouw naast de boom plus beheersrechten over de ghat verworven.
 
-12:45–13:15 lunch/rust in Serampore.
+13:15–13:45 lunch/rust in Serampore.
 
-13:15–13:30 korte transfer naar Anandaloka.
+13:45–14:00 korte transfer naar Anandaloka.
 
 ### Anandaloka / YSS Serampore Retreat [A+ — toegankelijk bevestigd]
 
-TIJD: 13:30–14:15
+TIJD: 14:00–14:45
 
 WAT IS DIT IN GEWOON NEDERLANDS?
 Yogananda's eigen studentenkamer bij zijn oom Sarada Prasad Ghosh, tijdens zijn Serampore College-jaren — later omgebouwd tot meditatieschrijn door zijn neef.
@@ -398,7 +398,7 @@ De enige plek in Serampore die Yogananda's gewone studentenleven toont, niet zij
 
 MAGNETISCHE PLEK? Ja — expliciet omgebouwd tot shrine, actief te bezoeken.
 
-14:15–15:15 transfer terug naar hotel (~45-60 min).
+14:45–15:45 transfer terug naar de YSS-basis (~45-60 min).
 
 ---
 
@@ -603,18 +603,20 @@ BRONNEN: en.wikisource.org/wiki/Autobiography_of_a_Yogi (hfst. 8).
 
 ## COMPLETENESS-AUDIT — LONELY PLANET-LAAG KOLKATA, NOG NIET DOOR MARK GEGRADEERD
 
-Per `governance/LONELY_PLANET_LAYER_RULE_2026-08-22.md` en het Cluster Pre-Flight Protocol: dit is niet zelf gegradeerd, dat is aan jou. Geen tijd toegekend, puur ter beoordeling:
+Per `governance/LONELY_PLANET_LAYER_RULE_2026-08-22.md` en het Cluster Pre-Flight Protocol: dit is niet zelf gegradeerd, dat is aan jou. Geen tijd toegekend, puur ter beoordeling. **Afstanden gecorrigeerd 29 sep (WORK-audit) — pas ná gradering echt inplannen, deze afstanden gaan nog uit van de OUDE Shyambazar-basis, niet de nieuwe YSS-basis:**
 
-1. **Victoria Memorial** — grote witmarmeren koloniale monument/museum (1921), Kolkata's meest gefotografeerde landmark. Afstand: ~45-60 min, centraal/zuid-Kolkata — een halve dag, geen "erbij"-stop.
-2. **Howrah Bridge** — iconische cantileverbrug (1943), een van de drukste ter wereld. Afstand: dicht bij de Belur/Dakshineswar-oever — kost slechts minuten als het op de route ligt.
-3. **Indian Museum** — oudste en grootste museum van Azië (1814). Afstand: centraal Kolkata, ~45 min — halve dag.
-4. **College Street/Boi Para + Indian Coffee House** — 's werelds grootste tweedehands-boekenmarkt; het café is een intellectuelenhistorie-plek (Tagore, Satyajit Ray). Afstand: vlak bij Garpar — kost minuten tot een uur, kan bij de Garpar-dag.
-5. **Kumartuli-pottenbakkerswijk** — eeuwenoude kleifiguren-maker-wijk voor Durga Puja. Afstand: Noord-Kolkata, dicht bij Garpar — kleine omweg.
-6. **Marble Palace** — 1835 privéhuis, 126 soorten marmer, originele schilderijen, nog steeds familie-bewoond. Afstand: dicht bij Garpar — kleine omweg, let op: gesloten ma/do, vergunning vooraf nodig.
-7. **South Park Street Cemetery** — een van 's werelds oudste niet-kerkelijke begraafplaatsen (1767). Afstand: centraal/zuid — ~45 min, halve dag.
-8. **BBD Bagh/Dalhousie koloniale architectuur** — dichte cluster 18e/19e-eeuwse Britse gebouwen. Afstand: centraal Kolkata, ~30-45 min.
-9. **Oude zoetwarenzaken (K.C. Das, Flurys)** — K.C. Das claimt de geboorteplek van rosogolla; Flurys is een historische theesalon uit 1927. Afstand: centraal Kolkata, kost minuten als gecombineerd.
-10. **Hooghly-zonsondergangboottocht** — kan direct vanaf de Dakshineswar/Belur-ghats vertrekken, kost niets extra.
+1. **Victoria Memorial** — grote witmarmeren koloniale monument/museum (1921), Kolkata's meest gefotografeerde landmark. Afstand: ~45-60 min, centraal/zuid-Kolkata — een halve dag, geen "erbij"-stop. Ligt ~2 km van Indian Museum — samen één cluster als je ze allebei gradeert.
+2. **Howrah Bridge** — iconische cantileverbrug (1943), een van de drukste ter wereld. **CORRECTIE (WORK): niet "minuten/gratis op de route"** — ~6 km van Belur Math, ~15-16 km van Dakshineswar, en een rit naar Belur gebruikt niet per se deze brug. Behandel als bewuste, aparte omweg, niet als bijvangst.
+3. **Indian Museum** — oudste en grootste museum van Azië (1814). Afstand: centraal Kolkata, ~45 min — halve dag. Zie Victoria Memorial-clustering hierboven.
+4. **College Street/Boi Para + Indian Coffee House** — 's werelds grootste tweedehands-boekenmarkt; het café is een intellectuelenhistorie-plek (Tagore, Satyajit Ray). Afstand: vlak bij Garpar — plausibel, maar echte reistijd nog niet gemeten.
+5. **Kumartuli-pottenbakkerswijk** — eeuwenoude kleifiguren-maker-wijk voor Durga Puja. **CORRECTIE (WORK): past geografisch beter bij Bagbazar/Balaram Mandir (ma 11 jan) dan bij Garpar** (do 14 jan) — heroverwegen bij welke dag dit hoort als je het gradeert.
+6. **Marble Palace** — 1835 privéhuis, 126 soorten marmer, originele schilderijen, nog steeds familie-bewoond. **CORRECTIE (WORK): sluitingsdagen/vergunning-eis zijn online tegenstrijdig** — niet als vaststaand "gesloten ma/do" presenteren, rechtstreekse verificatie nodig vóór inplannen.
+7. **South Park Street Cemetery** — een van 's werelds oudste niet-kerkelijke begraafplaatsen (1767). Afstand: centraal/zuid — ~45 min, halve dag. Vormt met Flurys (zie #9) één Park Street-cluster, evt. te combineren met Victoria/Museum na gradering.
+8. **BBD Bagh/Dalhousie koloniale architectuur** — dichte cluster 18e/19e-eeuwse Britse gebouwen. **CORRECTIE (WORK): ~4 km van Garpar**, niet zomaar "30-45 min zonder bron" — reistijd nog niet met een echte routebron gemeten.
+9. **Oude zoetwarenzaken (K.C. Das, Flurys)** — **CORRECTIE (WORK): de "geboorteplek van rosogolla"-claim hoort primair bij Nobin Chandra Das/de familie-oorsprong, niet zonder meer bij elke huidige K.C. Das-vestiging** — zorgvuldiger formuleren als je dit gradeert.
+10. **Hooghly-zonsondergangboottocht** — **CORRECTIE (WORK): geen automatische gratis sunset cruise** — Dakshineswar-Belur en Bagbazar-Belur hebben wel veerverbindingen (zie ook de Belur Math-veerdienst, woensdag), maar dienstregeling/wachttijd/laatste boot/kosten moeten live geverifieerd worden, nooit "nul tijd" aannemen.
+
+**Onderzoeksomissies die je desgewenst naast deze tien kunt beoordelen (WORK-suggestie, nog niet toegevoegd):** Jorasanko Thakur Bari/Tagore Museum (logische aanvulling bij College Street/Garpar), Mother House, eventueel St Paul's Cathedral/Prinsep Ghat.
 
 **Nog niet ingepland:** Vivekananda Birthplace (zie donderdag-nuance hierboven). Kalighat Kali Temple is gedowngraded naar B, zie boven — de AOAY-link bleek waarschijnlijk niet te kloppen.
 
