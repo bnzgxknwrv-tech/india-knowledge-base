@@ -296,6 +296,8 @@ Transfer naar basis zodra je vertrekt: ferry 45-75 min of auto 35-50 min.
 
 ## DO 14 JAN — Garpar-microcluster + Vivekananda Birthplace + J.C. Bose — laatste volledige dag
 
+**Structuur nog te bevestigen (30 sep) — Mark's eigen voorstel, nog niet live geverifieerd:** in plaats van 's ochtends naar Garpar en 's avonds pas naar het vliegveldhotel, eerst 's ochtends rechtstreeks naar het vliegveldhotel rijden, daar inchecken/bagage droppen, en dan zonder bagage naar Garpar/Vivekananda Birthplace/J.C. Bose, om aan het eind van de dag terug te rijden naar hetzelfde hotel om te slapen. Voordeel: geen bagage-logistiek onderweg, geen vertrouwen op een chauffeur die je koffers apart vervoert. Nadeel: een extra rit (YSS→vliegveld→Garpar i.p.v. YSS→Garpar direct) — hoeveel extra tijd dat kost is niet bevestigd, staat uit bij WORK. Ook onzeker: of een hotel vóór de officiële check-intijd al bagage aanneemt (vaak wel mogelijk, ook als de kamer nog niet klaar is, maar niet gegarandeerd zonder navraag).
+
 **Vertrek basis: 08:00.**
 
 08:00-09:15: transfer naar Garpar Road-zone (Google Maps ~60-70 min, blok 1u15 — de duurste rit van de week, auto vooraf boeken). Alle vier Garpar-locaties liggen binnen ~0,5 km van elkaar — lopen tussen de stops. Dwell-tijden zijn een basis-invulling — kies zelf hoeveel langer je wilt blijven.
