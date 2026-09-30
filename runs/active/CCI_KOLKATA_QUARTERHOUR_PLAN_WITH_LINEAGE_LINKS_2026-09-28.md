@@ -458,6 +458,10 @@ Vivekananda verwierf begin 1898 dit terrein voor een permanent thuis voor de mon
 WAT MOET JE HIER PRECIES ZOEKEN?
 De hoofdtempel (marmeren beeld + relieken) EN de aparte, oudere "Oude Schrijn" (plek van de originele 1898-consecratie, 40 jaar in gebruik) — twee verschillende gebouwen, niet met elkaar verwarren; ook een apart Vivekananda-schrijn op de plek van zijn crematie.
 
+**Verduidelijking 30 sep, na Mark's vraag of het "museum" de moeite waard is: dit zijn TWEE verschillende dingen, vaak verward.**
+- **Swamiji's Room** — Vivekananda's eigen, echte kamer op het hoofdterrein: hier liggen zijn ECHTE kleren, schoeisel, wandelstokken, tulbanden en instrumenten (pakhawaj, tanpura), plus een foto van Ramakrishna en een kristalbeeldje van Vivekananda (gemaakt door Josephine McLeod, ~1917). Volgt de gewone Belur Math-openingstijden (06:30-11:30 / 16:00-21:00), **geen apart museumrooster, geen maandagsluiting**. Dit is de echte "magnetische plek" — spullen in zijn eigen kamer, geen vitrine.
+- **Het Museum (Ramakrishna Sangraha Mandira)** — een apart, lotusvormig gebouw met algemene tentoonstellingen/diorama's over de geschiedenis van de beweging, manuscripten en een videopresentatie. Géén bron noemt concrete, met naam genoemde relikwieën hierin — meer een interpretatiecentrum dan een shrine. Eigen, beperkter rooster (08:30-11:30 / 15:30-17:30) en **gesloten op maandag**. **Prima om over te slaan of heel kort te doen als het je niet aanspreekt** — het voldoet niet echt aan je eigen criterium.
+
 HOE WIL JE HIER ZIJN?
 Rustig, met ruimte voor de schaal van het complex — dit is geen kwartier-stop maar een halve dag.
 
