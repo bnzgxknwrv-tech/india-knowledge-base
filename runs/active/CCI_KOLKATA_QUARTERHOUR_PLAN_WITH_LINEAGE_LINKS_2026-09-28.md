@@ -8,7 +8,7 @@ Scope: **Kolkata/Dakshineswar/Serampore only**, 6 nachten (9/10–14 jan 2027), 
 
 Mark: *"De belangrijkste meter... of er een plek is waar een foto van Yogananda staat met bloemen eromheen. Shrines. Of die in de AOAY staan en écht als shrine ingericht zijn omdat hij daar geweest is."* Elke kaart hieronder heeft daarom een apart veld **MAGNETISCHE PLEK?** — is dit een levende shrine (foto/altaar/bewaarde relikwieën/kamer, actief vanwege de aanwezigheid van de figuur), of is het "alleen" historisch/institutioneel belangrijk zonder dat shrine-karakter? Beide categorieën staan in het plan, maar eerlijk gelabeld.
 
-## HOTEL/BASIS — WERKAANNAME VAN MARK, 29-9-2026 (nog niet definitief geboekt)
+## HOTEL/BASIS — BEVESTIGD DOOR MARK, 30-9-2026 (YSS-only, split-basis overwogen en afgewezen; nog niet definitief geboekt)
 
 **GEKOZEN DOOR MARK, 29-9-2026: reken met een homestay op ~10 minuten lopen van YSS Dakshineswar Math als basis voor za t/m woe/do-nachten, en een hotel bij/op het vliegveld voor de láátste nacht (do 14→vr 15 jan) i.v.m. rust vóór de vlucht.** Dit vervangt de eerdere Shyambazar/Fariapukur-aanname als rekenbasis voor de hele planning. Mark heeft ook zelf een mail gestuurd naar YSS Dakshineswar (zie Open Items) met de vraag naar hun eigen gastenverblijf of een homestay-aanbeveling in de buurt — zodra dat antwoord er is, wordt de exacte 10-min-optie concreet ingevuld; tot die tijd rekent dit hele plan met die 10-minuten-loopafstand als aanname.
 
@@ -32,7 +32,7 @@ Mark: *"De belangrijkste meter... of er een plek is waar een foto van Yogananda 
 
 Zie `runs/active/CCI_KOLKATA_UITGEBREIDE_LEESVERSIE_2026-09-28.md` voor de eerdere, bredere hotel-vergelijking.
 
-## OPEN BESLISPUNT — YSS-ONLY VS. SPLIT-BASIS (30 sep, WORK-onderzoek verwerkt, WACHT OP MARK)
+## BESLIST DOOR MARK, 30-9-2026: YSS-ONLY BLIJFT DE BASIS (split-basis overwogen en afgewezen)
 
 Mark vroeg op 29 sep of YSS-Dakshineswar als basis niet te veel reistijd geeft, en of een centralere basis (evt. gecombineerd met 1-3 nachten bij YSS) beter is. WORK deed hierop live Google Maps-onderzoek (30 sep). **Belangrijkste correctie op onszelf: de eerder in dit document gestelde "ruim 4 uur" voor maandag was zelf onjuist** — live gemeten komt die dag op ~1u55, plannorm 2u14-2u54 (zie de maandag-sectie hieronder voor de gecorrigeerde cijfers per traject).
 
@@ -52,7 +52,7 @@ Mark vroeg op 29 sep of YSS-Dakshineswar als basis niet te veel reistijd geeft, 
 
 **CCI-advies:** gezien hoe klein de winst van optie 2 is en hoe zwaar het museumverlies van optie 3 weegt tegen Mark's eigen criterium, is **YSS-only (het huidige plan) verdedigbaar als standaardkeuze** — de "4 uur"-angst die de aanleiding was, bleek zelf overdreven. Optie 3 is alleen de moeite waard als Mark bewust voor tijdwinst boven het museum kiest.
 
-**BESLISPUNT VOOR MARK — nog niet vastgelegd:** welke van de drie opties? Zodra gekozen: hotelkandidaten definitief maken, dagvolgorde (bij optie 3) aanpassen, en het planbestand + de HTML bijwerken.
+**MARK'S BESLISSING, 30-9-2026: "Ja"** (op de vraag of YSS-only bevestigd wordt). De split-basis-varianten zijn dus overwogen en losgelaten — de tijdwinst was te klein (optie 2) of te duur qua Belur-museumverlies (optie 3). **YSS-Dakshineswar blijft de basis voor za t/m do-nachten, ongewijzigd t.o.v. de rest van dit document.** Calcutta Bungalow en de andere centrale kandidaten hierboven zijn niet meer nodig, maar blijven hier staan als vindplaats mocht dit later heroverwogen worden.
 
 ## VERTREK NAAR TIRUVANNAMALAI — VRIJDAG 15 JAN
 
