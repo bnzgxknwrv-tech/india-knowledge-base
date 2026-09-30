@@ -32,6 +32,28 @@ Mark: *"De belangrijkste meter... of er een plek is waar een foto van Yogananda 
 
 Zie `runs/active/CCI_KOLKATA_UITGEBREIDE_LEESVERSIE_2026-09-28.md` voor de eerdere, bredere hotel-vergelijking.
 
+## OPEN BESLISPUNT — YSS-ONLY VS. SPLIT-BASIS (30 sep, WORK-onderzoek verwerkt, WACHT OP MARK)
+
+Mark vroeg op 29 sep of YSS-Dakshineswar als basis niet te veel reistijd geeft, en of een centralere basis (evt. gecombineerd met 1-3 nachten bij YSS) beter is. WORK deed hierop live Google Maps-onderzoek (30 sep). **Belangrijkste correctie op onszelf: de eerder in dit document gestelde "ruim 4 uur" voor maandag was zelf onjuist** — live gemeten komt die dag op ~1u55, plannorm 2u14-2u54 (zie de maandag-sectie hieronder voor de gecorrigeerde cijfers per traject).
+
+**Centrale-basiskandidaat (WORK, live 30 sep): Calcutta Bungalow**, 5 Radha Kanta Jew St, Fariapukur/Shyam Bazar, Kolkata 700004 — 4,3/5, 1.055 reviews. Live vanaf hier: Shyampukur 6 min, Balaram Mandir 7-9 min, Cossipore 15 min, 4 Garpar Road 11-14 min, Dakshineswar Kali-tempel 35-37 min, Yogoda Math 40-41 min, CCU 28-31 min, Belur Math via Vivekananda Setu/Bally Bridge 43 min (conservatief 50-65 min), Serampore ~1u12-1u19. Alternatieven: Hotel Cecil (College St, 4,0/5) en Hotel Golden Palace (College Street Market, 4,3/5, sterk voor Garpar).
+
+**Belur Math per ferry vanaf een centrale basis (Bagbazar Ghat) kon NIET hard bevestigd worden** — de officiële WB Transport-bronnen zijn gedateerd (2017/2019) en geven geen actuele Bagbazar→Belur-vaartijd. Niet gebruiken als tijdwinst; de auto via Bally Bridge (50-65 min conservatief) is de enige nu meetbare optie.
+
+**Drie opties, eerlijk tegen elkaar afgezet (WORK's rekenmethode, zelfde dagketen za-do voor alle drie):**
+
+| Opzet | Totale weekreistijd | T.o.v. YSS-only |
+|---|---|---|
+| **YSS-only** (huidig plan) | 8u24-11u59 | — |
+| **2 nachten YSS (za+zo) + 3 centraal (ma/di/wo) + vliegveldhotel** | 8u20-11u10 | **Nauwelijks winst: 4-49 min** — maandag/donderdag worden makkelijker, maar Serampore (di) en Belur (wo) worden juist langer vanaf een centrale basis. Vooral een comfort-/herverdelingseffect, geen echte tijdwinst. |
+| **3 nachten YSS (za+zo+ma) + 2 centraal (di/wo) + vliegveldhotel, MET Belur Math verplaatst naar maandag en de Shyampukur-cluster naar woensdag** | 6u55-10u00 | **Echte winst: 1u29-1u59** — maar Belur Math's museum (originele manuscripten/gebruiksvoorwerpen van Ramakrishna/Sarada Devi/Vivekananda) is dan gesloten, want dat is standaard dicht op maandag. Hoofdtempel/relieken/Vivekananda-kamer blijven wel open. |
+
+**WORK's advies:** de 2e optie levert te weinig op om de moeite van een extra hotelwissel waard te zijn. De 3e optie is de enige met een écht voelbare tijdwinst (~1,5-2 uur), maar kost het Belur-museum — en dat museum bezit precies het soort tastbare, bewaarde voorwerpen dat onder Mark's eigen "magnetische plek"-criterium telt. Dit is dus geen reken- maar een **waarde-beslissing**: is anderhalf tot twee uur reistijd per week het museumverlies waard?
+
+**CCI-advies:** gezien hoe klein de winst van optie 2 is en hoe zwaar het museumverlies van optie 3 weegt tegen Mark's eigen criterium, is **YSS-only (het huidige plan) verdedigbaar als standaardkeuze** — de "4 uur"-angst die de aanleiding was, bleek zelf overdreven. Optie 3 is alleen de moeite waard als Mark bewust voor tijdwinst boven het museum kiest.
+
+**BESLISPUNT VOOR MARK — nog niet vastgelegd:** welke van de drie opties? Zodra gekozen: hotelkandidaten definitief maken, dagvolgorde (bij optie 3) aanpassen, en het planbestand + de HTML bijwerken.
+
 ## VERTREK NAAR TIRUVANNAMALAI — VRIJDAG 15 JAN
 
 **HERZIEN 29-9-2026 — dit hele vraagstuk vereenvoudigt drastisch door de nieuwe basis-aanname.** Met een hotel bij/op het vliegveld de nacht ervoor, vervalt het hele probleem van de vroege/onzekere ochtendtransfer door de stad (het eerder gevonden risico: VIP Road-congestie, Metro-bouw, Uber/Ola-annuleringen, advies 05:30-05:45 vertrek) — dat gold allemaal voor een vertrek vanaf een Dakshineswar/Shyambazar-basis, niet meer relevant als je al bij het vliegveld slaapt.
@@ -50,7 +72,7 @@ Zie `runs/active/CCI_KOLKATA_UITGEBREIDE_LEESVERSIE_2026-09-28.md` voor de eerde
 |---|---|---|
 | Za 9 jan | Aankomst nachttrein ~13:05, inchecken → Yogoda Satsanga Math, ruim 4u (verplaatst hierheen, eerste inhoudelijke stop + info vragen over de rest van de week) | MINDER LICHT dan voorheen — bewuste keuze van Mark |
 | Zo 10 jan | Dakshineswar-complex — eigen dag: kleinere onderdelen 's ochtends, hoofdtempel (Ramakrishna) als flexibel eind-van-dag-blok | ZWAAR qua inhoud, open einde |
-| Ma 11 jan | Shyampukur Bati → Cossipore Udyanbati (2u, Mark's wens) → Balaram Mandir (1,5u, eerste inkort-optie) | **GECORRIGEERD 29 sep: ZWAARSTE dag van de week qua klok** — ruim 4u reistijd vanaf de YSS-basis (was ~1-1,5u vanaf de oude Shyambazar-aanname) |
+| Ma 11 jan | Shyampukur Bati → Cossipore Udyanbati (2u, Mark's wens) → Balaram Mandir (1,5u, eerste inkort-optie) | **GECORRIGEERD 30 sep (WORK, live Google Maps): de eerdere "ruim 4 uur"-claim klopte niet.** Live momentopname ~1u55, conservatieve plannorm 2u14–2u54 — zwaarder dan de oude Shyambazar-aanname (~1-1,5u), maar niet de zwaarste dag van de week meer |
 | Di 12 jan | Serampore-dagtocht: Sri Yukteswar's hermitage (3u) + Rai Ghat + Anandaloka | ZWAAR qua klok (reistijd), rijk qua inhoud |
 | Wo 13 jan | Belur Math, nu 2 sessies (ochtend + avond, middagsluiting ertussen) | MIDDEN, één grote locatie, gecorrigeerd voor echte openingstijden |
 | Do 14 jan | Garpar-microcluster (ochtend, dwell-tijden Mark's eigen keuze) → J.C. Bose/Acharya Bhaban (14:00-16:00, enige geldige dag, OPEN/UNGRADED) → transfer naar vliegveldhotel | **GECORRIGEERD 29 sep:** transfer naar Garpar nu 60-80 min (was 10-20 min); eindigt bij het vliegveld, niet meer bij de basis |
@@ -235,7 +257,7 @@ Transfer naar basis: zodra je zelf vertrekt, ~20-30 min lopen/riksja (gecorrigee
 
 **Chronologische logica van deze dag:** Ramakrishna werd medio 1885 ziek (keelkanker), verhuisde voor behandeling naar Shyampukur (70 dagen), daarna naar de tuinvilla in Cossipore voor zijn laatste 249 dagen tot zijn dood op 16 augustus 1886. Balaram Mandir was zijn "Calcutta-citadel" tijdens zijn gezonde jaren én de plek waar Vivekananda in 1897 de Ramakrishna Mission formeel oprichtte — chronologisch een uitstapje terug, maar geografisch in dezelfde noordelijke zone. **Update 28 sep:** Yogoda Satsanga Math stond hier kort gepland als tweede eind-blok, maar is nu verplaatst naar ZA 9 JAN (direct na aankomst) op Marks verzoek — deze dag eindigt weer gewoon na Balaram Mandir.
 
-**CORRECTIE 29 sep (WORK, nieuwe basis): dit is nu een aanzienlijk zwaardere dag dan eerder gedacht.** Vanaf de YSS-basis zijn alle transfers hier 50-70 min (niet de oude "20-30 min" die van Shyambazar uitging) — in totaal loopt deze dag op tot ruim 4 uur pure reistijd.
+**CORRECTIE 29 sep (WORK, nieuwe basis): dit is zwaarder dan de oude Shyambazar-aanname.** Vanaf de YSS-basis zijn de twee lange trajecten (heen en terug) elk 50-70 min. **VERDER GECORRIGEERD 30 sep (WORK, live Google Maps): de eerder hier gestelde "ruim 4 uur" was zelf onjuist.** Live momentopname: YSS→Shyampukur 45 min, Shyampukur→Cossipore 16 min, Cossipore→Balaram 13-16 min, Balaram→YSS 41 min — samen ~1u55. Met de conservatieve plannormen (50-70 / 15-25 / 10-20 / 50-70 min) komt de bandbreedte op **2u14-2u54**, niet ruim 4 uur.
 
 08:00–09:10 transfer naar Shyampukur (50-70 min vanaf YSS-basis, conservatief — WORK-onderzoek 29 sep, live Google Maps; vooraf geboekte auto aanbevolen).
 
@@ -316,7 +338,7 @@ Het hoogste aantal gedocumenteerde persoonlijke bezoeken van Ramakrishna van all
 
 MAGNETISCHE PLEK? Ja — actieve Mission-tak met huisschrijn.
 
-14:50–~16:00 transfer terug naar de YSS-basis (**gecorrigeerd 29 sep: 50-70 min, niet 25-45 min** — WORK-onderzoek, live Google Maps, conservatieve namiddag-plannorm). **Yogoda Satsanga Math is verplaatst naar ZA 9 JAN** (direct na aankomst, zie dat dagdeel) — deze dag eindigt nu gewoon na Balaram Mandir, geen tweede open eindblok meer. **Totale reistijd vandaag: ruim 4 uur** — dit is nu de zwaarste dag van de week qua klok, ook al is de inhoud zelf niet veranderd.
+14:50–~16:00 transfer terug naar de YSS-basis (**gecorrigeerd 29 sep: 50-70 min, niet 25-45 min** — WORK-onderzoek, live Google Maps, conservatieve namiddag-plannorm; live gemeten 41 min). **Yogoda Satsanga Math is verplaatst naar ZA 9 JAN** (direct na aankomst, zie dat dagdeel) — deze dag eindigt nu gewoon na Balaram Mandir, geen tweede open eindblok meer. **Totale reistijd vandaag: live ~1u55, conservatieve plannorm 2u14-2u54** (gecorrigeerd 30 sep — de eerder hier gestelde "ruim 4 uur" was onjuist; zie ook de basis-alternatieven in het HOTEL/BASIS-blok hierboven).
 
 ---
 
