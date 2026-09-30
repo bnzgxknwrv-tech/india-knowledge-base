@@ -9,6 +9,15 @@ Basis: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_MARK_DEC
 
 **Reistijd-conventie:** Google Maps/bekend cijfer + realistische buffer, afgerond. Zie `governance/LP_LAAG_EN_REISTIJD_SJABLOON_2026-09-30.md`.
 
+## NIEUWE KANDIDATEN VOOR JOUW BEOORDELING (WORK-onderzoek 30 sep, nog niet gegradeerd, niet in dit plan ingepland)
+
+WORK deed onafhankelijk onderzoek specifiek naar jouw "echte shrine/bewaarde kamer/reliek"-criterium en vond twee sterke, nog niet gegradeerde kandidaten, allebei binnen 3-9 minuten lopen van Sri Ramanasramam:
+
+- **Sri Seshadri Swamigal Ashram** (220 m/3 min lopen) — samadhi-plek van de heilige die de jonge Ramana beschermde toen hij wekenlang in de Patala Lingam van de grote tempel in samadhi zat. Directe Ramana-connectie, maar geen bevestigde inventaris van bewaarde persoonlijke voorwerpen.
+- **Yogi Ramsuratkumar-microcluster** (650 m/9 min lopen: hoofdashram + Sannidhi Street-huis; 240 m/3 min: Sudama-huis) — een samadhi-shrine plus twee echte woonhuizen waar hij respectievelijk 1977-1993 en vanaf 1993 leefde en darshan gaf, met zijn eigen bewaarde spullen (jute-zak-bed, waterpot, kleding) nog omschreven als aanwezig, dagelijks open voor darshan. Dit past zeer sterk bij je eigen criterium — maar de lineage-relevantie voor jouw reis (is dit "jouw" lijn?) is niet door mij of WORK bepaald.
+
+**Geen van beide is in dit plan ingepland** — ze zijn ongegradeerd, dus volgens de eigen regel van dit project niet vooraf in te plannen. Als je ze wilt zien: ze liggen zo dichtbij (binnen 10 minuten lopen van de ashram) dat ze zonder noemenswaardige extra reistijd in elke ashram-dag passen, zodra je ze een grade geeft.
+
 ## OPEN VRAGEN / ONZEKERHEDEN
 
 1. **Pavalakunru's openingstijden zijn tegenstrijdig** — publieke bronnen noemen laat in de middag (16:30-18:00), maar een recente bezoeker (juli 2026) kreeg 's ochtends rond 09:00 toegang via de priester. Dit plan gaat uit van de late-middag-variant (veiliger aanname); als je ter plekke ochtendtoegang bevestigt, kan Pavalakunru naar de ochtend verschuiven en één latere heen-en-terug-rit wegvallen.
@@ -28,9 +37,11 @@ Basis: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_MARK_DEC
 
 ## VR 15 JAN — Aankomst
 
-Zie `runs/active/CCI_KOLKATA_QUARTERHOUR_PLAN_WITH_LINEAGE_LINKS_2026-09-28.md` ("VERTREK NAAR TIRUVANNAMALAI") voor de volledige details: CCU→MAA ~09:00, Chennai-landing ~11:10-11:20, dan 175-190 km/realistisch 4-5 uur rijden (Pongal-periode) naar Tiruvannamalai, aankomst realistisch ~15:30-17:30+.
+Zie `runs/active/CCI_KOLKATA_QUARTERHOUR_PLAN_WITH_LINEAGE_LINKS_2026-09-28.md` ("VERTREK NAAR TIRUVANNAMALAI") voor de volledige details. **Verfijnd met WORK's live Google Flights/Maps-check (30 sep):** van de zichtbare CCU→MAA-vluchten voor 15 jan 2027 (05:05, 06:35, 09:05, 12:45, 15:10) is **09:05-11:25 (IndiGo)** de voor de hand liggende keuze — niet de vroegste. MAA→Ramanasramam live snelste route **176 km/3u48** (alternatieven 179 km/4u01, 191 km/4u19) — dit is de kale rijtijd zonder bagage/chauffeur/lunch/verkeer, dus de eerder genoemde 4-5 uur (met Pongal-marge) blijft de realistische planningsband. Trein vanaf Chennai is onderzocht maar **niet aan te raden**: de enige gunstige aansluiting (Perambur 13:50) vergt een riskante overstap via Chennai zelf na een landing om 11:25, en bronnen spreken elkaar tegen over welke dagen die trein rijdt.
 
-**Bij aankomst:** gebruik het eerste nacht een hotel direct tegenover/naast Sri Ramanasramam (Ramana Nagar/Chengam Road) tenzij ashram-inchecken op dat late tijdstip duidelijk makkelijk is — geen race tegen een instituutssluitingstijd na een lange reisdag. Geen geprogrammeerde inhoud vanavond.
+**Bij aankomst:** gebruik de eerste nacht een hotel direct tegenover/naast Sri Ramanasramam (Ramana Nagar/Chengam Road) tenzij ashram-inchecken op dat late tijdstip duidelijk makkelijk is — geen race tegen een instituutssluitingstijd na een lange reisdag. Geen geprogrammeerde inhoud vanavond.
+
+**Eerlijke kanttekening bij de ashram-optie (WORK, 30 sep):** Sri Ramanasramam-verblijf is gratis/donatie-gebaseerd, uitsluitend online aan te vragen, en **slechts een minderheid van de aanvragen wordt gehonoreerd** — dit is dus een gewenste, niet een gegarandeerde optie. Check-in 07:00-19:00, checkout uiterlijk 13:00, buitenlanders max. 14 dagen. Vraag ruim op tijd aan; ga uit van de hotelfallback totdat een toewijzing bevestigd is.
 
 ---
 
@@ -66,7 +77,7 @@ TIJD: 10:00-11:30
 
 Ramana Maharshi's hoofdashram aan de voet van Arunachala. Paramahansa Yogananda ontmoette Ramana Maharshi hier op 29 november 1935 — een directe link met jouw eigen lineage naast de Ramana-lijn zelf.
 
-Old Hall, Bhagavan's Samadhi Hall, Mother's Shrine, meditatie, Veda/puja-ritme, stil zitten. Fotograferen is binnen niet toegestaan.
+Concreet, per WORK's onderzoek (30 sep): **Bhagavan Samadhi Hall** (Ramana's eigen samadhi-schrijn); **Mother's Shrine** (boven Alagammal's samadhi, de Sri Chakra erin door Ramana zelf geconsacreerd); **Old Hall** (1928, waar Ramana tot 1949 woonde en darshan gaf — zijn eigen bank/couch staat er nog); **Nirvana Room** (de exacte kamer waar hij op 14 april 1950 stierf, persoonlijke voorwerpen bewaard); **New Hall** (stenen Ramana-beeld vóór de stenen couch van zijn laatste maanden). Dit is dus precies je eigen "foto/bloemen/reliek/bewaarde kamer"-type plek, niet alleen een institutioneel terrein. Fotograferen is binnen niet toegestaan.
 
 11:30: lunch (als gast geregistreerd) of buiten de ashram.
 

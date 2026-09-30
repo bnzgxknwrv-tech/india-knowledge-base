@@ -39,7 +39,7 @@ Eerlijke kanttekening: dit zijn eenvoudige budget-/pelgrimsverblijven. Vóór bo
 | → Garpar-cluster (heen / terug) | 60-80 min / 65-90 min |
 | → CCU (vliegveld) | 35-60 min |
 | ↔ Belur Math (veerdienst deur-tot-deur) | 45-75 min; auto-achtervang 35-50 min |
-| Garpar → vliegveldzone (do-avond) | 45-75 min plannorm (live gemeten 30-32 min via VIP Road) |
+| Do 14 jan structuur: YSS→vliegveldhotel (bagage) →Garpar→vliegveldhotel | live 35 + 35 + 40 min — ~8-20 min meer dan direct naar Garpar, comfort boven tijdwinst |
 
 **Structurele gate, nog open:** YSS Dakshineswar Math's eigen gastenverblijf zegt "up to five days" — deze cluster telt 6 nachten. Zit al in Mark's verstuurde mail; basis wordt pas definitief na antwoord.
 
@@ -64,7 +64,7 @@ Al bij/op het vliegveld geslapen, dus geen risicovolle vroege stadstransfer. **V
 | Ma 11 jan | Cossipore Udyanbati (2 u) → K.C. Das Shyambazar → Balaram Mandir (1,5 u) | Live ~1u10-1u30, plannorm ~1u30-2u |
 | Di 12 jan | Serampore-dagtocht: Sri Yukteswar's hermitage (3 u) + Rai Ghat + Anandaloka | ~45-60 min per richting |
 | Wo 13 jan | Belur Math, 2 sessies incl. Museum en Swamiji's Room (ochtend + avond, middagsluiting ertussen) | Ferry 45-75 min of auto 35-50 min per richting |
-| Do 14 jan | Garpar-microcluster (ochtend) → Vivekananda Birthplace → J.C. Bose/Acharya Bhaban (14:00-16:00) → vliegveldhotel | 60-80 min heen, 45-75 min naar vliegveld |
+| Do 14 jan | YSS→vliegveldhotel (bagage droppen) → Garpar-microcluster → Vivekananda Birthplace → J.C. Bose/Acharya Bhaban (14:00-16:00) → terug naar vliegveldhotel | 3 ritten, live 35+35+40 min — comfortvariant, ~8-20 min meer dan direct |
 | Vr 15 jan | Al bij/op vliegveld → CCU ~09:00 → Chennai → Tiruvannamalai (4-5 u rijden, Pongal) | — |
 
 **Kalighat Kali Temple: [B], niet ingepland.** De AOAY-link bleek niet te kloppen (conflatie van twee losse hoofdstukken). Zie `decisions/KALIGHAT_AOAY_SOURCING_ERROR_MARK_SKIP_DECISION_2026-09-29.md`.
@@ -296,15 +296,23 @@ Transfer naar basis zodra je vertrekt: ferry 45-75 min of auto 35-50 min.
 
 ## DO 14 JAN — Garpar-microcluster + Vivekananda Birthplace + J.C. Bose — laatste volledige dag
 
-**Structuur nog te bevestigen (30 sep) — Mark's eigen voorstel, nog niet live geverifieerd:** in plaats van 's ochtends naar Garpar en 's avonds pas naar het vliegveldhotel, eerst 's ochtends rechtstreeks naar het vliegveldhotel rijden, daar inchecken/bagage droppen, en dan zonder bagage naar Garpar/Vivekananda Birthplace/J.C. Bose, om aan het eind van de dag terug te rijden naar hetzelfde hotel om te slapen. Voordeel: geen bagage-logistiek onderweg, geen vertrouwen op een chauffeur die je koffers apart vervoert. Nadeel: een extra rit (YSS→vliegveld→Garpar i.p.v. YSS→Garpar direct) — hoeveel extra tijd dat kost is niet bevestigd, staat uit bij WORK. Ook onzeker: of een hotel vóór de officiële check-intijd al bagage aanneemt (vaak wel mogelijk, ook als de kamer nog niet klaar is, maar niet gegarandeerd zonder navraag).
+**Structuur, live geverifieerd door WORK (30 sep): Mark's voorstel is een comfortkeuze, geen tijdwinst.** In plaats van 's ochtends naar Garpar en 's avonds pas naar het vliegveldhotel: eerst naar Holiday Inn Express Kolkata Airport rijden, bagage afgeven, dan zonder bagage naar Garpar/Vivekananda Birthplace/J.C. Bose, en aan het eind van de dag terug naar hetzelfde hotel.
+
+Live gemeten (Google Maps, 30 sep): YSS→hotel 35 min, hotel→Garpar-zone 35 min, Garpar-zone→hotel 40 min — samen 110 min, tegen 90-102 min voor het huidige directe plan (YSS→Garpar 60-70 min + Garpar→hotel 30-32 min). **Dus ~8-20 min extra, geen besparing.** Winst is puur comfort: geen bagage sjouwen, geen chauffeur nodig die vertrouwd wordt met je koffers.
+
+**Bagage-opslag:** Holiday Inn Express bevestigt bagage-afgifte vóór de officiële check-in (14:00) als normale voorziening (24-uursreceptie, luggage storage). **Vroege toegang tot de kamer zelf is niet gegarandeerd** — plan op "bagage afgeven", niet op "vroeg inchecken". Laat het hotel na boeken schriftelijk bevestigen voor 14 januari; contact: +91-033-68151234, sales@hiexkolkataairport.com.
+
+**Gebruikt als de nieuwe structuur:** 08:00 vertrek YSS-basis → Holiday Inn Express (bagage afgeven) → Garpar-cluster → Vivekananda Birthplace → J.C. Bose → terug naar Holiday Inn Express om te slapen. Dit vervangt de oude bagagelogistiek-vraag verderop in dit dagdeel.
 
 **Vertrek basis: 08:00.**
 
-08:00-09:15: transfer naar Garpar Road-zone (Google Maps ~60-70 min, blok 1u15 — de duurste rit van de week, auto vooraf boeken). Alle vier Garpar-locaties liggen binnen ~0,5 km van elkaar — lopen tussen de stops. Dwell-tijden zijn een basis-invulling — kies zelf hoeveel langer je wilt blijven.
+08:00-08:45: naar Holiday Inn Express Kolkata Airport (Google Maps 35 min, blok 45 min) — bagage afgeven, geen vroege kamertoegang aannemen.
+
+08:45-09:30: naar Garpar Road-zone (Google Maps 35 min, blok 45 min). Alle vier Garpar-locaties liggen binnen ~0,5 km van elkaar — lopen tussen de stops. Dwell-tijden zijn een basis-invulling — kies zelf hoeveel langer je wilt blijven.
 
 ### 4 Garpar Road — Yogananda's familiehuis [A+]
 
-TIJD: 09:15-10:00 (basis)
+TIJD: 09:30-10:15 (basis)
 
 Het huis in Noord-Kolkata waar de tienerjaren-Yogananda (toen Mukunda Lal Ghosh) zijn eigen kamer had en zijn vroegste meditaties deed — nog steeds in familiebezit. Het meest tekstueel verankerde adres van de hele reis: AOAY noemt het letterlijke huisnummer, en minstens tien hoofdstukken (5, 7, 8, 9, 10, 17, 25, 30, 37, 46) raken deze plek. De kern: **dit is waar Babaji in persoon aan de voordeur verscheen** (hfst. 37) om Yogananda's missie naar het Westen te bevestigen en te zegenen.
 
@@ -312,21 +320,21 @@ Hfst. 4: *"The family was living now in Calcutta... now at 4 Gurpar Road."* Hfst
 
 Wat te zoeken: de zolderkamer op de derde verdieping — het meditatie-heiligdom. Ook de kamer bij de ingang — in mondelinge overlevering de plek van Babaji's zegen (hfst. 37). Vooraf regelen (via YSS Dakshineswar of rechtstreeks) — geen walk-in; een nazaat (custodiaan, gemeld als Somnath Ghosh) rondt doorgaans rond. Actief in stand gehouden als bezoekbare herinneringsplek — een levende magnetische plek.
 
-10:00-10:05: lopen naar YSS Dhyana Kendra Garpar.
+10:15-10:20: lopen naar YSS Dhyana Kendra Garpar.
 
 ### YSS Dhyana Kendra Garpar [A+]
 
-TIJD: 10:05-10:40
+TIJD: 10:20-10:55
 
 Een actief functionerend YSS-meditatiecentrum — geen museum maar een levende instelling met publieke meditatiesessies. De letterlijke geboorteplek van Yogananda's georganiseerde meditatiepraktijk: in 1911 als jongen begon hij hier systematisch te mediteren — een directe voorloper van YSS/SRF (formeel gesticht 1917).
 
 Wat te zoeken: de Dhyana Mandir (meditatiehal) — hier kun je zelf mediteren, 110+ jaar ononderbroken lijn terug naar Yogananda's eigen jeugdpraktijk. Bel vooraf voor sessietijden: (033) 2350-5380. De enige Garpar-plek waar je zelf kunt mediteren, niet alleen kijken.
 
-10:40-10:50: lopen naar Nagendra Math.
+10:55-11:05: lopen naar Nagendra Math.
 
 ### Nagendra Math — Bhaduri Mahasaya's huis [A+]
 
-TIJD: 10:50-11:25
+TIJD: 11:05-11:40
 
 Het huis van yogi Nagendranath Bhaduri, in AOAY "de Levitatie-heilige" genoemd — nu een instituut, ~0,5 km van Garpar. Yogananda bezocht hem als schooljongen herhaaldelijk na school om samen te mediteren.
 
@@ -334,11 +342,11 @@ Hfst. 7 ("The Levitating Saint"): Bhaduri leefde 20 jaar in afzondering op de bo
 
 Wat te zoeken: de eerste verdieping (zijn afzonderingsruimte, ~20 jaar) én een lager, halfdonker Kali-schrijnkamertje — het contrast tussen beide wordt vaak als het meest onderscheidende kenmerk van heel Garpar genoemd. De Kali-schrijnkamer is actief — een levende magnetische plek.
 
-11:25-11:35: lopen naar Tulsi Bose Shrine.
+11:40-11:50: lopen naar Tulsi Bose Shrine.
 
 ### Tulsi Bose Shrine [A+]
 
-TIJD: 11:35-12:15 (basis)
+TIJD: 11:50-12:30 (basis)
 
 Het huis van Tulsi Bose, Yogananda's jeugdvriend en levenslange discipel — bewaard met fysieke relieken. De enige plek in de cluster met bewaarde, aan Babaji én Sri Yukteswar toegeschreven fysieke voorwerpen — geen kamer-als-herinnering, maar tastbare relieken.
 
@@ -346,19 +354,17 @@ Tulsi Bose ontving Yogananda tijdens zijn 1935-36-terugkeerbezoek. Volgens Yogan
 
 Wat te zoeken: de bewaarde bedden van Yogananda én Sri Yukteswar; een drietand toegeschreven aan Babaji; Tulsi Bose's eigen Kriya-mala. De sterkste relieken-shrine van de hele Kolkata-cluster.
 
-12:15-12:35: transfer naar Vivekananda Birthplace (Google Maps ~10-15 min, blok 20 min — beide in dezelfde noord-centrale zone, reistijd niet apart bevestigd).
+12:30-12:50: transfer naar Vivekananda Birthplace (Google Maps ~10-15 min, blok 20 min — beide in dezelfde noord-centrale zone, reistijd niet apart bevestigd).
 
 ### Vivekananda Birthplace [A+]
 
-TIJD: 12:35-13:10
+TIJD: 12:50-13:20 (30 min — iets ingekort t.o.v. de basis, zodat het vaste J.C. Bose-venster om 14:00 haalbaar blijft)
 
 Het geboortehuis van Narendranath Datta (later Swami Vivekananda), 12 januari 1863 — 105 Vivekananda Road / voorheen 3 Gour Mohan Mukherjee Street, Simla. Nu de "Ramakrishna Mission Swami Vivekananda's Ancestral House and Cultural Centre": museum, gedenkschrijn, bibliotheek. Grade-1 Heritage Building van de Kolkata Municipal Corporation.
 
 Geen AOAY-citaat — de link loopt via Vivekananda's eigen geschiedenis, niet via Yogananda's boek. Een gedenkschrijn op de geboorteplek van een centrale figuur in jouw lineage.
 
-13:10-13:40: lunch/rust.
-
-13:40-14:00: lopen/korte rit terug naar Acharya Bhaban (in dezelfde buurt).
+13:20-13:35: transfer naar Acharya Bhaban (dezelfde buurt, blok 15 min). 13:35-14:00: buffer/wachten tot het vaste openingsvenster.
 
 ### J.C. Bose-huis, Acharya Bhaban [OPEN/UNGRADED]
 
@@ -370,9 +376,9 @@ Wat te zoeken: Bose's originele instrumenten, waaronder de crescograaf zelf. Een
 
 Bron: AOAY hfst. 8.
 
-15:30-~16:45: transfer naar **Holiday Inn Express Kolkata Airport** (Google Maps ~30-32 min, blok 45 min-1u15 conservatief). Inchecken/rust/pakken/vroeg diner. Ontbijt daar pas vanaf 06:30 — voor de 09:00-vlucht vooraf Grab&Go bevestigen.
+15:30-16:00: lunch/snack in de buurt (verplaatst naar na J.C. Bose, om het vaste venster niet te knijpen).
 
-**Bagagelogistiek deze dag:** je checkt 's ochtends uit bij de YSS-basis en gaat pas 's avonds naar het vliegveldhotel — geen terugkeer naar de basis ertussenin. **Aanbevolen: één auto voor de hele dag boeken (niet losse ritjes).** De bagage blijft dan gewoon in de kofferbak terwijl je de Garpar-cluster, Vivekananda Birthplace en Acharya Bhaban doet — de auto wacht of rijdt lege ritjes terwijl jij binnen bent, en brengt je aan het eind van de dag rechtstreeks met bagage en al naar het vliegveldhotel. Dit voorkomt zowel het zelf slepen met koffers door de smalle Garpar-straatjes als een omweg terug naar de YSS-basis. Alternatief als een hele dag auto niet lukt: bagage overdag bij de homestay laten opslaan (gangbaar bij dit type verblijf) en 's avonds een aparte auto terug naar de basis en dan door naar het vliegveld — kost wel extra tijd op je laatste volle dag.
+16:00-16:50: transfer naar **Holiday Inn Express Kolkata Airport** (Google Maps 40 min, blok 50 min). Bagage staat al klaar (eerder vandaag afgegeven) — inchecken op de kamer, pakken, vroeg diner. Ontbijt daar pas vanaf 06:30 — voor de 09:00-vlucht vooraf Grab&Go bevestigen.
 
 ---
 
