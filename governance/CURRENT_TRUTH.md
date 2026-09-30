@@ -1,7 +1,7 @@
 # CURRENT TRUTH — INDIA TRIP, 19 DEC 2026 – 20 JAN 2027
 
 Status: **THE operational reference — read this first, not the older CURRENT_STATE / CURRENT_DECISIONS_MASTER / SUCCESSOR_SAFE_STATE files**
-Last updated: 2026-09-23
+Last updated: 2026-09-30
 Built by: CCI, per the consolidation model agreed by Mark and INDIA22 on 2026-09-14 (PR #23)
 
 ## WHAT THIS FILE IS
@@ -146,7 +146,7 @@ If something in this file conflicts with an older file, **this file wins**, unle
 - [A*]: 50 Amherst Street.
 - **DIHIKA RETREAT — DOWNGRADED TO [B], 2026-09-30.** ~200 km van Kolkata (4-5u per richting) — Mark: "uiteraard B maken 200 km is absurd." Binding decision: `decisions/DIHIKA_RETREAT_DOWNGRADE_B_MARK_DECISION_2026-09-30.md`. Niet ingepland.
 - **Serampore (day trip from Kolkata, not a separate hotel night):** Sri Yukteswar's hermitage [A+, 2h onsite with meditation], Rai Ghat sacred banyan [A+], Anandaloka/YSS Serampore Retreat [A+ if the Yogananda room is accessible, else A*]. Serampore College and the old Panthi plot = C.
-- **Open:** the J.C. Bose site — two different real buildings (Acharya Bhaban vs. Bose Institute) need to be told apart before Mark can grade either.
+- **J.C. Bose site — identity resolved 2026-09-29, grade still open.** Two independent researches confirm: AOAY hfst. 8's scene (crescograaf-demonstratie) plays zich af in Bose's woonhuis, Acharya Bhaban, "close to mine on Gurpar Road" — niet op het latere Bose Institute-hoofdterrein (1917), dat slechts terzijde genoemd wordt. Acharya Bhaban is devotee-toegankelijk (open wo/do 14:00-16:00); Bose Institute is een actieve onderzoekscampus, niet geschikt. Identiteit staat vast; alleen de A/B/C-grade is nog aan Mark.
 
 ## TIRUVANNAMALAI / ARUNACHALA
 
@@ -171,7 +171,7 @@ If something in this file conflicts with an older file, **this file wins**, unle
 2. Evam Choskhorling visit permission (Kumaon).
 3. ~~Turiya Niwas host confirmation~~ — CLOSED 2026-09-21: Mark downgraded to B and removed from active planning; no confirmation needed (see Kumaon section above).
 4. Local guide confirmation of a safe December ridge walk (Kumaon).
-5. J.C. Bose site identity (Kolkata).
+5. ~~J.C. Bose site identity~~ — CLOSED 2026-09-29: resolved as Acharya Bhaban (see Kolkata section). Only the A/B/C-grade itself is still open, at Mark's discretion.
 6. ~~Lala Badri Shah House~~ — CLOSED 2026-09-21: Mark declined (see Kumaon section above).
 7. Jama Masjid and the astrologer/Jyotish visit — ungraded.
 8. Vivekanandar Illam / Ice House, Chennai — recovered valid Vivekananda residence/meditation-room site, but Mark wants it left OPEN/UNGRADED until Chennai time and personal value are assessed.
