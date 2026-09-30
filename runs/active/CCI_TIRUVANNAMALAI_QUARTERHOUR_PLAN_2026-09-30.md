@@ -13,10 +13,12 @@ Basis: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_MARK_DEC
 
 WORK deed onafhankelijk onderzoek specifiek naar jouw "echte shrine/bewaarde kamer/reliek"-criterium en vond twee sterke, nog niet gegradeerde kandidaten, allebei binnen 3-9 minuten lopen van Sri Ramanasramam:
 
-- **Sri Seshadri Swamigal Ashram** (220 m/3 min lopen) — samadhi-plek van de heilige die de jonge Ramana beschermde toen hij wekenlang in de Patala Lingam van de grote tempel in samadhi zat. Directe Ramana-connectie, maar geen bevestigde inventaris van bewaarde persoonlijke voorwerpen.
-- **Yogi Ramsuratkumar-microcluster** (650 m/9 min lopen: hoofdashram + Sannidhi Street-huis; 240 m/3 min: Sudama-huis) — een samadhi-shrine plus twee echte woonhuizen waar hij respectievelijk 1977-1993 en vanaf 1993 leefde en darshan gaf, met zijn eigen bewaarde spullen (jute-zak-bed, waterpot, kleding) nog omschreven als aanwezig, dagelijks open voor darshan. Dit past zeer sterk bij je eigen criterium — maar de lineage-relevantie voor jouw reis (is dit "jouw" lijn?) is niet door mij of WORK bepaald.
+- **Sri Seshadri Swamigal Ashram** (220 m/3 min lopen) — samadhi-plek van de heilige die de jonge Ramana beschermde toen hij wekenlang in de Patala Lingam van de grote tempel in samadhi zat. Directe Ramana-connectie, maar geen bevestigde inventaris van bewaarde persoonlijke voorwerpen. Eerlijke invoegkost: ~45-60 min, gaat af van za 14:00-15:25 of ma 14:30-16:45 ashram-tijd.
+- **Yogi Ramsuratkumar hoofdashram + Sannidhi Street-huis + Sudama-huis** (650 m/9 min, 240 m/3 min lopen) — een samadhi-shrine plus twee echte woonhuizen waar hij respectievelijk 1977-1993 en vanaf 1993 leefde en darshan gaf, met zijn eigen bewaarde spullen (jute-zak-bed, waterpot, kleding) nog omschreven als aanwezig, dagelijks open voor darshan. Dit past zeer sterk bij je eigen criterium. **Eerlijke invoegkost (WORK): het hele cluster serieus bezoeken kost 2,5-3 uur, niet "gratis" omdat het dichtbij ligt** — dit vervangt dan een groot deel van een ashram-hersteldag.
+- **Ayyankulam-tank** — waar Ramana bij aankomst in Tiruvannamalai zijn snoep achterliet en zijn haarafscheiding plaatsvond; een echte eerste-aankomstplek, maar de persoonlijke shrine-/objectwaarde is zwakker bevestigd dan de andere drie. Invoegkost: 30-45 min als toevoeging bij de tempel/Gurumurtam-cluster.
+- **Premalaya/Shanthimalai Handicrafts** (160 m/2 min lopen) — sociale vrouwen-ambachtscoöperatie sinds 1989. Geen Ramana-shrine, puur menselijke textuur/LP-laag. Invoegkost: 30-45 min, alleen uit vrije tijd, nooit uit A/A+-tijd.
 
-**Geen van beide is in dit plan ingepland** — ze zijn ongegradeerd, dus volgens de eigen regel van dit project niet vooraf in te plannen. Als je ze wilt zien: ze liggen zo dichtbij (binnen 10 minuten lopen van de ashram) dat ze zonder noemenswaardige extra reistijd in elke ashram-dag passen, zodra je ze een grade geeft.
+**Geen van de vier is in dit plan ingepland** — ze zijn ongegradeerd, dus volgens de eigen regel van dit project niet vooraf in te plannen. Als je ze wilt zien: ze liggen zo dichtbij (binnen 10 minuten lopen van de ashram) dat ze zonder noemenswaardige extra reistijd passen, zodra je ze een grade geeft — al is vooral het Yogi Ramsuratkumar-cluster qua tijd niet gratis.
 
 ## OPEN VRAGEN / ONZEKERHEDEN
 
@@ -30,8 +32,9 @@ WORK deed onafhankelijk onderzoek specifiek naar jouw "echte shrine/bewaarde kam
 |---|---|---|
 | Vr 15 jan | Aankomst via Chennai + weg (Pongal) | Zware reisdag, geen programma |
 | Za 16 jan | Arunachaleswarar-tempel + Gurumurtam + Pavalakunru, lange ashram-middag/avond | Vol, maar verdeeld over dag en avond |
-| Zo 17 jan | Skandashram + Virupaksha Cave-bergpelgrimage | Fysiek, korte maar stevige klim |
+| Zo 17 jan | Skandashram + Virupaksha Cave-bergpelgrimage + The Dreaming Tree | Fysiek, korte maar stevige klim |
 | Ma 18 jan | Volledige 14 km Giripradakshina/Girivalam + herstel | Langste wandeldag van de hele reis |
+| Di 19 jan | Vertrek richting Chennai-bufferdag (buiten de 4 Tiruvannamalai-nachten) | Zie onder |
 
 ---
 
@@ -71,7 +74,7 @@ De waarde hier is biografische continuïteit, niet architectuur — rustig zitte
 
 09:45-10:00: verplaatsing terug naar de ashram-zone (Google Maps ~10-15 min, blok 20 min).
 
-### Sri Ramanasramam — ochtendblok [A]
+### Sri Ramanasramam — ochtendblok [onderdeel van Arunachala/Ramana-ervaring, A+ umbrella]
 
 TIJD: 10:00-11:30
 
@@ -99,7 +102,7 @@ Een kleine heuveltempel (Ardhanarishvara), ~250-300 treden, weids uitzicht, door
 
 ---
 
-## ZO 17 JAN — Skandashram en Virupaksha Cave
+## ZO 17 JAN — Skandashram, Virupaksha Cave en The Dreaming Tree
 
 **Vertrek: 08:15 te voet** vanaf de achterzijde van de ashram — geen taxi/trailhead-transfer nodig.
 
@@ -113,7 +116,7 @@ Een klein, door bomen overhuifd bergashram met uitzicht over Tiruvannamalai en d
 
 10:00-10:20: afdalen/traverseren naar Virupaksha Cave (~15-20 min — slechts enkele honderden meters in kaartafstand, maar het bergpad maakt dit de realistische tijd).
 
-### Virupaksha Cave [A]
+### Virupaksha Cave [A+]
 
 TIJD: 10:20-11:20
 
@@ -123,11 +126,17 @@ Klein en donker, niet visueel groots — precies een plek waar grootte niets zeg
 
 11:20-12:10: voorzichtige afdaling richting de stad/tempelzijde (~30-45 min, ongelijk pad).
 
-12:10-12:30: korte rit terug naar de ashram-zone.
+12:10-12:30: korte rit terug naar Ramana Nagar.
 
-12:30-14:30: lunch (buiten de ashram als de 11:30-maaltijd gemist is) + douche/rust voor de benen.
+### The Dreaming Tree [A*]
 
-14:30-20:30: rustige ashram-middag/avond.
+TIJD: 12:30-14:00
+
+Geen sacrale plek, maar een rustig internationaal seeker-restaurant aan de voet van Arunachala, ~260 m/4 min lopen van Ramanasramam — bewust als hersteltijd/lunchplek na de berg, niet als snelle snack. Dagelijks open 07:30-22:30.
+
+14:00-16:00: douche, benen omhoog, geen programma.
+
+16:00-20:30: rustige ashram-middag/avond.
 
 ---
 
@@ -148,6 +157,12 @@ Neem water/thee, korte gebeden, foto's en rust mee in het tempo — dit is geen 
 11:30-14:00: lunch, douche, voeten/rust.
 
 14:00-20:30: laatste lange, rustige ashram-middag/avond — het bewuste hersteldeel van de reis na de langste wandeldag.
+
+---
+
+## DI 19 JAN — Vertrek naar Chennai-bufferdag
+
+Buiten de 4 Tiruvannamalai-nachten, maar relevant voor de aansluiting. **Treinkandidaat (LIVE_RECHECK): 22604, Tiruvannamalai 12:00 → Perambur 15:40** (2A/3A/SL) — bronnen spreken elkaar tegen over de exacte rijdagen, dus niet boeken zonder NTES/IRCTC-bevestiging. Auto-achtervang: ~173 km/~3u10 kale rijtijd Tiruvannamalai→Chennai, deur-tot-deur realistisch 4 uur. Trein heeft de voorkeur (past bij je treinvoorkeur), auto als achtervang als de trein niet blijkt te rijden of niet boekbaar is.
 
 ## SOURCES
 

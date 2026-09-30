@@ -1,6 +1,6 @@
 # BODH GAYA / GAYA — KWARTIERPLAN (3 NACHTEN)
 
-Datum: 2026-09-30, door CCI onafhankelijk opgebouwd (WORK bouwt tegelijk een eigen versie voor vergelijking). Scope: 1-3 januari 2027, 3 nachten, aankomst per nachttrein vanuit Agra, vertrek per trein naar Varanasi.
+Datum: 2026-09-30, door CCI onafhankelijk opgebouwd (WORK bouwt tegelijk een eigen versie voor vergelijking). Scope: **vr 1 - zo 3 januari 2027**, 3 nachten, aankomst per nachttrein vanuit Agra, vertrek ma 4 jan per trein naar Varanasi. **Gecorrigeerd 30 sep na WORK's review: eerste versie gebruikte verkeerde weekdagen (wo/do/vr in plaats van vr/za/zo) en had Sujata Stupa/Garh nog op de oudere grade A staan in plaats van de latere Mark-promotie naar A+ — beide hersteld.**
 Basis: `decisions/BODHGAYA_CLUSTER_CLOSURE_MARK_DECISION_2026-08-29.md`, `decisions/BODHGAYA_PILGRIMAGE_WALK_DAY_MARK_DECISION_2026-08-29.md`, `decisions/BODHGAYA_DUNGESHWARI_TO_MAHABODHI_WALK_DIRECTION_MARK_PREFERENCE_2026-09-13.md`, `decisions/BODHGAYA_SUJATA_OFFERING_SPOT_A_PLUS_STUPA_A_MARK_DECISION_2026-09-13.md`, `decisions/BODHGAYA_INTERNATIONAL_MONASTERY_BELT_MARK_DECISION_2026-09-04.md`.
 
 **Standaard dagstart ~08:30** (governance-regel, geldt voor alle clusters) — geen vaste externe reden gevonden om hier vroeger te starten, dus toegepast, ook al stelden oudere onderzoeksbestanden een vertrek om 07:15-07:30 voor. Zeg het als je toch vroeger wilt vanwege de lengte van de wandeldag.
@@ -19,18 +19,19 @@ Basis: `decisions/BODHGAYA_CLUSTER_CLOSURE_MARK_DECISION_2026-08-29.md`, `decisi
 
 | Dag | Inhoud | Karakter |
 |---|---|---|
-| Wo 1 jan | Aankomst nachttrein ~07:50, rust, eerste Mahabodhi-bezoek | Rustige aankomstdag |
-| Do 2 jan | De grote pelgrimswandeling: Dungeshwari-grotten → Sujata → Mahabodhi | Zwaarste dag, ~8 km lopen |
-| Vr 3 jan | Verdieping/herstel: kloostergordel, Great Buddha Statue, vrije Bodhi Tree-tijd | Licht, bewust rustdag-karakter |
+| Vr 1 jan | Aankomst nachttrein ~07:50, rust, eerste Mahabodhi-bezoek | Rustige aankomstdag |
+| Za 2 jan | De grote pelgrimswandeling: Dungeshwari-grotten → Sujata → Mahabodhi | Zwaarste dag, ~8 km lopen |
+| Zo 3 jan | Verdieping/herstel: kloostergordel, Great Buddha Statue, vrije Bodhi Tree-tijd | Licht, bewust rustdag-karakter |
+| Ma 4 jan | Vertrek naar Varanasi (ochtend) | — |
 
 ---
 
-## WO 1 JAN — Aankomst
+## VR 1 JAN — Aankomst
 
 **Trein 12988 Ajmer-Sealdah Superfast Express, Agra Fort 18:45 (31 dec) → Gaya Junction 07:50 (1 jan).**
 
-- 07:50-08:15: uitstappen, bagage, chauffeur ontmoeten (Google Maps ~15 min naar Maya Heritage, blok 25 min met buffer — bron: ~16 km/10,2 mijl, veel gebruikte taxiroute).
-- 08:15-09:30: inchecken (vraag naar vroege check-in/bagage-opslag na een nachttrein), opfrissen, ontbijt.
+- 07:50-08:25: uitstappen, bagage, chauffeur ontmoeten, naar Maya Heritage. **Bronnen geven hier tegenstrijdige cijfers: een veelgebruikte reisaggregator noemt ~15 min voor ~16 km/10,2 mijl, wat voor stedelijk/voorstedelijk Gaya verrassend snel is — niet als hard feit aannemen.** Blok 35 min, breder dan de aggregator suggereert; live Google Maps-check nodig vóór definitieve planning.
+- 08:25-09:30: inchecken (vraag naar vroege check-in/bagage-opslag na een nachttrein), opfrissen, ontbijt.
 
 ### Mahabodhi Temple Complex + Bodhi Tree — eerste bezoek [A+, UNESCO WH]
 
@@ -46,7 +47,7 @@ Wat te zoeken: de Bodhi-boom zelf (een directe afstammeling van de oorspronkelij
 
 ---
 
-## DO 2 JAN — De grote pelgrimswandeling: Dungeshwari → Sujata → Mahabodhi
+## ZA 2 JAN — De grote pelgrimswandeling: Dungeshwari → Sujata → Mahabodhi
 
 **Vertrek basis: 08:30** (auto/taxi, alleen nodig voor de heenrit naar Dungeshwari — de rest van de dag is lopen, met een vooraf afgesproken chauffeur die aan het eind bij Mahabodhi weer klaarstaat, niet nodig vandaag zoals in eerdere versies van dit plan, want de wandeling eindigt vanzelf bij de basis).
 
@@ -76,11 +77,11 @@ TIJD: 13:00-13:45
 
 De plek/overlevering waar Sujata Siddhartha melkrijst aanbood na zijn extreme ascetische periode — het moment dat hem terugbracht naar voeding en naar de Middenweg, vlak voor zijn bewegingen richting de Bodhi-boom. Dit is voor jou de spiritueel centrale Sujata-plek, apart van de stoepa hieronder — nooit samenvoegen tot één generiek "Sujata"-ding.
 
-### Sujata Stupa / Sujata Garh [A]
+### Sujata Stupa / Sujata Garh [A+, gepromoveerd door Mark 26 sep 2026]
 
 TIJD: 13:45-14:15
 
-De stoepa/garh-ruïne in het Sujata/Bakraur-landschap — secundair aan de offerplek in jouw eigen spirituele hiërarchie, maar een eigen A waard.
+De stoepa/garh-ruïne in het Sujata/Bakraur-landschap — secundair aan de offerplek in jouw eigen spirituele hiërarchie qua betekenis, maar sinds jouw promotie op 26 september zelf ook A+, niet slechts A.
 
 14:15-14:45: **rivieroversteek en laatste stuk naar Mahabodhi — ~1,5-2,5 km/20-30 min lopen, over/langs de Niranjana/Phalgu-rivier.** Waterstand/veiligheid van de oversteek vooraf navragen (geen bevestigde brug op deze traditionele looproute).
 
@@ -96,7 +97,7 @@ De wandeling eindigt hier vanzelf, precies waar Siddhartha's weg ook eindigde. R
 
 ---
 
-## VR 3 JAN — Verdieping en herstel
+## ZO 3 JAN — Verdieping en herstel
 
 **Vertrek basis: 08:30**, laagdrempelig — dit is bewust een lichtere dag na de wandeldag.
 
@@ -124,9 +125,9 @@ Geen programma, geen tijdsdruk. De avondsfeer bij de Bodhi-boom (kaarslicht, mon
 
 ---
 
-## VERTREK NAAR VARANASI
+## MA 4 JAN — Vertrek naar Varanasi
 
-**Voorkeur trein: 20887 Vande Bharat Express, Gaya Junction 09:55 → Varanasi Junction 13:00 (~3u05, 6 dagen/week — exacte dienstregeling/dag januari 2027 te bevestigen).** Transfer Maya Heritage → Gaya Junction: zelfde ~15 min/16 km als bij aankomst, blok 25 min met buffer voor een ochtendtrein.
+**Voorkeur trein: 20887 Vande Bharat Express, Gaya Junction 09:55 → Varanasi Junction 13:00 (~3u05, 6 dagen/week — exacte dienstregeling/dag januari 2027 te bevestigen).** Transfer Maya Heritage → Gaya Junction: zelfde route als bij aankomst — zie de kanttekening bij vrijdag over de tegenstrijdige ~15 min-claim; blok 35 min als veiliger aanname voor een ochtendtrein met harde aansluiting.
 
 ## SOURCES
 
