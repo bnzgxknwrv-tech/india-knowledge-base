@@ -143,7 +143,8 @@ If something in this file conflicts with an older file, **this file wins**, unle
 - [A]: Belur Math.
 - **Shyampukur Bati upgraded to [A*] by Mark, 2026-09-28** (own grade, no AOAY citation but strong personal Ramakrishna-lineage draw).
 - **Balaram Mandir and Nagendra Math confirmed [A+]** (not [A] as some older notes said) — see `runs/active/CCI_KOLKATA_QUARTERHOUR_PLAN_WITH_LINEAGE_LINKS_2026-09-28.md` for the 2026-09-29 correction.
-- [A*]: 50 Amherst Street, Dihika Retreat.
+- [A*]: 50 Amherst Street.
+- **DIHIKA RETREAT — DOWNGRADED TO [B], 2026-09-30.** ~200 km van Kolkata (4-5u per richting) — Mark: "uiteraard B maken 200 km is absurd." Binding decision: `decisions/DIHIKA_RETREAT_DOWNGRADE_B_MARK_DECISION_2026-09-30.md`. Niet ingepland.
 - **Serampore (day trip from Kolkata, not a separate hotel night):** Sri Yukteswar's hermitage [A+, 2h onsite with meditation], Rai Ghat sacred banyan [A+], Anandaloka/YSS Serampore Retreat [A+ if the Yogananda room is accessible, else A*]. Serampore College and the old Panthi plot = C.
 - **Open:** the J.C. Bose site — two different real buildings (Acharya Bhaban vs. Bose Institute) need to be told apart before Mark can grade either.
 
