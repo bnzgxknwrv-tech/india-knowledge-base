@@ -1,6 +1,6 @@
 # BODH GAYA / GAYA — KWARTIERPLAN (3 NACHTEN)
 
-Datum: 2026-09-30, door CCI onafhankelijk opgebouwd (WORK bouwt tegelijk een eigen versie voor vergelijking). Scope: **vr 1 - zo 3 januari 2027**, 3 nachten, aankomst per nachttrein vanuit Agra, vertrek ma 4 jan per trein naar Varanasi. **Gecorrigeerd 30 sep na WORK's review: eerste versie gebruikte verkeerde weekdagen (wo/do/vr in plaats van vr/za/zo) en had Sujata Stupa/Garh nog op de oudere grade A staan in plaats van de latere Mark-promotie naar A+ — beide hersteld.**
+Datum: 2026-10-01, door CCI opgebouwd en bijgewerkt met WORK's onafhankelijke live-Maps-metingen (sterke onderlinge overeenstemming). Scope: **vr 1 - zo 3 januari 2027**, 3 nachten, aankomst per nachttrein vanuit Agra, vertrek ma 4 jan per trein naar Varanasi.
 Basis: `decisions/BODHGAYA_CLUSTER_CLOSURE_MARK_DECISION_2026-08-29.md`, `decisions/BODHGAYA_PILGRIMAGE_WALK_DAY_MARK_DECISION_2026-08-29.md`, `decisions/BODHGAYA_DUNGESHWARI_TO_MAHABODHI_WALK_DIRECTION_MARK_PREFERENCE_2026-09-13.md`, `decisions/BODHGAYA_SUJATA_OFFERING_SPOT_A_PLUS_STUPA_A_MARK_DECISION_2026-09-13.md`, `decisions/BODHGAYA_INTERNATIONAL_MONASTERY_BELT_MARK_DECISION_2026-09-04.md`.
 
 **Standaard dagstart ~08:30** (governance-regel, geldt voor alle clusters) — geen vaste externe reden gevonden om hier vroeger te starten, dus toegepast, ook al stelden oudere onderzoeksbestanden een vertrek om 07:15-07:30 voor. Zeg het als je toch vroeger wilt vanwege de lengte van de wandeldag.
@@ -11,9 +11,8 @@ Basis: `decisions/BODHGAYA_CLUSTER_CLOSURE_MARK_DECISION_2026-08-29.md`, `decisi
 
 ## OPEN VRAGEN / ONZEKERHEDEN
 
-1. **Rivieroversteek Sujata↔Mahabodhi (Niranjana/Phalgu-rivier) — veiligheid en waterstand niet bevestigd voor januari 2027.** Meerdere bronnen noemen dit expliciet als te checken; geen brug op de traditionele looproute (een brug is in aanbouw/gepland, niet bevestigd operationeel). Ter plekke/vooraf navragen.
+1. **Rivieroversteek Sujata↔Mahabodhi — minder onzeker dan eerder gedacht.** WORK's live Google Maps-check (30 sep) vindt een herkenbare wandelroute van 1,8 km/25 min via Bakraur Village Road, zonder dat een rivierdoorwading nodig is. Toch blijft een lokale check verplicht: bij winterwater of een afgesloten voetverbinding neem je een e-rickshaw/auto in plaats van de onbevestigde "traditionele oversteek" door te zetten.
 2. **Pragbodhi/Dungeshwari-bergrug [A]: alleen beklimmen als het terrein het toelaat.** Archeologisch veldwerk meldt geen reguliere route naar de top — grade blijft A, uitvoering is voorwaardelijk, geen apart tijdsblok.
-3. **Exacte looptijd Dungeshwari→Sujata niet apart gesourced** — samengesteld uit twee losse cijfers (zie hieronder), dus een schatting, geen harde meting.
 
 ## DAGBELASTING IN ÉÉN BLIK
 
@@ -30,20 +29,30 @@ Basis: `decisions/BODHGAYA_CLUSTER_CLOSURE_MARK_DECISION_2026-08-29.md`, `decisi
 
 **Trein 12988 Ajmer-Sealdah Superfast Express, Agra Fort 18:45 (31 dec) → Gaya Junction 07:50 (1 jan).**
 
-- 07:50-08:25: uitstappen, bagage, chauffeur ontmoeten, naar Maya Heritage. **Bronnen geven hier tegenstrijdige cijfers: een veelgebruikte reisaggregator noemt ~15 min voor ~16 km/10,2 mijl, wat voor stedelijk/voorstedelijk Gaya verrassend snel is — niet als hard feit aannemen.** Blok 35 min, breder dan de aggregator suggereert; live Google Maps-check nodig vóór definitieve planning.
-- 08:25-09:30: inchecken (vraag naar vroege check-in/bagage-opslag na een nachttrein), opfrissen, ontbijt.
+- 07:50-08:05: uitstappen en bagage.
+- 08:05-09:05: chauffeur vinden en naar Maya Heritage. **Live Google Maps (WORK, 30 sep): snelste route 15,2 km/34 min via de Gaya-Bodhgaya Road** (alternatief 16,5 km/36 min) — de eerder gevonden aggregator-claim van ~15 min is hiermee verworpen. Blok 50 min, los van de eigenlijke station-/chauffeurmarge.
+- 09:05-10:00: bagage afgeven (vraag naar vroege check-in; Maya Heritage's officiële check-in is 12:00, 24-uursreceptie), ontbijt, opfrissen voor zover het hotel dit al faciliteert.
+- 10:00-10:15: lopen naar de Mahabodhi-zone.
 
 ### Mahabodhi Temple Complex + Bodhi Tree — eerste bezoek [A+, UNESCO WH]
 
-TIJD: 09:30-12:00 (2,5 uur, rustig, geen haast na de nachttrein)
+TIJD: 10:15-12:15 (2 uur, rustig, geen haast na de nachttrein)
 
-De tempel en de Bodhi-boom waar Siddhartha Gautama verlichting bereikte — het religieuze hart van het wereldboeddhisme. Dit eerste bezoek is bewust rustig en zonder programma: de kern van de hele Bodh Gaya-tijd, twee keer bezocht (nu en aan het eind van de wandeldag morgen) omdat de sfeer overdag anders is dan in de vroege ochtend of avond.
+De tempel en de Bodhi-boom waar Siddhartha Gautama verlichting bereikte — het religieuze hart van het wereldboeddhisme. Dit eerste bezoek is bewust rustig en zonder programma: de kern van de hele Bodh Gaya-tijd, drie keer bezocht in deze drie dagen, omdat de sfeer per moment van de dag duidelijk verschilt.
 
-Wat te zoeken: de Bodhi-boom zelf (een directe afstammeling van de oorspronkelijke boom), de Vajrasana (diamanten zetel) markering van de exacte verlichtingsplek, en de zeven plekken rond de tempel waar Siddhartha volgens overlevering de eerste zeven weken na zijn verlichting doorbracht.
+Wat te zoeken: de Bodhi-boom zelf (een directe afstammeling van de oorspronkelijke boom), de Vajrasana (diamanten zetel) markering van de exacte verlichtingsplek, en de zeven plekken van Siddhartha's eerste zeven weken na zijn verlichting: Animesh Lochana Chaitya (2e week, onafgebroken blik naar de boom), Ratnachankrama/Jewel Walk (3e week), Ratnaghara (4e week), de Ajapala Nigrodha-plek (5e week), Muchalinda Lake (6e week), de Rajayatana Tree-plek (7e week). **Eerlijke magnetische kanttekening:** dit zijn geen bewaarde woonkamers of persoonlijke spullen zoals bij Ramana in Tiruvannamalai — de magnetische waarde hier is een traditioneel heilig landschap van aanwezigheid en gebeurtenis, archeologisch/overleveringsgebaseerd, niet een fysiek bewaard object.
 
-12:00-13:30: lunch/rust bij de hotel.
+12:15-12:30: teruglopen naar het hotel.
 
-13:30-17:00: vrije tijd/rust — de lange reis verwerken. Optioneel: kort wandelen rond de Mahabodhi-kern of de internationale kloostergordel al even verkennen (zie vrijdag voor de volledige versie).
+12:30-15:00: officiële check-in, douche, slaap/rust na de nachttrein.
+
+15:00-15:15: terug naar de Mahabodhi-zone.
+
+15:15-17:45: tweede, stil blok bij de Bodhi Tree/zeven-wekenplaatsen — de avondsfeer verschilt duidelijk van het ochtendbezoek.
+
+17:45-18:00: terug naar het hotel.
+
+Vanaf 18:00: eten, vroege avond, geen nieuwe locatie meer.
 
 ---
 
@@ -53,11 +62,11 @@ Wat te zoeken: de Bodhi-boom zelf (een directe afstammeling van de oorspronkelij
 
 **Route, Mark's eigen voorkeur (13 sep 2026): omgekeerd aan de eerdere aanname** — niet "Mahabodhi eruit lopen, auto terug", maar taxi eerst naar het verste punt (Dungeshwari), en dan de hele dag terug lopen richting Bodh Gaya, de traditionele Boeddha-levensrichting volgend (van de ascetische periode naar de Sujata-episode naar de verlichting).
 
-08:30-09:15: **Google Maps/bekende bronnen geven tegenstrijdige cijfers voor deze rit — 30 tot 60 minuten, afhankelijk van de route (geen directe brug tussen Bodh Gaya en Dungeshwari).** Blok 45 min als redelijk gemiddelde, met marge.
+08:30-09:20: **Live Google Maps (WORK, 30 sep): beste route 21,1 km/39 min; kortere alternatieve landweg 9,9 km/28 min** — de chauffeur kiest de route die op de dag zelf echt berijdbaar is. Blok 50 min.
 
 ### Dungeshwari / Mahakala-grotten [A+]
 
-TIJD: 09:15-10:45
+TIJD: 09:20-10:50
 
 De ascetische grotten waar Siddhartha, vóór zijn verlichting, jarenlang extreme zelfkastijding beoefende — tot hij bijna stierf van uitputting, wat hem uiteindelijk naar de Middenweg leidde. Dit is de plek van de zwaarste periode van zijn zoektocht, direct voorafgaand aan de gebeurtenissen van vandaag.
 
@@ -65,35 +74,39 @@ Wat te zoeken: de grot zelf, nu een klein heiligdom; loop voorzichtig — dieren
 
 ### Pragbodhi/Dungeshwari-bergrug [A, alleen als het terrein het toelaat]
 
-TIJD: 10:45-11:30 (voorwaardelijk, geen apart tijdsblok als het niet veilig/haalbaar is)
+TIJD: 10:50-11:20 (voorwaardelijk — alleen een lokaal veilig ridge-/stupa-uitzicht, geen onbewezen topbeklimming)
 
 Oude stoepa-ruïnes op de bergrug direct boven de grot, met wijd uitzicht over de Bodh Gaya-vlakte. Xuanzang/Faxian-overlevering verbindt deze berg met Siddhartha's periode vóór de verlichting. Geen reguliere route naar de top bevestigd — alleen doen als het terrein op de dag zelf veilig en helder genoeg is.
 
-11:30-13:00: **de lange wandeling naar Sujata — totale corridor Dungeshwari-Mahabodhi ~8 km/~2 uur volgens de Gyan Yatra-pelgrimstocht van januari 2026; het laatste stuk Sujata-Mahabodhi is apart bevestigd op 1,5-2,5 km/20-30 min, dus dit eerste stuk (Dungeshwari-Sujata) is naar schatting ~5-6 km/~1,5 uur — samengesteld uit twee cijfers, geen directe meting.** Wandelschoenen, loopt door het landelijke Uruvela/Niranjana-landschap.
+11:20-13:20: **de lange wandeling naar Sujata Temple — live Google Maps (WORK, 30 sep): 7,1 km/1u38 lopen.** Blok 2 uur incl. water/korte rust. Wandelschoenen, loopt door het landelijke Uruvela/Niranjana-landschap.
 
 ### Sujata offering spot / Sujata Temple [A+]
 
-TIJD: 13:00-13:45
+TIJD: 13:20-14:00
 
-De plek/overlevering waar Sujata Siddhartha melkrijst aanbood na zijn extreme ascetische periode — het moment dat hem terugbracht naar voeding en naar de Middenweg, vlak voor zijn bewegingen richting de Bodhi-boom. Dit is voor jou de spiritueel centrale Sujata-plek, apart van de stoepa hieronder — nooit samenvoegen tot één generiek "Sujata"-ding.
+De plek/overlevering waar Sujata Siddhartha melkrijst aanbood na zijn extreme ascetische periode — het moment dat hem terugbracht naar voeding en naar de Middenweg, vlak voor zijn bewegingen richting de Bodhi-boom. De herkenningspunt-marker is specifiek "Sujata Temple, Bakraur Village" — dit is voor jou de spiritueel centrale Sujata-plek, apart van de stoepa hieronder — nooit samenvoegen tot één generiek "Sujata"-ding.
+
+14:00-14:15: lopen naar Sujata Stupa — live Google Maps: 800 m/10 min. Blok 15 min.
 
 ### Sujata Stupa / Sujata Garh [A+, gepromoveerd door Mark 26 sep 2026]
 
-TIJD: 13:45-14:15
+TIJD: 14:15-15:00
 
-De stoepa/garh-ruïne in het Sujata/Bakraur-landschap — secundair aan de offerplek in jouw eigen spirituele hiërarchie qua betekenis, maar sinds jouw promotie op 26 september zelf ook A+, niet slechts A.
+De stoepa/garh-ruïne in het Sujata/Bakraur-landschap — secundair aan de offerplek in jouw eigen spirituele hiërarchie qua betekenis, maar sinds jouw promotie op 26 september zelf ook A+, niet slechts A. Eerlijke kanttekening: bronnen verbinden de stoepa aan Sujata, maar archeologische datering bewijst niet dat dit letterlijk de exacte boomplek van de offering is — daarom blijven dit twee aparte A+-plaatsen, geen dubbele telling van één plek.
 
-14:15-14:45: **rivieroversteek en laatste stuk naar Mahabodhi — ~1,5-2,5 km/20-30 min lopen, over/langs de Niranjana/Phalgu-rivier.** Waterstand/veiligheid van de oversteek vooraf navragen (geen bevestigde brug op deze traditionele looproute).
+15:00-15:35: **lopen naar Mahabodhi via Bakraur Village Road — live Google Maps: 1,8 km/25 min**, een herkenbare wandelroute zonder dat een rivierdoorwading nodig is. Blok 35 min incl. oriëntatie. Bij winterwater/afgesloten voetverbinding: e-rickshaw/auto als alternatief, niet een onbevestigde oversteek doorzetten.
 
-### Mahabodhi Temple Complex + Bodhi Tree — tweede bezoek, einde van de wandeldag [A+]
+### Mahabodhi Temple Complex + Bodhi Tree — derde bezoek, einde van de wandeldag [A+]
 
-TIJD: 14:45-16:00
+TIJD: 15:35-17:30
 
 De wandeling eindigt hier vanzelf, precies waar Siddhartha's weg ook eindigde. Rustig zitten na een lange dag — de overgang van ascese naar verlichting, nu zelf beleefd als een wandeling door hetzelfde landschap.
 
-16:00-16:15: lopen terug naar Maya Heritage (op loopafstand).
+17:30-17:45: lopen terug naar Maya Heritage.
 
-**Eerlijke kanttekening:** dit blijft een volledige, fysiek zware dag (~8 km lopen, deels ongelijk terrein). Niet geschikt om iets anders aan toe te voegen.
+Vanaf 17:45: douche, voeten, eten — geen nieuwe stop meer.
+
+**Eerlijke kanttekening:** dit blijft een volledige, fysiek zware dag — de hele looproute samen is ongeveer 9,7 km (per-poot gemeten, niet samengesteld), deels ongelijk terrein. Niet geschikt om iets anders aan toe te voegen. Ontbijt vóór 08:30; neem water/fruit/snacks mee — er is bewust geen lunchrestaurant halverwege de route verzonnen.
 
 ---
 
@@ -103,23 +116,27 @@ De wandeling eindigt hier vanzelf, precies waar Siddhartha's weg ook eindigde. R
 
 ### Internationale kloostergordel [A]
 
-TIJD: 08:30-10:00 (basis 1,5 uur — flexibel 45-75 min volgens je eigen eerdere reactie "zeker zien")
+TIJD: 08:30-10:20 (basis ~1u45 — flexibel volgens je eigen eerdere reactie "zeker zien")
 
-Thaise, Bhutaanse, Japanse en andere internationale kloosters rond de Mahabodhi-kern, elk visueel en cultureel verschillend. Geen checklist van elk klooster — 2-3 die je aanspreken, wandelend, flexibel met de openingstijden.
+Thaise, Bhutaanse, Japanse en andere internationale kloosters rond de Mahabodhi-kern, elk visueel en cultureel verschillend. Geen checklist van elk klooster — concreet: **Wat Thai Buddhagaya** (direct tegenover Maya Heritage, geen transfer nodig), **Royal Bhutan Monastery**, en één extra klooster dat ter plekke echt open is (Indosan Nipponji of een Tibetaans vervolg). Twee à drie werkelijk open complexen tonen hoe Thailand, Bhutan, Japan en Tibet dezelfde Boeddha-traditie anders vormgeven.
 
-10:00-10:30: korte transfer/wandeling naar de Great Buddha Statue.
+10:20-10:35: lopen/e-rickshaw naar de Great Buddha Statue.
 
 ### Great Buddha Statue [A]
 
-TIJD: 10:30-11:15
+TIJD: 10:35-11:20
 
-Een groot modern zittend Boeddha-beeld nabij de Mahabodhi-zone — geen lineage-shrine, wel een herkenningspunt van de moderne boeddhistische aanwezigheid in Bodh Gaya.
+Een groot modern zittend Boeddha-beeld nabij de Mahabodhi-zone — een modern monument, geen shrine van aantoonbare persoonlijke Boeddha-aanwezigheid, dus niet zwaarder te presenteren dan het is.
 
-11:15-14:00: lunch/rust, vrije tijd.
+11:20-11:40: terug naar het hotel.
+
+11:40-14:15: lunch en echte rust, vrije tijd.
+
+14:15-14:30: lopen naar Mahabodhi.
 
 ### Mahabodhi Temple Complex + Bodhi Tree — vrije, ongestructureerde tijd [A+]
 
-TIJD: 14:00-tot je zelf wilt vertrekken (open eindblok — dit is precies de "extra diepgang/herstel/ongestructureerde Mahabodhi-tijd" die je eigen 3e-nacht-besluit van 26 sep bedoelde)
+TIJD: 14:30-tot je zelf wilt vertrekken (open eindblok — dit is precies de "extra diepgang/herstel/ongestructureerde Mahabodhi-tijd" die je eigen 3e-nacht-besluit van 26 sep bedoelde — geen nieuwigheid najagen, maar langdurige vrije tijd op de belangrijkste plek)
 
 Geen programma, geen tijdsdruk. De avondsfeer bij de Bodhi-boom (kaarslicht, monniken, stille meditatie) verschilt duidelijk van het ochtendbezoek op dag 1 en het middagbezoek op dag 2 — een derde, andere laag van dezelfde plek.
 
@@ -127,10 +144,20 @@ Geen programma, geen tijdsdruk. De avondsfeer bij de Bodhi-boom (kaarslicht, mon
 
 ## MA 4 JAN — Vertrek naar Varanasi
 
-**Voorkeur trein: 20887 Vande Bharat Express, Gaya Junction 09:55 → Varanasi Junction 13:00 (~3u05, 6 dagen/week — exacte dienstregeling/dag januari 2027 te bevestigen).** Transfer Maya Heritage → Gaya Junction: zelfde route als bij aankomst — zie de kanttekening bij vrijdag over de tegenstrijdige ~15 min-claim; blok 35 min als veiliger aanname voor een ochtendtrein met harde aansluiting.
+**Trein: 20887 Ranchi-Varanasi Vande Bharat Express, Gaya Junction aankomst 09:50/vertrek 09:55 → Varanasi Junction 13:00 (~3u05).** Rijdt volgens actuele bronnen (WORK, 30 sep) op zo/ma/wo/do/vr/za — **niet op dinsdag**, dus maandag 4 januari is een geldige dag. Klassen: CC en EC (zitplaatsen, geen slaapklasse — past bij een rit van 3 uur). Alle 2027-dienstdetails blijven LIVE_RECHECK zodra boeken mogelijk is.
+
+| Tijd | Blok |
+|---|---|
+| 06:45-07:30 | ontbijt, laatste spullen |
+| 07:30-07:45 | checkout, chauffeur staat al klaar |
+| 07:45-08:35 | Maya Heritage → Gaya Junction (live 34 min, blok 50 min) |
+| 08:35-09:55 | station-/controle-/perronbuffer (1u20 — de trein heeft maar 5 minuten halt in Gaya) |
+| 09:55-13:00 | trein 20887 naar Varanasi Junction |
 
 ## SOURCES
 
 - `governance/CURRENT_TRUTH.md` (Bodh Gaya-sectie).
 - `decisions/BODHGAYA_CLUSTER_CLOSURE_MARK_DECISION_2026-08-29.md`, `decisions/BODHGAYA_PILGRIMAGE_WALK_DAY_MARK_DECISION_2026-08-29.md`, `decisions/BODHGAYA_DUNGESHWARI_TO_MAHABODHI_WALK_DIRECTION_MARK_PREFERENCE_2026-09-13.md`, `decisions/BODHGAYA_SUJATA_OFFERING_SPOT_A_PLUS_STUPA_A_MARK_DECISION_2026-09-13.md`, `decisions/BODHGAYA_INTERNATIONAL_MONASTERY_BELT_MARK_DECISION_2026-09-04.md`, `decisions/BODHGAYA_PROTECTED_WALK_OUT_PRESENTATION_REPAIR_2026-09-13.md`, `decisions/INDIA23_31DEC_AGRA_TAJ_TRAIN12988_BODHGAYA_ARRIVAL_LOCK_MARK_DECISION_2026-09-26.md`.
-- Reistijden: Bihar-toerisme/Tripadvisor/Trawell (Dungeshwari-afstand, tegenstrijdig, 30-60 min), Rome2Rio/EaseMyTrip (Gaya Junction-Bodh Gaya ~15 min), Wikipedia/Mindtrip/Wanderlog (Sujata Stupa-Mahabodhi ~1,5-2,5 km/20-30 min), Gyan Yatra januari 2026 (~8 km totale corridor Dungeshwari-Mahabodhi).
+- Live Google Maps-routechecks (WORK, 30 sep 2026): Maya Heritage↔Gaya Junction (15,2 km/34 min), Maya Heritage→Pragbodhi Cave (21,1 km/39 min, alternatief 9,9 km/28 min), Pragbodhi Cave→Sujata Temple (7,1 km/1u38 lopen), Sujata Temple→Sujata Stupa (800 m/10 min lopen), Sujata Stupa→Mahabodhi (1,8 km/25 min lopen via Bakraur Village Road).
+- Bihar Tourism (Gaya, Dungeshwari/Mahakala Caves, Sujata Stupa), Gaya District officiële places-of-interest-pagina, UNESCO-nominatiedossier Mahabodhi Temple Complex, Google Hotels (Maya Heritage check-in 12:00).
+- Trein 20887: actuele dienstregelingsbronnen, 30 sep 2026 — LIVE_RECHECK bij boeken.
