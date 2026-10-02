@@ -1,0 +1,35 @@
+task_id: INDIA5-VNS-DISCOVERY-SATURATION-004
+protocol_version: "1.1.0"
+issued_by: INDIA2
+issued_at: "2026-08-03T20:35:00Z"
+target_branch: claude/werk-je-nu-of-niet-oa10y7
+expected_head: "def2411c7245dcc625bc8763091dc36a6ac4befe"
+task_file: TASK.md
+task_file_sha256: "828213960c0cb1ffddef4ea4f8ef958d16318bbb158b21a2fae2a8c8bbb25858"
+scope: REGION_FULL_FLOW
+required_inputs:
+  - india5/tasks/done/INDIA5-VNS-DISCOVERY-COVERAGE-003/RESULT.md
+  - runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/PRE_BRONS/
+  - runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/DATASET_VARANASI_40.jsonl
+allowed_reads:
+  - india4/
+  - india5/
+  - runs/
+allowed_writes:
+  - runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/PRE_BRONS/
+  - runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/NUMBERING_REGISTRY.jsonl
+  - india5/tasks/queue/INDIA5-VNS-DISCOVERY-SATURATION-004/
+  - india5/tasks/active/INDIA5-VNS-DISCOVERY-SATURATION-004/
+  - india5/tasks/done/INDIA5-VNS-DISCOVERY-SATURATION-004/
+  - india5/tasks/failed/INDIA5-VNS-DISCOVERY-SATURATION-004/
+forbidden_writes:
+  - runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/RUN.yaml
+  - runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/DATASET_VARANASI_40.jsonl
+  - runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ACCOMMODATION_REGISTER.jsonl
+  - runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/GOUD/REGIONAL/USER/
+  - runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/BRONS/
+  - runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/ZILVER/
+expected_outputs:
+  - india5/tasks/done/INDIA5-VNS-DISCOVERY-SATURATION-004/RESULT.md
+status: QUEUED
+completion_marker: "INDIA5-TASK-COMPLETE::INDIA5-VNS-DISCOVERY-SATURATION-004"
