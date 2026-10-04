@@ -80,6 +80,13 @@ geldt en dag 2 nodig is. Houd dus voorlopig **dag 2** aan als veilige planning, 
 dezelfde dag" als optimistisch achtervangmoment — 08:15 IST NIET meer gebruiken totdat WORK dit met
 een bron van ná 5 januari 2026 weerlegt.
 
+## MIJLPAAL 2026-10-06 — VIERDE TREIN GEBOEKT: GAYA (Gaya Jn.) 09:55 → BSB (Varanasi Jn.) 13:00 — trein 20887
+
+**PNR: NOG TOE TE VOEGEN.** "VANDE BHARAT EXP", maandag 4 jan 2027, Exec. Chair Car (EC), Window
+Side, Veg maaltijdvoorkeur, Foreign Tourist quota. Betaald: **€25,27**. Dit was de trein die eerder
+expliciet boven een privéauto gekozen werd (`DL-0090`). Status vermoedelijk `FBKG/0`, recheck na
+5 november 2026 (normale ARP-opening).
+
 ## MIJLPAAL 2026-10-06 — DERDE TREIN GEBOEKT: AF (Agra Fort) 18:45 → GAYA (Gaya Jn.) 07:50 — trein 12988
 
 **PNR: NOG TOE TE VOEGEN** (Mark nog opgeven). "AII SDAH SF EXP" (Ajmer–Sealdah SF Express),
