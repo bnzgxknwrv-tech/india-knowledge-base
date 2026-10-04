@@ -30,7 +30,8 @@ Flagged by INDIA25/WORK, 2026-10-05 (PR #23 comment 5979473618), independently v
 **PROGRESS 2026-10-06 — online form submitted, three items still open before sending/appointment** (PR #23 comment 5981692016):
 - Online application (indianvisaonline.gov.in, J/JTV category) filled in and submitted. Uploaded: passport page; the self-declaration (used for both the "Journalist visa undertaking" slot and, reused, the "Employer's letter" slot, since no employer exists to issue a separate one); the certified KvK extract (English) as "Proof of applicant being journalist."
 - **Press card: dropped from the question list entirely, Mark's own call.** He has no press card (works as a studio cameraman, not field press, reasonably has no press credential) and the form itself marks this item optional — nothing to ask or justify, just leave it blank.
-- **Still open, bundled into one email to send next:** (a) whether confirmed flight tickets (AI156/AI155) can be added to the optional "Confirmed To and Fro travel tickets" slot — depends on whether they are booked yet; (b) whether Mark can attend his appointment at **VFS Amsterdam** instead of travelling to the Embassy in The Hague — per the embassy's own checklist, the mandatory Hague-PIC-first route only explicitly applies to documentary/commercial filming, restricted-area visits, or stays over 3 months, none of which apply here, but this is not stated with full certainty for the general case and should be confirmed, not assumed.
+- **Flights confirmed booked (e-ticket, booking ref 8GLX4Y) — upload the e-ticket PDF to the "Confirmed To and Fro travel tickets" slot (#9) on the visa form**, no longer a dependency.
+- **Still open, one real question left for the email:** whether Mark can attend his appointment at **VFS Amsterdam** instead of travelling to the Embassy in The Hague — per the embassy's own checklist, the mandatory Hague-PIC-first route only explicitly applies to documentary/commercial filming, restricted-area visits, or stays over 3 months, none of which apply here, but this is not stated with full certainty for the general case and should be confirmed, not assumed.
 - **Still needed before the physical submission/appointment:** a new, current passport photo (5x5cm, light/white background, no glasses, neutral expression) replacing the 2011 photo used in the online form — both the digital upload and a physical print for the paper form.
 
 ## WHAT THIS FILE IS
@@ -48,7 +49,7 @@ If something in this file conflicts with an older file, **this file wins**, unle
 - Exactly 33 India nights: 19 Dec – 20 Jan.
 - Exactly one final Delhi hotel night, 20 Jan, right before the return flight.
 - Train preferred where practical (target 1st AC); flight only for real time savings; private car in the mountains; no long-distance bus.
-- No trip bookings made yet. Some research/access contacts already exist, including Turiya Niwas host Harshit Karki.
+- **International flights BOOKED AND CONFIRMED (e-ticket seen 2026-10-06):** AI156 AMS→DEL departs 18 Dec 2026 20:35, arrives 19 Dec 2026 10:15; AI155 DEL→AMS departs 21 Jan 2027 12:20, arrives 18:35. Booking reference 8GLX4Y, issued 8 Jul 2026, status OK on both segments — exactly matches all planning assumptions used throughout this document, no discrepancy. No other trip bookings made yet. Some research/access contacts already exist, including Turiya Niwas host Harshit Karki.
 
 ## THE 33-NIGHT SKELETON (locked structure; exact train/flight times still to reconfirm closer to the date)
 
