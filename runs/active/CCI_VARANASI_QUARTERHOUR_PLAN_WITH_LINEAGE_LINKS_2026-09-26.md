@@ -24,7 +24,7 @@ Mark's directe klacht: kaarten waren niet meer dan een Indiase naam, een kloktij
 | Wo 6 jan | 08:45 | ~16:00–16:45 | MIDDEN — Vishwanath/Annapurna terug, complete Oud-Kashi/Lahiri-dag |
 | Do 7 jan | 06:15 | ~13:30, later oké | ZWAAR maar korter — boot rechtstreeks naar Manikarnika-zone, geen Panchganga-omweg meer |
 | Vr 8 jan | 08:30 | ~14:05–14:35 | VOLWAARDIG maar beheersbaar — Duniya → Tailanga/Panchganga → Kedar, ruime rust vóór nachttrein |
-| Za 9 jan | 00:00 (gecorrigeerd van 00:10) | — | Nachttrein 22324, boekingsklaar |
+| Vr 8 jan avond | ~20:30 (VEROUDERD, herzien nodig) | — | **GEWIJZIGD 2026-10-06: trein 13042 vertrek 21:05 vrijdagavond, niet 22324 zaterdag 01:30 — hele vrijdag-dagindeling moet opnieuw, zie vlag verderop** |
 
 **HERBOUWD 28-9-2026 (WORK end-to-end reconciliatie, gelockt door Mark):** dit is de volledige, doorgerekende Maandag-t/m-Zaterdag-planning, gebouwd nadat losse dag-voor-dag aanpassingen tegenstrijdigheden opleverden (Assi Ghat impliciet weggevallen, Wo/Vr-balans, Ratneshwar per ongeluk ingekort, 00:10-stationsbuffer te krap). Alle reistijden zijn echt onderzocht (modaliteit + minuten), niet geschat. Bron: `runs/active/WORK_VARANASI_FULL_STAY_ARRIVAL_TO_TRAIN_RESULT_2026-09-28.md` en `runs/active/WORK_VARANASI_TUE_FRI_TRAVEL_OPTIMIZATION_RESULT_2026-09-28.md` (branch `worker/varanasi-tue-fri-travel-optimization-work`).
 
@@ -636,7 +636,23 @@ TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: ~35-65 min.
 
 ---
 
-## ZA 9 JAN — Vertrek naar Kolkata: trein 22324 Shabd Bhedi Express
+## VERVALLEN 2026-10-06 — TREINWIJZIGING MAAKT DEZE HELE SECTIE VERTREKLOGISTIEK VEROUDERD
+
+**Trein 22324 (zaterdag 9 jan 01:30 vertrek) is niet geboekt.** Geboekt is in plaats daarvan
+**trein 13042 "Himgiri Express", PNR 2845156738: Varanasi Jn (BSB) vertrek VRIJDAG 8 jan 21:05**
+(niet zaterdag 01:30!), aankomst Howrah (HWH, niet Kolkata Chitpur/KOAA) zaterdag 9 jan 11:30, 1A.
+Zie `governance/CURRENT_TRUTH.md` (Kolkata-sectie, DELTA 2026-10-06) en
+`governance/TREINEN_BOEKINGSOVERZICHT_NU_LATER_2026-10-06.md` voor de volledige onderbouwing.
+
+**Gevolg — de hele onderstaande sectie (auto om 00:00, aankomst BSB rond 00:40, vertrek 01:30) is
+VEROUDERD en moet herzien worden, niet alleen de treinnaam.** Een vertrek om 21:05 vrijdagAVOND
+i.p.v. 01:30 zaterdagNACHT betekent dat de volledige dagindeling van vrijdag 8 januari (Duniya
+Foundation school → Tailanga/Panchganga → Kedar, met "ruime rust vóór nachttrein" aan het einde)
+**opnieuw moet worden doorgerekend** — er is geen tijd meer voor een late avond vóór vertrek, het
+vertrek valt nu midden in wat eerst avondrust was. Dit is een apart, nog niet opgeloste taak, niet
+in deze toch al complexe multi-boekingssessie meegenomen. **Open item, nog te doen.**
+
+## ARCHIEF (verouderd, zie bovenstaande vlag) — ZA 9 JAN — Vertrek naar Kolkata: trein 22324 Shabd Bhedi Express
 
 **GECORRIGEERD 28-9-2026 (WORK-analyse):** de auto vertrekt nu om **00:00**, niet 00:10. Bij de bekende rijtijd-range van 16-40 min zou een vertrek om 00:10 in het slechtste geval (40 min rit) aankomst om 00:50 betekenen — dan blijft maar 40 minuten over vóór het vertrek van 01:30, niet de eerder aangenomen 45-50 minuten. Met 00:00 blijft er in dat slechtste geval minimaal 50 minuten over, zonder terug te vallen op de oude, te ruime 1u45-aanname.
 
@@ -724,7 +740,7 @@ Mark's vraag ("is de Lonely Planet-laag wel goed uitgevoerd?") bleek terecht: `g
 ## OPEN ITEMS
 
 0. **⚠️ URGENT — CONTROLEER OF JE HOTEL EN DE BLUE LASSI SHOP NOG BESTAAN.** Bij het opzoeken van adressen (zie hieronder) bleek dat zowel **Sahi River View Guest House** als **Blue Lassi Shop** op Justdial als "Closed Down" gemarkeerd staan, terwijl Booking.com/Tripadvisor beide nog als actief tonen (109+ recente Booking.com-reviews voor het hotel; Blue Lassi is wereldberoemd en wordt elders nog actief besproken). Vermoedelijk een verouderde Justdial-vermelding, maar dit is je slaapbasis voor alle vijf nachten — bevestig de boeking rechtstreeks (bel/mail) vóórdat je verder plant, dit is niet iets om op te laten aankomen.
-1. **BOEKING TREIN 22324 — actie voor Mark, deadline 9 november 2026 08:00 IST** (gewone boekingstermijn) of nu al via Foreign Tourist Quota. Zie ZA 9 JAN hierboven.
+1. ~~BOEKING TREIN 22324~~ — **vervallen, niet geboekt.** In plaats daarvan geboekt: trein 13042, PNR 2845156738, vrijdag 8 jan 21:05 (niet zaterdag 01:30) — zie de VERVALLEN-vlag hierboven. **Open vervolgitem: vrijdag 8 januari's dagindeling moet herzien worden voor het vervroegde vertrek.**
 2. Alamgir Mosque/Dharahara — geen vast tijdslot, niet Mark-bevestigd.
 3. Bhrigu Karyalaya-afspraak: rechtstreeks contact met Acharya Hemant K. Bhadury nodig vóór vertrek.
 4. Lahiri Mahasaya-huis en Satyalok: hoeveel tijd wil je hier zijn? Nog jouw keuze, planningsbasis is nu 1 uur respectievelijk 60 minuten.

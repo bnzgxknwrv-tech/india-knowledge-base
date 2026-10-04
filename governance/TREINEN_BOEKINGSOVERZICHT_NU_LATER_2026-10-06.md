@@ -1,222 +1,121 @@
-## ALLE ZES TREINEN GEBOEKT 2026-10-06 — VOLLEDIG AFGEROND
+# TREINEN — ALLE ZES GEBOEKT, GECONTROLEERD TEGEN GMAIL-BEVESTIGINGEN (WORK-audit 2026-10-06)
 
-| # | Traject | Trein | Datum | PNR | Klasse | Betaald |
-|---|---|---|---|---|---|---|
-| 1 | DLI → KGM | 15013 Ranikhet Express | 19/20 dec 2026 | 2960524646 | 1A/Coupe | ₹1.991 |
-| 2 | KGM → GZB | 15036 Uttarakhand Sampark Kranti | 29 dec 2026 | 1000282893 | CC/Window | ₹841 |
-| 3 | AF → GAYA | 12988 Ajmer–Sealdah SF Express | 31 dec/1 jan | *(PNR nog op te geven)* | 1A/Coupe | €45,86 |
-| 4 | GAYA → BSB | 20887 Vande Bharat Exp | 4 jan 2027 | 6610669522 | EC/Window/Veg | ₹2.436 |
-| 5 | BSB → HWH | 13042 Himgiri Express | 8/9 jan 2027 | 2845156738 | 1A/Coupe | ₹4.176 |
-| 6 | TNM → PER | 22604 VM KGP SF Exp | 19 jan 2027 | 4345948370 | 2A/Lower | ₹1.341 |
+**Status: VOLLEDIG AFGEROND.** Alle zes treinbenen zijn geboekt en betaald via Mark's eigen
+IRCTC-account (Foreign Tourist Ticket Booking). WORK heeft alle zes officiële
+"Booking Confirmation"-mails van `ticketadmin@irctc.co.in` gecontroleerd (SPF/DKIM/DMARC geslaagd,
+geen cancellation/refund/TDR-mail gevonden) en de canon hieronder is daarop gecorrigeerd.
 
-Alle zes staan op `Booking Status FBKG/0` — dit is normaal voor Foreign Tourist-boekingen gemaakt
-vóór de normale ARP-opening (zie uitleg hieronder per trein). **Terugkom-actie: check elke PNR
-opnieuw ná de bijbehorende ARP-datum** om te bevestigen dat er een echte, toegewezen plek is (niet
-alleen een geaccepteerde aanvraag).
+## Geverifieerde boekingsstaat (bron: IRCTC-bevestigingsmails, niet schattingen)
 
-**Trein 13042's echte beginstation is Jammu Tawi (JAT), niet Varanasi** — vertrek 22:45, rijdt alleen
-op **maandag/donderdag/zondag**, 3 dagen onderweg naar Howrah. Voor Mark's instap bij Varanasi op
-vrijdag 8 jan 2027 moet de trein dus **donderdag 7 januari 2027** uit Jammu Tawi vertrokken zijn (de
-enige geldige rijdag die daarbij past). ARP = 60 dagen vóór 7 jan 2027 = **zondag 8 november 2026**
-(eigen berekening, nog niet apart door WORK/IRCTC geverifieerd zoals de andere vijf — wel consistent
-met de eerdere 22324-schatting van 9 nov, nu 1 dag eerder omdat het beginstation anders is).
+| # | Trein | Traject | Vertrek → aankomst | Klasse | PNR | Ticket | Fee | **IRCTC-totaal** |
+|---|---|---|---|---|---|---:|---:|---:|
+| 1 | 15013 RANIKHET EXP | DLI → KGM | 19 dec 22:05 → 20 dec 05:05 | 1A | 2960524646 | ₹1.755 | ₹236 | **₹1.991** |
+| 2 | 15036 UTR SMPRK K EXP | KGM → GZB | 29 dec 08:40 → 29 dec 14:39 | CC | 1000282893 | ₹605 | ₹236 | **₹841** |
+| 3 | 12988 AII SDAH SF EXP | AF → GAYA | 31 dec 18:45 → 1 jan 07:50 | 1A | **2526376901** | ₹4.185 | ₹236 | **₹4.421** |
+| 4 | 20887 VANDE BHARAT EXP | GAYA → BSB | 4 jan 09:55 → 4 jan 13:00 | EC, VEG | 6610669522 | ₹2.200 | ₹236 | **₹2.436** |
+| 5 | 13042 HIMGIRI EXPRESS | BSB → HWH | 8 jan 21:05 → 9 jan 11:30 | 1A | 2845156738 | ₹3.940 | ₹236 | **₹4.176** |
+| 6 | 22604 VM KGP SF EXP | TNM → PER | 19 jan 12:00 → 19 jan 15:40 | 2A | 4345948370 | ₹1.105 | ₹236 | **₹1.341** |
 
-ARP-data: 15013 → 20 okt, 12988 → 1 nov, **13042 → 8 nov (nieuw berekend, zie boven)**, 20887 → 5
-nov, 22604 → 20 nov, 15036 → 29 nov 2026.
+**Som: ticketfares ₹13.790 + convenience fees ₹1.416 = ₹15.206**, exclusief eventuele
+betaalgateway-/kaartconversiekosten (die apart op Mark's kaartafschrift staan, bijv. €45,86 i.p.v.
+₹4.421 bij trein 12988 — dat eurobedrag is een aanvulling, geen vervanging van het IRCTC-bedrag).
 
-# TREINEN — COMPLEET BOEKINGSOVERZICHT: WAT NU, WAT LATER
+## Belangrijke correctie — stoel/coach is NOG NIET toegewezen
 
-Status 2026-10-06. Alle data IRCTC-officieel bevestigd (`DL-0088`, `DL-0089`) of Mark-besloten
-(`DL-0090`). Dit is het ene overzicht — geen los document meer nodig per trein.
+**"1A/Coupe", "CC/Window", "EC/Window", "2A/Lower" zijn geboekte VOORKEUREN, geen toegewezen
+plaatsen.** In alle zes bevestigingsmails staat coach leeg en Seat/Berth/WL No. op `0`. Dit was eerder
+in dit bestand onjuist samengevat als "alle zes FBKG/0" — dat klopt niet precies: **alleen de mail
+van trein 15036 toont letterlijk de status `FBKG`**; bij de andere vijf is het statusveld in de
+bevestigingsmail leeg. Correcte formulering: zes geldige boekingsbevestigingen met PNR; coach en
+plaats nog niet toegewezen; recheck elke PNR na de bijbehorende ARP-datum (tabel onderaan) via
+IRCTC → PNR Status om te zien of coach/plaats inmiddels is toegewezen.
 
-**STATUS 2026-10-06 (WORK-antwoord op comment 5982657289, comment 5982773069):** systeemopening is
-voor alle zes treinen **08:00 IST** (General Quota). WORK stelde eerst "08:15 IST praktisch" (na
-een 15-minuten-Aadhaar-blok), maar CCI vond hierop een bronbotsing (comment 5982799281, **nog
-onbeantwoord**): de Aadhaar-only-regel is sinds 12 januari 2026 verlengd naar de **HELE eerste
-ARP-dag** (08:00-24:00 IST), niet alleen de eerste 15 minuten — vier onafhankelijke bronnen
-(newsonair.gov.in, india.com, angelone.in, oneindia.com) bevestigen deze opeenvolgende verlenging.
-Als dat klopt, kan Mark op **geen van de zes dagen** via de normale General-route boeken, de hele
-dag niet — zijn optie wordt dan Foreign Tourist Ticket Booking proberen (live-check-only, geen
-garantie) en/of wachten tot **dag 2** van elk ARP-venster. **Tabel hieronder toont beide
-mogelijkheden tot WORK reageert — NIET als definitief beschouwen.**
+**22604 eindpunt is exact Perambur (PER), niet Chennai Central (MAS)** — na aankomst zelf vervoer
+regelen naar waar je in Chennai moet zijn.
 
-Daarnaast: **Foreign Tourist Quota heeft geen publieke, treinspecifieke plaatslijst** — "FTQ bestaat
-voor trein X" mag niet meer beweerd worden zonder een live, ingelogde IRCTC-check per trein/klasse.
+**22324 is nergens geboekt** en hoeft niet geannuleerd te worden — alleen hieronder bewaard als
+superseded historische kandidaat, niet meer als actieve optie.
 
-## NU TE DOEN
+## Trein 13042 in plaats van 22324 — WORK: AKKOORD (comment 5984379334)
 
-### 1. Trein 15013/15014 "Ranikhet Express"
-- **Van:** JSM = Jaisalmer (Rajasthan) — vertrek za 19 dec 2026, 02:40 (jij stapt hier niet in).
-- **Jij stapt in:** DLI = Old Delhi / Delhi Junction — za 19 dec 2026, aankomst 21:50, vertrek 22:05.
-- **Jij stapt uit:** KGM = Kathgodam (Uttarakhand) — zo 20 dec 2026, 05:05.
-- **Normale balie-venster (General Reservation) opent:** di 20 okt 2026. **MAAR:** sinds 12 jan 2026
-  vereist IRCTC op de hele eerste ARP-dag een Aadhaar-geauthenticeerd account — dat heb jij niet.
-- **ACTIE NU:** probeer een boeking via **Foreign Tourist Quota (FTQ)** — met paspoort, nu al
-  boekbaar tot 365 dagen vooruit, onafhankelijk van de 20-okt-balie. Dit is de enige trein waar nu al
-  iets te doen is.
+Mark vond 13042 "Himgiri Express" zelf tijdens live zoeken voor de Varanasi→Kolkata-verbinding en
+koos hem bewust boven de eerder met WORK afgestemde 22324:
 
-## LATER TE DOEN — OP EXACTE DATUM, NIET EERDER
+- vertrek **8 jan 21:05** i.p.v. 22324's **9 jan 01:30** — 4u25 eerder, geen nachtelijke stationsgang;
+- aankomst **9 jan 11:30** i.p.v. 22324's **13:05** — 1u35 eerder;
+- **1A beschikbaar** (22324 bood max 2A);
+- volledige ononderbroken nachtrust i.p.v. een nacht die om 01:30 onderbroken wordt.
 
-| # | Boekingsdatum | Trein | Volledige naam | Van (code = volledige naam) | Jij stapt in | Jij stapt uit | Reisdatum + tijd | Rijdagen | Klasse |
-|---|---|---|---|---|---|---|---|---|---|
-| 2 | **29-11-2026** | 15036 | Uttarakhand Sampark Kranti Express | KGM = Kathgodam | KGM, 08:40 | GZB = Ghaziabad Junctie, 14:39/14:41 | di 29 dec 2026 | dagelijks | — |
-| 3 | **01-11-2026** | 12988 | Ajmer–Sealdah SF Express | AII = Ajmer Junctie (vertrek 12:50) | AF = Agra Fort, 18:40/18:45 | GAYA = Gaya Junctie, 07:50/07:55 (1 jan) | do 31 dec 2026 → vr 1 jan 2027 | dagelijks | 1A voorkeur |
-| 4 | **05-11-2026** | 20887 | Ranchi–Varanasi Vande Bharat Express | RNC = Ranchi Junctie (vertrek 05:10) | GAYA = Gaya Junctie, 09:55 | BSB = Varanasi Junctie, 13:00 | ma 4 jan 2027 | ma, wo-zo (rustdag di) | CC/EC (zitplaats) — **LOCKED BY MARK over privéauto** |
-| 5 | **09-11-2026** | 22324 | Shabd Bhedi Express | GCT = Ghazipur City (vertrek vr 8 jan 22:20) | BSB = Varanasi Junctie, 01:20/01:30 (za 9 jan) | KOAA = Kolkata Chitpur, 13:05 | vr 8 jan → za 9 jan 2027 | **alleen vrijdag** (vanaf GCT) | 2A (1A niet beschikbaar) |
-| 6 | **20-11-2026** | 22604 | Villupuram–Kharagpur Superfast Express | VM = Villupuram Junctie (vertrek 11:05) | TNM = Tiruvannamalai, 11:58/12:00 | **PER = Perambur** (Chennai), 15:40/15:45 — **géén Chennai Central/MAS** | di 19 jan 2027 | **alleen dinsdag** | SL/3A/2A |
+Nuance (WORK): 13042 is als treinrit niet sneller (14u25 tegenover ~11u35 bij 22324), maar gebruikt
+de nacht veel menselijker — consistent met de bestaande regel "optimaliseer bruikbare menselijke
+tijd, niet gepubliceerde reissnelheid" (`governance/MARK_TRAVEL_PREFERENCES_CURRENT.md` §10). **Enig
+logistiek nadeel: aankomst Howrah (HWH) i.p.v. Kolkata Chitpur (KOAA)**, vermoedelijk 10-20 min
+verder van het geplande YSS/Garpar-gebied (geen hard bevestigd cijfer) — dit moet exact worden
+doorgerekend zodra er een Kolkata-hotel gekozen wordt, niet geschat. Trein 13042's echte beginstation
+is overigens **Jammu Tawi (JAT)**, niet Varanasi — vertrek 22:45, rijdt alleen ma/do/zo; voor Mark's
+instap vrijdag 8 jan moet de trein donderdag 7 jan uit Jammu Tawi vertrokken zijn, wat de ARP-datum
+(zie tabel) op 8 nov 2026 brengt (eigen berekening, niet apart door WORK/IRCTC bronbevestigd zoals de
+andere vijf).
 
-## EXACT BOEKINGSMOMENT — NOG VOORLOPIG, BRONBOTSING OPENSTAAND
+## Resterende actie — PNR/plaats-status rechecken na ARP-datum
 
-| Trein | ARP dag 1 (IST) | Systeemopening | NL-tijd dag 1 | **Mogelijk geblokkeerd voor Mark de HELE dag 1** (Aadhaar, onbevestigd) | Fallback: dag 2 (IST) |
-|---|---|---|---|---|---|
-| 15013 | di 20-10-2026 | 08:00 IST | 04:45 CEST (NL nog zomertijd) | tot 24:00 IST die dag | wo 21-10-2026 |
-| 15036 | zo 29-11-2026 | 08:00 IST | 03:45 CET | tot 24:00 IST die dag | ma 30-11-2026 |
-| 12988 | zo 01-11-2026 | 08:00 IST | 03:45 CET | tot 24:00 IST die dag | ma 02-11-2026 |
-| 20887 | do 05-11-2026 | 08:00 IST | 03:45 CET | tot 24:00 IST die dag | vr 06-11-2026 |
-| 22324 | ma 09-11-2026 | 08:00 IST | 03:45 CET | tot 24:00 IST die dag | di 10-11-2026 |
-| 22604 | vr 20-11-2026 | 08:00 IST | 03:45 CET | tot 24:00 IST die dag | za 21-11-2026 |
+| Trein | ARP-datum (normale venster opent) |
+|---|---|
+| 15013 | 20-10-2026 |
+| 12988 | 01-11-2026 |
+| 13042 | 08-11-2026 (eigen berekening, zie boven) |
+| 20887 | 05-11-2026 |
+| 22604 | 20-11-2026 |
+| 15036 | 29-11-2026 |
 
-**Let op de tijdzone-valkuil:** 15013's datum (20 okt 2026) valt nog vóór de Nederlandse
-klokomzetting (25 okt 2026) — dus die ene datum is **CEST** (UTC+2), alle andere vijf zijn **CET**
-(UTC+1). Daardoor is 15013 se NL-tijd 04:45 i.p.v. 03:45 bij de rest, ook al is het IST-uur gelijk.
+Check na elke datum de bijbehorende PNR via IRCTC → PNR Status om te bevestigen dat coach/plaats
+inmiddels is toegewezen. Dit is het enige nog openstaande actiepunt voor de treinen — alle zes
+transacties zelf zijn al afgerond.
 
-**Zodra WORK de bronbotsing bevestigt of weerlegt**, wordt de kolom "Mogelijk geblokkeerd" definitief
-JA/NEE en verdwijnt de dag-2-fallback als die niet nodig blijkt. Tot dan: ga ervan uit dat de normale
-IRCTC-site op dag 1 voor jou als niet-Aadhaar-gebruiker misschien de HELE dag niet werkt, probeer
-sowieso eerst de Foreign Tourist Ticket Booking-route (Services → Foreign Tourist Ticket Booking,
-internationaal mobiel nummer + OTP, paspoortnummer, internationale kaart) voor elke trein, en houd
-dag 2 als zekere achtervang in de agenda.
+---
 
-## DE REGEL IS GEEN EENMALIGE 15-MINUTENREGEL — DRIE OPEENVOLGENDE VERLENGINGEN (bronnen:
-deshgujarat.com, india.com, railrecipe.com, newsonair.gov.in; PR #23 comment 5982836109)
+## ARCHIEF — historische achtergrond, niet meer actueel als actiepunt
 
-WORK's bron (PIB PRID=2166889) is de aankondiging van de ALLERoudste versie. Sindsdien, in fases:
+De secties hieronder beschrijven het proces vóórdat alle zes boekingen rond waren (tijdzone/Aadhaar-
+onderzoek, de kapotte IRCTC-registratiepagina, de Firefox-fix). Bewaard voor context en omdat de
+Aadhaar-regelgeschiedenis mogelijk weer relevant wordt bij toekomstige boekingen (bijv. wijzigingen),
+maar er is geen "nu/later"-actie meer nodig op de zes hierboven genoemde treinen.
 
-| Fase | Vanaf | Aadhaar-only venster | Niet-Aadhaar (Mark) kan boeken |
+### Aadhaar-regelgeschiedenis (nog relevant mocht een boeking ooit opnieuw moeten)
+
+De normale General Quota-opening werd sinds september 2025 in drie fases steeds verder beperkt tot
+Aadhaar-geauthenticeerde accounts (bronnen: deshgujarat.com, india.com, railrecipe.com,
+newsonair.gov.in; PR #23 comment 5982836109):
+
+| Fase | Vanaf | Aadhaar-only venster | Niet-Aadhaar kan boeken |
 |---|---|---|---|
 | Origineel | ±sept/okt 2025 | 08:00-08:15 IST | vanaf 08:15 IST, zelfde dag |
 | Fase 1 | 29-12-2025 | 08:00-12:00 IST | vanaf 12:00 IST, zelfde dag |
 | Fase 2 | 05-01-2026 | 08:00-16:00 IST | vanaf 16:00 IST, zelfde dag |
-| Fase 3 | 12-01-2026 | 08:00-24:00 IST (HELE dag) | **niet die dag — pas dag 2** |
+| Fase 3 | 12-01-2026 | 08:00-24:00 IST (HELE dag) | niet die dag — pas dag 2 |
 
-Al onze zes boekingsdata (okt-nov 2026) liggen ver na fase 3. **Zelfs in het meest gunstige geval
-(als fase 3 toch niet beklijfd zou zijn) is 08:15 IST te optimistisch — het realistische vroegste
-moment is dan 16:00 IST diezelfde dag (fase 2), niet 's ochtends.** Waarschijnlijker is dat fase 3
-geldt en dag 2 nodig is. Houd dus voorlopig **dag 2** aan als veilige planning, met "16:00 IST
-dezelfde dag" als optimistisch achtervangmoment — 08:15 IST NIET meer gebruiken totdat WORK dit met
-een bron van ná 5 januari 2026 weerlegt.
+Dit bleek in de praktijk geen blokkade voor Mark: alle zes boekingen zijn probleemloos gelukt via de
+**Foreign Tourist Ticket Booking**-route, die buiten deze Aadhaar-beperking om werkt.
 
-## MIJLPAAL 2026-10-06 — VIJFDE TREIN GEBOEKT: BSB (Varanasi Jn.) 21:05 → HWH (Howrah) 11:30 — trein 13042 (VERVANGT 22324)
+### IRCTC-registratiepagina was kapot — opgelost via Firefox
 
-**PNR 2845156738.** "HIMGIRI EXPRESS", vrijdag 8 jan 2027 → zaterdag 9 jan 2027, AC First Class
-(1A), Coupe, Foreign Tourist quota. Betaald: ₹3.940 + ₹236 = **₹4.176 totaal** (≈€38,49).
+Mark kreeg bij het betalen van de Rs.100+GST internationale-registratiefee herhaaldelijk "Unable to
+process payment request" via Razorpay/Plural/PayU, in zowel Chrome als Safari, zonder dat er ooit een
+bankscherm verscheen — een bekend, breed gemeld IRCTC-bug op precies deze pagina (bevestigd via een
+IndiaMike-forumdraad van 41+ pagina's over exact dit probleem). **De oplossing was simpelweg Firefox
+gebruiken** — eerste poging direct geslaagd met Razorpay. Dit was een browser-specifiek
+cookie/scriptconflict, geen kaart- of bankprobleem. Reservekanalen bij een vergelijkbaar probleem in
+de toekomst: ConfirmTkt (onderdeel van ixigo) of 12Go.asia — beide boeken op hetzelfde IRCTC-backend
+en accepteren internationale kaarten probleemloos, tegen een kleine commissie.
 
-**Waarom niet 22324 (het eerder vastgelegde plan)?** Mark vond 13042 zelf tijdens het zoeken en koos
-'m bewust: 21:05 vertrek (normale avond) i.p.v. 22324's 01:30 (midden in de nacht), **1A beschikbaar**
-(22324 max 2A), 1,5u eerdere aankomst, en een volledige ononderbroken nachtrust in plaats van een
-onderbroken nacht. Enige nadeel: aankomst in **Howrah (HWH)**, niet Kolkata Chitpur (KOAA) —
-vermoedelijk 10-20 min verder van het geplande YSS/Garpar-gebied, geen exacte bevestiging gevonden.
-Mark's afweging: comfort/volledige nachtrust weegt zwaarder dan dat beperkte extra stuk rijden. Zie
-volledige onderbouwing in `governance/CURRENT_TRUTH.md` (DELTA 2026-10-06, Kolkata-sectie).
-**22324 is NIET geboekt** (nooit betaald, geen annulering nodig).
+### IRCTC-account-registratie — referentie
 
-## MIJLPAAL 2026-10-06 — VIERDE TREIN GEBOEKT: GAYA (Gaya Jn.) 09:55 → BSB (Varanasi Jn.) 13:00 — trein 20887
+Account compleet: geregistreerd, fee betaald, e-mail + mobiel geverifieerd, profiel ingevuld volgens
+IRCTC's eigen officiële voorbeeld (Pin code = willekeurig 6-cijferig getal, State = "Netherlands",
+City/Town = echte woonplaats, Post Office = woonplaats/wijk nogmaals).
 
-**PNR 6610669522.** "VANDE BHARAT EXP", maandag 4 jan 2027, Exec. Chair Car (EC), Window
-Side, Veg maaltijdvoorkeur, Foreign Tourist quota. Betaald: **€25,27**. Dit was de trein die eerder
-expliciet boven een privéauto gekozen werd (`DL-0090`). Status vermoedelijk `FBKG/0`, recheck na
-5 november 2026 (normale ARP-opening).
+## Apart, nog in behandeling — niet treinen
 
-## MIJLPAAL 2026-10-06 — DERDE TREIN GEBOEKT: AF (Agra Fort) 18:45 → GAYA (Gaya Jn.) 07:50 — trein 12988
-
-**PNR: NOG TOE TE VOEGEN** (Mark nog opgeven). "AII SDAH SF EXP" (Ajmer–Sealdah SF Express),
-donderdag 31 dec 2026 → vrijdag 1 jan 2027, AF (Agra Fort) 18:45 → GAYA (Gaya Jn.) 07:50, AC First
-Class (1A), Coupe, Foreign Tourist quota. Betaald: €45,86 (iets hoger dan de ₹4.421-schatting door
-wisselkoers/kaartconversie op betaalmoment) — redelijk voor een nachtrit van 13u05 in een eigen
-afsluitbare coupé. Status vermoedelijk `FBKG/0`, recheck na 1 november 2026 (normale ARP-opening).
-
-## MIJLPAAL 2026-10-06 — TWEEDE TREIN GEBOEKT: KGM (Kathgodam) 08:40 → GZB (Ghaziabad Jn.) 14:39 — trein 15036
-
-**PNR 1000282893.** "UTR SMPRK K EXP" (Uttarakhand Sampark Kranti Express), dinsdag 29 dec 2026,
-KGM (Kathgodam) 08:40 → GZB (Ghaziabad Jn.) 14:39, AC Chair car (CC), Window Side, Foreign Tourist
-quota. Betaald: ₹605 ticket + ₹236 Convenience Fee = **₹841 totaal** (≈€7,75), Razorpay, transactie
-100006891820184. Status `FBKG/0` — zelfde als trein 15013, recheck na de normale ARP-opening voor
-deze trein (**29 november 2026**) om een echt toegewezen plek te bevestigen.
-
-**Let op bij deze boeking gecorrigeerd tijdens het invullen:** het "NRI"-dropdownveld stond eerst
-verkeerd op "NRI" in plaats van de juiste nationaliteit "Netherlands" — gecorrigeerd vóór betalen.
-Check dit veld bij elke volgende boeking expliciet, dit is kennelijk geen vaste default.
-
-## MIJLPAAL 2026-10-06 — EERSTE TREIN GEBOEKT: 15013 RANIKHET EXPRESS
-
-**PNR 2960524646.** 19 dec 2026 22:05 Delhi Jn. → 20 dec 2026 05:05 Kathgodam, AC First Class (1A),
-Coupe, Foreign Tourist quota. Betaald: ₹1.755 ticket + ₹236 Convenience Fee (incl. GST) = **₹1.991
-totaal** (≈€18,35), via Razorpay/Firefox, transactie 100006891820142.
-
-**Let op — status nog niet definitief "bevestigd met toegewezen bed":** scherm toont
-`Booking Status: FBKG/0` en `Current Status: /0` — consistent met WORK's eerdere uitleg dat een
-FTQ-aanvraag buiten de normale ARP pas een echt toegewezen bed krijgt zodra de normale ARP opent
-(voor deze trein: 20 oktober 2026). **Actie: check de PNR-status opnieuw na 20 oktober 2026**
-(IRCTC → PNR Status, PNR 2960524646) om te bevestigen dat dit een echte toegewezen plek is
-geworden, niet alleen een geaccepteerde aanvraag.
-
-## MIJLPAAL 2026-10-06 — IRCTC-ACCOUNT VOLLEDIG ACTIEF
-
-Mark's IRCTC-account is compleet: geregistreerd, Rs.100+GST-fee betaald (via Firefox/Razorpay),
-e-mail + mobiel geverifieerd, profiel (geboortedatum, adres, geslacht) ingevuld volgens IRCTC's
-eigen officiële voorbeeld (Pin code = willekeurig 6-cijferig getal, State = "Netherlands",
-City/Town = echte woonplaats, Post Office = woonplaats/wijk nogmaals). **"Your user profile is
-complete now"** bevestigd. Account is nu klaar om te gebruiken voor Foreign Tourist Ticket Booking.
-
-**Eerstvolgende actie (kan NU al, voor alle zes treinen):** inloggen → Services → Foreign Tourist
-Ticket Booking → per trein proberen of er live plek getoond wordt. Alleen wat daar levend
-verschijnt telt als bewijs dat FTQ voor die trein/klasse werkt (zie WORK's punt 2 hierboven — geen
-publieke garantielijst bestaat). Voor de normale General-Quota-boekingen op de eerder berekende
-data blijft de Aadhaar-onzekerheid (zie hierboven) nog openstaan bij WORK.
-
-## OPGELOST 2026-10-06 — DE ECHTE FIX WAS GEWOON: GEBRUIK FIREFOX
-
-Na alle onderstaande problemen (Razorpay/Plural/PayU faalden in zowel Chrome als Safari) lukte de
-Rs.100+GST-registratiebetaling meteen bij de eerste poging in **Firefox**, met Razorpay als eerste
-optie. Dit was dus een browser-specifiek cookie/script-conflict met de Razorpay-betaalwidget in
-Chrome/Safari, geen probleem met Mark's kaart, bank, of met Razorpay's internationale-kaartsupport
-zelf. **Voor elke volgende IRCTC-betaling (de echte treintickets later): probeer Firefox eerst**,
-vóórdat je tijd verliest aan Chrome/Safari-foutmeldingen of overstapt naar ConfirmTkt/12Go.asia.
-
-## PRAKTISCHE ERVARING 2026-10-06 — IRCTC's eigen internationale-registratiepagina is KAPOT (ARCHIEF, inmiddels opgelost via Firefox, zie hierboven)
-
-Mark probeerde de Rs. 100+GST internationale-registratiefee te betalen via alle drie aangeboden
-gateways (Razorpay, Plural, PayU), in zowel Chrome als Safari — telkens meteen "Unable to process
-payment request", zonder dat er ooit een bankscherm/3D-Secure-stap verscheen. Dit wijst op een fout
-vóór de bank wordt bereikt, dus bij IRCTC/de gateway-integratie zelf, niet bij Mark's kaart of bank.
-Dit is een **breed gemeld, bekend probleem** voor buitenlandse gebruikers op precies deze pagina.
-
-**Bevestigd via forumonderzoek (IndiaMike, 41+ pagina's dedicated draad):** Razorpay wordt expliciet
-gemeld als niet goed werkend voor internationale kaarten op IRCTC (alleen Indiase kaarten komen er
-betrouwbaar doorheen) — verklaart mogelijk specifiek de Razorpay-fout. Eén forumgebruiker zat exact
-in dezelfde situatie (lege pagina na kaartgegevens op de Rs.100-registratiepagina), probeerde een
-week lang, IRCTC-support reageerde nooit — community-oplossing daar: **een agent laten regelen**.
-Andere forumleden kregen hun buitenlandse kaart wel werkend via "Citibank Gateway 2" of HDFC/Axis
-Bank-gateways, maar dat zijn opties op het HOOFDbetaalscherm bij echte ticketaankoop, niet op deze
-kapotte registratiepagina.
-
-**Werkende omweg (niet verder proberen op IRCTC's eigen registratiepagina):** gebruik **ConfirmTkt**
-(onderdeel van ixigo) of **12Go.asia** — beide boeken op hetzelfde IRCTC-backend/dezelfde treinen,
-accepteren internationale kaarten probleemloos, en rekenen een kleine commissie. Dit omzeilt IRCTC's
-kapotte eigen registratiepagina volledig; een eigen geverifieerd IRCTC-account is dan niet eens nodig.
-
-## Praktisch bij elke LATER-boeking
-
-- Als je op de exacte boekingsdatum zelf tegen een Aadhaar-blokkade aanloopt (zoals bij 15013):
-  probeer Foreign Tourist Quota, of boek een dag later — dat laatste is niet bevestigd maar wel
-  aannemelijk, navragen op het moment zelf.
-- Bij trein 22604: na aankomst in **Perambur** moet je zelf vervoer regelen naar waar je in Chennai
-  moet zijn — dit station is niet Chennai Central.
-- Algemene nog openstaande keuzes per boeking: General Quota vs. Foreign Tourist Quota, wat te doen
-  bij RAC/wachtlijst, passagiersgegevens exact per paspoort.
-
-## Apart, niet op deze lijst — nog in behandeling
-
-De twee binnenlandse **vluchten** (Kolkata→Chennai 15 jan, Chennai→Delhi 20 jan) lopen via een
-eigen, nog lopend CCI/WORK-consensustraject (`runs/active/BINNENLANDSE_VLUCHTEN_STARTVRAAG_2026-10-06.md`)
-en hebben geen vaste ARP-datum zoals treinen — die komen apart terug.
+De twee binnenlandse **vluchten** (Kolkata→Chennai 15 jan, Chennai→Delhi 20 jan) lopen via een eigen,
+nog lopend CCI/WORK-consensustraject (`runs/active/BINNENLANDSE_VLUCHTEN_STARTVRAAG_2026-10-06.md`)
+en hebben geen ARP-systeem zoals treinen — die komen apart terug.
