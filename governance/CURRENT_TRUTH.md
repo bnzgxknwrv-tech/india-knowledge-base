@@ -27,6 +27,11 @@ Flagged by INDIA25/WORK, 2026-10-05 (PR #23 comment 5979473618), independently v
 2. A recent KvK (Dutch Chamber of Commerce) extract for his own business.
 3. **One narrow, targeted question to the embassy/VFS — not "which visa" (that's settled as J) but:** does this self-declaration + KvK extract adequately substitute for the employer letter and Dutch company registration documents for a self-employed applicant with no employer, and is a press card or Indian-side company registration additionally required?
 
+**PROGRESS 2026-10-06 — online form submitted, three items still open before sending/appointment** (PR #23 comment 5981692016):
+- Online application (indianvisaonline.gov.in, J/JTV category) filled in and submitted. Uploaded: passport page; the self-declaration (used for both the "Journalist visa undertaking" slot and, reused, the "Employer's letter" slot, since no employer exists to issue a separate one); the certified KvK extract (English) as "Proof of applicant being journalist."
+- **Still open, bundled into one email to send next:** (a) whether a press card is needed/exists — not yet answered; (b) whether confirmed flight tickets (AI156/AI155) can be added to the optional "Confirmed To and Fro travel tickets" slot — depends on whether they are booked yet; (c) whether Mark can attend his appointment at **VFS Amsterdam** instead of travelling to the Embassy in The Hague — per the embassy's own checklist, the mandatory Hague-PIC-first route only explicitly applies to documentary/commercial filming, restricted-area visits, or stays over 3 months, none of which apply here, but this is not stated with full certainty for the general case and should be confirmed, not assumed.
+- **Still needed before the physical submission/appointment:** a new, current passport photo (5x5cm, light/white background, no glasses, neutral expression) replacing the 2011 photo used in the online form — both the digital upload and a physical print for the paper form.
+
 ## WHAT THIS FILE IS
 
 One compact, plain-language, per-day/per-region view of what's actually decided for the trip. No protocol jargon, no nonces, no boot procedures.
