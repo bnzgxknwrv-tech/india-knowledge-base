@@ -80,7 +80,16 @@ geldt en dag 2 nodig is. Houd dus voorlopig **dag 2** aan als veilige planning, 
 dezelfde dag" als optimistisch achtervangmoment — 08:15 IST NIET meer gebruiken totdat WORK dit met
 een bron van ná 5 januari 2026 weerlegt.
 
-## PRAKTISCHE ERVARING 2026-10-06 — IRCTC's eigen internationale-registratiepagina is KAPOT
+## OPGELOST 2026-10-06 — DE ECHTE FIX WAS GEWOON: GEBRUIK FIREFOX
+
+Na alle onderstaande problemen (Razorpay/Plural/PayU faalden in zowel Chrome als Safari) lukte de
+Rs.100+GST-registratiebetaling meteen bij de eerste poging in **Firefox**, met Razorpay als eerste
+optie. Dit was dus een browser-specifiek cookie/script-conflict met de Razorpay-betaalwidget in
+Chrome/Safari, geen probleem met Mark's kaart, bank, of met Razorpay's internationale-kaartsupport
+zelf. **Voor elke volgende IRCTC-betaling (de echte treintickets later): probeer Firefox eerst**,
+vóórdat je tijd verliest aan Chrome/Safari-foutmeldingen of overstapt naar ConfirmTkt/12Go.asia.
+
+## PRAKTISCHE ERVARING 2026-10-06 — IRCTC's eigen internationale-registratiepagina is KAPOT (ARCHIEF, inmiddels opgelost via Firefox, zie hierboven)
 
 Mark probeerde de Rs. 100+GST internationale-registratiefee te betalen via alle drie aangeboden
 gateways (Razorpay, Plural, PayU), in zowel Chrome als Safari — telkens meteen "Unable to process
