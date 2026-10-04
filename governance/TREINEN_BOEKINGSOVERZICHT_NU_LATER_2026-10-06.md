@@ -80,6 +80,14 @@ geldt en dag 2 nodig is. Houd dus voorlopig **dag 2** aan als veilige planning, 
 dezelfde dag" als optimistisch achtervangmoment — 08:15 IST NIET meer gebruiken totdat WORK dit met
 een bron van ná 5 januari 2026 weerlegt.
 
+## MIJLPAAL 2026-10-06 — DERDE TREIN GEBOEKT: AF (Agra Fort) 18:45 → GAYA (Gaya Jn.) 07:50 — trein 12988
+
+**PNR: NOG TOE TE VOEGEN** (Mark nog opgeven). "AII SDAH SF EXP" (Ajmer–Sealdah SF Express),
+donderdag 31 dec 2026 → vrijdag 1 jan 2027, AF (Agra Fort) 18:45 → GAYA (Gaya Jn.) 07:50, AC First
+Class (1A), Coupe, Foreign Tourist quota. Betaald: €45,86 (iets hoger dan de ₹4.421-schatting door
+wisselkoers/kaartconversie op betaalmoment) — redelijk voor een nachtrit van 13u05 in een eigen
+afsluitbare coupé. Status vermoedelijk `FBKG/0`, recheck na 1 november 2026 (normale ARP-opening).
+
 ## MIJLPAAL 2026-10-06 — TWEEDE TREIN GEBOEKT: KGM (Kathgodam) 08:40 → GZB (Ghaziabad Jn.) 14:39 — trein 15036
 
 **PNR 1000282893.** "UTR SMPRK K EXP" (Uttarakhand Sampark Kranti Express), dinsdag 29 dec 2026,
