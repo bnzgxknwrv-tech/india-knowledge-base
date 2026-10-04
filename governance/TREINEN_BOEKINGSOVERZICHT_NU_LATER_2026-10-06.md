@@ -80,6 +80,20 @@ geldt en dag 2 nodig is. Houd dus voorlopig **dag 2** aan als veilige planning, 
 dezelfde dag" als optimistisch achtervangmoment — 08:15 IST NIET meer gebruiken totdat WORK dit met
 een bron van ná 5 januari 2026 weerlegt.
 
+## MIJLPAAL 2026-10-06 — IRCTC-ACCOUNT VOLLEDIG ACTIEF
+
+Mark's IRCTC-account is compleet: geregistreerd, Rs.100+GST-fee betaald (via Firefox/Razorpay),
+e-mail + mobiel geverifieerd, profiel (geboortedatum, adres, geslacht) ingevuld volgens IRCTC's
+eigen officiële voorbeeld (Pin code = willekeurig 6-cijferig getal, State = "Netherlands",
+City/Town = echte woonplaats, Post Office = woonplaats/wijk nogmaals). **"Your user profile is
+complete now"** bevestigd. Account is nu klaar om te gebruiken voor Foreign Tourist Ticket Booking.
+
+**Eerstvolgende actie (kan NU al, voor alle zes treinen):** inloggen → Services → Foreign Tourist
+Ticket Booking → per trein proberen of er live plek getoond wordt. Alleen wat daar levend
+verschijnt telt als bewijs dat FTQ voor die trein/klasse werkt (zie WORK's punt 2 hierboven — geen
+publieke garantielijst bestaat). Voor de normale General-Quota-boekingen op de eerder berekende
+data blijft de Aadhaar-onzekerheid (zie hierboven) nog openstaan bij WORK.
+
 ## OPGELOST 2026-10-06 — DE ECHTE FIX WAS GEWOON: GEBRUIK FIREFOX
 
 Na alle onderstaande problemen (Razorpay/Plural/PayU faalden in zowel Chrome als Safari) lukte de
