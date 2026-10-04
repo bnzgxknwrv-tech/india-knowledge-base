@@ -1,43 +1,48 @@
-# STARTVRAAG — EXACT OPENINGSUUR (IST) EN FOREIGN TOURIST QUOTA PER TREIN
+# STARTVRAAG — HOE, WANNEER EN OP WELK EXACT UUR MOET IK ELKE TREIN BOEKEN
 
 Plak alles vanaf de volgende regel in een AI-sessie met IRCTC-toegang (WORK, of een gratis AI met
-live webtoegang). Dit is een eenvoudige, feitelijke vraag — geen planningskeuze, geen afweging.
+live webtoegang). Dit is een eenvoudige, feitelijke vraag per trein — geen planningskeuze.
 
 ---
 
-Ik heb vier Indiase treinen waarvan ik al de **boekingsDATUM** weet (60 dagen vóór vertrek vanaf het
-beginstation). Ik wil nu voor elke trein apart twee simpele, losse feiten weten. Geef per trein een
-kort, apart antwoordblok — niet alles in één alinea samenvoegen.
+Ik heb zes Indiase treinen geboekt gepland en wil van **elke trein apart** drie simpele, losse
+feiten weten. Geef per trein een kort, eigen antwoordblok met daarin apart A, B en C als losse
+zinnen — voeg niets samen in één alinea.
 
-## Trein 1: 15036, boekingsdatum 29 november 2026
+**Vraag A — WANNEER (exacte datum):** Op welke exacte kalenderdatum gaat de boeking open voor deze
+specifieke reis? (Bevestig de datum, neem niets zomaar over.)
 
-**Vraag A:** Op welk exact UUR (in IST, Indiase tijd) gaat op 29 november 2026 de boeking open voor
-een reis op 29 december 2026? Is dat 08:00, is dat middernacht (00:00), of een ander uur? Zeg
-"NIET GEVONDEN" als je het niet zeker weet.
+**Vraag B — EXACT UUR (IST):** Op welk exact UUR, in IST (Indiase tijd), gaat de boeking op die
+datum open? Is dat 08:00, middernacht (00:00), of een ander uur? Zeg "NIET GEVONDEN" als je het niet
+zeker weet — verzin geen uur.
 
-**Vraag B:** Bestaat er voor trein 15036 een **Foreign Tourist Quota (FTQ)** — de speciale regeling
-voor buitenlandse paspoorthouders waarmee je tot 365 dagen vooruit kunt boeken, los van de normale
-60-dagen-regel? Ja of nee? Zo ja, hoe werkt die concreet voor deze trein?
+**Vraag C — HOE (methode):** Hoe moet ik deze trein concreet boeken? Via de normale IRCTC-website
+met gewoon account (General Quota), via **Foreign Tourist Quota (FTQ)** — de regeling voor
+buitenlandse paspoorthouders waarmee je tot 365 dagen vooruit kunt boeken, los van de normale
+30/60-dagenregel — via een IRCTC-loket/reisbureau, of iets anders? Bestaat FTQ voor déze trein
+(ja/nee), en zo ja, is dat dan ook de aanbevolen manier, of is de normale IRCTC-website beter?
 
-## Trein 2: 12988, boekingsdatum 1 november 2026
+## De zes treinen
 
-Zelfde twee vragen (A: exact openingsuur in IST op 1 november 2026 voor een reis op 31 december
-2026; B: bestaat Foreign Tourist Quota voor deze trein, ja/nee, hoe werkt het).
-
-## Trein 3: 20887, boekingsdatum 5 november 2026
-
-Zelfde twee vragen (A: exact openingsuur in IST op 5 november 2026 voor een reis op 4 januari 2027;
-B: bestaat Foreign Tourist Quota voor deze trein, ja/nee, hoe werkt het).
-
-## Trein 4: 22604, boekingsdatum 20 november 2026
-
-Zelfde twee vragen (A: exact openingsuur in IST op 20 november 2026 voor een reis op 19 januari
-2027; B: bestaat Foreign Tourist Quota voor deze trein, ja/nee, hoe werkt het).
+1. **15013/15014 Ranikhet Express** — reis 19/20 december 2026 (Jaisalmer → Old Delhi/DLI →
+   Kathgodam/KGM, ik stap in bij DLI). Eerder onderzoek zei: normale venster 20 okt 2026, maar
+   vereist Aadhaar-account dat ik niet heb; FTQ zou hier de oplossing zijn — bevestig dit opnieuw,
+   neem het niet zomaar over.
+2. **15036 Uttarakhand Sampark Kranti Express** — reis 29 december 2026 (Kathgodam/KGM →
+   Ghaziabad/GZB). Eerder onderzoek: boekingsdatum 29 november 2026, 30 dagen ARP.
+3. **12988 Ajmer–Sealdah SF Express** — reis 31 december 2026/1 januari 2027 (Agra Fort/AF →
+   Gaya/GAYA). Eerder onderzoek: boekingsdatum 1 november 2026, 60 dagen ARP.
+4. **20887 Ranchi–Varanasi Vande Bharat Express** — reis 4 januari 2027 (Gaya/GAYA →
+   Varanasi Jn/BSB). Eerder onderzoek: boekingsdatum 5 november 2026, 60 dagen ARP.
+5. **22324 Shabd Bhedi Express** — reis 8/9 januari 2027 (Varanasi Jn/BSB → Kolkata Chitpur/KOAA).
+   Eerder onderzoek: boekingsdatum 9 november 2026, 08:00 IST — bevestig dit exacte uur opnieuw.
+6. **22604 Villupuram–Kharagpur Superfast Express** — reis 19 januari 2027
+   (Tiruvannamalai/TNM → Perambur/PER). Eerder onderzoek: boekingsdatum 20 november 2026, 60 dagen
+   ARP.
 
 ## Belangrijk
 
-- Verzin geen uur en verzin geen antwoord op de FTQ-vraag — zeg letterlijk "NIET GEVONDEN" of
-  "ONZEKER" als je het niet met een bron kunt staven.
-- Ik reken de IST-tijd zelf om naar Nederlandse tijd — jij hoeft dat niet te doen, geef me gewoon
-  het IST-uur.
-- Eén kort blok per trein (1 t/m 4), met daarin apart "A:" en "B:" als twee losse zinnen.
+- Verzin geen uur, geen datum en geen antwoord op de FTQ-vraag — zeg letterlijk "NIET GEVONDEN" of
+  "ONZEKER" waar je het niet met een bron kunt staven.
+- Ik reken de IST-tijd zelf om naar Nederlandse tijd — geef gewoon het IST-uur, niet omrekenen.
+- Eén kort blok per trein (1 t/m 6), met daarin apart "A:", "B:" en "C:" als losse zinnen.
