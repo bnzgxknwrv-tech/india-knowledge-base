@@ -80,6 +80,20 @@ geldt en dag 2 nodig is. Houd dus voorlopig **dag 2** aan als veilige planning, 
 dezelfde dag" als optimistisch achtervangmoment — 08:15 IST NIET meer gebruiken totdat WORK dit met
 een bron van ná 5 januari 2026 weerlegt.
 
+## MIJLPAAL 2026-10-06 — VIJFDE TREIN GEBOEKT: BSB (Varanasi Jn.) 21:05 → HWH (Howrah) 11:30 — trein 13042 (VERVANGT 22324)
+
+**PNR 2845156738.** "HIMGIRI EXPRESS", vrijdag 8 jan 2027 → zaterdag 9 jan 2027, AC First Class
+(1A), Coupe, Foreign Tourist quota. Betaald: ₹3.940 + ₹236 = **₹4.176 totaal** (≈€38,49).
+
+**Waarom niet 22324 (het eerder vastgelegde plan)?** Mark vond 13042 zelf tijdens het zoeken en koos
+'m bewust: 21:05 vertrek (normale avond) i.p.v. 22324's 01:30 (midden in de nacht), **1A beschikbaar**
+(22324 max 2A), 1,5u eerdere aankomst, en een volledige ononderbroken nachtrust in plaats van een
+onderbroken nacht. Enige nadeel: aankomst in **Howrah (HWH)**, niet Kolkata Chitpur (KOAA) —
+vermoedelijk 10-20 min verder van het geplande YSS/Garpar-gebied, geen exacte bevestiging gevonden.
+Mark's afweging: comfort/volledige nachtrust weegt zwaarder dan dat beperkte extra stuk rijden. Zie
+volledige onderbouwing in `governance/CURRENT_TRUTH.md` (DELTA 2026-10-06, Kolkata-sectie).
+**22324 is NIET geboekt** (nooit betaald, geen annulering nodig).
+
 ## MIJLPAAL 2026-10-06 — VIERDE TREIN GEBOEKT: GAYA (Gaya Jn.) 09:55 → BSB (Varanasi Jn.) 13:00 — trein 20887
 
 **PNR 6610669522.** "VANDE BHARAT EXP", maandag 4 jan 2027, Exec. Chair Car (EC), Window
