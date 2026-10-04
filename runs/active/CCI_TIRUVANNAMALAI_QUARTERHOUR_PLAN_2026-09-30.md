@@ -14,11 +14,11 @@ Basis: `runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TIRUVANNAMALAI_MARK_DEC
 WORK deed onafhankelijk onderzoek specifiek naar jouw "echte shrine/bewaarde kamer/reliek"-criterium en vond twee sterke, nog niet gegradeerde kandidaten, allebei binnen 3-9 minuten lopen van Sri Ramanasramam:
 
 - **Sri Seshadri Swamigal Ashram** (220 m/3 min lopen) — samadhi-plek van de heilige die de jonge Ramana beschermde toen hij wekenlang in de Patala Lingam van de grote tempel in samadhi zat. Directe Ramana-connectie, maar geen bevestigde inventaris van bewaarde persoonlijke voorwerpen. Eerlijke invoegkost: ~45-60 min, gaat af van za 14:00-15:25 of ma 14:30-16:45 ashram-tijd.
-- **Yogi Ramsuratkumar hoofdashram + Sannidhi Street-huis + Sudama-huis** (650 m/9 min, 240 m/3 min lopen) — een samadhi-shrine plus twee echte woonhuizen waar hij respectievelijk 1977-1993 en vanaf 1993 leefde en darshan gaf, met zijn eigen bewaarde spullen (jute-zak-bed, waterpot, kleding) nog omschreven als aanwezig, dagelijks open voor darshan. Dit past zeer sterk bij je eigen criterium. **Eerlijke invoegkost (WORK): het hele cluster serieus bezoeken kost 2,5-3 uur, niet "gratis" omdat het dichtbij ligt** — dit vervangt dan een groot deel van een ashram-hersteldag.
+- ~~**Yogi Ramsuratkumar hoofdashram + Sannidhi Street-huis + Sudama-huis**~~ — **MARK DECISION 2026-10-05: [A+], provisioneel, nu ingepland** (zie zaterdag 16 jan hieronder). Samadhi-shrine plus twee echte woonhuizen waar hij respectievelijk 1977-1993 en vanaf 1993 leefde en darshan gaf, met zijn eigen bewaarde spullen (jute-zak-bed, waterpot, kleding) nog omschreven als aanwezig, dagelijks open voor darshan.
 - **Ayyankulam-tank** — waar Ramana bij aankomst in Tiruvannamalai zijn snoep achterliet en zijn haarafscheiding plaatsvond; een echte eerste-aankomstplek, maar de persoonlijke shrine-/objectwaarde is zwakker bevestigd dan de andere drie. Invoegkost: 30-45 min als toevoeging bij de tempel/Gurumurtam-cluster.
 - **Premalaya/Shanthimalai Handicrafts** (160 m/2 min lopen) — sociale vrouwen-ambachtscoöperatie sinds 1989. Geen Ramana-shrine, puur menselijke textuur/LP-laag. Invoegkost: 30-45 min, alleen uit vrije tijd, nooit uit A/A+-tijd.
 
-**Geen van de vier is in dit plan ingepland** — ze zijn ongegradeerd, dus volgens de eigen regel van dit project niet vooraf in te plannen. Als je ze wilt zien: ze liggen zo dichtbij (binnen 10 minuten lopen van de ashram) dat ze zonder noemenswaardige extra reistijd passen, zodra je ze een grade geeft — al is vooral het Yogi Ramsuratkumar-cluster qua tijd niet gratis.
+**Yogi Ramsuratkumar-cluster is nu [A+] en ingepland (zaterdag 16 jan, zie hieronder).** De overige drie (Seshadri Swamigal, Ayyankulam-tank, Premalaya) zijn nog ongegradeerd en dus nog niet ingepland — ze liggen zo dichtbij (binnen 10 minuten lopen van de ashram) dat ze zonder noemenswaardige extra reistijd passen zodra je ze een grade geeft.
 
 ## OPEN VRAGEN / ONZEKERHEDEN
 
@@ -31,7 +31,7 @@ WORK deed onafhankelijk onderzoek specifiek naar jouw "echte shrine/bewaarde kam
 | Dag | Inhoud | Karakter |
 |---|---|---|
 | Vr 15 jan | Aankomst via Chennai + weg (Pongal) | Zware reisdag, geen programma |
-| Za 16 jan | Arunachaleswarar-tempel + Gurumurtam + Pavalakunru, lange ashram-middag/avond | Vol, maar verdeeld over dag en avond |
+| Za 16 jan | Arunachaleswarar-tempel + Gurumurtam + Yogi Ramsuratkumar-cluster + Pavalakunru | **Volste dag van de vier** — weinig echte rust meer over |
 | Zo 17 jan | Skandashram + Virupaksha Cave-bergpelgrimage + The Dreaming Tree | Fysiek, korte maar stevige klim |
 | Ma 18 jan | Volledige 14 km Giripradakshina/Girivalam + herstel | Langste wandeldag van de hele reis |
 | Di 19 jan | Vertrek richting Chennai-bufferdag (buiten de 4 Tiruvannamalai-nachten) | Zie onder |
@@ -82,11 +82,21 @@ Ramana Maharshi's hoofdashram aan de voet van Arunachala. Paramahansa Yogananda 
 
 Concreet, per WORK's onderzoek (30 sep): **Bhagavan Samadhi Hall** (Ramana's eigen samadhi-schrijn); **Mother's Shrine** (boven Alagammal's samadhi, de Sri Chakra erin door Ramana zelf geconsacreerd); **Old Hall** (1928, waar Ramana tot 1949 woonde en darshan gaf — zijn eigen bank/couch staat er nog); **Nirvana Room** (de exacte kamer waar hij op 14 april 1950 stierf, persoonlijke voorwerpen bewaard); **New Hall** (stenen Ramana-beeld vóór de stenen couch van zijn laatste maanden). Dit is dus precies je eigen "foto/bloemen/reliek/bewaarde kamer"-type plek, niet alleen een institutioneel terrein. Fotograferen is binnen niet toegestaan.
 
-11:30: lunch (als gast geregistreerd) of buiten de ashram.
+11:30-12:00: lunch (als gast geregistreerd) of buiten de ashram.
 
-12:00-14:00: echte rust in de kamer/lezen — de hoofdschrijn heeft toch een middagsluiting.
+12:00-12:15: verplaatsing naar het Yogi Ramsuratkumar-cluster (~650 m/9 min lopen).
 
-14:00-16:00: rustig terug naar de hallen/het terrein, meditatie.
+### Yogi Ramsuratkumar-cluster — hoofdashram + Sannidhi Street-huis + Sudama-huis [A+, MARK DECISION 2026-10-05, provisioneel]
+
+TIJD: 12:15-14:45 (2,5 uur)
+
+Samadhi-shrine plus twee echte woonhuizen waar deze 20e-eeuwse heilige met grote westerse volgelingenkring respectievelijk 1977-1993 en vanaf 1993 leefde en darshan gaf. Eigen bewaarde spullen (jute-zak-bed, waterpot, kleding) nog aanwezig beschreven. Dagelijks open voor darshan, geen vaste openingstijd-beperking zoals bij de Vrindavan-plekken.
+
+**Eerlijke consequentie, niet verzacht:** dit vervangt het grootste deel van de geplande "echte rust in de kamer"-tijd van deze ochtend-zware dag — van 4 uur onstructureerde ashram-rust/meditatie naar 2,5 uur Ramsuratkumar-bezoek + 1 uur korte rust. Zaterdag wordt daarmee een volle dag, niet langer de rustigste van de vier.
+
+14:45-15:00: verplaatsing terug naar de ashram-zone.
+
+15:00-16:00: korte rust/douche vóór Pavalakunru.
 
 16:00-16:15: verplaatsing naar Pavalakunru (Google Maps ~10-15 min, blok 20 min).
 
