@@ -49,13 +49,13 @@ If something in this file conflicts with an older file, **this file wins**, unle
 - Exactly 33 India nights: 19 Dec – 20 Jan.
 - Exactly one final Delhi hotel night, 20 Jan, right before the return flight.
 - Train preferred where practical (target 1st AC); flight only for real time savings; private car in the mountains; no long-distance bus.
-- **International flights BOOKED AND CONFIRMED (e-ticket seen 2026-10-06):** AI156 AMS→DEL departs 18 Dec 2026 20:35, arrives 19 Dec 2026 10:15; AI155 DEL→AMS departs 21 Jan 2027 12:20, arrives 18:35. Booking reference 8GLX4Y, issued 8 Jul 2026, status OK on both segments — exactly matches all planning assumptions used throughout this document, no discrepancy. No other trip bookings made yet. Some research/access contacts already exist, including Turiya Niwas host Harshit Karki.
+- **International flights BOOKED AND CONFIRMED (e-ticket seen 2026-10-06):** AI156 AMS→DEL departs 18 Dec 2026 20:35, arrives 19 Dec 2026 10:15; AI155 DEL→AMS departs 21 Jan 2027 12:20, arrives 18:35. Booking reference 8GLX4Y, issued 8 Jul 2026, status OK on both segments — exactly matches all planning assumptions used throughout this document, no discrepancy. **First train booked 2026-10-06:** 15013 Ranikhet Express (19/20 Dec, PNR 2960524646) — see 33-night skeleton row 1 and `governance/TREINEN_BOEKINGSOVERZICHT_NU_LATER_2026-10-06.md`. The other five train legs are not yet booked (booking dates 1/5/9/20/29 Nov 2026). Some research/access contacts already exist, including Turiya Niwas host Harshit Karki.
 
 ## THE 33-NIGHT SKELETON (locked structure; exact train/flight times still to reconfirm closer to the date)
 
 | # | Date | Where | Note |
 |---:|---|---|---|
-| 1 | Sat 19 Dec | train to Kathgodam | after AI156 arrival; **Hotel New Frontier remains the locked Day-1 Delhi base before the night train**; **train 15013 Ranikhet Express, confirmed 2026-10-06 (multi-free-AI cross-check): Old Delhi/DLI depart 22:05 (origin Jaisalmer 02:40) → Kathgodam arrive 05:05 (20 Dec); book via Foreign Tourist Quota now, not the 20-Oct-2026 ARP window (that one needs Aadhaar, which Mark doesn't have) — see `decisions/INDIA20_DAY1_NEW_FRONTIER_LOCK_AND_KOLKATA_GRADE_SUPERSEDE_2026-09-13.md` §6** |
+| 1 | Sat 19 Dec | train to Kathgodam | after AI156 arrival; **Hotel New Frontier remains the locked Day-1 Delhi base before the night train**; **BOOKED 2026-10-06 — train 15013 Ranikhet Express, PNR 2960524646, AC First Class (1A)/Coupe, Foreign Tourist quota, Delhi Jn. depart 22:05 → Kathgodam arrive 05:05 (20 Dec), ₹1,991 total paid. Status still `FBKG/0` — recheck PNR status after 20 Oct 2026 (normal ARP opening) to confirm a real berth is assigned, see `governance/TREINEN_BOEKINGSOVERZICHT_NU_LATER_2026-10-06.md`** |
 | 2 | Sun 20 Dec | Nainital / Hotel Evelyn | arrival day |
 | 3 | Mon 21 Dec | Nainital | dedicated Crank's Ridge / Govinda immersion day; **Grot Vivekananda is NOT on this day** |
 | 4 | Tue 22 Dec | Nainital | Kainchi Dham + Bhumiadhar |

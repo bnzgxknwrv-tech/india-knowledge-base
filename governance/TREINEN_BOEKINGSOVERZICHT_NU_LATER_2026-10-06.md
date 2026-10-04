@@ -80,6 +80,19 @@ geldt en dag 2 nodig is. Houd dus voorlopig **dag 2** aan als veilige planning, 
 dezelfde dag" als optimistisch achtervangmoment — 08:15 IST NIET meer gebruiken totdat WORK dit met
 een bron van ná 5 januari 2026 weerlegt.
 
+## MIJLPAAL 2026-10-06 — EERSTE TREIN GEBOEKT: 15013 RANIKHET EXPRESS
+
+**PNR 2960524646.** 19 dec 2026 22:05 Delhi Jn. → 20 dec 2026 05:05 Kathgodam, AC First Class (1A),
+Coupe, Foreign Tourist quota. Betaald: ₹1.755 ticket + ₹236 Convenience Fee (incl. GST) = **₹1.991
+totaal** (≈€18,35), via Razorpay/Firefox, transactie 100006891820142.
+
+**Let op — status nog niet definitief "bevestigd met toegewezen bed":** scherm toont
+`Booking Status: FBKG/0` en `Current Status: /0` — consistent met WORK's eerdere uitleg dat een
+FTQ-aanvraag buiten de normale ARP pas een echt toegewezen bed krijgt zodra de normale ARP opent
+(voor deze trein: 20 oktober 2026). **Actie: check de PNR-status opnieuw na 20 oktober 2026**
+(IRCTC → PNR Status, PNR 2960524646) om te bevestigen dat dit een echte toegewezen plek is
+geworden, niet alleen een geaccepteerde aanvraag.
+
 ## MIJLPAAL 2026-10-06 — IRCTC-ACCOUNT VOLLEDIG ACTIEF
 
 Mark's IRCTC-account is compleet: geregistreerd, Rs.100+GST-fee betaald (via Firefox/Razorpay),
