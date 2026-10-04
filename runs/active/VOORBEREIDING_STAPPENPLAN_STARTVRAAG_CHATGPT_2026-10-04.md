@@ -6,7 +6,7 @@ Plak alles vanaf de volgende regel in een nieuwe ChatGPT-sessie met actuele webt
 
 Ik ben een Nederlandse reiziger (vertrek vanuit Amsterdam) en plan een pelgrimsreis door India van **18 december 2026 tot en met 21 januari 2027** (33 nachten, route al vastgelegd: Delhi → Kumaon-bergen (Nainital/Almora/Dwarahat) → Haidakhan → Greater Noida/Agra → Bodh Gaya → Varanasi → Kolkata → Tiruvannamalai → Chennai → Delhi). Vandaag is **4 oktober 2026** — ik heb dus nog ruim 10,5 weken.
 
-Een andere AI-sessie (Claude Code, die mijn hele reisplanningsproject beheert) heeft onderstaande voorbereidingslijst opgesteld na vier eigen onderzoeksrondes (officiële bronnen, Nederlandse GGD/overheid, reisforums/blogs, synthese). **Ik wil dat jij deze lijst kritisch controleert, aanvult waar iets mist of verkeerd is, en samen met mij — in deze sessie — tot één concreet, genummerd stappenplan komt van wat ik nu als eerste moet doen.** Begin niet met algemene reistips; ga direct de lijst zelf toetsen.
+Een andere AI-sessie (Claude Code, die mijn hele reisplanningsproject beheert) heeft onderstaande voorbereidingslijst opgesteld na vier eigen onderzoeksrondes (officiële bronnen, Nederlandse GGD/overheid, reisforums/blogs, synthese). **Dit onderwerp is te belangrijk en te groot om er met een snelle controle doorheen te gaan — ik wil geen twee losse lijsten die naast elkaar blijven staan, maar echte consensus, puntje voor puntje.** Ga daarom per genummerd item in de lijst hieronder expliciet langs met één van drie labels: **AKKOORD** (je bevestigt het onafhankelijk), **AANVULLING** (het klopt, maar er mist iets of de timing/het bedrag/de bron moet anders), of **AFWIJKEND** (jij vindt iets anders/fout, met je eigen onderbouwing en bron). Voeg daarna, als apart laatste onderdeel, elk item toe dat in de lijst hieronder volledig ontbreekt maar dat jij, op basis van officiële bronnen en/of ervaren-reizigersfora, wél relevant acht voor een reis van deze lengte/route. Begin niet met algemene reistips; ga direct item voor item te werk.
 
 ## Strikte regels
 
@@ -60,6 +60,8 @@ E. Of een standaard reisverzekering de daadwerkelijke hoogte in Kumaon (~1900-26
 
 ## Mijn concrete vraag aan jou
 
-1. Klopt deze lijst? Mis ik iets belangrijks (bijvoorbeeld iets wat ervaren langeafstand-Indiareizigers op fora noemen en dat hierboven niet genoemd wordt)?
-2. Is de volgorde/timing correct, vooral de eerste stappen? Moet ik bijvoorbeeld echt met het visum beginnen, of is iets anders urgenter/sneller te doen zodat ik geen tijd verlies?
-3. Geef daarna **jouw eigen, definitieve stappenplan**: een enkele genummerde lijst, strikt op volgorde van wanneer ik moet starten, die ik vanaf vandaag (4 oktober) kan gaan volgen. Begin elk punt met de concrete actie, dan waarom, dan de deadline/het venster.
+1. **Ga puntje voor puntje (1 t/m 22, plus A t/m E) door de lijst**, met het AKKOORD/AANVULLING/AFWIJKEND-label hierboven per item — sla niets over, ook niet de items die je "voor de hand liggend" vindt. Dit is de kern van de vraag: ik wil zwart-op-wit zien waar twee onafhankelijke AI's het al eens zijn en waar niet, niet alleen een nieuwe lijst.
+2. **Voeg daarna, los, alles toe dat volledig ontbreekt** — ik wil geen enkel voorbereidingsitem missen voor een reis van deze lengte en route.
+3. Is de volgorde/timing correct, vooral de eerste stappen? Moet ik bijvoorbeeld echt met het visum/GGD-afspraak beginnen, of is iets anders urgenter/sneller te doen zodat ik geen tijd verlies?
+4. Geef daarna **één definitief, samenvattend stappenplan**: een enkele genummerde lijst, strikt op volgorde van wanneer ik moet starten, die ik vanaf vandaag (4 oktober) kan gaan volgen — gebaseerd op de consensus/afwijkingen uit stap 1-2, niet een losse herhaling. Begin elk punt met de concrete actie, dan waarom, dan de deadline/het venster.
+5. Ik kopieer jouw volledige antwoord terug naar mijn andere AI-sessie (Claude Code) zodat die de twee kanten naast elkaar legt en met mij de echte, laatste versie afrondt — ga er dus van uit dat dit antwoord nog een keer herzien wordt, niet dat dit al het laatste woord is.
