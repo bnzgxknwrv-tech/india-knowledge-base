@@ -88,10 +88,19 @@ payment request", zonder dat er ooit een bankscherm/3D-Secure-stap verscheen. Di
 vóór de bank wordt bereikt, dus bij IRCTC/de gateway-integratie zelf, niet bij Mark's kaart of bank.
 Dit is een **breed gemeld, bekend probleem** voor buitenlandse gebruikers op precies deze pagina.
 
-**Werkende omweg (niet verder proberen op IRCTC's eigen site):** gebruik **ConfirmTkt** (onderdeel
-van ixigo) of **12Go.asia** — beide boeken op hetzelfde IRCTC-backend/dezelfde treinen, accepteren
-internationale kaarten probleemloos, en rekenen een kleine commissie. Dit omzeilt IRCTC's kapotte
-eigen registratiepagina volledig; een eigen geverifieerd IRCTC-account is dan niet eens nodig.
+**Bevestigd via forumonderzoek (IndiaMike, 41+ pagina's dedicated draad):** Razorpay wordt expliciet
+gemeld als niet goed werkend voor internationale kaarten op IRCTC (alleen Indiase kaarten komen er
+betrouwbaar doorheen) — verklaart mogelijk specifiek de Razorpay-fout. Eén forumgebruiker zat exact
+in dezelfde situatie (lege pagina na kaartgegevens op de Rs.100-registratiepagina), probeerde een
+week lang, IRCTC-support reageerde nooit — community-oplossing daar: **een agent laten regelen**.
+Andere forumleden kregen hun buitenlandse kaart wel werkend via "Citibank Gateway 2" of HDFC/Axis
+Bank-gateways, maar dat zijn opties op het HOOFDbetaalscherm bij echte ticketaankoop, niet op deze
+kapotte registratiepagina.
+
+**Werkende omweg (niet verder proberen op IRCTC's eigen registratiepagina):** gebruik **ConfirmTkt**
+(onderdeel van ixigo) of **12Go.asia** — beide boeken op hetzelfde IRCTC-backend/dezelfde treinen,
+accepteren internationale kaarten probleemloos, en rekenen een kleine commissie. Dit omzeilt IRCTC's
+kapotte eigen registratiepagina volledig; een eigen geverifieerd IRCTC-account is dan niet eens nodig.
 
 ## Praktisch bij elke LATER-boeking
 
