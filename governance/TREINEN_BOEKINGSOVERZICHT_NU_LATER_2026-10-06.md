@@ -3,14 +3,19 @@
 Status 2026-10-06. Alle data IRCTC-officieel bevestigd (`DL-0088`, `DL-0089`) of Mark-besloten
 (`DL-0090`). Dit is het ene overzicht — geen los document meer nodig per trein.
 
-**OPENSTAAND (PR #23, comment 5982657289, wacht op WORK):** de boekingsDATA onder "LATER" zijn
-kalenderdagen in IST (India), niet in NL-tijd — IST loopt het hele jaar 4u30 vóór op NL-wintertijd.
-Alleen voor trein 22324 is het exacte openingsUUR bekend (08:00 IST = 03:30 NL-tijd, zelfde dag).
-Voor 15036, 12988, 20887 en 22604 kennen we alleen de datum, niet het uur — als een venster om
-middernacht IST opent is dat al 19:30 NL-tijd de AVOND ERVOOR. Ook is **Foreign Tourist Quota (FTQ,
-365 dagen vooruit, geen Aadhaar nodig) alleen bevestigd voor 15013 en genoemd als mogelijkheid voor
-22324** — niet onderzocht voor de andere vier. Niet aannemen dat FTQ overal hetzelfde werkt. Tabel
-hieronder wordt bijgewerkt zodra WORK dit bevestigt.
+**STATUS 2026-10-06 (WORK-antwoord op comment 5982657289, comment 5982773069):** systeemopening is
+voor alle zes treinen **08:00 IST** (General Quota). WORK stelde eerst "08:15 IST praktisch" (na
+een 15-minuten-Aadhaar-blok), maar CCI vond hierop een bronbotsing (comment 5982799281, **nog
+onbeantwoord**): de Aadhaar-only-regel is sinds 12 januari 2026 verlengd naar de **HELE eerste
+ARP-dag** (08:00-24:00 IST), niet alleen de eerste 15 minuten — vier onafhankelijke bronnen
+(newsonair.gov.in, india.com, angelone.in, oneindia.com) bevestigen deze opeenvolgende verlenging.
+Als dat klopt, kan Mark op **geen van de zes dagen** via de normale General-route boeken, de hele
+dag niet — zijn optie wordt dan Foreign Tourist Ticket Booking proberen (live-check-only, geen
+garantie) en/of wachten tot **dag 2** van elk ARP-venster. **Tabel hieronder toont beide
+mogelijkheden tot WORK reageert — NIET als definitief beschouwen.**
+
+Daarnaast: **Foreign Tourist Quota heeft geen publieke, treinspecifieke plaatslijst** — "FTQ bestaat
+voor trein X" mag niet meer beweerd worden zonder een live, ingelogde IRCTC-check per trein/klasse.
 
 ## NU TE DOEN
 
@@ -33,6 +38,28 @@ hieronder wordt bijgewerkt zodra WORK dit bevestigt.
 | 4 | **05-11-2026** | 20887 | Ranchi–Varanasi Vande Bharat Express | RNC = Ranchi Junctie (vertrek 05:10) | GAYA = Gaya Junctie, 09:55 | BSB = Varanasi Junctie, 13:00 | ma 4 jan 2027 | ma, wo-zo (rustdag di) | CC/EC (zitplaats) — **LOCKED BY MARK over privéauto** |
 | 5 | **09-11-2026** | 22324 | Shabd Bhedi Express | GCT = Ghazipur City (vertrek vr 8 jan 22:20) | BSB = Varanasi Junctie, 01:20/01:30 (za 9 jan) | KOAA = Kolkata Chitpur, 13:05 | vr 8 jan → za 9 jan 2027 | **alleen vrijdag** (vanaf GCT) | 2A (1A niet beschikbaar) |
 | 6 | **20-11-2026** | 22604 | Villupuram–Kharagpur Superfast Express | VM = Villupuram Junctie (vertrek 11:05) | TNM = Tiruvannamalai, 11:58/12:00 | **PER = Perambur** (Chennai), 15:40/15:45 — **géén Chennai Central/MAS** | di 19 jan 2027 | **alleen dinsdag** | SL/3A/2A |
+
+## EXACT BOEKINGSMOMENT — NOG VOORLOPIG, BRONBOTSING OPENSTAAND
+
+| Trein | ARP dag 1 (IST) | Systeemopening | NL-tijd dag 1 | **Mogelijk geblokkeerd voor Mark de HELE dag 1** (Aadhaar, onbevestigd) | Fallback: dag 2 (IST) |
+|---|---|---|---|---|---|
+| 15013 | di 20-10-2026 | 08:00 IST | 04:45 CEST (NL nog zomertijd) | tot 24:00 IST die dag | wo 21-10-2026 |
+| 15036 | zo 29-11-2026 | 08:00 IST | 03:45 CET | tot 24:00 IST die dag | ma 30-11-2026 |
+| 12988 | zo 01-11-2026 | 08:00 IST | 03:45 CET | tot 24:00 IST die dag | ma 02-11-2026 |
+| 20887 | do 05-11-2026 | 08:00 IST | 03:45 CET | tot 24:00 IST die dag | vr 06-11-2026 |
+| 22324 | ma 09-11-2026 | 08:00 IST | 03:45 CET | tot 24:00 IST die dag | di 10-11-2026 |
+| 22604 | vr 20-11-2026 | 08:00 IST | 03:45 CET | tot 24:00 IST die dag | za 21-11-2026 |
+
+**Let op de tijdzone-valkuil:** 15013's datum (20 okt 2026) valt nog vóór de Nederlandse
+klokomzetting (25 okt 2026) — dus die ene datum is **CEST** (UTC+2), alle andere vijf zijn **CET**
+(UTC+1). Daardoor is 15013 se NL-tijd 04:45 i.p.v. 03:45 bij de rest, ook al is het IST-uur gelijk.
+
+**Zodra WORK de bronbotsing bevestigt of weerlegt**, wordt de kolom "Mogelijk geblokkeerd" definitief
+JA/NEE en verdwijnt de dag-2-fallback als die niet nodig blijkt. Tot dan: ga ervan uit dat de normale
+IRCTC-site op dag 1 voor jou als niet-Aadhaar-gebruiker misschien de HELE dag niet werkt, probeer
+sowieso eerst de Foreign Tourist Ticket Booking-route (Services → Foreign Tourist Ticket Booking,
+internationaal mobiel nummer + OTP, paspoortnummer, internationale kaart) voor elke trein, en houd
+dag 2 als zekere achtervang in de agenda.
 
 ## Praktisch bij elke LATER-boeking
 
