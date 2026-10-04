@@ -1,13 +1,17 @@
 # STARTVRAAG — TWEE BINNENLANDSE VLUCHTEN (CCU→MAA en MAA→DEL), AFGELEID VAN WORK's 2026-10-01 VERSIE
 
-**STATUS 2026-10-06: concept, wacht op WORK's stap-1-consensus (PR #23) vóór verspreiding naar
-gratis AI's.** CCI heeft dit vandaag zelf al kort online gecheckt (WebSearch/WebFetch) — live
-boekingssites gaven alleen algemene prijsranges, geen datum-specifieke tarieven voor jan 2027, wel
-een paar bruikbare kandidaat-vluchten op basis van het huidige vaste schema (zie onder).
+**STATUS 2026-10-06: KLAAR OM TE GEBRUIKEN.** Volgorde nu: eerst gratis AI (ChatGPT, bij voorkeur ook
+een tweede zoals Perplexity/Gemini erbij), daarna pas WORK voor de laatste consensus-afweging — niet
+andersom, want dit is grotendeels feiten-lookup (vluchttijden/prijzen), geen WORK-token-materiaal.
+CCI heeft dit vandaag zelf al kort online gecheckt (WebSearch/WebFetch) — live boekingssites gaven
+alleen algemene prijsranges, geen datum-specifieke tarieven voor jan 2027, wel een paar bruikbare
+kandidaat-vluchten op basis van het huidige vaste schema (zie onder).
 **Datumcorrectie t.o.v. de oudere CCI-startvraag van 1 okt:** MAA→DEL is **woensdag 20 januari
 2027**, niet "19 of 20" — de Chennai-bufferdag is dinsdag 19 jan, de vlucht naar Delhi de dag erna.
 
-Plak het blok hieronder (na WORK-akkoord) in meerdere gratis AI-sessies met actuele webtoegang.
+Plak het blok hieronder in meerdere gratis AI-sessies met actuele webtoegang. Breng de antwoorden
+hier terug; daarna formuleert CCI een korte consensus-check voor WORK over welke optie het beste past
+bij de rest van de planning (niet de feiten zelf opnieuw laten uitzoeken).
 
 ---
 
