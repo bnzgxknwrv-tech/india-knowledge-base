@@ -18,7 +18,7 @@ WORK deed onafhankelijk onderzoek specifiek naar jouw "echte shrine/bewaarde kam
 - **Ayyankulam-tank** — waar Ramana bij aankomst in Tiruvannamalai zijn snoep achterliet en zijn haarafscheiding plaatsvond; een echte eerste-aankomstplek, maar de persoonlijke shrine-/objectwaarde is zwakker bevestigd dan de andere drie. Invoegkost: 30-45 min als toevoeging bij de tempel/Gurumurtam-cluster.
 - **Premalaya/Shanthimalai Handicrafts** (160 m/2 min lopen) — sociale vrouwen-ambachtscoöperatie sinds 1989. Geen Ramana-shrine, puur menselijke textuur/LP-laag. Invoegkost: 30-45 min, alleen uit vrije tijd, nooit uit A/A+-tijd.
 
-**Yogi Ramsuratkumar-cluster is nu [A+] en ingepland (zaterdag 16 jan, zie hieronder).** De overige drie (Seshadri Swamigal, Ayyankulam-tank, Premalaya) zijn nog ongegradeerd en dus nog niet ingepland — ze liggen zo dichtbij (binnen 10 minuten lopen van de ashram) dat ze zonder noemenswaardige extra reistijd passen zodra je ze een grade geeft.
+**Yogi Ramsuratkumar is nu [A+] en ingepland (zaterdag 16 jan, zie hieronder) — zijn woonhuis (hoofdmoment, 's ochtends bij de tempel) en zijn graf (kort, 's middags bij Ramana's ashram). Zijn laatste woonhuis (Sudama, 1993-2000) is bewust weggelaten.** De overige drie ongegradeerde kandidaten (Seshadri Swamigal Ashram, Ayyankulam-tank, Premalaya) zijn nog niet ingepland — ze liggen zo dichtbij (binnen 10 minuten lopen van Ramana's ashram) dat ze zonder noemenswaardige extra reistijd passen zodra je ze een grade geeft.
 
 ## OPEN VRAGEN / ONZEKERHEDEN
 
@@ -48,7 +48,7 @@ Zie `runs/active/CCI_KOLKATA_QUARTERHOUR_PLAN_WITH_LINEAGE_LINKS_2026-09-28.md` 
 
 ---
 
-## ZA 16 JAN — Arunachaleswarar-tempel, Gurumurtam, Pavalakunru, lange ashram-tijd
+## ZA 16 JAN — hoofdtempel, Yogi Ramsuratkumar's huis en graf, Gurumurtam, Ramana's ashram, Pavalakunru
 
 **Vertrek: 05:45** (uitzondering op de standaard 08:30-start — de tempel is enorm en vroeg gaan vermijdt hitte en drukte; geldige uitzondering).
 
@@ -62,41 +62,47 @@ Een enorme, levende Shiva/Agni-tempel — ~10 hectare, meer dan 100 schrijnen, d
 
 Wat te zoeken: de Patala Lingam-omgeving (specifieke Ramana-betekenis, niet alleen architectuur). Bewust vroeg om de drukte en hitte van later op de dag te vermijden.
 
-08:45-09:00: verplaatsing naar Gurumurtam (Google Maps ~10-15 min, blok 20 min).
+08:45-09:00: verplaatsing naar het huis van Yogi Ramsuratkumar (bij dezelfde tempel, geen aparte lange rit).
+
+### Sannidhi Street-huis — waar Yogi Ramsuratkumar woonde [A+, MARK DECISION 2026-10-05, hoofdmoment]
+
+TIJD: 09:00-10:00 (1 uur, vaste bezoektijd 09:00-12:00/16:00-19:00)
+
+Het huis, vlak bij de hoofdtempel, waar Yogi Ramsuratkumar — de heilige die je vorige week pas ontdekte en waar je meteen een warm gevoel bij kreeg — van 1977 tot 1993, dus 17 jaar lang, woonde en persoonlijk bezoekers ontving. Sinds 2006 een klein museum waar je mag zitten en mediteren. Dit is het zwaartepunt van je Ramsuratkumar-bezoek, niet zijn graf.
+
+10:00-10:15: verplaatsing naar Gurumurtam (Google Maps ~10-15 min, blok 20 min).
 
 ### Gurumurtam [A]
 
-TIJD: 09:00-09:45
+TIJD: 10:15-11:00
 
 Een klein, bescheiden schrijn/tempel — geen grote toeristenstop, wat zelf al iets zegt. Hier leefde de jonge Ramana rond 1897-1898 ongeveer een jaar tot achttien maanden in intense innerlijke verzonkenheid; bezoekers begonnen hem hier te vinden, en Palaniswami werd zijn eerste begeleider.
 
 De waarde hier is biografische continuïteit, niet architectuur — rustig zitten waar deze vroege fase zich afspeelde.
 
-09:45-10:00: verplaatsing terug naar de ashram-zone (Google Maps ~10-15 min, blok 20 min).
+11:00-11:15: verplaatsing terug naar de ashram-zone (Google Maps ~10-15 min, blok 20 min).
 
 ### Sri Ramanasramam — ochtendblok [onderdeel van Arunachala/Ramana-ervaring, A+ umbrella]
 
-TIJD: 10:00-11:30
+TIJD: 11:15-12:45
 
 Ramana Maharshi's hoofdashram aan de voet van Arunachala. Paramahansa Yogananda ontmoette Ramana Maharshi hier op 29 november 1935 — een directe link met jouw eigen lineage naast de Ramana-lijn zelf.
 
 Concreet, per WORK's onderzoek (30 sep): **Bhagavan Samadhi Hall** (Ramana's eigen samadhi-schrijn); **Mother's Shrine** (boven Alagammal's samadhi, de Sri Chakra erin door Ramana zelf geconsacreerd); **Old Hall** (1928, waar Ramana tot 1949 woonde en darshan gaf — zijn eigen bank/couch staat er nog); **Nirvana Room** (de exacte kamer waar hij op 14 april 1950 stierf, persoonlijke voorwerpen bewaard); **New Hall** (stenen Ramana-beeld vóór de stenen couch van zijn laatste maanden). Dit is dus precies je eigen "foto/bloemen/reliek/bewaarde kamer"-type plek, niet alleen een institutioneel terrein. Fotograferen is binnen niet toegestaan.
 
-11:30-12:00: lunch (als gast geregistreerd) of buiten de ashram.
+12:45-13:15: lunch (als gast geregistreerd) of buiten de ashram.
 
-12:00-12:15: verplaatsing naar het Yogi Ramsuratkumar-cluster (~650 m/9 min lopen).
+13:15-13:30: verplaatsing naar het graf van Yogi Ramsuratkumar (~1 km/12-15 min lopen, of een paar minuten rijden — dichtbij, geen lange rit).
 
-### Yogi Ramsuratkumar-cluster — hoofdashram + Sannidhi Street-huis + Sudama-huis [A+, MARK DECISION 2026-10-05, provisioneel]
+### Yogi Ramsuratkumar Ashram — zijn graf [A+, MARK DECISION 2026-10-05, kort tweede moment]
 
-TIJD: 12:15-13:45 (1,5 uur — Mark: Ramana Maharshi blijft het hoofdbezoek, dit is bewust korter dan WORK's "2,5-3 uur serieus"-schatting)
+TIJD: 13:30-14:00 (30 min)
 
-Samadhi-shrine plus twee echte woonhuizen waar deze 20e-eeuwse heilige met grote westerse volgelingenkring respectievelijk 1977-1993 en vanaf 1993 leefde en darshan gaf. Eigen bewaarde spullen (jute-zak-bed, waterpot, kleding) nog aanwezig beschreven. Dagelijks open voor darshan, geen vaste openingstijd-beperking zoals bij de Vrindavan-plekken. Bij 1,5 uur ligt de nadruk op de hoofdashram/samadhi-shrine; de twee woonhuizen (Sannidhi Street, Sudama) krijgen dan minder tijd elk — als één ervan moet wijken, is dat een keuze voor op de dag zelf, niet hier vastgelegd.
+Zijn graf/schrijn (samadhi), apart van het woonhuis van vanochtend — hier werd hij begraven, met een Shivalinga erbovenop, waar nu regelmatig puja wordt gehouden. Een kort, bewust tweede bezoek na het hoofdmoment vanochtend bij zijn huis. **Het Sudama-huis (waar hij zijn laatste, zieke jaren doorbracht, 1993-2000) is bewust niet in dit plan opgenomen** — Mark koos voor het huis van zijn actieve jaren (Sannidhi Street) plus dit graf, niet alle drie.
 
-**Consequentie, minder ingrijpend dan de 2,5-uur-versie:** dit kost nog steeds een deel van de geplande ashram-rust, maar laat meer over dan eerst. Zaterdag blijft een volle dag, maar niet de meest uitgeklede.
+14:00-14:15: verplaatsing terug naar de ashram-zone.
 
-13:45-14:00: verplaatsing terug naar de ashram-zone.
-
-14:00-16:00: echte rust/meditatie vóór Pavalakunru (2 uur, grotendeels hersteld).
+14:15-16:00: echte rust/meditatie vóór Pavalakunru (ruim 1,5 uur).
 
 16:00-16:15: verplaatsing naar Pavalakunru (Google Maps ~10-15 min, blok 20 min).
 
