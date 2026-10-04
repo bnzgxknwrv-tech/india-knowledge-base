@@ -286,6 +286,8 @@ Do not add walks because Komoot has them. Avoid repetitive/generic/long mediocre
 
 Overnight train target: **1A / First AC**; 2A only after Mark accepts fallback. Optimize usable human time, not published vehicle speed.
 
+**Sharpened 2026-10-06, Mark direct quote: "De trein heeft ALTIJD mijn grote voorkeur tenzij DRAMATISCH LANGER!"** This turns rule 1 above into a concrete decision threshold for any future train-vs-private-car comparison on this trip: default to the train; only switch to a private car if the car is clearly, dramatically faster or the train option is otherwise impractical (no seat/class available, unsafe timing, etc.) — a car being merely "a bit shorter" or "more flexible" is NOT enough to override this. First applied to: Gaya Junction → Varanasi Jn, 4 Jan 2027 — train 20887 (~4.5-5h real door-to-door including station transfers) versus private car (~5-6h real door-to-door per cab-company quotes) is not a dramatic gap, so the train wins. See `decisions/` for the specific lock.
+
 # 11. FOOD / HUMAN TEXTURE / FINAL COMFORT
 
 `HARD_CURRENT — updated by Mark 2026-09-03/04`
