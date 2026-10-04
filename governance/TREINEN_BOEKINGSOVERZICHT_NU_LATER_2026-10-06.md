@@ -80,6 +80,19 @@ geldt en dag 2 nodig is. Houd dus voorlopig **dag 2** aan als veilige planning, 
 dezelfde dag" als optimistisch achtervangmoment — 08:15 IST NIET meer gebruiken totdat WORK dit met
 een bron van ná 5 januari 2026 weerlegt.
 
+## PRAKTISCHE ERVARING 2026-10-06 — IRCTC's eigen internationale-registratiepagina is KAPOT
+
+Mark probeerde de Rs. 100+GST internationale-registratiefee te betalen via alle drie aangeboden
+gateways (Razorpay, Plural, PayU), in zowel Chrome als Safari — telkens meteen "Unable to process
+payment request", zonder dat er ooit een bankscherm/3D-Secure-stap verscheen. Dit wijst op een fout
+vóór de bank wordt bereikt, dus bij IRCTC/de gateway-integratie zelf, niet bij Mark's kaart of bank.
+Dit is een **breed gemeld, bekend probleem** voor buitenlandse gebruikers op precies deze pagina.
+
+**Werkende omweg (niet verder proberen op IRCTC's eigen site):** gebruik **ConfirmTkt** (onderdeel
+van ixigo) of **12Go.asia** — beide boeken op hetzelfde IRCTC-backend/dezelfde treinen, accepteren
+internationale kaarten probleemloos, en rekenen een kleine commissie. Dit omzeilt IRCTC's kapotte
+eigen registratiepagina volledig; een eigen geverifieerd IRCTC-account is dan niet eens nodig.
+
 ## Praktisch bij elke LATER-boeking
 
 - Als je op de exacte boekingsdatum zelf tegen een Aadhaar-blokkade aanloopt (zoals bij 15013):
