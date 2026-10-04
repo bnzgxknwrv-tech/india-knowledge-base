@@ -1,3 +1,29 @@
+## ALLE ZES TREINEN GEBOEKT 2026-10-06 — VOLLEDIG AFGEROND
+
+| # | Traject | Trein | Datum | PNR | Klasse | Betaald |
+|---|---|---|---|---|---|---|
+| 1 | DLI → KGM | 15013 Ranikhet Express | 19/20 dec 2026 | 2960524646 | 1A/Coupe | ₹1.991 |
+| 2 | KGM → GZB | 15036 Uttarakhand Sampark Kranti | 29 dec 2026 | 1000282893 | CC/Window | ₹841 |
+| 3 | AF → GAYA | 12988 Ajmer–Sealdah SF Express | 31 dec/1 jan | *(PNR nog op te geven)* | 1A/Coupe | €45,86 |
+| 4 | GAYA → BSB | 20887 Vande Bharat Exp | 4 jan 2027 | 6610669522 | EC/Window/Veg | ₹2.436 |
+| 5 | BSB → HWH | 13042 Himgiri Express | 8/9 jan 2027 | 2845156738 | 1A/Coupe | ₹4.176 |
+| 6 | TNM → PER | 22604 VM KGP SF Exp | 19 jan 2027 | 4345948370 | 2A/Lower | ₹1.341 |
+
+Alle zes staan op `Booking Status FBKG/0` — dit is normaal voor Foreign Tourist-boekingen gemaakt
+vóór de normale ARP-opening (zie uitleg hieronder per trein). **Terugkom-actie: check elke PNR
+opnieuw ná de bijbehorende ARP-datum** om te bevestigen dat er een echte, toegewezen plek is (niet
+alleen een geaccepteerde aanvraag).
+
+**Trein 13042's echte beginstation is Jammu Tawi (JAT), niet Varanasi** — vertrek 22:45, rijdt alleen
+op **maandag/donderdag/zondag**, 3 dagen onderweg naar Howrah. Voor Mark's instap bij Varanasi op
+vrijdag 8 jan 2027 moet de trein dus **donderdag 7 januari 2027** uit Jammu Tawi vertrokken zijn (de
+enige geldige rijdag die daarbij past). ARP = 60 dagen vóór 7 jan 2027 = **zondag 8 november 2026**
+(eigen berekening, nog niet apart door WORK/IRCTC geverifieerd zoals de andere vijf — wel consistent
+met de eerdere 22324-schatting van 9 nov, nu 1 dag eerder omdat het beginstation anders is).
+
+ARP-data: 15013 → 20 okt, 12988 → 1 nov, **13042 → 8 nov (nieuw berekend, zie boven)**, 20887 → 5
+nov, 22604 → 20 nov, 15036 → 29 nov 2026.
+
 # TREINEN — COMPLEET BOEKINGSOVERZICHT: WAT NU, WAT LATER
 
 Status 2026-10-06. Alle data IRCTC-officieel bevestigd (`DL-0088`, `DL-0089`) of Mark-besloten

@@ -122,7 +122,7 @@ rijden bij aankomst — consistent met de bestaande regel "optimaliseer bruikbar
 gepubliceerde reissnelheid" (`governance/MARK_TRAVEL_PREFERENCES_CURRENT.md` §10). **BOOKED — PNR
 2845156738**, ₹4.176 betaald. Zodra het Kolkata-hotel gekozen wordt, reken de afstand vanaf
 **Howrah**, niet vanaf Chitpur.
-| **22604** | Tiruvannamalai (TNM) → **Perambur (PER)** | 19-01-2027, 12:00 (origin Villupuram VM 11:05) | 19-01, 15:40/15:45 | **alleen dinsdag** | SL, 3A, 2A | 60 dagen | **20-11-2026** |
+| **22604** | Tiruvannamalai (TNM) → **Perambur (PER)** | 19-01-2027, 12:00 (origin Villupuram VM 11:05) | 19-01, 15:40/15:45 | **alleen dinsdag** | SL, 3A, 2A | 60 dagen | **20-11-2026** — **BOOKED, PNR 4345948370**, 2A/Lower, ₹1.341 betaald |
 
 **Kritieke bijzonderheid bij 22604 — GEEN Chennai Central (MAS):** deze trein stopt NIET in Chennai
 Central. Na Perambur gaat hij direct door naar Gudur/Kharagpur. Mark moet in **Perambur** uitstappen
@@ -240,6 +240,9 @@ Trein 15013 (19/20 dec, Jaisalmer→Kathgodam) is al apart afgerond, zie
 - **Yogi Ramsuratkumar [A+, MARK DECISION 2026-10-05, provisioneel] — twee plekken, niet drie.** (1) **Sannidhi Street-huis** (waar hij 1977-1993 woonde en ontving, bij de hoofdtempel, dus niet dichtbij Sri Ramanasramam) — hoofdmoment, zaterdag 16 jan 09:00-10:00, meteen na de tempel. (2) **Zijn graf/ashram** (Agrahara Kollai, Chengam Road — ~1 km/12-15 min lopen van Sri Ramanasramam) — kort tweede bezoek, 13:30-14:00. **Het Sudama-huis (1993-2000, zijn laatste zieke jaren) is bewust weggelaten** — Mark: Ramana Maharshi blijft het hoofdbezoek van de reis. Gurumurtam en Ramanasramam's ochtendblok zijn met ~1 uur verschoven om dit in te passen. Zie `runs/active/CCI_TIRUVANNAMALAI_QUARTERHOUR_PLAN_2026-09-30.md` voor de volledige, herziene zaterdagplanning. Overige drie ongegradeerde kandidaten (Seshadri Swamigal Ashram, Ayyankulam-tank, Premalaya) blijven open.
 - **LOCKED BY MARK 2026-09-26: 4 nights** (15–18 Jan), paired with Bodh Gaya's 3rd night. See `decisions/INDIA23_BODHGAYA_3N_TIRUVANNAMALAI_4N_NIGHT_TRADE_LOCK_MARK_DECISION_2026-09-26.md`.
 - **CONFIRMED VIA OFFICIAL IRCTC PORTAL 2026-10-06 (`DL-0089`) — 19 Jan departure to Chennai: train 22604, Tiruvannamalai (TNM) 12:00 → Perambur (PER) 15:40/15:45, Tuesdays only.** Critical correction: this train does **not** stop at Chennai Central (MAS) at all — after Perambur it continues straight on toward Gudur/Kharagpur. Mark must get off at **Perambur** and arrange his own onward transfer into Chennai proper; this was not yet reflected anywhere else in the plan. See the TREINEN booking calendar above for the full ARP/booking-date table.
+
+**ALLE ZES TREINEN GEBOEKT 2026-10-06 — treinenronde volledig afgerond.** Volledig overzicht met
+alle PNR's: `governance/TREINEN_BOEKINGSOVERZICHT_NU_LATER_2026-10-06.md`.
 
 ## CHENNAI
 
