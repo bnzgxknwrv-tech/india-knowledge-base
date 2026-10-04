@@ -34,6 +34,18 @@ Madan Mohan Temple and Nidhivan are both now fully out of the 30 Dec candidate s
 
 Mark pointed out, correctly, that CCI referred to "Katyayani Peeth" by bare name without its recognition hook (Lahiri Mahasaya/Babaji-message layer), violating the long-standing, repeatedly documented rule that no unfamiliar Indian name may appear without a recognition-rich hook on every occurrence that matters (`governance/MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md`, `governance/HOW_TO_WORK_WITH_MARK.md`, `governance/INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md`). This is not a new rule to add — it already exists and was simply not followed in that reply. Recorded here only so the lapse itself is not lost.
 
+## DELTA 2026-10-05 — TRAVEL TIME / ORDER CHECK FOR THE OPTIONAL THIRD STOP
+
+Mark asked to verify the real travel time for Shree Ma Anandamayi Ashram as the LAST stop (after Katyayani Peeth, then NKB), suspecting the fixed order is itself driven by opening hours — confirmed correct:
+
+- **Katyayani Peeth / Keshabananda**: darshan 07:00–11:00 and 17:30–20:00 only (trawell.in, templepurohit.com). This is why it must go first in the locked 09:10–10:20 slot — it closes at 11:00 and does not reopen until 17:30, long after this corridor has left for Agra.
+- **Neem Karoli Baba Vrindavan Ashram**: open 06:00/07:00–12:00, then 15:00–20:00 (nkbashram.org and secondary listings agree on the same split). This is why it goes second, ending just before its own midday closure (10:45–11:50 in the current plan).
+- **Shree Ma Anandamayi Ashram, Kishor Pura**: one directory listing (Justdial-derived) gives 06:00–21:00 continuous, no stated midday closure — **lower confidence than the other two**, since her other ashrams (Delhi: 06:00–12:00/16:00–21:00; Haridwar: 08:00–12:00/16:00–20:30) both DO have a midday closure that a generic listing could easily miss for Vrindavan too. Not confirmed with the ashram itself — `LIVE_RECHECK` before relying on it for a tight midday slot.
+- **Travel time, NKB Ashram → Anandamayi Ma Ashram**: roughly **1.1 km** by road (Atalla Chungi Road/Gaushala Nagar → Kishor Pura/Mathura-Vrindavan Marg) — both are central Vrindavan, so this specific last leg is genuinely short (realistic estimate 5–10 min, not independently timed minute-by-minute). This is good news for Mark: if the midday-closure risk above doesn't bite, adding this stop costs very little transfer time on top of the existing corridor.
+- **Katyayani Peeth → NKB Ashram** distance itself was not independently re-measured here; the existing locked plan's own 10:20–10:45 transfer estimate stands unchanged.
+
+Net effect: the order (Katyayani Peeth → NKB → optionally Anandamayi Ma) is correct and opening-hours-driven, not arbitrary. The one real open risk is whether Anandamayi Ma Ashram also closes over midday like her other ashrams — if so, arriving there around 12:00–13:00 (straight after NKB, before the planned lunch) could hit a closed door. Confirm directly with the ashram (phone numbers on file: Sw Nityananda 7983876743, Kripanand Bajpayi 9997016788/9456418375) before presenting this as a settled "yes, it fits."
+
 ## EFFECT ON OLDER FILES
 
 - `decisions/INDIA22_VRINDAVAN_30DEC_CORRIDOR_GRADE_REPAIRS_2026-09-16.md`'s "working hypothesis, not yet a final decision" on Anandamayi Ma Vrindavan Ashram is now CLOSED by this file.
