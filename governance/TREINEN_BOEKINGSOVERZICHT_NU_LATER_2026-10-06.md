@@ -80,6 +80,18 @@ geldt en dag 2 nodig is. Houd dus voorlopig **dag 2** aan als veilige planning, 
 dezelfde dag" als optimistisch achtervangmoment — 08:15 IST NIET meer gebruiken totdat WORK dit met
 een bron van ná 5 januari 2026 weerlegt.
 
+## MIJLPAAL 2026-10-06 — TWEEDE TREIN GEBOEKT: KGM (Kathgodam) 08:40 → GZB (Ghaziabad Jn.) 14:39 — trein 15036
+
+**PNR 1000282893.** "UTR SMPRK K EXP" (Uttarakhand Sampark Kranti Express), dinsdag 29 dec 2026,
+KGM (Kathgodam) 08:40 → GZB (Ghaziabad Jn.) 14:39, AC Chair car (CC), Window Side, Foreign Tourist
+quota. Betaald: ₹605 ticket + ₹236 Convenience Fee = **₹841 totaal** (≈€7,75), Razorpay, transactie
+100006891820184. Status `FBKG/0` — zelfde als trein 15013, recheck na de normale ARP-opening voor
+deze trein (**29 november 2026**) om een echt toegewezen plek te bevestigen.
+
+**Let op bij deze boeking gecorrigeerd tijdens het invullen:** het "NRI"-dropdownveld stond eerst
+verkeerd op "NRI" in plaats van de juiste nationaliteit "Netherlands" — gecorrigeerd vóór betalen.
+Check dit veld bij elke volgende boeking expliciet, dit is kennelijk geen vaste default.
+
 ## MIJLPAAL 2026-10-06 — EERSTE TREIN GEBOEKT: 15013 RANIKHET EXPRESS
 
 **PNR 2960524646.** 19 dec 2026 22:05 Delhi Jn. → 20 dec 2026 05:05 Kathgodam, AC First Class (1A),
