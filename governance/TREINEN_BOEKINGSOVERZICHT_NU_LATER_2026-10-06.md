@@ -3,6 +3,15 @@
 Status 2026-10-06. Alle data IRCTC-officieel bevestigd (`DL-0088`, `DL-0089`) of Mark-besloten
 (`DL-0090`). Dit is het ene overzicht — geen los document meer nodig per trein.
 
+**OPENSTAAND (PR #23, comment 5982657289, wacht op WORK):** de boekingsDATA onder "LATER" zijn
+kalenderdagen in IST (India), niet in NL-tijd — IST loopt het hele jaar 4u30 vóór op NL-wintertijd.
+Alleen voor trein 22324 is het exacte openingsUUR bekend (08:00 IST = 03:30 NL-tijd, zelfde dag).
+Voor 15036, 12988, 20887 en 22604 kennen we alleen de datum, niet het uur — als een venster om
+middernacht IST opent is dat al 19:30 NL-tijd de AVOND ERVOOR. Ook is **Foreign Tourist Quota (FTQ,
+365 dagen vooruit, geen Aadhaar nodig) alleen bevestigd voor 15013 en genoemd als mogelijkheid voor
+22324** — niet onderzocht voor de andere vier. Niet aannemen dat FTQ overal hetzelfde werkt. Tabel
+hieronder wordt bijgewerkt zodra WORK dit bevestigt.
+
 ## NU TE DOEN
 
 ### 1. Trein 15013/15014 "Ranikhet Express"
