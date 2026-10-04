@@ -55,7 +55,7 @@ If something in this file conflicts with an older file, **this file wins**, unle
 
 | # | Date | Where | Note |
 |---:|---|---|---|
-| 1 | Sat 19 Dec | train to Kathgodam | after AI156 arrival; **Hotel New Frontier remains the locked Day-1 Delhi base before the night train** |
+| 1 | Sat 19 Dec | train to Kathgodam | after AI156 arrival; **Hotel New Frontier remains the locked Day-1 Delhi base before the night train**; **train 15013 Ranikhet Express, confirmed 2026-10-06 (multi-free-AI cross-check): Old Delhi/DLI depart 22:05 (origin Jaisalmer 02:40) → Kathgodam arrive 05:05 (20 Dec); book via Foreign Tourist Quota now, not the 20-Oct-2026 ARP window (that one needs Aadhaar, which Mark doesn't have) — see `decisions/INDIA20_DAY1_NEW_FRONTIER_LOCK_AND_KOLKATA_GRADE_SUPERSEDE_2026-09-13.md` §6** |
 | 2 | Sun 20 Dec | Nainital / Hotel Evelyn | arrival day |
 | 3 | Mon 21 Dec | Nainital | dedicated Crank's Ridge / Govinda immersion day; **Grot Vivekananda is NOT on this day** |
 | 4 | Tue 22 Dec | Nainital | Kainchi Dham + Bhumiadhar |

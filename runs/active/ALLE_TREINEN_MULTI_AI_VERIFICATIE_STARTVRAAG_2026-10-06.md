@@ -1,5 +1,11 @@
 # STARTVRAAG VOOR MEERDERE GRATIS AI's — ALLE TREINEN ONAFHANKELIJK VERIFIËREN
 
+**STATUS 2026-10-06: onderdeel 1 (trein 15013/15014) is AFGEROND** — meerdere gratis AI's
+vergeleken, Mark heeft zelf tegen primaire bronnen gecontroleerd, resultaat vastgelegd in
+`decisions/INDIA20_DAY1_NEW_FRONTIER_LOCK_AND_KOLKATA_GRADE_SUPERSEDE_2026-09-13.md` §6 en
+`DL-0088`. **Onderdelen 2-5 (treinen 15036, 12988, 22324, en het Gaya→Varanasi-traject) staan
+nog open** — gebruik de rest van dit document daarvoor.
+
 Mark wil dat ALLE treinen in dit project onafhankelijk worden nagezocht door gratis AI-sessies
 (bijv. ChatGPT, Gemini, Copilot — bij voorkeur minstens 2-3 verschillende, los van elkaar
 geraadpleegd), omdat dit pure feiten-lookup is en geen taak voor "WORK" (de betaalde/tokens-beperkte

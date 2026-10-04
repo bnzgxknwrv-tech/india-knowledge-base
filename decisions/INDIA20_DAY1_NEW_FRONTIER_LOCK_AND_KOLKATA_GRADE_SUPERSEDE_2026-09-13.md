@@ -73,7 +73,7 @@ When Dec-2026 hotel inventory / booking is actionable:
 4. Book airport pickup simultaneously or immediately afterward.
 5. Obtain written confirmation of name-board meet-and-greet + driver mobile/WhatsApp/GSM number.
 6. Save hotel phone, driver phone, booking reference and pickup instructions offline on the phone.
-7. Recheck train 15013 boarding station is still **DLI** and recheck departure time shortly before travel.
+7. ~~Recheck train 15013 boarding station is still **DLI** and recheck departure time shortly before travel.~~ **DONE 2026-10-06** — see section 6 below: DLI arrival 21:50/departure 22:05 confirmed, origin Jaisalmer 02:40, Kathgodam arrival 05:05. **New action: attempt Foreign Tourist Quota (FTQ) booking now (up to 365 days ahead), do not wait for the 20 Oct 2026 General Reservation window — that window requires Aadhaar authentication which Mark does not have.**
 8. In daylight on 19 Dec, optionally walk the exact hotel -> DLI entrance route once, so the evening transfer is familiar.
 
 ## 5. Anti-regression
@@ -86,3 +86,16 @@ When Dec-2026 hotel inventory / booking is actionable:
 `DAY1_DLI_WALK_GEOMETRY = PRIMARY_REASON`
 
 Do not silently replace this with `hotel near station` or a generic airport shuttle note. The hotel itself and the pickup execution standard are now explicit Mark decisions.
+
+## 6. DELTA 2026-10-06 — train 15013 exact times, ARP date and Aadhaar/FTQ booking route confirmed (multi-free-AI cross-check, no WORK tokens used)
+
+Mark had this verified across multiple independent free AI sessions (ChatGPT, Perplexity, Gemini, Vibe) and personally checked the results against the cited primary sources before accepting them. This closes item 7 of section 4's booking TODO — no longer `LIVE_RECHECK_LATER`.
+
+- **Confirmed route and times:** train **15013 Ranikhet Express**, origin **Jaisalmer (JSM)**, runs daily. Jaisalmer departs **02:40** → **Old Delhi/DLI arrives 21:50, departs 22:05** → **Kathgodam arrives 05:05** the next morning. Source: North Western Railway's official Working Time Table PDF explicitly names 15013 as the Jaisalmer–Kathgodam Ranikhet Express, cross-checked against current live-schedule sources.
+- **For the 19/20 Dec 2026 journey:** the train leaves Jaisalmer **Saturday 19 December 2026 02:40**, reaches Old Delhi **19 December 21:50/22:05** (this is the DLI boarding event, matching section 2–3 above), and reaches Kathgodam **Sunday 20 December 2026 05:05**. It does **not** leave Jaisalmer on 18 December — one of the compared AIs (Vibe) got this one calendar day wrong and should not be trusted on this kind of date arithmetic.
+- **Old/retired schedule warning:** some sources still show a 00:45 Jaisalmer departure — that is a stale pre-2026 timetable value. The current, correct departure is **02:40**.
+- **ARP (Advance Reservation Period):** standard is 60 days before the origin-station departure date, origin day itself excluded. For Jaisalmer departure 19 December 2026, the normal General Reservation booking window opens **Tuesday 20 October 2026** (not 19 Oct, not Monday — one compared AI, Gemini, had the weekday wrong; Tuesday is independently confirmed by `date -d`). Source: IRCTC's own ARP-change PDF.
+- **Critical for Mark as a foreign traveller — Aadhaar authentication blocks normal online booking on day one:** since **12 January 2026**, IRCTC requires Aadhaar-authenticated accounts to book General Reservation online during the entire first ARP day (the old "first 15 minutes blocked" rule is retired). Mark has no Aadhaar number, so he cannot rely on booking the moment the 20 Oct 2026 window opens.
+- **Practical booking route for Mark: Foreign Tourist Quota (FTQ).** IRCTC's official FTQ lets foreign-passport holders book up to **365 days in advance**, independent of the 60-day ARP/Aadhaar restriction, subject to FTQ seat availability. **Mark should investigate/attempt an FTQ booking for 15013 now, rather than waiting for 20 October 2026.**
+- **Fallback if 15013/FTQ does not work out:** train **15035** genuinely originates at Old Delhi itself (no Jaisalmer dependency), departs **16:00**, arrives Kathgodam **22:45** the same day — but this is a daytime journey, so it loses the deliberate overnight-train construction (no hotel night saved, no sleep-while-travelling). Treat as a last-resort fallback only, not a preferred equivalent.
+- Sources (all primary/official, not AI-invented): NWR Working Time Table (nwr.indianrailways.gov.in), IRCTC ARP-change PDF, IRCTC Foreign Tourist Quota Booking PDF, Indian Express reporting on the 12 Jan 2026 Aadhaar-authentication rule change.
