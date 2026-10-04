@@ -88,15 +88,15 @@ Concreet, per WORK's onderzoek (30 sep): **Bhagavan Samadhi Hall** (Ramana's eig
 
 ### Yogi Ramsuratkumar-cluster — hoofdashram + Sannidhi Street-huis + Sudama-huis [A+, MARK DECISION 2026-10-05, provisioneel]
 
-TIJD: 12:15-14:45 (2,5 uur)
+TIJD: 12:15-13:45 (1,5 uur — Mark: Ramana Maharshi blijft het hoofdbezoek, dit is bewust korter dan WORK's "2,5-3 uur serieus"-schatting)
 
-Samadhi-shrine plus twee echte woonhuizen waar deze 20e-eeuwse heilige met grote westerse volgelingenkring respectievelijk 1977-1993 en vanaf 1993 leefde en darshan gaf. Eigen bewaarde spullen (jute-zak-bed, waterpot, kleding) nog aanwezig beschreven. Dagelijks open voor darshan, geen vaste openingstijd-beperking zoals bij de Vrindavan-plekken.
+Samadhi-shrine plus twee echte woonhuizen waar deze 20e-eeuwse heilige met grote westerse volgelingenkring respectievelijk 1977-1993 en vanaf 1993 leefde en darshan gaf. Eigen bewaarde spullen (jute-zak-bed, waterpot, kleding) nog aanwezig beschreven. Dagelijks open voor darshan, geen vaste openingstijd-beperking zoals bij de Vrindavan-plekken. Bij 1,5 uur ligt de nadruk op de hoofdashram/samadhi-shrine; de twee woonhuizen (Sannidhi Street, Sudama) krijgen dan minder tijd elk — als één ervan moet wijken, is dat een keuze voor op de dag zelf, niet hier vastgelegd.
 
-**Eerlijke consequentie, niet verzacht:** dit vervangt het grootste deel van de geplande "echte rust in de kamer"-tijd van deze ochtend-zware dag — van 4 uur onstructureerde ashram-rust/meditatie naar 2,5 uur Ramsuratkumar-bezoek + 1 uur korte rust. Zaterdag wordt daarmee een volle dag, niet langer de rustigste van de vier.
+**Consequentie, minder ingrijpend dan de 2,5-uur-versie:** dit kost nog steeds een deel van de geplande ashram-rust, maar laat meer over dan eerst. Zaterdag blijft een volle dag, maar niet de meest uitgeklede.
 
-14:45-15:00: verplaatsing terug naar de ashram-zone.
+13:45-14:00: verplaatsing terug naar de ashram-zone.
 
-15:00-16:00: korte rust/douche vóór Pavalakunru.
+14:00-16:00: echte rust/meditatie vóór Pavalakunru (2 uur, grotendeels hersteld).
 
 16:00-16:15: verplaatsing naar Pavalakunru (Google Maps ~10-15 min, blok 20 min).
 

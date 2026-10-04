@@ -178,7 +178,7 @@ If something in this file conflicts with an older file, **this file wins**, unle
 ## TIRUVANNAMALAI / ARUNACHALA
 
 - Arunachala/Ramana experience [A+]. The Dreaming Tree [A*], Virupaksha Cave [A+], Skandashram/Gurumurtam/Pavalakunru [A].
-- **Yogi Ramsuratkumar-cluster (hoofdashram + Sannidhi Street-huis + Sudama-huis) [A+, MARK DECISION 2026-10-05, provisioneel]** — 20e-eeuwse heilige met grote westerse volgelingenkring, bewaarde persoonlijke spullen, ~650m/9min van Sri Ramanasramam. Ingepland zaterdag 16 jan 12:15-14:45, vervangt het grootste deel van de geplande ashram-rust die middag — zie `runs/active/CCI_TIRUVANNAMALAI_QUARTERHOUR_PLAN_2026-09-30.md`. Overige drie ongegradeerde kandidaten (Seshadri Swamigal, Ayyankulam-tank, Premalaya) blijven open.
+- **Yogi Ramsuratkumar-cluster (hoofdashram + Sannidhi Street-huis + Sudama-huis) [A+, MARK DECISION 2026-10-05, provisioneel]** — 20e-eeuwse heilige met grote westerse volgelingenkring, bewaarde persoonlijke spullen, ~650m/9min van Sri Ramanasramam. **Bewust 1,5 uur, niet de volle 2,5-3 uur** — Mark: "mn hoofdvisit is uiteraard Ramana Maharshi." Ingepland zaterdag 16 jan 12:15-13:45, met 2 uur ashram-rust erna hersteld — zie `runs/active/CCI_TIRUVANNAMALAI_QUARTERHOUR_PLAN_2026-09-30.md`. Overige drie ongegradeerde kandidaten (Seshadri Swamigal, Ayyankulam-tank, Premalaya) blijven open.
 - **LOCKED BY MARK 2026-09-26: 4 nights** (15–18 Jan), paired with Bodh Gaya's 3rd night. See `decisions/INDIA23_BODHGAYA_3N_TIRUVANNAMALAI_4N_NIGHT_TRADE_LOCK_MARK_DECISION_2026-09-26.md`.
 
 ## CHENNAI
