@@ -1,16 +1,13 @@
 # STARTVRAAG VOOR MEERDERE GRATIS AI's — ALLE TREINEN ONAFHANKELIJK VERIFIËREN
 
-**STATUS 2026-10-06: onderdeel 1 (trein 15013/15014) is AFGEROND** — meerdere gratis AI's
-vergeleken, Mark heeft zelf tegen primaire bronnen gecontroleerd, resultaat vastgelegd in
-`decisions/INDIA20_DAY1_NEW_FRONTIER_LOCK_AND_KOLKATA_GRADE_SUPERSEDE_2026-09-13.md` §6 en
-`DL-0088`. **Onderdelen 2-5 (treinen 15036, 12988, 22324, en het Gaya→Varanasi-traject) staan
-nog open** — gebruik de rest van dit document daarvoor.
-
-Mark wil dat ALLE treinen in dit project onafhankelijk worden nagezocht door gratis AI-sessies
-(bijv. ChatGPT, Gemini, Copilot — bij voorkeur minstens 2-3 verschillende, los van elkaar
-geraadpleegd), omdat dit pure feiten-lookup is en geen taak voor "WORK" (de betaalde/tokens-beperkte
-tweede AI die alleen voor echte twee-AI-consensusvragen wordt ingezet). Plak het blok hieronder in
-elke sessie, en plak daarna ALLE antwoorden hier terug zodat ze gereconcilieerd kunnen worden.
+**STATUS 2026-10-06: dit is de DEFINITIEVE, door CCI en WORK samen akkoord-bevonden lijst**
+(PR #23, comments 5982138089 en 5982204255). Onderdeel 1 (trein 15013/15014) is al afgerond en
+staat er alleen ter referentie bij (`DL-0088`). **Vijf onderdelen staan nog open: 15036, 12988,
+Gaya→Varanasi (20887 versus privéauto), 22324, en 22604.** Plak het blok hieronder in meerdere
+gratis AI-sessies (ChatGPT, Perplexity, Gemini, e.d. — bij voorkeur 3 of meer, los van elkaar),
+vergelijk ze zelf tegen primaire bronnen, en plak het resultaat terug in de chat. Dit gaat daarna
+naar CCI én WORK samen voor de laatste stap: beoordelen of het ook echt de passende trein per dag
+is, niet alleen feitelijk correct.
 
 ---
 
@@ -20,61 +17,65 @@ System) of de officiële Indian Railways-tijdtabel als bron, en als je daar geen
 gebruik minstens twee onafhankelijke bronnen en benoem ze. Als bronnen elkaar tegenspreken, meld dat
 LETTERLIJK — kies niet zomaar één getal. Zeg "NIET GEVONDEN" of "ONZEKER" waar dat zo is.
 
-## Achtergrond — waarom dit zo streng moet
+## Ter referentie — al afgerond, hoeft niet opnieuw
 
-Eerder bleek trein 15013/15014 ("Ranikhet Express") niet, zoals mijn project aannam, een
-Delhi–Kathgodam-trein te zijn, maar een **Jaisalmer–Kathgodam**-trein met Delhi als tussenstop. Dat
-veranderde de boekingsdatum. Ik wil dat dit soort fouten bij de andere treinen vooraf wordt
-opgespoord, niet achteraf.
+**Trein 15013/15014 "Ranikhet Express"**: Jaisalmer (Rajasthan) vertrek 02:40 → Old Delhi/DLI
+aankomst 21:50, vertrek 22:05 → Kathgodam (Uttarakhand) aankomst 05:05. Voor de reis: Jaisalmer
+zaterdag 19 december 2026, DLI diezelfde avond, Kathgodam zondag 20 december 2026.
 
-## De vijf onderdelen — elk apart controleren
+## De vijf open onderdelen — elk apart controleren
 
-**1. Trein 15013/15014 "Ranikhet Express"** (ter herbevestiging/kruiscontrole, niet vanaf nul)
-- Beweerde route: begint in **Jaisalmer** (Rajasthan), tussenstop **(Oud-)Delhi**, eindstation
-  **Kathgodam** (Uttarakhand, toegangsstation voor de Kumaon-regio).
-- Geplande reis: nacht van zaterdag 19 op zondag 20 december 2026, instappen in Delhi.
-- Bevestig: klopt de Jaisalmer-herkomst echt? Wat zijn de exacte vertrek-/aankomsttijden bij
-  Jaisalmer, Delhi en Kathgodam? Rijdt de trein dagelijks?
-- Reken het officiële **Advance Reservation Period (ARP)** uit: 60 dagen vóór de vertrekdatum
-  **vanaf Jaisalmer** (het beginstation), niet vanaf Delhi. Geef de exacte kalenderdatum.
-
-**2. Trein 15036** (Kathgodam → Ghaziabad)
-- Beweerde route: vertrek **Kathgodam** 08:40, aankomst **Ghaziabad** (voorstad net ten oosten van
-  Delhi) 14:39, op **dinsdag 29 december 2026**.
+**1. Trein 15036** (Kathgodam → Ghaziabad)
+- Beweerde route: vertrek **Kathgodam** → aankomst **Ghaziabad** (voorstad net ten oosten van
+  Delhi), op **dinsdag 29 december 2026**.
+- **Expliciet conflict op te lossen:** de ene bron noemt vertrek **08:40**, een andere (officiële
+  Uttarakhand-publicatie) noemt **08:50**. Welke is correct volgens de huidige dienstregeling?
+  Bevestig ook de aankomsttijd Ghaziabad, beweerd **14:39**.
 - Vraag: begint deze trein daadwerkelijk in Kathgodam, of rijdt hij vanaf een station verder weg
   door (wat de ARP-berekening zou veranderen)? Rijdt hij dagelijks?
 - Reken het exacte ARP-boekingsdatum uit vanaf het echte beginstation.
 
-**3. Trein 12988** ("Ajmer–Sealdah SF Express")
-- Beweerde route: beginstation **Ajmer** (Rajasthan), ik stap zelf in bij **Agra Fort**
-  (treinstation in de stad Agra, niet de Taj Mahal) om 18:45, eindstation **Sealdah** in Kolkata,
-  maar ik stap uit bij **Gaya Junction** (treinstation bij Bodh Gaya) om 07:50 de volgende ochtend
-  (1 januari 2027).
+**2. Trein 12988** ("Ajmer–Sealdah SF Express")
+- Beweerde route: beginstation **Ajmer** (Rajasthan), instappen bij **Agra Fort** (treinstation in
+  de stad Agra, niet de Taj Mahal) om 18:45 op **donderdag 31 december 2026**, uitstappen bij
+  **Gaya Junction** (treinstation bij Bodh Gaya) om 07:50 op **vrijdag 1 januari 2027**.
 - Bevestig de exacte vertrekdatum/-tijd vanaf **Ajmer** (het beginstation) en reken het ARP
   (60 dagen vóór die Ajmer-vertrekdatum) exact uit — niet vanaf Agra Fort.
 - Bevestig tevens de tijden bij Agra Fort en Gaya Junction kloppen zoals hierboven.
 
-**4. Trein 22324** ("Shabd Bhedi Express")
-- Beweerde route: beginstation **Ghazipur City** (vertrek vrijdag 8 januari 2027), ik stap zelf in
-  bij **Varanasi Junction (BSB)** rond 01:30 op zaterdag 9 januari 2027, eindstation
-  **Kolkata Chitpur (KOAA)** rond 13:05 dezelfde dag.
-- Een eerdere (betaalde AI-)bron claimde: ARP opent **maandag 9 november 2026, 08:00 IST**, klasse
-  2A (ongeveer ₹1.520 indicatief), beschikbaarheid krap (RAC gezien op een vergelijkbare datum),
-  met Foreign Tourist Quota als alternatief tot 365 dagen vooruit boekbaar.
-- Controleer dit volledig onafhankelijk: klopt het beginstation Ghazipur City, kloppen de tijden,
-  en klopt de ARP-datum 9 november 2026? Zo niet, geef de echte datum met berekening.
+**3. Traject Gaya → Varanasi (maandag 4 januari 2027)** — kandidaat tegenover privéauto, nog niet
+gekozen
+- Kandidaat-trein: **20887**, een **zittende Vande Bharat (Executive Chair Car/Chair Car, GEEN
+  slaaprijtuig)**, beweerde route Gaya Junction (bij Bodh Gaya) 09:55 → Varanasi Junction 13:00.
+  Let op: oudere bronnen gingen uit van zondag 3 januari, maar de juiste transferdag is nu
+  **maandag 4 januari 2027** — controleer specifiek of 20887 op een maandag rijdt.
+- Vergelijk expliciet met het alternatief: een **privéauto/taxi** voor dezelfde afstand (Gaya naar
+  Varanasi, ca. 250 km) — reistijd, comfort en praktische overwegingen, zodat ik een echte keuze
+  kan maken en niet alleen een treintijd krijg.
+- Reken ook hier het ARP uit, mocht de trein de voorkeur krijgen.
 
-**5. Traject Gaya → Varanasi (4 januari 2027)** — nog volledig onopgelost, zelfs het vervoermiddel
-staat niet vast
-- Na 3 nachten in Bodh Gaya (bij Gaya, Bihar) moet ik op maandag 4 januari 2027 naar Varanasi
-  (Uttar Pradesh) reizen. Er is nog geen trein, auto of ander vervoermiddel vastgelegd.
-- Is er een directe trein tussen Gaya Junction en Varanasi Junction (of een station in de buurt van
-  een van beide), en wat zijn dan de tijden en het ARP? Of is een auto/taxi (ca. 250 km) realistischer
-  qua reistijd en comfort? Geef beide opties met reistijd, zodat ik kan kiezen.
+**4. Trein 22324** ("Shabd Bhedi Express")
+- Beweerde route: beginstation **Ghazipur City** (vertrek vrijdag 8 januari 2027), instappen bij
+  **Varanasi Junction (BSB)** rond 01:30 op zaterdag 9 januari 2027, eindstation
+  **Kolkata Chitpur (KOAA)** rond 13:05 dezelfde dag.
+- Controleer: kloppen het beginstation Ghazipur City, de tijden (~01:30 en ~13:05), het
+  dagenpatroon en de vertrekdatum vanaf Ghazipur City?
+- Beoogde klasse is **2A** (1A is volgens eerder onderzoek niet beschikbaar op deze trein) —
+  bevestig dit en geef de huidige indicatieve prijs en beschikbaarheid.
+- Reken het exacte ARP-boekingsdatum uit vanaf Ghazipur City's vertrekdatum.
+
+**5. Trein 22604** (Tiruvannamalai → Chennai, dinsdag 19 januari 2027)
+- Beweerde route: beginstation **Villupuram Junction**, huidige richttijd vertrek daar **11:05**;
+  ik stap zelf in bij **Tiruvannamalai** (niet bij het beginstation) en reis naar een station in
+  **Chennai**.
+- Bevestig: klopt Villupuram Junction als beginstation en 11:05 als vertrektijd daar? Op welke tijd
+  stopt de trein in Tiruvannamalai, en op welk Chennai-station komt hij aan, hoe laat?
+- Rijdt deze trein op dinsdagen? Reken het ARP uit vanaf het echte beginstation.
+- Vergelijk ook hier expliciet met een **privéauto** voor dit traject, zodat ik kan kiezen.
 
 ## Vorm van je antwoord
 
 Voor elk van de vijf onderdelen apart: (a) bevestigd/weerlegd/onzeker, met bronnen; (b) volledige
 tijdlijn met brondata; (c) exacte ARP-boekingsdatum met berekening (waar van toepassing); (d) elke
-tegenstrijdigheid tussen bronnen expliciet benoemd. Verzin niets — "NIET GEVONDEN" mag een antwoord
-zijn.
+tegenstrijdigheid tussen bronnen expliciet benoemd, inclusief de 08:40-versus-08:50-kwestie bij
+trein 15036. Verzin niets — "NIET GEVONDEN" mag een antwoord zijn.
