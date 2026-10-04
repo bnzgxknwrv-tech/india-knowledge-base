@@ -1,13 +1,11 @@
 # STARTVRAAG VOOR MEERDERE GRATIS AI's — ALLE TREINEN ONAFHANKELIJK VERIFIËREN
 
-**STATUS 2026-10-06: dit is de DEFINITIEVE, door CCI en WORK samen akkoord-bevonden lijst**
-(PR #23, comments 5982138089 en 5982204255). Onderdeel 1 (trein 15013/15014) is al afgerond en
-staat er alleen ter referentie bij (`DL-0088`). **Vijf onderdelen staan nog open: 15036, 12988,
-Gaya→Varanasi (20887 versus privéauto), 22324, en 22604.** Plak het blok hieronder in meerdere
-gratis AI-sessies (ChatGPT, Perplexity, Gemini, e.d. — bij voorkeur 3 of meer, los van elkaar),
-vergelijk ze zelf tegen primaire bronnen, en plak het resultaat terug in de chat. Dit gaat daarna
-naar CCI én WORK samen voor de laatste stap: beoordelen of het ook echt de passende trein per dag
-is, niet alleen feitelijk correct.
+**STATUS 2026-10-06: VOLLEDIG AFGEROND.** Alle zes onderdelen (15013, 15036, 12988, 20887, 22324,
+22604) zijn geverifieerd: eerst via meerdere gratis AI's (Copilot, Vibe, DeepSeek, Grok, Perplexity,
+Gemini, ChatGPT), daarna definitief door WORK via het officiële IRCTC-portaal rechtstreeks
+bevraagd (`DL-0089`, `DL-0088`). De complete boekingskalender met exacte tijden, rijdagen, klassen
+en boekingsdata staat in `governance/CURRENT_TRUTH.md` onder "TREINEN — OFFICIËLE
+IRCTC-BOEKINGSKALENDER". Dit document hoeft niet opnieuw gebruikt te worden voor deze vijf treinen.
 
 ---
 
