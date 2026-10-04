@@ -1,8 +1,18 @@
 # CURRENT TRUTH — INDIA TRIP, 19 DEC 2026 – 20 JAN 2027
 
 Status: **THE operational reference — read this first, not the older CURRENT_STATE / CURRENT_DECISIONS_MASTER / SUCCESSOR_SAFE_STATE files**
-Last updated: 2026-10-02 (Varanasi section resynced to the actual 2026-09-28 Mark lock `DL-0086`, which this file had missed; open-decisions list expanded — see an independent 2026-10-01 consistency audit, pasted into PR #23 chat)
+Last updated: 2026-10-05 (urgent visa-category flag added — see below)
 Built by: CCI, per the consolidation model agreed by Mark and INDIA22 on 2026-09-14 (PR #23)
+
+## URGENT — VISA CATEGORY NOT YET CONFIRMED, DO NOT APPLY FOR E-TOURIST VISA YET
+
+Flagged by INDIA25/WORK, 2026-10-05 (PR #23 comment 5979473618), independently verified by CCI against the official Indian embassy/consular sites: **profession, not trip purpose, decides the required Indian visa category.** Multiple official sources (indianembassynetherlands.gov.in, hcikl.gov.in) state that journalists/cameramen/media professionals must apply for a **Journalist (J) visa even for pure tourism/personal travel with no work, no camera, no journalistic intent** — "journalists, even when going for tourism, should apply for 'J' visa." Mark's profession (photographer/cameraman-adjacent, per his own email handle and prior context) may fall under this rule.
+
+**Consequence: the earlier joint instruction "apply for the 1-year e-Tourist Visa" is WITHDRAWN until this is resolved.** A wrong visa category risks denied boarding, denied entry, or deportation — not a minor paperwork issue.
+
+**Required next step, now the single most time-critical action in this whole project:** Mark must get written confirmation from the Indian Embassy (Den Haag) or VFS Global, describing his exact situation (profession, that this is personal/family travel, no camera equipment, no work), and ask explicitly which visa category applies. Do not apply for any visa (e-Tourist or J) before that written answer comes back — J-visa applications need different documents (employer/organisation letter) and an unknown, likely longer, processing time, which changes the critical-path timing for the whole pre-departure checklist.
+
+This supersedes item 5 in the `VOORBEREIDING_STAPPENPLAN_STARTVRAAG_CHATGPT_2026-10-04.md` / PR #23 consensus chronological list (PR comment 5979460854) until resolved.
 
 ## WHAT THIS FILE IS
 
