@@ -61,6 +61,25 @@ sowieso eerst de Foreign Tourist Ticket Booking-route (Services → Foreign Tour
 internationaal mobiel nummer + OTP, paspoortnummer, internationale kaart) voor elke trein, en houd
 dag 2 als zekere achtervang in de agenda.
 
+## DE REGEL IS GEEN EENMALIGE 15-MINUTENREGEL — DRIE OPEENVOLGENDE VERLENGINGEN (bronnen:
+deshgujarat.com, india.com, railrecipe.com, newsonair.gov.in; PR #23 comment 5982836109)
+
+WORK's bron (PIB PRID=2166889) is de aankondiging van de ALLERoudste versie. Sindsdien, in fases:
+
+| Fase | Vanaf | Aadhaar-only venster | Niet-Aadhaar (Mark) kan boeken |
+|---|---|---|---|
+| Origineel | ±sept/okt 2025 | 08:00-08:15 IST | vanaf 08:15 IST, zelfde dag |
+| Fase 1 | 29-12-2025 | 08:00-12:00 IST | vanaf 12:00 IST, zelfde dag |
+| Fase 2 | 05-01-2026 | 08:00-16:00 IST | vanaf 16:00 IST, zelfde dag |
+| Fase 3 | 12-01-2026 | 08:00-24:00 IST (HELE dag) | **niet die dag — pas dag 2** |
+
+Al onze zes boekingsdata (okt-nov 2026) liggen ver na fase 3. **Zelfs in het meest gunstige geval
+(als fase 3 toch niet beklijfd zou zijn) is 08:15 IST te optimistisch — het realistische vroegste
+moment is dan 16:00 IST diezelfde dag (fase 2), niet 's ochtends.** Waarschijnlijker is dat fase 3
+geldt en dag 2 nodig is. Houd dus voorlopig **dag 2** aan als veilige planning, met "16:00 IST
+dezelfde dag" als optimistisch achtervangmoment — 08:15 IST NIET meer gebruiken totdat WORK dit met
+een bron van ná 5 januari 2026 weerlegt.
+
 ## Praktisch bij elke LATER-boeking
 
 - Als je op de exacte boekingsdatum zelf tegen een Aadhaar-blokkade aanloopt (zoals bij 15013):
