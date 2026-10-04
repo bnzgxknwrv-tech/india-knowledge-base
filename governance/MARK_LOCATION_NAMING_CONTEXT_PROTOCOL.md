@@ -135,6 +135,8 @@ Before every user-facing India reply containing locations, scan **every occurren
 - Has transfer-day capture been tested before calling it a separate excursion?
 - If the place is remote, is whole excursion/day cost visible?
 - If special internal transport is named, are start/end/context explicit?
+- Is this check actually running, even though the reply is a short chat message or quick clarification rather than a formal document (§12)?
+- Does any place in this reply already exist under a different description earlier in the conversation/document — and if so, is the equivalence stated explicitly rather than left for Mark to infer (§13)?
 
 If any answer is NO, the reply MUST be fixed before sending.
 
@@ -198,7 +200,19 @@ The human test is absolute:
 `KAN MARK DE HELE DAG IN ZIJN HOOFD VOLGEN VANAF HET MOMENT DAT HIJ ZIJN SLAAPPLEK VERLAAT TOTDAT HIJ WEER SLAAPT, ZONDER GOOGLE MAPS OF KENNIS VAN INDIA?`
 If NO, the dayplan may not be sent.
 
-## 12. HUMAN-SCALE TIME + PRECISION RULE — HARD / ANTI-PRECISION-THEATRE
+## 12. SCOPE — LIVE CHAT AND QUICK CLARIFICATIONS ARE FULL SCOPE, NOT A LOWER TIER — HARD
+
+Added 2026-10-06 after a concrete repeat failure (`FOUT 31`, `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md`): this entire protocol was being treated as if it only governs formal deliverables — written day-plan documents, PDFs, the kind of output that gets reviewed before sending. It does not. **A one-line chat answer, a quick follow-up clarification, a mid-conversation correction, and a casual "oh and also X" aside are all "user-facing India output" in the full sense of this file.** There is no lower-effort tier where bare names are acceptable because the exchange feels informal or fast-moving. Mark explicitly said this matters MORE in back-and-forth chat, not less, because that is exactly where names get dropped without the care a written document would get.
+
+Practical consequence: the PRE-REPLY VIOLATION TEST in §9 runs on every reply containing a place name, including a two-sentence chat message, not only on multi-paragraph dayplans. If running the full checklist feels disproportionate to a short reply, that is a signal the reply is about to violate this rule, not a reason to skip the check.
+
+## 13. SAME-PLACE RELABELING RULE — HARD
+
+Added 2026-10-06 after the same incident (`FOUT 31`): a second, distinct failure mode exists alongside "bare unfamiliar name." It is **introducing the same physical place under a new descriptive label without saying it is the same place.** Concrete example of what happened: a site was first called "de hoofdashram" (the main ashram), and in a later message the same physical site was called "zijn graf" (his grave) — both correct descriptions of the same location, but because the equivalence was never stated, Mark reasonably read it as a fourth, newly invented location on top of the ashram and two houses already discussed, and said so directly: "dus het graf heb je ineens erbij verzonnen."
+
+**Rule:** whenever a place already established earlier in the same conversation or document is referred to again using a different noun, description, or angle (an "ashram" later called "the grave," a "house" later called "the museum," a "temple" later called "the shrine"), the reference MUST explicitly anchor it back: `dezelfde plek als [eerdere naam/omschrijving], namelijk ...`. Never rely on the reader inferring that two different-sounding descriptions point at one place. When in doubt, over-anchor rather than under-anchor — a redundant "dit is dezelfde plek" costs nothing; a silent relabeling costs trust and forces the user to re-litigate something already settled.
+
+## 14. HUMAN-SCALE TIME + PRECISION RULE — HARD / ANTI-PRECISION-THEATRE
 Dayplanning is for a real traveller, not for a dispatch computer. INDIA must use the **coarsest precision that still changes the travel decision**.
 
 Hard rules:

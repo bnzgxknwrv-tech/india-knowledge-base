@@ -520,6 +520,21 @@ De regel bestond al, was zelfs specifiek en gedetailleerd (met concrete voorbeel
 
 ---
 
+## FOUT 31 — NAAMGEVINGSREGEL BESTOND AL, MAAR WERD IN LEVEND CHATGESPREK HERHAALDELIJK GENEGEERD + DEZELFDE PLEK STILZWIJGEND HERNOEMD
+
+**Concrete CCI-fout, ontdekt 2026-10-06**
+Tijdens een live gesprek over het Tiruvannamalai-dagplan noemde CCI herhaaldelijk onbekende Indiase namen (`Katyayani Peeth`, `Gurumurtam`, `Pavalakunru`) zonder herkenningshaakje, ondanks dat `governance/MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md` dit al sinds 2026-08-28 als HARD/UNIVERSAL-regel vastlegt, inclusief een expliciet verbod op precies dit gedrag (§1, "NO SHORTHAND ESCAPE"). Mark moest drie keer in hetzelfde gesprek vragen "wat is dat nu weer?". Daarna ontstond een tweede, verwant probleem: dezelfde fysieke plek (het Yogi Ramsuratkumar-ashram/graf) werd eerst "de hoofdashram" genoemd en later, zonder de koppeling te benoemen, "zijn graf" — Mark las dit terecht als een compleet nieuwe, vierde locatie die CCI "erbij had verzonnen", en zei dat ook letterlijk.
+
+**Waarom dit fout is**
+Dit is een `GELEZEN/BESTAAND -> NIET TOEGEPAST`-fout, dezelfde familie als FOUT 2/3/4/26/30, maar nu op naamgeving in live chatgesprek in plaats van in een formeel dagplan-document. De regel werd kennelijk gelezen als iets dat alleen voor formele documenten/PDF's geldt, niet voor snelle chat-antwoorden en tussentijdse verduidelijkingen — terwijl precies dáár namen het makkelijkst zonder uitleg naar binnen glippen.
+
+**VERPLICHTE OPLOSSING**
+- `governance/MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md` is uitgebreid met twee nieuwe harde regels: §12 (scope omvat expliciet live chat en korte verduidelijkingen, geen lagere tier) en §13 (bij het hernoemen/anders omschrijven van een al genoemde plek, altijd expliciet "dit is dezelfde plek als ..." erbij zeggen).
+- De PRE-REPLY VIOLATION TEST in §9 van datzelfde bestand bevat nu twee aanvullende checklistvragen die deze twee punten direct afdwingen.
+- Praktisch: ook een reactie van twee zinnen in de chat doorloopt dezelfde toets als een volledig dagplan-document — geen uitzondering voor "dit is maar een snel antwoordje."
+
+---
+
 # COMMUNICATIE MET MARK
 
 Mark typt snel op iPhone. Interpreteer evidente typefouten/autocorrect uit context. Alleen doorvragen als twee interpretaties werkelijk tot andere acties leiden.
@@ -565,6 +580,7 @@ Vóór IEDER substantieel India-antwoord, test de DAADWERKELIJK BEDOELDE antwoor
 27. Als dit antwoord zowel een markdown- als een artifact-versie van locatiekaarten raakt: heb ik het volledige sjabloon (`MARK_FACING_LOCATION_CARD_TEMPLATE.md`) in BEIDE bestanden identiek toegepast, kaart voor kaart, niet alleen in de meest recent bewerkte? Bevat het artifact geen lege foto-placeholder-boxen (FOUT 28)?
 28. Staat er nog een niet-gegradeerd "remaining traveler layer"-bestand open voor dit cluster? Zo ja: heb ik verdere kwartier-kloktijdplanning/reistijd-verificatie/artifact-sync gepauzeerd totdat Mark die gradering heeft gegeven, in plaats van door te bouwen op een onvolledige locatielijst (FOUT 29)?
 29. Heb ik bij een Lonely-Planet-laag-onderzoek `governance/LONELY_PLANET_LAYER_RULE_2026-08-22.md` letterlijk als checklist doorlopen, inclusief de natuur/watervallen/wildlife-categorie — niet alleen ambachten/musea/eetculturen (FOUT 30)?
+30. Geldt dit ook voor dit korte chatantwoord, niet alleen voor formele dagplan-documenten — bevat ELKE naam een herkenningshaakje, en heb ik elke plek die al eerder anders omschreven is expliciet aan die eerdere omschrijving gekoppeld (`MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md` §12-13, FOUT 31)?
 
 Als één relevante vraag **NEE of UNKNOWN** is:
 
