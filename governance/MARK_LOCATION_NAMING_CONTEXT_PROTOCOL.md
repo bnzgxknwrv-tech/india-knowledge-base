@@ -236,3 +236,17 @@ For **Giripradakshina / Girivalam — volledige 14 km heilige rondgang rond Arun
 Before sending any dayplan ask:
 `ZOU EEN NORMAAL MENS DIT ALS EEN RUSTIGE, BRUIKBARE REISPLANNING LEZEN — OF ALS EEN SCHEMA DAT DOET ALSOF ELKE MINUUT EN METER EXACT VOORSPELBAAR IS?`
 If it reads like the latter, round it, add realistic slack, remove irrelevant personal-routine timing, and re-present before sending.
+
+## 15. TRAIN/TRANSPORT REFERENCE FORMAT — HARD
+
+Added 2026-10-06, direct Mark instruction during live train-booking work: a bare station code or
+train number is exactly the same kind of unexplained-name failure as SS1-SS13 above, just applied to
+transport instead of places. **Every time a train is mentioned in chat or in a document, give all
+four of: the three-letter station code, the station's full name, the relevant time, and the train
+number** — never just one or two of these in isolation.
+
+Correct form: `KGM (Kathgodam) 08:40 — trein 15036`, not `15036 vertrekt om 08:40` and not
+`KGM 08:40` alone. Apply this to both the departure and arrival side of a leg when both are
+relevant, and to every train mentioned, not only the first time it comes up in a conversation —
+same logic as SS12 (live chat is full scope, not a lower tier) and SS13 (no silent relabeling):
+shorthand used once does not excuse dropping the full form later in the same exchange.
