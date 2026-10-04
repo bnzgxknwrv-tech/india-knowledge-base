@@ -98,7 +98,18 @@ dagen) onopgelost tot IRCTC zelf geraadpleegd werd.
 | **15036** | Kathgodam (KGM) → Ghaziabad (GZB) | 29-12-2026, 08:40 | 29-12, 14:39/14:41 | dagelijks | — | **30 dagen** | **29-11-2026** |
 | **12988** | Agra Fort (AF) → Gaya Jn (GAYA) | 31-12-2026, 18:45 (origin Ajmer AII 12:50) | 01-01-2027, 07:50/07:55 | dagelijks | — | 60 dagen | **01-11-2026** |
 | **20887** | Gaya Jn (GAYA) → Varanasi Jn (BSB) — **LOCKED BY MARK 2026-10-06 over privéauto** | 04-01-2027, 09:55 (origin Ranchi RNC 05:10) | 04-01, 13:00 | ma, wo-zo (rustdag **dinsdag**) | CC/EC (zitplaats, geen slaaptrein) | 60 dagen | **05-11-2026** |
-| **22324** | Varanasi Jn (BSB) → Kolkata Chitpur (KOAA) | 09-01-2027, 01:30 (origin Ghazipur City GCT vr 8-1 22:20) | 09-01, 13:05 | **alleen vrijdag** (vanaf GCT) | 2A ja, 1A nee | 60 dagen | **09-11-2026** |
+| **22324** | Varanasi Jn (BSB) → Kolkata Chitpur (KOAA) | 09-01-2027, 01:30 (origin Ghazipur City GCT vr 8-1 22:20) | 09-01, 13:05 | **alleen vrijdag** (vanaf GCT) | 2A ja, 1A nee | 60 dagen | **09-11-2026** — **BOOKED**, 2A/Lower, Foreign Tourist, ₹2.461 betaald |
+
+**KOAA-stationsidentiteit bevestigd via 6 onafhankelijke bronnen (2026-10-06):** KOAA = "Kolkata"
+railwaystation, ook bekend als Chitpur (voorheen "Chitpur Central"), Canal Circular Rd, Belgachia,
+Noord-Kolkata — **een aparte, andere locatie dan Howrah Junction**, ook al groepeert IRCTC's
+zoekscherm ze soms onder "(Howrah / Kolkata)". Bronnen: Wikipedia, ixigo, MakeMyTrip, EaseMyTrip,
+railjournal.in, gettraininfo.com — allemaal consistent.
+
+**NOG OPEN — geen hotel/slaapbasis in Kolkata vastgelegd.** Er ligt nog geen gekozen hotel voor het
+6-nachten-blok in Kolkata (9/10–14 jan). Zodra dat gekozen wordt, moet de afstand/reistijd vanaf
+**KOAA (Chitpur, Belgachia, Noord-Kolkata)** expliciet gecheckt worden — niet vanaf Howrah, dat is
+een andere kant van de stad.
 | **22604** | Tiruvannamalai (TNM) → **Perambur (PER)** | 19-01-2027, 12:00 (origin Villupuram VM 11:05) | 19-01, 15:40/15:45 | **alleen dinsdag** | SL, 3A, 2A | 60 dagen | **20-11-2026** |
 
 **Kritieke bijzonderheid bij 22604 — GEEN Chennai Central (MAS):** deze trein stopt NIET in Chennai
