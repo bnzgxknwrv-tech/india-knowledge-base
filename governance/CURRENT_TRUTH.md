@@ -249,7 +249,8 @@ alle PNR's: `governance/TREINEN_BOEKINGSOVERZICHT_NU_LATER_2026-10-06.md`.
 
 ## CHENNAI
 
-- **Vivekanandar Illam / Ice House — OPEN / UNGRADED, to be assessed later.** The audit recovered solid evidence that Vivekananda actually stayed here (6–14 Feb 1897) and that a visitable meditation room survives. Mark does **not** currently treat this as a must-see: by this point in the trip he will already have visited several more important Vivekananda sites, and whether this Chennai stop is worth the available buffer time still needs a personal grade/decision. Do not silently schedule it or promote it because of the recovered evidence alone.
+- **MARK DECISION 2026-10-06 — Sri Ramakrishna Math, Mylapore [A\*, SOFT — "puur als tijd en zin"]; Vivekanandar Illam/Ice House DOWNGRADED to [B], too far from the airport-adjacent hotel zone.** With the Chennai hotel now pointed toward Mylapore/Alwarpet (for an easy early-morning transfer to the 09:50 MAA→DEL flight), Math Mylapore (~12-15 km/~20-30 min from MAA) fits the single tight buffer evening (19 Jan) far better than Ice House (~17 km/~30-37 min from MAA) would. This supersedes the 2026-09-13 A* grade on Ice House. Not a hard commitment — visit only if the evening genuinely allows it. Binding decision: `decisions/INDIA26_CHENNAI_RAMAKRISHNA_MATH_MYLAPORE_SOFT_ASTAR_VIVEKANANDAR_ILLAM_B_MARK_DECISION_2026-10-06.md`.
+- Chennai hotel search should lean toward Mylapore/Alwarpet (or another airport-adjacent zone), not Perambur- or Triplicane-adjacent.
 
 ## TRIP WORLDS — WHAT'S IN, WHAT'S OUT
 
@@ -268,12 +269,12 @@ alle PNR's: `governance/TREINEN_BOEKINGSOVERZICHT_NU_LATER_2026-10-06.md`.
 5. ~~J.C. Bose site identity~~ — CLOSED 2026-09-29: resolved as Acharya Bhaban (see Kolkata section). Only the A/B/C-grade itself is still open, at Mark's discretion.
 6. ~~Lala Badri Shah House~~ — CLOSED 2026-09-21: Mark declined (see Kumaon section above).
 7. Jama Masjid and the astrologer/Jyotish visit — ungraded.
-8. Vivekanandar Illam / Ice House, Chennai — recovered valid Vivekananda residence/meditation-room site, but Mark wants it left OPEN/UNGRADED until Chennai time and personal value are assessed. **Flagged by an independent 2026-10-01 consistency audit: this entry contradicts `decisions/INDIA20_KOLKATA_VIVEKANANDA_PRIORITY_AND_CHENNAI_BYCATCH_MARK_DECISION_2026-09-13.md`'s explicit "Mark decision: A*" — no later retraction decision found anywhere in the repo. Not resolved by CCI unilaterally; Mark has been asked directly which one stands and has not yet answered.**
+8. ~~Vivekanandar Illam / Ice House, Chennai~~ — CLOSED 2026-10-06: downgraded to **B** (too far from the now-preferred airport-adjacent hotel zone). See Chennai section above.
 9. Trip booking phase has not started yet.
 10. **Kolkata 6-night block — explicitly NOT a Mark lock yet.** CURRENT_TRUTH's own Kolkata section already says so ("not a Mark decision... not yet a final lock") but this was missing from the numbered open-decisions list itself, so a reader skimming only this list could miss it.
 11. **Shyampukur Bati [A*] — graded, but not placed anywhere in the Kolkata week.** The Kolkata quarter-hour plan flags this itself and asks Mark whether it should be dropped, squeezed in, or handled differently.
 12. **50 Amherst Street [A*] — also graded, also not placed in the Kolkata week.** The quarter-hour plan calls this a "bewuste keuze" (deliberate choice) with a spontaneous-visit fallback, but no separate Mark decision file authorizes leaving an A* unscheduled — weaker provenance than item 11, worth Mark's explicit confirmation rather than assuming the plan's own framing.
-13. **Sri Ramakrishna Math, Mylapore, Chennai — new candidate, not yet graded.** Surfaced in `runs/active/CCI_CHENNAI_QUARTERHOUR_PLAN_2026-10-01.md`, added after CURRENT_TRUTH's own Chennai section was last written — genuinely new, not a sync gap.
+13. ~~Sri Ramakrishna Math, Mylapore, Chennai~~ — CLOSED 2026-10-06: graded **A\*, soft/time-and-mood-permitting**. See Chennai section above.
 14. **Four Tiruvannamalai candidates, all ungraded:** Sri Seshadri Swamigal Ashram, Yogi Ramsuratkumar-cluster (main ashram + two residences), Ayyankulam-tank, Premalaya/Shanthimalai Handicrafts — all surfaced in `runs/active/CCI_TIRUVANNAMALAI_QUARTERHOUR_PLAN_2026-09-30.md`, deliberately kept out of the plan pending grades.
 15. **Varanasi nature/waterfall/landscape batch (Rajdari & Devdari, Lakhaniya Dari, Chunadari, Aurwatand, akhara/kushti morning, Ganges dolphins, hot-air balloon flight) — genuinely never graded**, not merely a lost record. `DL-0083` (2026-09-28) flagged this whole category as skipped and logged a follow-up research pass as "in progress"; no later ledger entry closes it. Do not treat `runs/active/INDIA24_FINAL_EXTRACTION_2026-09-28.md`'s "13 + 8 new nature/waterfall candidates, Mark graded them" claim as accurate for this second batch.
 
