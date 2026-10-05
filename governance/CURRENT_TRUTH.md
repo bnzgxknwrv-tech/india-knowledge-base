@@ -184,6 +184,8 @@ Trein 15013 (19/20 dec, Jaisalmer→Kathgodam) is al apart afgerond, zie
 
 ## DELHI
 
+- **BINNENLANDSE VLUCHT MAA→DEL (20 jan 2027) — CONSENSUS MET WORK LOPEND (PR #23 comment 5990407664, 2026-10-06).** Gratis-AI-ronde (7 AI's) kwam uit op IndiGo 6E937 met winterrooster-vertrek 05:45 — maar Mark wil dit NIET: *"moet die laatste vlucht vlak voor de vertrekvlucht naar Nederland zo extreem vroeg? Ik zit dan de hele dag verder te niksen in Delhi... rond 10 à 11 uur in de ochtend is fijn."* Omdat AI155 (internationale terugvlucht) pas de VOLGENDE dag (21 jan ~12:20) is, blijft de bestaande "vroege vlucht voor achtervangcapaciteit"-regel (`decisions/CHENNAI_BUFFER_AND_EARLY_DELHI_FLIGHT_PREFERENCE_2026-09-07.md`) ook bij een latere ochtendvlucht intact — er is toch al een volledige buffer-dag/-nacht. **Nieuwe kandidaten gevonden, nog niet WORK-bevestigd:** IndiGo 6E6002 (11:10) of Air India AI2468 (11:00). Niet boeken tot WORK reageert.
+- **BINNENLANDSE VLUCHT CCU→MAA (15 jan 2027)** — voorstel IndiGo 6E563, waarschijnlijke wintertijd 09:05→11:25 (nog niet hard bevestigd), zie zelfde PR-comment. Fallback 6E344 (05:05) afgevallen, te vroeg.
 - Nirmal Dham (Mataji/Nirmala Devi ashram) [A+] — kept for the 20 Jan final buffer day; flight safety takes priority over it if there's a conflict.
 - Lotus Temple [A*], PVR Priya IMAX cinema [A*].
 - B-list (visit only if time allows): Qutb Minar, Hauz Khas Village, Humayun's Tomb, Sunder Nursery, Garden of Five Senses, Lodhi Garden, Red Fort.
