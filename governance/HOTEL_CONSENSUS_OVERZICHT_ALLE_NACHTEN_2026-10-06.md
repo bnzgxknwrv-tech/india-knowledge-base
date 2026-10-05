@@ -1,10 +1,12 @@
 # HOTEL/VERBLIJF CONSENSUS — VOLLEDIGE REIS, ALLE 33 NACHTEN
 
 Datum: 2026-10-06
-Doel: één enkel overzicht van ELK verblijf van de hele reis (18 dec 2026 – 21 jan 2027), met
-aankomstdatum/-tijd, vertrekdatum/-tijd en bijzonderheden — vóórdat we hotel-voor-hotel gaan boeken.
-Gebaseerd op `governance/CURRENT_TRUTH.md` (33-nachten-skelet + TREINEN-sectie) en alle onderliggende
-decision-bestanden.
+Doel: dit is nu HET ene centrale bestand voor alles wat met hotels/verblijf te maken heeft — alle 15
+verblijfsmomenten van de hele reis, met aankomstdatum/-tijd, vertrekdatum/-tijd, bijzonderheden, én
+(voor elke nog te kiezen locatie) waarom dat hotel ertoe doet en waar op te letten bij het uitzoeken.
+Treinen en vluchten zijn allemaal al geboekt (zie `CURRENT_TRUTH.md`); dit is het enige nog openstaande
+boekingsblok. Gebaseerd op `governance/CURRENT_TRUTH.md` (33-nachten-skelet + TREINEN-sectie) en alle
+onderliggende decision-bestanden.
 
 **Status-legenda:**
 - **GEBOEKT** = daadwerkelijk gereserveerd en betaald
@@ -58,3 +60,50 @@ decision-bestanden.
 **2 nieuw gevonden logistieke gaten tijdens het maken van dit overzicht:**
 - Hotel Evelyn: aankomst ~06:30-07:00 's ochtends, early check-in nog niet aangevraagd.
 - Agra-hotel (nog te kiezen): moet expliciet late-checkout/dagkamer-gebruik bieden voor de avond van 31 dec, net als New Frontier.
+
+---
+
+## PER NOG TE KIEZEN HOTEL — WAAROM DIT ERTOE DOET EN WAAR OP LETTEN
+
+Dit is de bundel met alle hotel-gerelateerde zoekcriteria, gekoppeld aan wat al gegradeerd/gelockt is in
+`CURRENT_TRUTH.md`. Gebruik dit als checklist zodra we een locatie daadwerkelijk gaan uitzoeken.
+
+### 5. Greater Noida / Pari Chowk (1 nacht, 29 dec)
+- **Geen sightseeing hier** — puur een rustpunt na de treinreis, voordat de volgende dag naar Vrindavan/Agra wordt gereden.
+- **Waar op letten:** gewoon een fatsoenlijk hotel in de Pari Chowk-zone; vermijd centraal Delhi (expliciete instructie). Ligging richting Mathura/Vrindavan (zuidoost) is handig voor de volgende ochtend, maar geen harde eis.
+- **Geen specifieke proximiteitseis.**
+
+### 6. Agra / Taj-gebied (1 nacht + dagkamer tot avond, 30-31 dec)
+- **Waarom:** Taj Mahal [A+], vroegst mogelijke ochtendbezoek (~06:37 opening). De rest van de dag (~09:00-17:00) is bewuste rust, geen vulling met een tweede site.
+- **Waar op letten:**
+  - Loopafstand of zeer korte rit tot de Taj (oost- of westpoort) — scheelt tijd op de belangrijkste ochtend van Agra.
+  - **Harde eis: genuine late checkout / dagkamer-gebruik tot ~17:00-17:30** (niet zomaar "late checkout tegen betaling" maar een hotel dat dit standaard goed faciliteert) — dit is dezelfde constructie als New Frontier.
+  - Geen noodzaak voor nabijheid tot de drie bycatch-eetadressen (Bedai, Petha, Gajak) — die hebben nul prioriteit.
+
+### 7. Bodh Gaya (3 nachten, 1-3 jan)
+- **Waarom:** Mahabodhi Temple/Bodhi Tree [A+] (terugkerend bezocht, meerdere dagen), Dungeshwari cave [A+], Sujata-plekken [A+], Pragbodhi zeven-stoepa-rug [A], Great Buddha-standbeeld [A], internationale kloostergordel [A].
+- **Waar op letten:** nabijheid van de Mahabodhi Tempel/stad-centrum ideaal, aangezien dit 3 dagen lang het terugkerende ankerpunt is; de kloostergordel is meestal binnen loopafstand van het centrum.
+
+### 8. Kolkata (6 nachten, 9-14 jan) — grootste en complexste gat
+- **Waarom:** dit is de dichtste cluster van de hele reis — **Garpar-microcluster [allemaal A+, verplicht]** (4 Garpar Road, YSS Dhyana Kendra, Nagendra Math, Tulsi Bose Shrine), Noord-Kolkata Ramakrishna/Vivekananda-sites [A+/A*] (Vivekananda Birthplace, Cossipore/Kashipur Udyanbati, Balaram Mandir Bagbazar, Shyampukur Bati), Dakshineswar Kali Temple + Yogoda Satsanga Math Dakshineswar [A+] (verder noordelijk langs de rivier), Belur Math [A] (overkant Hooghly-rivier), plus Serampore als dagtrip (nog verder noordelijk).
+- **Waar op letten:**
+  - **Reken afstanden vanaf Howrah** (aankomststation, niet Chitpur — audit-punt #22).
+  - Centraal/Noord-Kolkata (richting Bagbazar/Garpar) is logisch zwaartepunt, omdat daar de meeste verplichte A+-sites zitten.
+  - Moet ook werkbaar zijn voor dagtrips naar Dakshineswar/Belur Math (noordelijker) en Serampore (nog verder) — geen extreem gat tussen hotel en die trips.
+  - **Nog open gradering die de keuze kan beïnvloeden:** Shyampukur Bati (A vs A*, contradictie #2 uit de audit) en 50 Amherst Street [A*] hebben nog geen vaste plek in het weekschema (open items #11/#12) — pas de hotelligging zo nodig aan zodra dat opgelost is.
+
+### 9. Tiruvannamalai (4 nachten, 15-18 jan)
+- **Waarom:** Arunachala/Ramana-ervaring [A+] met Sri Ramanasramam aan de voet van de berg, Virupaksha Cave [A+] en Skandashram [A] op de berg zelf, Yogi Ramsuratkumar [A+] — Sannidhi Street-huis (bij de hoofdtempel) + graf/ashram (Agrahara Kollai, ~1 km van Ramanasramam).
+- **Waar op letten:** loopafstand tot Sri Ramanasramam/Arunachaleswarar-tempel-gebied ideaal, gezien 4 dagen met herhaalde bezoeken aan de berg-circuit.
+- **Nog open:** 3 ongegradeerde kandidaten (Sri Seshadri Swamigal Ashram, Ayyankulam-tank, Premalaya) — beïnvloeden de hotelkeuze waarschijnlijk niet wezenlijk, maar zijn nog niet meegenomen.
+
+### 10. Chennai (1 nacht, 19 jan)
+- **Waarom:** pure buffernacht vóór de vlucht, geen vastgelegde sightseeing hier. **Twee kandidaten staan nog open/ongegradeerd:** Vivekanandar Illam/Ice House [A* volgens één decision-bestand, maar OPEN/ongegradeerd volgens CURRENT_TRUTH — contradictie #3 uit de audit, nog niet door Mark opgelost] en Sri Ramakrishna Math Mylapore [nieuw, nog nooit gegradeerd, open item #13].
+- **Waar op letten:**
+  - **Aankomst is via Perambur** (trein 22604 stopt niet in Chennai Central) — **eigen vervoer Perambur→Chennai is nog NIET geregeld.** Hoe dichter het hotel bij Perambur ligt, hoe eenvoudiger deze transfer.
+  - Vertrek 20 jan vroeg (~07:30-08:00) voor vlucht AI2526 09:50 vanaf MAA — ook relevant voor hotelligging (niet te ver van het vliegveld).
+  - **Open beslissing eerst:** als Mark alsnog Vivekanandar Illam of Ramakrishna Math Mylapore wil bezoeken op deze bufferdag, trekt dat de hotelkeuze mogelijk richting centraal/zuid Chennai in plaats van puur Perambur-nabijheid.
+
+### 11. Delhi laatste nacht (1 nacht, 20 jan)
+- **Waarom:** bufferdag-activiteiten Nirmal Dham ashram [A+], Lotus Temple [A*], PVR Priya IMAX [A*]; B-lijst (Qutb Minar, Hauz Khas Village, Humayun's Tomb, Sunder Nursery, Garden of Five Senses, Lodhi Garden, Red Fort) alleen als er tijd over is; nog ongegradeerd: Jama Masjid + een Jyotish/astroloog-consult.
+- **Waar op letten:** nabijheid van Nirmal Dham/Lotus Temple-gebied praktisch; vertrek de volgende dag is ontspannen (AI155 pas ~12:20), dus geen harde vliegveld-nabijheidseis.
