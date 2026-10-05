@@ -190,11 +190,23 @@ Search current + relevant history first. If two plausible unsuperseded preferenc
 `HARD_CURRENT — latest Mark 2026-08-27`
 - **A+** = trip-defining; can make the route go there.
 - **A** = intrinsic selected content: Mark wants it for itself inside a retained world.
-- **A*** = **host-dependent bycatch only — NOT intrinsic A**. It exists solely because an already-retained A+/A host or route puts Mark there naturally. `SKIP_FIRST`. If host/geometry disappears, A* loses its operational reason unless Mark explicitly upgrades it. It may be dropped at any moment for delay, fatigue, access, crowding or simple lack of interest. It never forces detour, dedicated day, base or night.
+- **A*** = **host-dependent bycatch only — NOT intrinsic A**. It exists solely because an already-retained A+/A host or route puts Mark there naturally. `SKIP_FIRST`. If host/geometry disappears, A* loses its operational reason unless Mark explicitly upgrades it. It may be dropped at any moment for delay, fatigue, access, crowding or simple lack of interest. It never forces detour, dedicated day, base or night. **Mnemonic (Mark, 2026-10-06): read A* as "A MINUS" — it rides on an A+/A host, it is never higher than plain A.**
 - **B** = active conditional/on-site reserve. Visible in real planning; cannot independently force major detour/night/restructure.
 - **C** = definitive current-trip dropout; remove unless Mark explicitly reopens.
 
 Only Mark changes subjective grades.
+
+## 5a. A\* PRESENTATION RULE — DAILY NAME-VISIBILITY (Mark, 2026-10-06, `HARD_CURRENT`)
+
+`A*` never gets a reserved time slot (see above), but it must still be **named in the actual day-by-day/quarter-hour plan**, on **every day** whose geographic mini-cluster puts Mark genuinely close to it — not just once in a final end-of-project guidebook.
+
+Mark's own reasoning: *"Als ik ter plekke mensen tegenkom die daarheen gaan en ik ken de naam niet omdat het nergens staat, zal ik daar niks mee doen. Als ik de naam wel ken gaat er een lichtje branden en kan ik ernaar handelen."* — the point is name-recognition in the moment, not a scheduling commitment. "Extra, als het die dag goed te doen is, als ik me goed voel" — zero obligation, zero time budget, purely an open door.
+
+Rules:
+- Show the A* item's name + one-line reason on **every single day** it's geographically near, not only the day deemed "most logical."
+- **The same A* location may legitimately appear on multiple different days** if it falls within more than one day's mini-cluster/geographic range. Do not collapse it into a single day's mention to avoid repetition — repetition across days is the intended behavior here, not noise.
+- Never attach a clock-time slot, a "visit 17:00-18:00" block, or a forced detour — just the name, a one-line reason, and (implicitly) "nearby today."
+- This supersedes any earlier practice of mentioning an A* item only once, only in a final consolidated guide, or dropping it from day-plans entirely for being "unplaced."
 
 # 6. UNESCO MAGNETISM
 
