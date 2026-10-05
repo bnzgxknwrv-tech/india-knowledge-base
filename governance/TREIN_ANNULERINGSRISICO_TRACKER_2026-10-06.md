@@ -30,3 +30,13 @@ regelen (zelfde route andere trein, of privéauto) — niet wachten tot vlak voo
 **Dit vervangt niet de losse aantekeningen bij elke trein in `governance/CURRENT_TRUTH.md` en
 `governance/TREINEN_BOEKINGSOVERZICHT_NU_LATER_2026-10-06.md`** — dit is het ene overzicht om nooit
 een check te missen.
+
+## Dubbele bewaking ingesteld 2026-10-06
+
+- **CCI-kant:** zes geautomatiseerde herinneringen ingepland (trigger_id's:
+  `trig_01DJtqtesQhUEmVzWqMmWuZX`, `trig_01X1GNxJ1v2vMkbZ31Zdvz88`, `trig_01RTAoPnFTLztdrhu44k9UJN`,
+  `trig_01Jufcgi7Dhb523tiG4Y33AA`, `trig_013wAr17znGXULPRvzEzbnqF`, `trig_01YTEy38AXHyXUAwCgwBm926`),
+  één per datum hierboven.
+- **WORK-kant:** gevraagd (PR #23 comment 5990623329) om onafhankelijk via Gmail de IRCTC
+  PNR-status-update-mails te checken op elke datum — WORK heeft al aangetoond bij de Gmail-bevestigingen
+  te kunnen. Antwoord nog niet binnen.
