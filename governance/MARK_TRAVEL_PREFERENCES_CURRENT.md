@@ -208,6 +208,17 @@ Rules:
 - Never attach a clock-time slot, a "visit 17:00-18:00" block, or a forced detour — just the name, a one-line reason, and (implicitly) "nearby today."
 - This supersedes any earlier practice of mentioning an A* item only once, only in a final consolidated guide, or dropping it from day-plans entirely for being "unplaced."
 
+## 5b. STANDARD PICKUP REQUEST — EVERY HOTEL/ACCOMMODATION CONTACT EMAIL (Mark, 2026-10-06, `HARD_CURRENT`)
+
+Every booking/confirmation email sent to a hotel or guesthouse must include a **station or airport pickup request** as a standard, default item — whichever arrival mode actually applies that day (train station, bus stand, or airport) — not just when Mark happens to ask for it that time.
+
+Required content, every time:
+- ask whether the property can arrange a car/driver to collect Mark on arrival;
+- the exact arrival flight/train number, date and time;
+- request confirmation in writing of: **total price** (including any waiting-time allowance if the flight/train is delayed), the **driver's name and mobile/WhatsApp number in advance**, and **how Mark will recognise the driver** (e.g. a name board).
+
+This generalizes the pattern already used for Hotel New Frontier (airport pickup, Delhi) and Hotel Evelyn (station pickup, Kathgodam) into a standing default — do not wait to be asked again for each new hotel. Applies to every future hotel-contact email (Agra, Bodh Gaya, Kolkata, Tiruvannamalai, Chennai, final Delhi, and any still-open confirmations for adiMOUNT/Haidakhan/Sahi River View) unless Mark explicitly says a particular stay doesn't need it (e.g. a hotel reached on foot).
+
 # 6. UNESCO MAGNETISM
 
 `HARD_CURRENT — MARK 2026-08-27`
