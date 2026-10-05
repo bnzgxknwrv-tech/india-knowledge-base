@@ -190,7 +190,7 @@ Search current + relevant history first. If two plausible unsuperseded preferenc
 `HARD_CURRENT — latest Mark 2026-08-27`
 - **A+** = trip-defining; can make the route go there.
 - **A** = intrinsic selected content: Mark wants it for itself inside a retained world.
-- **A*** = **host-dependent bycatch only — NOT intrinsic A**. It exists solely because an already-retained A+/A host or route puts Mark there naturally. `SKIP_FIRST`. If host/geometry disappears, A* loses its operational reason unless Mark explicitly upgrades it. It may be dropped at any moment for delay, fatigue, access, crowding or simple lack of interest. It never forces detour, dedicated day, base or night. **Mnemonic (Mark, 2026-10-06): read A* as "A MINUS" — it rides on an A+/A host, it is never higher than plain A.**
+- **A*** = **host-dependent bycatch only — NOT intrinsic A, never higher than plain A.** It exists solely because an already-retained A+ grade or A grade host/route puts Mark there naturally. `SKIP_FIRST`. If host/geometry disappears, A* loses its operational reason unless Mark explicitly upgrades it. It may be dropped at any moment for delay, fatigue, access, crowding or simple lack of interest. It never forces detour, dedicated day, base or night.
 - **B** = active conditional/on-site reserve. Visible in real planning; cannot independently force major detour/night/restructure.
 - **C** = definitive current-trip dropout; remove unless Mark explicitly reopens.
 
