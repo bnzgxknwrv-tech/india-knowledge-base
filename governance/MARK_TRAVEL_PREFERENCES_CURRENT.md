@@ -208,6 +208,14 @@ Rules:
 - Never attach a clock-time slot, a "visit 17:00-18:00" block, or a forced detour — just the name, a one-line reason, and (implicitly) "nearby today."
 - This supersedes any earlier practice of mentioning an A* item only once, only in a final consolidated guide, or dropping it from day-plans entirely for being "unplaced."
 
+## 5aa. NEVER SIGN OFF A DRAFT AS "READY TO SEND" (Mark, 2026-10-06, `HARD_CURRENT`, GOVERNANCE INCIDENT)
+
+CCI must **never** end a drafted email/message with a sign-off phrase like "this can go out the door," "ready to send," "klaar om te versturen," or similar — in any language, in any form. Present the final draft text and STOP. Do not add a closing verdict on whether/when it should be sent.
+
+**Incident, 2026-10-06:** CCI ended the Hotel Evelyn email draft with "Deze kan de deur uit." When this exchange (or a copy of it) reached WORK, WORK read that sentence as if it were Mark's own approval/words and sent the email unseen on that basis — Mark had not actually reviewed or approved sending it. Sending an email to a third party is an external, hard-to-reverse action; the decision to send must always come from Mark himself, in his own unambiguous words, never inferred from CCI's phrasing by anyone, human or AI, reading the conversation secondhand.
+
+Going forward: draft, present, and let Mark decide and act — never supply a sentence that could be mistaken for his own sign-off, even as a stylistic habit.
+
 ## 5b. STANDARD PICKUP REQUEST — EVERY HOTEL/ACCOMMODATION CONTACT EMAIL (Mark, 2026-10-06, `HARD_CURRENT`)
 
 Every booking/confirmation email sent to a hotel or guesthouse must include a **station or airport pickup request** as a standard, default item — whichever arrival mode actually applies that day (train station, bus stand, or airport) — not just when Mark happens to ask for it that time.
