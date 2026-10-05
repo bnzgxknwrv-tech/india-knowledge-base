@@ -24,7 +24,7 @@ Mark's directe klacht: kaarten waren niet meer dan een Indiase naam, een kloktij
 | Wo 6 jan | 08:45 | ~16:00–16:45 | MIDDEN — Vishwanath/Annapurna terug, complete Oud-Kashi/Lahiri-dag |
 | Do 7 jan | 06:15 | ~13:30, later oké | ZWAAR maar korter — boot rechtstreeks naar Manikarnika-zone, geen Panchganga-omweg meer |
 | Vr 8 jan | 08:30 | ~14:05–14:35 | VOLWAARDIG maar beheersbaar — Duniya → Tailanga/Panchganga → Kedar, ruime rust vóór nachttrein |
-| Vr 8 jan avond | ~20:30 (VEROUDERD, herzien nodig) | — | **GEWIJZIGD 2026-10-06: trein 13042 vertrek 21:05 vrijdagavond, niet 22324 zaterdag 01:30 — hele vrijdag-dagindeling moet opnieuw, zie vlag verderop** |
+| Vr 8 jan avond | **~19:30-19:45** (opgelost 2026-10-06) | — | Trein 13042 vertrek 21:05 vanaf BSB (niet 22324 zaterdag 01:30). Dagprogramma blijft ONGEWIJZIGD (terugkeer bij Sahi ~14:00-14:35 zoals hierboven); alleen het vertrekmoment bij het hotel verschuift van "rond middernacht" naar 19:30-19:45 (rit 6,5 km/30-45 min naar BSB), nog steeds 5-5,5 uur rust na terugkomst. Geen hotelwissel, geen inkorting. Zie `governance/CURRENT_TRUTH.md` (Kolkata-sectie, DELTA) en PR #23 comment 5990563470. |
 
 **HERBOUWD 28-9-2026 (WORK end-to-end reconciliatie, gelockt door Mark):** dit is de volledige, doorgerekende Maandag-t/m-Zaterdag-planning, gebouwd nadat losse dag-voor-dag aanpassingen tegenstrijdigheden opleverden (Assi Ghat impliciet weggevallen, Wo/Vr-balans, Ratneshwar per ongeluk ingekort, 00:10-stationsbuffer te krap). Alle reistijden zijn echt onderzocht (modaliteit + minuten), niet geschat. Bron: `runs/active/WORK_VARANASI_FULL_STAY_ARRIVAL_TO_TRAIN_RESULT_2026-09-28.md` en `runs/active/WORK_VARANASI_TUE_FRI_TRAVEL_OPTIMIZATION_RESULT_2026-09-28.md` (branch `worker/varanasi-tue-fri-travel-optimization-work`).
 
@@ -644,13 +644,15 @@ TIJD VRIJGEMAAKT ALS DEZE GESKIPT WORDT: ~35-65 min.
 Zie `governance/CURRENT_TRUTH.md` (Kolkata-sectie, DELTA 2026-10-06) en
 `governance/TREINEN_BOEKINGSOVERZICHT_NU_LATER_2026-10-06.md` voor de volledige onderbouwing.
 
-**Gevolg — de hele onderstaande sectie (auto om 00:00, aankomst BSB rond 00:40, vertrek 01:30) is
-VEROUDERD en moet herzien worden, niet alleen de treinnaam.** Een vertrek om 21:05 vrijdagAVOND
-i.p.v. 01:30 zaterdagNACHT betekent dat de volledige dagindeling van vrijdag 8 januari (Duniya
-Foundation school → Tailanga/Panchganga → Kedar, met "ruime rust vóór nachttrein" aan het einde)
-**opnieuw moet worden doorgerekend** — er is geen tijd meer voor een late avond vóór vertrek, het
-vertrek valt nu midden in wat eerst avondrust was. Dit is een apart, nog niet opgeloste taak, niet
-in deze toch al complexe multi-boekingssessie meegenomen. **Open item, nog te doen.**
+**OPGELOST 2026-10-06 (zie dagbelasting-tabel bovenaan dit document):** de dagindeling van vrijdag
+8 januari zelf hoeft NIET herzien te worden — de ochtend/middag-inhoud (Duniya Foundation school →
+Tailanga/Panchganga → Kedar) blijft volledig intact, terugkeer bij Sahi River View blijft ~14:00-
+14:35 zoals altijd gepland. Alleen het vertrekmoment bij het hotel verschuift van "rond middernacht"
+naar **circa 19:30-19:45** (rit 6,5 km/30-45 min naar BSB voor de 21:05-trein), wat nog steeds 5-5,5
+uur rust overlaat na terugkomst — geen crisis, geen inkorting nodig. Een apart voorgesteld alternatief
+(verhuizen naar een hotel vlakbij het station voor de laatste nacht, PR #23 comments
+5984421980/5984451556) is door Mark ingetrokken — dat ontstond uit een verwarring tussen Kolkata en
+Varanasi, geen bedoeld voorstel. Sahi River View blijft de basis voor alle vijf nachten.
 
 ## ARCHIEF (verouderd, zie bovenstaande vlag) — ZA 9 JAN — Vertrek naar Kolkata: trein 22324 Shabd Bhedi Express
 
