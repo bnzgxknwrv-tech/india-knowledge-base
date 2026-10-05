@@ -63,15 +63,29 @@ Preferred operational standard:
 
 Do not rely on arriving at DEL and then improvising a taxi or opening a ride-hail app unless the prebooked transfer fails.
 
-## 4. LATER BOOKING TODO — DO NOT FORGET
+## 4a. GEBOEKT 2026-10-06
+
+**Hotel New Frontier is geboekt via Booking.com.** Check-in zaterdag 19 dec 2026, 12:00-13:00;
+check-out zondag 20 dec 2026 (Mark vertrekt in werkelijkheid al dezelfde avond ~21:30-21:45 voor
+trein 15013, dat is geen probleem — eerder vertrekken dan de uitcheckdatum hoeft nergens gemeld te
+worden). Prijs: €26,26 totaal (oorspronkelijk €63,55, Genius-korting -€37,28; ≈₹2.852,65). Hotel
+vermeldt zelf "Luchthavenshuttle" als voorziening — bemoedigend, maar nog geen geschreven
+bevestiging van de specifieke afspraken.
+
+**Vervolgactie, nog te doen:** stuur de voorbereide e-mail (via Booking.com's berichtensysteem naar
+de accommodatie) met het verzoek om schriftelijke bevestiging van: chauffeursnaam + mobiel nummer,
+naambordje, exacte ophaalplek, prijs van de pickup, en bevestiging dat de kamer tot ~21:30-21:45
+dezelfde avond gebruikt kan worden (same-day vertrek, geen volgende-ochtend-uitcheck).
+
+## 4b. LATER BOOKING TODO — DO NOT FORGET
 
 When Dec-2026 hotel inventory / booking is actionable:
 
-1. Book **Hotel New Frontier** for Day 1 / 19 Dec 2026.
-2. Verify the room is actually available for the required daytime rest window; check official check-in time and arrange **guaranteed early check-in if necessary** rather than assuming room access immediately after airport transfer.
-3. Request a **quiet room**, away from the noisiest frontage/lift/reception if possible.
-4. Book airport pickup simultaneously or immediately afterward.
-5. Obtain written confirmation of name-board meet-and-greet + driver mobile/WhatsApp/GSM number.
+1. ~~Book **Hotel New Frontier** for Day 1 / 19 Dec 2026.~~ **DONE 2026-10-06**, zie §4a.
+2. ~~Verify the room is actually available for the required daytime rest window~~ **DONE** — check-in 12:00-13:00 past goed bij de realistische aankomsttijd.
+3. Request a **quiet room**, away from the noisiest frontage/lift/reception if possible. **E-mail verstuurd, antwoord nog niet binnen.**
+4. Book airport pickup simultaneously or immediately afterward. **E-mail verstuurd, antwoord nog niet binnen** — "Luchthavenshuttle" staat als voorziening vermeld, nog geen specifieke schriftelijke bevestiging.
+5. Obtain written confirmation of name-board meet-and-greet + driver mobile/WhatsApp/GSM number. **Nog open, zie §4a vervolgactie.**
 6. Save hotel phone, driver phone, booking reference and pickup instructions offline on the phone.
 7. ~~Recheck train 15013 boarding station is still **DLI** and recheck departure time shortly before travel.~~ **DONE 2026-10-06** — see section 6 below: DLI arrival 21:50/departure 22:05 confirmed, origin Jaisalmer 02:40, Kathgodam arrival 05:05. **New action: attempt Foreign Tourist Quota (FTQ) booking now (up to 365 days ahead), do not wait for the 20 Oct 2026 General Reservation window — that window requires Aadhaar authentication which Mark does not have.**
 8. In daylight on 19 Dec, optionally walk the exact hotel -> DLI entrance route once, so the evening transfer is familiar.
