@@ -59,9 +59,9 @@ If something in this file conflicts with an older file, **this file wins**, unle
 | 2 | Sun 20 Dec | Nainital / Hotel Evelyn | arrival day |
 | 3 | Mon 21 Dec | Nainital | dedicated Crank's Ridge / Govinda immersion day; **Grot Vivekananda is NOT on this day** |
 | 4 | Tue 22 Dec | Nainital | Kainchi Dham + Bhumiadhar |
-| 5 | Wed 23 Dec | Hotel adiMOUNT (Dwarahat) | transfer via **Kakrighat [A+, two subplaces] + Grot Vivekananda/Kasar Devi Cave [A+]**; optional Dhokaney Waterfall [A*, zero-time reserve] |
-| 6 | Thu 24 Dec | Hotel adiMOUNT (Dwarahat) | Babaji's Cave mountain-presence day |
-| 7 | Fri 25 Dec | Hotel adiMOUNT (Dwarahat) | YSS Dwarahat day — hotel is ~840m/~5 min walk from the YSS gate |
+| 5 | Wed 23 Dec | **Dwarahat base — OPEN, see Kumaon section** | transfer via **Kakrighat [A+, two subplaces] + Grot Vivekananda/Kasar Devi Cave [A+]**; optional Dhokaney Waterfall [A*, zero-time reserve] |
+| 6 | Thu 24 Dec | **Dwarahat base — OPEN** | Babaji's Cave mountain-presence day |
+| 7 | Fri 25 Dec | **Dwarahat base — OPEN** | YSS Dwarahat day — needs a genuine walking-distance hotel from the YSS gate |
 | 8 | Sat 26 Dec | Haidakhan Vishwa Mahadham | arrival |
 | 9 | Sun 27 Dec | Haidakhan | protected quiet day 1/2 |
 | 10 | Mon 28 Dec | Haidakhan | protected quiet day 2/2; **local road go/no-go for 29 Dec. If current road knowledge says the early-train connection is unsafe/too long, leave Haidakhan in the afternoon and sleep near Kathgodam station as the pre-locked fallback.** |
@@ -140,9 +140,11 @@ Trein 15013 (19/20 dec, Jaisalmer→Kathgodam) is al apart afgerond, zie
 
 ## KUMAON / HAIDAKHAN
 
-**Locked:** Hotel Evelyn (Nainital) 3 nights. **Hotel adiMOUNT (Dwarahat) 3 nights, 23–25 Dec** — Kali Kholi Road, ~840m/~5 min walk from the YSS Dwarahat gate. Haidakhan 3 nights + 2 full quiet days. No luggage moves beyond this skeleton.
+**Locked:** Hotel Evelyn (Nainital) 3 nights. **Dwarahat base, 3 nights, 23–25 Dec — OPEN AGAIN, 2026-10-06.** Haidakhan 3 nights + 2 full quiet days. No luggage moves beyond this skeleton.
 
-**REPAIRED 2026-09-21 — hotel base corrected from Dunagiri Retreat/Kukuchina to Hotel adiMOUNT.** Mark's own direct correction on 2026-09-15 (`decisions/INDIA22_MARK_CORRECTIONS_KUMAON_TO_AGRA_2026-09-15.md`, section 4) already assumed Hotel adiMOUNT/Dwarahat as the 23–25 Dec base — this file simply never got updated to match and kept showing the older "Dunagiri Retreat (Kukuchina)" lock for a day, which put YSS a ~14 km drive away instead of a 5-minute walk. Mark caught the mismatch directly (2026-09-21). Hotel adiMOUNT is now the locked base; Dunagiri Retreat/Joshi Guest House, Kukuchina is no longer the base (old references elsewhere in the repo to "Dunagiri/Kukuchina" as the 23–25 Dec sleep base are stale, this file wins).
+**REOPENED 2026-10-06 — Hotel adiMOUNT dropped by Mark, "belachelijk duur" (ridiculously expensive).** Hotel adiMOUNT/Kumaon Eco Resort is no longer the base. Needs a genuine walking-distance replacement from the YSS Dwarahat ashram gate — candidates under live cross-check with WORK (PR #23 comments 6016888680/6016895559): Himalayan Homestay (on Yogda Ashram Road itself), Dwarika Hotel & Resort (~1.5km, borderline walkable), Hotel Apoorva, Om Taj Guest House, Katyuri Kings Village Homestay (exact distances pending). Avatara Hotel (6.8km) and Vanprastha Resorts (5.6km) are already ruled out as too far to walk.
+
+**REPAIRED 2026-09-21 — hotel base corrected from Dunagiri Retreat/Kukuchina to Hotel adiMOUNT.** Mark's own direct correction on 2026-09-15 (`decisions/INDIA22_MARK_CORRECTIONS_KUMAON_TO_AGRA_2026-09-15.md`, section 4) already assumed Hotel adiMOUNT/Dwarahat as the 23–25 Dec base — this file simply never got updated to match and kept showing the older "Dunagiri Retreat (Kukuchina)" lock for a day, which put YSS a ~14 km drive away instead of a 5-minute walk. Mark caught the mismatch directly (2026-09-21). **This entire adiMOUNT lock is now itself superseded (see REOPENED note above)** — kept only for history; Dunagiri Retreat/Joshi Guest House, Kukuchina was never the base and remains not the base either.
 
 **Graded (A+/A*/A):** Kainchi Dham [A+], Hanuman Garhi + Maharajji-kuti [A+], Mahavatar Babaji's Cave [A+], Haidakhan Vishwa Mahadham [A+], YSS Dwarahat [A], Kakrighat [A+, two subplaces — see dual-subplace rule below], Grot Vivekananda/Kasar Devi Cave [A+], Dunagiri Bell Temple / Maa Dunagiri Vaishnavi Temple [A], Babaji Smriti Bhavan [A], Haidakhan local-Kailash [A], Dhokaney Waterfall [A*, optional zero-time reserve, 23 Dec corridor].
 
@@ -154,7 +156,7 @@ Trein 15013 (19/20 dec, Jaisalmer→Kathgodam) is al apart afgerond, zie
 - Mark explicitly closed the former 21-vs-23 question with: **"23 ok"**.
 - Binding decision record: `decisions/INDIA22_GROT_VIVEKANANDA_23_DEC_MARK_DECISION_2026-09-14.md`.
 - **21 Dec:** dedicated Hotel Evelyn → Evam Choskhorling/Bodh Ashram → Kasar Devi Temple & Crank's Ridge Trail (linear walk, driver drop-off/pick-up at two points, ~3h) → Kalimath → Hotel Evelyn. Without Grot Vivekananda. **Repaired 2026-09-21** (semantic-loss check on the v3 PDF): the Mark-facing day had thinned to a generic "vrij rondlopen Crank's Ridge" block with no distinct places/persons named; full content restored from existing repo research (see `runs/active/KUMAON_CURRENT_BEST_DAYPLAN_19_29_DEC_2026-09-16.md`). **Then Mark decided (2026-09-21, `decisions/INDIA22_KASAR_DEVI_CRANKS_RIDGE_WALK_MARK_DECISION_2026-09-21.md`)** to make the ridge a real ~3h linear walk: Kasar Devi Temple (drop-off) → Crank's Ridge → Kalimath (pick-up), practical route/guide research done. Grot Vivekananda stays excluded from 21 Dec per the binding "23 ok" lock.
-- **23 Dec:** Hotel Evelyn → **Kakrighat [A+] (two subplaces, both always shown per the dual-subplace rule below)** → **Grot Vivekananda / Kasar Devi Cave [A+]** → Hotel adiMOUNT (Dwarahat). Preserve the Kakrighat recognition hook: Vivekananda's microcosm–macrocosm realization and the reading cue to *Complete Works*, Vol. 9, `Macrocosm and Microcosm`.
+- **23 Dec:** Hotel Evelyn → **Kakrighat [A+] (two subplaces, both always shown per the dual-subplace rule below)** → **Grot Vivekananda / Kasar Devi Cave [A+]** → Dwarahat base (**OPEN, hotel TBD**). Preserve the Kakrighat recognition hook: Vivekananda's microcosm–macrocosm realization and the reading cue to *Complete Works*, Vol. 9, `Macrocosm and Microcosm`.
 - Do not reopen this placement through later routing optimization unless Mark explicitly asks to reconsider it.
 - **Confirmed 2026-09-16** (`runs/active/KAKRIGHAT_MICROTOPOLOGY_23DEC_VS_29DEC_PLACEMENT_2026-09-16.md`, PR #23 comment 5703520181): Kakrighat sits directly on the Nainital→Almora road already driven this day at near-zero extra cost; moving it to 29 Dec would add a real ~2–3h detour (Haidakhan sits via Haldwani, a different direction) and eat into the 29 Dec train buffer. 23 Dec placement stays.
 

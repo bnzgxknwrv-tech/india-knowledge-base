@@ -242,6 +242,12 @@ Authorization rules:
 
 This rule exists because a Claude/CCI sentence — “Deze kan de deur uit” — was mistaken for Mark's own instruction and an Hotel Evelyn email was sent without Mark's actual direct authorization. That interpretation was wrong and must not recur.
 
+## 5d. PRICES: EUROS ONLY, NEVER RUPEES (Mark, 2026-10-06, `HARD_CURRENT`)
+
+Every price shown to Mark — hotels, tickets, pickups, anything — must be stated in **euros only**. Never state a bare rupee figure to Mark, even alongside a euro conversion. Convert internally and present the euro amount. If a source only gives a rupee price, convert it (current indicative rate is fine, no need to chase live FX precision) and show euros.
+
+This replaces the earlier informal practice in this project of quoting both ₹ and € or ₹ alone (seen e.g. in the train/flight booking write-ups) — those historical records stay as-is, but all NEW price mentions from now on are euro-only.
+
 # 6. UNESCO MAGNETISM
 
 `HARD_CURRENT — MARK 2026-08-27`
