@@ -1,0 +1,114 @@
+{
+  "check_mode": "FULL",
+  "india_session": "INDIA22",
+  "start_nonce": "7IWQ4367RWQV",
+  "check_nonce": "HH71370BAA9JC",
+  "receipt_path": "governance/boot_receipts/INDIA22__7IWQ4367RWQV.json",
+  "boot_head_final": "e551a282c488d52deb6068452e1336308ceccbf0",
+  "receipt_commit": "b3f7fabdcc17e1ea59885f16e713c8ab926e6440",
+  "check_created_utc": "2026-09-14T08:35:00Z",
+  "new_quotes": [
+    {
+      "source": "governance/CURRENT_DECISIONS_MASTER.md",
+      "quote": "The ballot is deferred until the current recovered-place/frontier work is complete enough."
+    },
+    {
+      "source": "governance/EXACT_DELEGATION_BINDING_RULE.md",
+      "quote": "Dat heeft al geleid tot verwarring over welke taak een worker bedoelde en tot het risico dat een oudere opdracht of verkeerde artifactversie wordt uitgevoerd."
+    }
+  ],
+  "challenges": [
+    {
+      "topic": "TRAIN_FIRST_DOOR_TO_DOOR",
+      "question": "For the upcoming 21-Dec Nainital→Crank's Ridge→Nainital geometry: what is the default transport mode under the train-first/1A rule, and when would an exception (local taxi/shared ride) be allowed? Cite the exact rule.",
+      "start_session_answer": "The transport rule is not \"train at all costs.\" governance/MARK_TRAVEL_PREFERENCES_CURRENT.md says: \"train first when practical, especially useful overnight rail\", \"private car for mountains/last mile/door-to-door wins\", and \"Overnight train target: 1A / First AC; 2A only after Mark accepts fallback.\" governance/TRIP_FRAME_HARD.md restates: \"Train first when practical\", \"Overnight rail target: 1A / First AC\", \"Private car for mountains / last mile / door-to-door wins\", and \"Door-to-door human burden controls.\" Therefore for a long intercity leg the default is train, with 1A as the overnight target. The 21-Dec Nainital-Crank's Ridge-Nainital problem is a local mountain/last-mile day geometry, so a private taxi/car is expressly allowed if rail is not practical and the whole-human door-to-door comparison favors road. A shared ride is not automatically preferred; it is acceptable only as a genuinely local mountain/last-mile access variant if it preserves the verified access, dwell, daylight and whole-human burden and is not being used as a disguised long-distance-bus fallback. Exact mode must still follow verified geometry/access.",
+      "checker_evidence": "Verified against pinned governance/MARK_TRAVEL_PREFERENCES_CURRENT.md and governance/TRIP_FRAME_HARD.md at boot_head_final: both files genuinely state train-first-when-practical with 1A/First AC as overnight target, and private car for mountains/last-mile/door-to-door burden. Correctly distinguishes the local Crank's Ridge day-trip case from long-distance rail; no fabricated rule text.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "AL_BESLIST",
+      "question": "Name three concretely already-locked Mark decisions relevant to the next task (Crank's Ridge geometry + Serampore), with the exact source file per decision, so none gets re-asked as if open.",
+      "start_session_answer": "Three already-decided items that must not be reopened as fresh choices:\n- Nainital remains exactly 3 nights, LOCKED_BY_MARK. Source: governance/CURRENT_DECISIONS_MASTER.md section 2/5 and governance/SUCCESSOR_SAFE_STATE.md HARD/CURRENT FOOTPRINTS.\n- Kasar Devi Cave / Grot Vivekananda = A+. Source: governance/CURRENT_DECISIONS_MASTER.md section 5 and runs/active/INDIA20_FINAL_EXTRACTION_2026-09-13.md section 2.4/5.\n- SER-01 Sri Sri Swami Sri Yukteswar Giri Smriti Mandir / original Serampore hermitage property = A+, with Mark wanting 2h onsite including quiet/meditation if access permits. Source: decisions/SERAMPORE_GRADES_DELHI_ASTAR_AND_TIRU_TRADEOFF_MARK_DECISION_2026-09-13.md.\nThese are constraints/carried-forward Mark decisions, not questions for Mark.",
+      "checker_evidence": "Cross-checked all three cited items against governance/CURRENT_DECISIONS_MASTER.md and governance/SUCCESSOR_SAFE_STATE.md: Nainital 3n LOCKED_BY_MARK, Grot Vivekananda A+, and SER-01 A+ all confirmed present verbatim in substance at the pinned commit; correctly framed as non-reopenable constraints.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "C_DO_NOT_RE_PRESENT",
+      "question": "Name one cluster/world that is FINAL OUT/C and must never be re-presented as a new choice, with its source. Also state explicitly why the Kasar Devi/Almora dedicated module is NOT on that list anymore, and since when.",
+      "start_session_answer": "Example FINAL OUT world: Puri/Odisha. Source: governance/CURRENT_DECISIONS_MASTER.md section 11 (FINAL OUT / do not re-present unless Mark explicitly reopens) and governance/CURRENT_STATE.md CURRENT WORLD SCOPE.\nKasar Devi/Almora is no longer in that state. Since the 2026-09-14 recovery recorded in research/KASAR_DEVI_CRANKS_RIDGE_SUNYATA_GOVINDA_RAM_DASS_RECOVERY_2026-09-14.md, the old combined Turiya Niwas + Bodh Ashram = C shorthand is not allowed to transfer onto the newly separated physical entities. The recovered full free day on 21 Dec makes the dedicated Kasar Devi/Crank's Ridge immersion-day question OPEN AFTER exact identity/access/geometry. CURRENT_DECISIONS_MASTER.md section 11 and CURRENT_STATE.md explicitly say it is NOT FINAL OUT. This is not a new grade: Turiya Niwas and Govinda/Bodh Ashram remain OPEN/UNGRADED pending verification and Mark.",
+      "checker_evidence": "governance/CURRENT_DECISIONS_MASTER.md section 11 confirmed lists Puri/Odisha under FINAL OUT, and confirmed no longer lists Kasar Devi-Almora there — matches the 2026-09-14 reopening this session itself just committed (research/KASAR_DEVI_CRANKS_RIDGE_SUNYATA_GOVINDA_RAM_DASS_RECOVERY_2026-09-14.md). Correct and current.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "NEWER_CENTRAL_OVER_CCI",
+      "question": "If an old CCI/WORK file conflicts with current CURRENT_DECISIONS_MASTER.md on Serampore's grades, which wins and why — quote both sides.",
+      "start_session_answer": "Newer central Mark truth wins. The frozen CCI file itself says newer explicit Mark decisions win over its archaeology.\nOld/frozen CCI side, runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/MARK_CURRENT_CANON_MASTER.md MRK-039: \"East route family - Ranchi + Kolkata/Hooghly/Serampore/Dakshineswar + Puri/Odisha - was EXPLICITLY SKIPPED for this trip to preserve breathing room.\"\nCurrent central side, governance/CURRENT_DECISIONS_MASTER.md section 9: \"Serampore/Srirampur - GRADED, NOT FINAL OUT\", followed by SER-01 A+, SER-02 A+, SER-03 conditional A+/A*, SER-04 C, SER-05 C. The owning current Mark decision is decisions/SERAMPORE_GRADES_DELHI_ASTAR_AND_TIRU_TRADEOFF_MARK_DECISION_2026-09-13.md. Therefore the old whole-east skip is provenance only for Serampore; the current explicit re-open/regrade is controlling.",
+      "checker_evidence": "MRK-039 'EXPLICITLY SKIPPED' quote confirmed verbatim in runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/MARK_CURRENT_CANON_MASTER.md at the pinned cci_commit; the current SER-01..05 grades confirmed present in governance/CURRENT_DECISIONS_MASTER.md section 9. Correctly applies newer-central-wins.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "GEO_VETO",
+      "question": "May you currently make a travel-burden claim about the exact Nainital → Turiya Niwas/Govinda-Bodh Ashram → Nainital route? Why/why not, and which rule requires geo-verification first?",
+      "start_session_answer": "No: I may not yet make an exact travel-burden claim for Nainital to Turiya Niwas / Govinda-Bodh Ashram to Nainital. Both recovered entities still require exact physical identity/current entity/access verification. governance/MAP_COORDINATE_VERIFICATION_RULE.md says: \"geometry-dependent planning may not use a location until its physical position is GEO_VERIFIED_FOR_DECISION at the planning-relevant scale\" and if unresolved the action is \"NO PIN / NO GEOMETRY CONCLUSION\". Its route rule also requires verified entity/access points plus actual road/walk route evidence before saying \"langs de route\", \"5 min verder\", \"je bent er toch\", \"omweg\" or similar. INDIA_CURRENT_KNOWLEDGE_MAP.md section C repeats: \"no map pin/proximity claim until exact entity/access point passes MAP_COORDINATE_VERIFICATION_RULE.md.\"",
+      "checker_evidence": "governance/MAP_COORDINATE_VERIFICATION_RULE.md confirmed contains the GEO_VERIFIED_FOR_DECISION gate language cited. Correct refusal to make an unverified burden claim for the still-open ridge entities.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "CURRENT_FRONTIER",
+      "question": "What is literally the next objective action right now, and from which exact file/section do you quote it?",
+      "start_session_answer": "At this instant content is still gated by this FULL CHECK, so the immediate pre-content action is to finish CHECK/K/final authorization. The literal first substantive action after CONTENT_AUTHORIZATION: GRANTED is quoted in governance/CURRENT_STATE.md EXACT CURRENT FRONTIER: \"verify exact current identity, physical continuity and visitor/access reality for Turiya Niwas - Sunyata's hermit house on Crank's Ridge near Kasar Devi/Almora\"; then do the equivalent current-entity/access verification for Lama Govinda/Bodh Ashram before geometry. governance/CURRENT_DECISIONS_MASTER.md section 12 and governance/SUCCESSOR_SAFE_STATE.md EXACT NEXT AUTOMATIC ACTION say the same.",
+      "checker_evidence": "governance/CURRENT_STATE.md's EXACT NEXT OBJECTIVE STEP section confirmed states Turiya Niwas/Govinda-Bodh Ashram identity/access verification as the first step, matching governance/SUCCESSOR_SAFE_STATE.md's EXACT NEXT AUTOMATIC ACTION. Correctly defers to CONTENT_AUTHORIZATION gating before acting.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "ACTION_FIRST",
+      "question": "Give a concrete example of how your next reply would already ACT (e.g. start a real geometry calculation) rather than only announce intent to do so.",
+      "start_session_answer": "I must not reply merely \"I will research Crank's Ridge.\" After authorization and the mandatory rich-source activation, I would immediately execute the first objective chain: open the owning ridge recovery/raw sources, resolve whether the present Turiya Niwas property is the historic Sunyata house and what visitor/access surface exists; resolve the present Govinda/Bodh Ashram physical entity/name/access; then, only for entities that pass identity/access, verify decision-grade location/access points and start the actual Nainital-base road/walk geometry. The reply would contain the verified result or a concrete blocker already found, not a promise to investigate. This follows INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md section 1: SCAN -> DO -> RECORD -> RESCAN -> DO NEXT EXECUTABLE STEP -> ... -> REPLY, and handoff FOUT 19.",
+      "checker_evidence": "Matches governance/INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md's SCAN->DO->RECORD cycle; answer describes concrete first executable steps (identity/access resolution before geometry) rather than a vague research promise.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "DURABLE_WHAT_WHY",
+      "question": "If you found a new fact about Turiya Niwas/Govinda-Bodh Ashram right now, in which file would you record it in the same turn, and why must it not stay chat-only?",
+      "start_session_answer": "A new material fact about Turiya Niwas or Govinda/Bodh Ashram belongs first in the existing owning layer research/KASAR_DEVI_CRANKS_RIDGE_SUNYATA_GOVINDA_RAM_DASS_RECOVERY_2026-09-14.md; if it changes current status/frontier, synchronize CURRENT_STATE.md/knowledge routing as appropriate, and if it is a Mark decision use the decision ledger/current decision owner as well. It must not stay chat-only because handoff FOUT 20 requires the test \"KAN INDIA(N+1) DIT UIT DE VERPLICHTE GITHUB-ROUTING TERUGVINDEN ZONDER MARK?\"; if not, durable storage in the existing owning layer is required before proceeding. INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md section 22 says the same: no material knowledge may live only in chat, an unlinked run file, worker branch or PR comment.",
+      "checker_evidence": "Correctly routes to the actual owning file research/KASAR_DEVI_CRANKS_RIDGE_SUNYATA_GOVINDA_RAM_DASS_RECOVERY_2026-09-14.md rather than proposing a new file, consistent with governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md's chat-only prohibition.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "PRESENTATION_AND_GRADE_LETTERS",
+      "question": "May \"A\"/\"B\"/\"C\" be used as a structural label for something like a day-plan option instead of a real Mark grade? Cite the rule forbidding this.",
+      "start_session_answer": "No. A+ / A / A* / B / C are exclusively Mark's subjective grades. decisions/PRESENTATION_GRADE_LETTERS_RESERVED_MARK_RULE_2026-09-02.md says: \"Never label corridors, bundles, scenarios, packages, choice groups, menu options, route alternatives or planning worlds with letter labels A/B/C/D/E/...\" and ordinary numbers must be used instead. Handoff FOUT 10 repeats: no 1A, 1B, cluster A, scenario B, route C as structural labels; rail class 1A is only valid in explicit transport context.",
+      "checker_evidence": "decisions/PRESENTATION_GRADE_LETTERS_RESERVED_MARK_RULE_2026-09-02.md confirmed contains the 'Never label corridors, bundles, scenarios...' prohibition verbatim at the pinned commit. The same rule is restated as FOUT 10 in governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md (no 1A/1B/cluster A/scenario B/route C as structural labels; rail class 1A only valid in explicit transport context). Correct and current.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "RESEARCH_VS_TRIAGE_VS_DURATION",
+      "question": "Explain the difference between RESEARCH_COMPLETE_ENOUGH, MARK_TRIAGE_COMPLETE, and DURATION_CLOSED for the Bodh Gaya/Tiruvannamalai duration question, and which status applies to each right now.",
+      "start_session_answer": "The hard distinction from MARK_TRAVELER_LAYER_TO_DURATION_ORDER_CORRECTION_2026-09-02.md and handoff FOUT 8 is: RESEARCH_COMPLETE_ENOUGH != MARK_TRIAGE_COMPLETE != DURATION_CLOSED.\n- RESEARCH_COMPLETE_ENOUGH = the broad traveler/relevant research layer is complete enough that material candidates are visible.\n- MARK_TRIAGE_COMPLETE = Mark has actually seen/graded the material new candidates and the complete A+/A set is known; research output alone is not enough.\n- DURATION_CLOSED = after that complete A+/A set, execution geometry/day bundling and Mark pace/dwell have produced a real locked duration.\nCurrent status for Bodh Gaya/Gaya and Tiruvannamalai/Arunachala: the fixed-cluster traveler layer is research-complete-enough and traveler-triaged-enough (decisions/TRAVEL_FRONTIER_AFTER_FIXED_TRAVELER_TRIAGE_2026-09-04.md: \"Delhi, Kumaon, Agra/Taj, Bodh Gaya/Gaya, Varanasi/Sarnath and Tiruvannamalai/Arunachala are traveler-triaged enough\"). Thus the broad traveler Mark-triage gate is not the current blocker. But the old 5-Sep TRUE-CLOSED duration statements are superseded by newer Mark truth. governance/CURRENT_DECISIONS_MASTER.md now says explicitly: \"Bodh Gaya/Gaya and Tiruvannamalai/Arunachala are not duration-closed. B3/T4 is the current subjective lead; B2/T5 remains the objective alternative.\" SUCCESSOR_SAFE_STATE.md says the same. So right now: RESEARCH_COMPLETE_ENOUGH = YES for both; broad traveler MARK_TRIAGE_COMPLETE/ENOUGH = YES for both; DURATION_CLOSED = NO for both. The still-live issue is the newer Bodh/Tiru duration tradeoff, not unseen traveler discovery.",
+      "checker_evidence": "decisions/TRAVEL_FRONTIER_AFTER_FIXED_TRAVELER_TRIAGE_2026-09-04.md confirmed contains the 'traveler-triaged enough' listing including Bodh Gaya/Gaya and Tiruvannamalai/Arunachala; governance/CURRENT_DECISIONS_MASTER.md confirmed states the B3/T4 vs B2/T5 duration question is not closed. The three-way distinction is applied correctly to the current real state, not just recited as a slogan.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "FRONTIER_CONTRADICTION_CHECK",
+      "question": "Explicitly reconcile: is there any remaining contradiction about Serampore or Kasar Devi/Almora across governance/CURRENT_STATE.md, governance/CURRENT_DECISIONS_MASTER.md, and governance/INDIA_CURRENT_KNOWLEDGE_MAP.md? Cite all three files explicitly even if you conclude they're now consistent.",
+      "start_session_answer": "Across the three current required top layers there is no remaining contradiction on Serampore or Kasar Devi/Almora:\n- governance/CURRENT_STATE.md: Serampore = graded, not final out; Kasar Devi/Crank's Ridge 21-Dec question = NOT FINAL OUT, OPEN after identity/access/geometry; Nainital 3 nights stays locked.\n- governance/CURRENT_DECISIONS_MASTER.md: section 9 gives the same Serampore grades; section 11 says Serampore is not FINAL OUT and the Kasar Devi/Crank's Ridge 21-Dec question is OPEN after exact recovered-entity/access/geometry; section 5 keeps Turiya/Govinda distinct and OPEN/UNGRADED and Grot Vivekananda A+.\n- governance/INDIA_CURRENT_KNOWLEDGE_MAP.md: section C routes the Crank's Ridge recovery with the same three-entity separation and OPEN-after-geometry status; section D says Serampore is graded, not FINAL OUT with the same five grades.\nThe contradiction exists only against stale older sources, especially frozen CCI MRK-039 / old combined Turiya+Bodh C shorthand, and those are explicitly superseded by the newer central/current Mark truth.",
+      "checker_evidence": "Independently reread governance/CURRENT_STATE.md, governance/CURRENT_DECISIONS_MASTER.md, and governance/INDIA_CURRENT_KNOWLEDGE_MAP.md at the pinned boot_head_final: all three now consistently mark Serampore as graded/not-final-out and Kasar Devi/Crank's Ridge as open-after-geometry/not-final-out, matching this session's own just-landed edits. No live contradiction found across the three mandatory sources.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "SUCCESSOR_ACTIVE_MEMORY_HANDOFF",
+      "question": "Which specific FOUT in governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md is the biggest risk for your very next Crank's Ridge answer, what's the mandatory fix, what current evidence shows the risk is live right now, and how would your intended reply concretely avoid it — give a short sample fragment of that compliance.",
+      "start_session_answer": "Biggest risk for the very next Crank's Ridge answer: FOUT 24 - \"BOOT KLAAR, MAAR DE RIJKE BRONLAAG ACHTER DE ACTUELE TAAK NIET ACTIEF.\" Mandatory fix: after content authorization, perform task-relevant post-boot rich-source activation: identify needed knowledge types (original WHY, person/event provenance, exact micro-location/entity, access, GEO, transfer burden, current grades/supersedes), open the owning/raw sources, run lost-physical-entity and applied-parity checks, then reread the handoff as last semantic read before the first substantive answer.\nThe risk is live now because CURRENT_STATE.md and research/KASAR_DEVI_CRANKS_RIDGE_SUNYATA_GOVINDA_RAM_DASS_RECOVERY_2026-09-14.md explicitly document that the wider ridge world had been flattened/lost while only Grot Vivekananda survived, and that Turiya Niwas versus Govinda/Bodh Ashram are distinct with different person-links and unresolved current entity/access. A summary-only answer could immediately repeat that failure.\nTiny compliant sample of the intended reply style after verification: \"Turiya Niwas - Sunyata's historische kluizenaarswoning op Crank's Ridge [OPEN/ONGEGRADEERD]: dit is niet aangetoond als Ram Dass-huis. Lama Govinda/Bodh Ashram - aparte boeddhistische plek op dezelfde ridge [OPEN/ONGEGRADEERD]: hier zit de directe Ram Dass-link via Maharajji's 'Go see Lama Govinda'. Ik geef nog geen reistijd totdat beide exacte huidige locaties/toegang GEO-geverifieerd zijn.\" That demonstrates separation, original-WHY/person provenance and GEO veto rather than merely promising compliance.",
+      "checker_evidence": "Correctly identifies FOUT 24 (rich-source activation) as the live risk, cites governance/CURRENT_STATE.md and the Crank's Ridge recovery research as current evidence the wider ridge world was nearly flattened, and demonstrates a compliant sample answer that keeps Turiya Niwas and Govinda/Bodh Ashram separated with a GEO veto — this is applied compliance, not a generic promise, satisfying the SUCCESSOR_ACTIVE_MEMORY_HANDOFF topic's specific anti-genericness requirement.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "EXACT_DELEGATION_BINDING",
+      "question": "If you delegated a task to CCI/WORK yourself, which fields must that delegation bind exactly per governance/EXACT_DELEGATION_BINDING_RULE.md? Quote at least two.",
+      "start_session_answer": "Per governance/EXACT_DELEGATION_BINDING_RULE.md, any CCI/WORK delegation must bind, where applicable: (1) exact PR number; (2) exact PR comment ID of the task; (3) exact task header; (4) exact commit SHA / AUDIT_PACKET_HEAD / frozen input commit; (5) exact file or artifact path; (6) exact counterparty result/commit binding for cross-red-team; (7) what must explicitly NOT be redone; (8) exact expected result header; (9) if relevant, solution-blind/independent-audit rule and what result may not yet be read. Two verbatim mandatory field phrases are \"exact PR-comment-ID van de taak\" and \"exacte commit-SHA / AUDIT_PACKET_HEAD / frozen input commit\"; the pre-answer test also requires EXACT_TASK_COMMENT_BOUND?, EXACT_COMMIT_OR_HEAD_BOUND?, EXACT_ARTIFACT_BOUND?, EXPECTED_RESULT_HEADER_BOUND?, CURRENT_STATUS_RECHECKED?.",
+      "checker_evidence": "Both cited verbatim phrases ('exact PR-comment-ID van de taak', 'exacte commit-SHA / AUDIT_PACKET_HEAD / frozen input commit') confirmed present in governance/EXACT_DELEGATION_BINDING_RULE.md at the pinned commit. Correct and complete field list.",
+      "checker_verdict": "PASS"
+    }
+  ],
+  "check_gate": "PASS"
+}
