@@ -34,6 +34,16 @@ Flagged by INDIA25/WORK, 2026-10-05 (PR #23 comment 5979473618), independently v
 - **Still open, one real question left for the email:** whether Mark can attend his appointment at **VFS Amsterdam** instead of travelling to the Embassy in The Hague — per the embassy's own checklist, the mandatory Hague-PIC-first route only explicitly applies to documentary/commercial filming, restricted-area visits, or stays over 3 months, none of which apply here, but this is not stated with full certainty for the general case and should be confirmed, not assumed.
 - **Still needed before the physical submission/appointment:** a new, current passport photo (5x5cm, light/white background, no glasses, neutral expression) replacing the 2011 photo used in the online form — both the digital upload and a physical print for the paper form.
 
+**SENT 2026-10-08 — covering email submitted to fspic.thehague@mea.gov.in, cc po.thehague@mea.gov.in.** Requested a three-month single-entry J/JTV visa covering the full 19 Dec 2026 – 21 Jan 2027 period. Attached: digital copy of the online application, printed+signed application with new passport photo (two files, 2A/2B), passport bio-data page, signed no-press-card declaration, signed self-employment/tourism declaration, KvK extract, full itinerary (with master/saint names, Indian-honorific-corrected spelling per each organization's own usage), equipment list (iPhone only), e-ticket (booking ref 8GLX4Y). Explicitly asked about appointment timing (visa validity from issue date) and whether any additional/alternative document is needed given self-employed/no-employer/no-press-card/no-Indian-org status. VFS Amsterdam question dropped — the embassy's own journalist-visa page (confirmed live, no mention of VFS) only describes the Embassy-in-The-Hague route. **Awaiting reply — new passport photos already taken, no other blockers on Mark's side.**
+
+## PERSONAL READINESS (non-itinerary logistics)
+
+- **Vaccinations: DONE 2026-10-08.** Mark confirms his vaccinations are complete and up to date for the trip.
+- **Visa: APPLICATION EMAILED 2026-10-08**, see visa section above — awaiting embassy reply on appointment timing/location.
+- **Passport photo: DONE** — new photo taken, correct white background, used in the visa submission.
+- **Travel/medical insurance: STILL OPEN** — not yet confirmed. Needs to cover the full 35-day trip duration and Kumaon-altitude activities (Kainchi Dham, Grot Vivekananda, Mahavatar Babaji's Cave trek).
+- **Proof of address / bank statement: CONFIRMED NOT NEEDED** for the visa (checked directly against the official checklist, 2026-10-08) — do not revisit unless the embassy explicitly asks for it in their reply.
+
 ## WHAT THIS FILE IS
 
 One compact, plain-language, per-day/per-region view of what's actually decided for the trip. No protocol jargon, no nonces, no boot procedures.
