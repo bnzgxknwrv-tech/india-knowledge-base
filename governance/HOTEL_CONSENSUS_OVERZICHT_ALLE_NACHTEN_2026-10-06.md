@@ -25,7 +25,7 @@ onderliggende decision-bestanden.
 | 3 | **Dwarahat** | **adiMOUNT AFGEWEZEN (te duur) — nieuwe top 3 gevonden, nog niet geboekt** | CCI/WORK-consensus bereikt (PR #23 comment 6023193501) | 23 dec, **16:00-16:15** (na Almora→Dwarahat rit, ~61km/2-2,3u) | 26 dec, **08:30** (richting Haidakhan) | 3 (23, 24, 25 dec) | **Top 3: (1) Pawan Pandey House — specifiek de kamer met Yogananda-portret, ~350-700m/5-10 min van YSS-poort, gedeelde badkamer geen bezwaar; (2) Abhay/Sacred Journey's Pandey House — apart boekbaar product, ~170m van Pawan's (MakeMyTrip/Goibibo), yogaleraar-host — **familieband met Pawan NIET bevestigd (DL-0110), eerdere "vader-zoon"-claim berustte op een verkeerd toegeschreven bron**; (3) Soul Retreat — 550m/7min hard bevestigd, €42 totaal, geen YSS-link.** Vóór boeken nog schriftelijk te bevestigen bij Pawan: exacte kamer, verwarming/warm water, foreign guest/Form C, totaalprijs in euro's (NOOIT roepies noemen aan Mark), exacte pin. |
 | 4 | **Haidakhan** | Haidakhan Vishwa Mahadham (ashram) | LOCKED (basis), **accommodatie zelf bewust GEPARKEERD door Mark** ("Huh? Maar Haidakhan is een ashram? Dat parkeren we even voor later") | 26 dec | 29 dec, **05:30** (zeer vroeg, voor treinaansluiting Kathgodam) | 3 (26, 27, 28 dec) | **Ashram, geen gewoon hotel** — contact/reservering/regels nog apart te regelen. Lokale weg-check nodig voor 29 dec (zie CURRENT_TRUTH); fallback is overnachten bij Kathgodam-station als de weg niet veilig genoeg blijkt. |
 | 5 | **Greater Noida / Pari Chowk** | — | **OPEN**, alleen zone gelockt | 29 dec, ~15:00-16:00 (trein 15036 Ghaziabad 14:39 + auto) | 30 dec, later vertrek ("uitslapen") | 1 (29 dec) | Vermijd centraal Delhi. |
-| 6 | **Agra / Taj-gebied** | — | **OPEN**, alleen zone gelockt | 30 dec, ~17:45-18:00 (na Vrindavan-corridor) | 31 dec, ~17:00-17:30 (naar Agra Fort station, trein 12988 18:45) | 1 (nacht 30→31 dec), **kamer overdag 31 dec nog in gebruik tot avond** | **Zelfde patroon als New Frontier:** late checkout cruciaal — Mark rust in de kamer na de vroege Taj-ochtend (~06:37 opening), dit is GEEN idle wachten maar bewuste rust. Bij boeken expliciet laat-checkout/dagkamer-gebruik vragen. |
+| 6 | **Agra — Hotel Tourist Rest House** | — | **GEBOEKT** (Booking.com, €27 totaal, Deluxe kamer, geen restitutie) | 30 dec, ~17:45-18:00 (na Vrindavan-corridor) | 31 dec, ~17:00-17:15 (naar Agra Fort station, trein 12988 18:45) | 2 (30→31 dec + 31 dec→1 jan, **bewust twee nachten betaald om de kamer tot vertrek te behouden**) | **Zelfde patroon als New Frontier, nu via tweede-nacht-constructie i.p.v. late checkout:** Mark rust in de kamer na de vroege Taj-ochtend (~06:37 opening), dit is GEEN idle wachten maar bewuste rust. Speciale verzoeken (Form C, heater, rustige kamer, Taj-retourtaxi, stationtransfer met chauffeursgegevens) bij boeking ingediend, hotelbevestiging nog open. |
 | — | *op trein* | Trein 12988 Ajmer-Sealdah SF Express | GEBOEKT (PNR 2526376901) | Agra Fort 18:45, 31 dec | Gaya Jn 07:50, 1 jan | — | Nacht op trein. |
 | 7 | **Bodh Gaya** | — | **OPEN** | 1 jan, ~08:30-09:00 (privéauto last-mile vanaf Gaya Jn) | 4 jan, ochtend | 3 (1, 2, 3 jan) | — |
 | 8 | **Varanasi** | Sahi River View Guesthouse, Assi Ghat | LOCKED (balkonkamer gevraagd, contact Jitendre), **boeking zelf nog te bevestigen** | 4 jan, na trein 20887 aankomst BSB 13:00 + rit (exacte hoteltijd niet vastgelegd) | 8 jan, avond (**tijd NOG TE HERBEREKENEN** voor trein 13042 21:05 — oude quarter-hour-plan rekent nog met 22324's 00:00-vertrek) | 4 (4→5, 5→6, 6→7, 7→8 jan), **kamer overdag 8 jan nog in gebruik tot avond** | **Audit-vlag:** reconfirmeer telefonisch dat Sahi River View nog operationeel is (eerdere Justdial "Closed Down"-discrepantie, nog niet opgelost). **Zelfde late-checkout-patroon als New Frontier/Agra** voor de avond van 8 jan. |
@@ -46,20 +46,20 @@ onderliggende decision-bestanden.
 4. Haidakhan Vishwa Mahadham — ashram-toegang/contact apart regelen (geen normale hotelboeking)
 5. Sahi River View Guesthouse (Varanasi) — **eerst telefonisch reconfirmeren dat het nog bestaat**, dan boeking checken + vertrektijd avond 8 jan herberekenen
 
-**7 locaties nog volledig open (geen hotel gekozen):**
+**6 locaties nog volledig open (geen hotel gekozen):**
 6. Greater Noida/Pari Chowk (1 nacht, 29 dec)
-7. Agra/Taj-gebied (1 nacht + dagkamer-gebruik, 30-31 dec) — **late checkout vereist**
-8. Bodh Gaya (3 nachten, 1-3 jan)
-9. Kolkata (6 nachten, 9-14 jan) — **grootste gat, reken vanaf Howrah**
-10. Tiruvannamalai (4 nachten, 15-18 jan)
-11. Chennai (1 nacht, 19 jan) — **hangt samen met nog te regelen Perambur→Chennai-transfer**
-12. Delhi laatste nacht (1 nacht, 20 jan)
+7. Bodh Gaya (3 nachten, 1-3 jan)
+8. Kolkata (6 nachten, 9-14 jan) — **grootste gat, reken vanaf Howrah**
+9. Tiruvannamalai (4 nachten, 15-18 jan)
+10. Chennai (1 nacht, 19 jan) — **hangt samen met nog te regelen Perambur→Chennai-transfer**
+11. Delhi laatste nacht (1 nacht, 20 jan)
+
+**Agra/Taj-gebied (30-31 dec): GEBOEKT** — Hotel Tourist Rest House, zie sectie 6 hierboven.
 
 **3 nachten op de trein (geen hotel nodig):** 19/20 dec (15013), 31 dec/1 jan (12988), 8/9 jan (13042).
 
-**2 nieuw gevonden logistieke gaten tijdens het maken van dit overzicht:**
+**1 nieuw gevonden logistiek gat tijdens het maken van dit overzicht, nog open:**
 - Hotel Evelyn: aankomst ~06:30-07:00 's ochtends, early check-in nog niet aangevraagd.
-- Agra-hotel (nog te kiezen): moet expliciet late-checkout/dagkamer-gebruik bieden voor de avond van 31 dec, net als New Frontier.
 
 ---
 
@@ -73,12 +73,12 @@ Dit is de bundel met alle hotel-gerelateerde zoekcriteria, gekoppeld aan wat al 
 - **Waar op letten:** gewoon een fatsoenlijk hotel in de Pari Chowk-zone; vermijd centraal Delhi (expliciete instructie). Ligging richting Mathura/Vrindavan (zuidoost) is handig voor de volgende ochtend, maar geen harde eis.
 - **Geen specifieke proximiteitseis.**
 
-### 6. Agra / Taj-gebied (1 nacht + dagkamer tot avond, 30-31 dec)
-- **Waarom:** Taj Mahal [A+], vroegst mogelijke ochtendbezoek (~06:37 opening). De rest van de dag (~09:00-17:00) is bewuste rust, geen vulling met een tweede site.
-- **Waar op letten:**
-  - Loopafstand of zeer korte rit tot de Taj (oost- of westpoort) — scheelt tijd op de belangrijkste ochtend van Agra.
-  - **Harde eis: genuine late checkout / dagkamer-gebruik tot ~17:00-17:30** (niet zomaar "late checkout tegen betaling" maar een hotel dat dit standaard goed faciliteert) — dit is dezelfde constructie als New Frontier.
-  - Geen noodzaak voor nabijheid tot de drie bycatch-eetadressen (Bedai, Petha, Gajak) — die hebben nul prioriteit.
+### 6. Agra — Hotel Tourist Rest House (2 nachten geboekt, 30 dec-1 jan, feitelijk vertrek 31 dec ~17:00-17:15)
+- **GEBOEKT** via Booking.com: Deluxe kamer, 1 volwassene, €27 totaal incl. belasting, geen restitutiemogelijkheid. Adres 4/62 Kutchery Road, Baluganj, Agra 282001; telefoon +91 562 246 3961 (ook genoemd als 2363961).
+- **Waarom deze keuze:** Mark gaf expliciet de voorkeur aan een hotel dichtbij Agra Fort station i.p.v. bij de Taj (die hotels zijn "naar Indiase maatstaven veel te duur") — vroege taxi naar de Taj en terug, dan rustig bijkomen/pakken in het hotel, dan zonder stress naar het station. CCI/WORK-consensus na vergelijking met Hotel Alleviate, Hotel Ajay International en The Grand Imperial — Tourist Rest House won op balans van prijs, rust en beoordeling (Booking 9,0/10, 482 reviews), ondanks een losse, niet-reproduceerbare lage Kayak-deelscore voor hygiëne die als outlier is beoordeeld.
+- **Tweede nacht bewust betaald** (i.p.v. late-checkout-constructie) om de kamer tot het feitelijke vertrek (~17:00-17:15) te behouden — geen restitutie verwacht of gevraagd.
+- **Speciale verzoeken ingediend bij boeking, hotelbevestiging nog open:** Form C/FRRO voor buitenlandse gast, rustige kamer met echt buitenraam weg van straat/receptie/keuken, portable heater + warm water, vroege retourtaxi naar de Taj, transfer naar Agra Fort Station rond 17:00-17:15 (prijs + chauffeursnaam/telefoon vooraf), vegetarisch diner 30 dec en ontbijt na de Taj op 31 dec.
+- Geen noodzaak voor nabijheid tot de drie bycatch-eetadressen (Bedai, Petha, Gajak) — die hebben nul prioriteit.
 
 ### 7. Bodh Gaya (3 nachten, 1-3 jan)
 - **Waarom:** Mahabodhi Temple/Bodhi Tree [A+] (terugkerend bezocht, meerdere dagen), Dungeshwari cave [A+], Sujata-plekken [A+], Pragbodhi zeven-stoepa-rug [A], Great Buddha-standbeeld [A], internationale kloostergordel [A].
