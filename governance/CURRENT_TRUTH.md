@@ -106,7 +106,7 @@ dagen) onopgelost tot IRCTC zelf geraadpleegd werd.
 | Trein | Te boeken traject | Instappen | Aankomst | Rijdagen | Klasse | ARP | **Boekingsdatum** |
 |---|---|---|---|---|---|---:|---|
 | **15036** | Kathgodam (KGM) → Ghaziabad (GZB) | 29-12-2026, 08:40 | 29-12, 14:39/14:41 | dagelijks | — | **30 dagen** | **29-11-2026** |
-| **12988** | Agra Fort (AF) → Gaya Jn (GAYA) | 31-12-2026, 18:45 (origin Ajmer AII 12:50) | 01-01-2027, 07:50/07:55 | dagelijks | — | 60 dagen | **01-11-2026** |
+| **12988** | Agra Fort (AF) → Gaya Jn (GAYA) | 31-12-2026, 18:45 (origin Ajmer AII 12:50) | 01-01-2027, 07:50/07:55 | dagelijks | — | 60 dagen | **BOOKED, PNR 2526376901**, 1A-voorkeur, Foreign Tourist, ₹4.421 betaald (ticketfare ₹4.185 + fee ₹236) |
 | **20887** | Gaya Jn (GAYA) → Varanasi Jn (BSB) — **LOCKED BY MARK 2026-10-06 over privéauto** | 04-01-2027, 09:55 (origin Ranchi RNC 05:10) | 04-01, 13:00 | ma, wo-zo (rustdag **dinsdag**) | CC/EC (zitplaats, geen slaaptrein) | 60 dagen | **05-11-2026** — **BOOKED, PNR 6610669522**, EC/Window-voorkeur/Veg, Foreign Tourist, ₹2.436 betaald |
 | ~~22324~~ | ~~Varanasi Jn (BSB) → Kolkata Chitpur (KOAA)~~ | — | — | — | — | — | **NIET GEBOEKT, vervangen door 13042** (zie hieronder) |
 | **13042** | Varanasi Jn (BSB) → Howrah (HWH) — **GEKOZEN i.p.v. 22324, zie DELTA hieronder** | 08-01-2027, 21:05 | 09-01, 11:30 | ma,wo,do,vr,za,zo | 1A/2A/3A/SL | 60 dagen | **BOOKED 2026-10-06 — PNR 2845156738**, 1A/Coupe-voorkeur, Foreign Tourist, ₹4.176 betaald |
