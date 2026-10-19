@@ -1,43 +1,62 @@
 # CURRENT FRONTIER — PHASE AND REAL OPEN WORK
 
-Status: **ACTIVE COCKPIT — read this before your first substantive reply**
-Last updated: 2026-09-14
+Status: **ACTIVE COCKPIT — read before substantive work**
+Last updated: 2026-10-19
+Current identity: **WORK / INDIA25**, collaborating with **CCI / Cloud** on PR #23
 
-## CURRENT PROJECT PHASE: A-TIMING / WHOLE-HUMAN FEASIBILITY
+## MANDATORY LIVE OVERLAY
 
-The broad discovery / cluster-selection / macro-route phase is over. World scope, night skeleton and almost all site grades are set — see `governance/CURRENT_TRUTH.md`.
+After the boot gate, read:
 
-What's actually happening now: walking through the already-locked A/A+ places **day by day**, and working out real driving time, walking, opening hours, rest, daylight and winter road burden for each day. That's it.
+`runs/active/INDIA25_TO_SUCCESSOR_LIVE_HANDOFF_2026-10-19.md`
 
-**This means, right now:**
-- Do not restart or re-litigate world/cluster selection, macro route order, or any FINAL OUT world.
-- Do not re-present a B-list place, Lonely-Planet/food/comfort-layer item, or anything from a "final guide" layer as if it were an active decision — that layer comes later, after booking/contact starts.
-- Treat "the research on X is finished" as just that. It does not mean Mark has triaged it, and it does not mean a duration is locked. Those are three different things.
-- If you find yourself doing global rediscovery, a new macro-route solve, or reopening something in `governance/CURRENT_TRUTH.md`'s "FINAL OUT" list, stop — that's the wrong phase.
+That handoff is the current authority for confirmed transport, bookings, live accommodation/contact status, visa status, CCI/WORK collaboration state, and the next actions. It corrects later real-world developments that are not yet fully consolidated into `governance/CURRENT_TRUTH.md`.
 
-## LIVE WORK IN PROGRESS — DO NOT DUPLICATE
+## CURRENT PHASE
 
-**Kumaon 20–23 December sleep-base/timing solve** was running separately as a WORK task (PR #23 comment `5670452609`); its result has now landed at `runs/active/WORK_KUMAON_20_23_DEC_FINAL_SLEEPBASE_WINTER_ROAD_REALITY_SOLVE_2026-09-14.md`. A related follow-on, `runs/active/INDIA8-CLUSTER-CASTING-001/KUMAON_HAIDAKHAN_FULL_CLUSTER_TOPOLOGY_RESOLVE_2026-09-14.md`, has also landed. **Neither has been folded into `governance/CURRENT_TRUTH.md` yet** — that content-integration step is separate from this structural pass and still needs doing. Whoever does it: update `CURRENT_TRUTH.md`'s Kumaon section from those two results directly, not from a parallel guess, then remove this note.
+The broad discovery, cluster selection and macro route are complete. All international flights and all six Indian trains are booked. Vaccinations are handled. The visa support package has been submitted and the appointment-timing reply is pending.
 
-## REAL OPEN DECISIONS (nothing else counts as open)
+Active work is now:
+1. secure remaining accommodation and ashram permissions;
+2. resolve pickup/transfer and early-arrival questions;
+3. finish quarter-hour plans around the booked transport;
+4. monitor replies without duplicating or sending anything prematurely.
 
-1. Bodh Gaya 2 vs 3 nights / Tiruvannamalai 5 vs 4 nights trade-off.
-2. Evam Choskhorling (Kumaon, Crank's Ridge/Govinda world) — visit permission not yet confirmed.
-3. Turiya Niwas (Kumaon) — host confirmation of historic identity + a short visit, still pending.
-4. A local guide has not yet confirmed a safe December Crank's Ridge walk.
-5. J.C. Bose site identity (Kolkata) — two real buildings, not yet told apart.
-6. Lala Badri Shah House (Kumaon, Almora) — evidence looks solid, just not yet presented to Mark for a grade.
-7. Jama Masjid (Delhi) and an astrologer/Jyotish visit — both still ungraded.
-8. Booking/contact phase has not started anywhere yet.
+## IMMEDIATE LIVE DECISION
 
-Everything else — world scope, night skeleton, hotel locks, all other site grades, Jageshwar (out), Dhokaney (out), Grot Vivekananda placement (23 Dec, locked) — is **decided**. Do not present any of it as open.
+**Bodh Gaya lodging, 1–4 January 2027.** The leading special options are Karma Temple Guest House and Maha Bodhi Society Pilgrims Rest House. Read PR #23 comments 6272290399 and 6272394457 plus the live handoff. Nothing has been sent or booked.
 
-## BACKGROUND HOUSEKEEPING (not Mark-facing, doesn't block anything)
+## OUTSTANDING RESPONSES
 
-There's an open internal memory-completeness check (`runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/`) making sure no B/C/Open place has quietly disappeared from the records. It's real and still open, but it's bookkeeping, not a decision Mark needs to weigh in on, and it doesn't block any current A-timing work.
+- Indian Embassy: whether to wait until after 21 October for the appointment or resend anything.
+- Hotel Evelyn: availability/price/early-room/foreign-guest/heating/pickup.
+- Booking.com / Hotel New Frontier: airport pickup and early-arrival specifics.
+- YSS / Ananda: visitor status, Christmas programme, Pandey Home Stay contact.
+- Haidakhan Samaj: stay permission, 05:30 departure exception, Kathgodam driver.
+- Hotel Tourist Rest House: Taj transport, day use/late checkout, luggage and Agra Fort transfer.
 
-## WHAT COMES AFTER THIS PHASE
+Some YSS and Haidakhan communication happened outside Gmail. Verify the correct channel.
 
-In order: finish A-timing per day → Bodh Gaya/Tiruvannamalai duration ballot → booking/contact execution phase → B-list/Lonely-Planet/food/comfort layer folded into the final guide.
+## HARD OPERATING RULES
+
+- DL-0104: no external send, booking, payment, cancellation or reply without two separate direct confirmations from Mark.
+- Do not display send-ready UI/writing blocks unless Mark explicitly asks.
+- Use euros only in Mark-facing prices.
+- Never claim CCI consensus until CCI has actually reviewed and agreed.
+- Read the newest PR #23 comments before acting.
+- Preserve source uncertainty and verify real travel times.
+- Do not reopen settled route/site choices unless Mark asks.
+
+## DO NOT TRUST THESE STALE STATEMENTS ELSEWHERE
+
+- “No bookings made” is false.
+- Dwarahat adiMOUNT is no longer the active choice.
+- Varanasi→Kolkata train 22324 is superseded by booked 13042.
+- Train 12988 is booked (PNR 2526376901).
+- Old exact-hotel locks may have been replaced during the booking phase.
+
+## BACKGROUND HOUSEKEEPING
+
+The live-ledger completeness work under `runs/active/INDIA20-LIVE-LEDGER-V4-REPAIR-001/` is separate internal bookkeeping. Do not overwrite or discard unrelated local changes.
 
 END CURRENT FRONTIER
