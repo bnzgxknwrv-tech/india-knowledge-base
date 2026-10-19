@@ -1,0 +1,29 @@
+task_id: INDIA5-VNS-DISCOVERY-COVERAGE-003
+state: COMPLETED
+claimed_at: '2026-08-03T20:11:44.694753+00:00'
+claimed_by: CCI
+started_at: '2026-08-03T20:11:44.694753+00:00'
+completed_at: '2026-08-03T20:19:41.619132+00:00'
+git_commit_at_claim: null
+git_commit_at_complete: null
+completion_marker_found: true
+failure_reason: null
+pre_existing_dirty_paths: []
+hold:
+  active: false
+  reason: null
+  set_at: null
+  set_by: null
+result_comment_posted: false
+history:
+- at: '2026-08-02T21:45:00Z'
+  event: ISSUED
+  detail: Taak aangemaakt op expliciete instructie van Mark (namens INDIA2). NIET
+    geclaimd/uitgevoerd -- opdracht was expliciet om na de PRE-BRONS-vrijgave te stoppen
+    en alleen deze taak klaar te zetten.
+- at: '2026-08-03T20:11:44.694753+00:00'
+  event: CLAIMED
+  detail: queue -> active, door CCI
+- at: '2026-08-03T20:19:41.619132+00:00'
+  event: COMPLETED
+  detail: active -> done, door CCI

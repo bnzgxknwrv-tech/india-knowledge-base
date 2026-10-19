@@ -1,0 +1,179 @@
+{"_meta": {"schema": "CORE_KRIYA_SOURCE_RECORDS.v1", "records": 178, "claims": 146, "negative_controls": 32, "lossless": true, "sources": {"X1": ["runs/active/TOP11-INDIAROOD-BLIND-SWEEP-001/BABAJI_INDIAROOD_FREEZE.md", "agent/indiarood-core-kriya-sweep", "463e7822dcbb5af4d404fa4016ffa4b415914abd"], "X2": ["runs/active/TOP11-INDIAROOD-BLIND-SWEEP-001/LAHIRI_MAHASAYA_INDIAROOD_FREEZE.md", "agent/indiarood-core-kriya-sweep", "01778b6f43198db8080c1460402b12a478842314"], "X3": ["runs/active/TOP11-INDIAROOD-BLIND-SWEEP-001/SRI_YUKTESWAR_INDIAROOD_FREEZE.md", "agent/indiarood-core-kriya-sweep", "4d86a13474f115ab5c5e7530bfd5d1215ccc9f32"], "X4": ["runs/active/TOP11-CORE-KRIYA-INDIAROOD-DELTA-RECONCILIATION-001/INDIAROOD_DELTA_MATRIX.jsonl", "agent/india8-cluster-casting", "3ed676bc82aac1e58b3cdb6beb05c48571e64024"]}, "fields": {"id": "existing source/audit ID; temporary only when t=1", "s": "source code", "k": "kind when non-default", "r": "R1-R5 numeric suffix", "a": "access code", "q": "claim label needed for delta/temporary records", "m": "matched IDs", "t": "temporary audit ID"}, "access": {"PO": "PUBLIC_OPEN", "PL": "PUBLIC_LIMITED_HOURS", "PP": "PRIVATE_PERMISSION_POSSIBLE", "EO": "EXTERIOR_ONLY", "LA": "LANDSCAPE_ACCESS", "SV": "SUCCESSOR_SITE_VISITABLE", "AU": "ACCESS_UNKNOWN", "AX": "ACCESS_UNKNOWN_AFTER_EXHAUSTION"}, "rule": "Original stable-ID records remain lossless by exact source path+ref+blob SHA and are not rewritten. This file is the closure index adding physical resolution/access. No existing ID changed. Temporary audit IDs only fill source records that lacked one."}}
+{"id": "IR-1", "s": "X1", "r": 4, "a": "LA", "propagated_label": "Noordelijke Himalayarotsen nabij Badrinarayan", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-2", "s": "X1", "r": 3, "a": "LA", "propagated_label": "Drongiri/Dunagiri Mountain — open plek met grotten en Lahiri’s grot", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-3", "s": "X1", "r": 1, "a": "LA", "propagated_label": "Huidige YSS-‘Mahavatar Babaji’s Cave’, Pandukholi voorbij Kukuchina", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-4", "s": "X1", "r": 3, "a": "LA", "propagated_label": "Rotsige oever van de Gogash/Gagas-rivier", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-5", "s": "X1", "r": 5, "a": "AX", "propagated_label": "Tijdelijk gematerialiseerd ‘gouden paleis’ en tuinen", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-6", "s": "X1", "r": 4, "a": "AX", "propagated_label": "Huis van een niet-genoemde Bengaalse gastfamilie in Moradabad", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-7", "s": "X1", "r": 3, "a": "LA", "propagated_label": "Kumbha Mela-terrein Allahabad — ontmoeting met Lahiri", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-8", "s": "X1", "r": 3, "a": "LA", "propagated_label": "Kumbha Mela 1894 — boom nabij een brug aan de Ganges", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-9", "s": "X1", "r": 3, "a": "LA", "propagated_label": "Dashashwamedh Ghat en Mataji’s ondergrondse grot", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-10", "s": "X1", "r": 1, "a": "LA", "propagated_label": "Rai Ghat — banyan aan de Hooghly/Ganges", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-11", "s": "X1", "r": 1, "a": "PL", "propagated_label": "Lahiri Mahasaya’s kleine salon en kamerdrempel", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-12", "s": "X1", "r": 1, "a": "PP", "propagated_label": "4 Garpar Road — vestibule en kamer van Yogananda", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-13", "s": "X1", "r": 4, "a": "AX", "propagated_label": "Tijdelijke grot van Keshabananda nabij Badrinarayan", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-14", "s": "X1", "r": 5, "a": "AX", "propagated_label": "Niet-gelokaliseerd Himalayakamp met vedisch vuur", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-15", "s": "X1", "r": 5, "a": "AX", "propagated_label": "Niet-gelokaliseerde rotsrichel en afgrond nabij Babaji’s kamp", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-16", "s": "X1", "r": 1, "a": "PP", "propagated_label": "Karar Ashram", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-17", "s": "X1", "r": 4, "a": "PO", "propagated_label": "Parangipettai/Porto Novo — geclaimd geboortedorp", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-18", "s": "X1", "r": 5, "a": "PL", "propagated_label": "Voormalige Shiva-tempel, nu Muruga-tempel, Parangipettai", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-19", "s": "X1", "r": 1, "a": "PL", "propagated_label": "Babaji Nagaraj Mandir — in 1974 aangewezen geboorteperceel", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-20", "s": "X1", "r": 4, "a": "AX", "propagated_label": "Calcutta óf Dacca — ontvoering/slavernij", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-21", "s": "X1", "r": 4, "a": "AX", "propagated_label": "Benares/Kashi — geclaimde Sanskritstudie", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-22", "s": "X1", "r": 4, "a": "LA", "propagated_label": "Courtrallam/Kutralam — tapas en ontmoeting met Agastyar", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-23", "s": "X1", "r": 4, "a": "AX", "propagated_label": "Niet-geïdentificeerde grot bij Badrinath", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-24", "s": "X1", "r": 3, "a": "AX", "propagated_label": "2 Arulananda Mudali Street (nu Arulandam Street), San Thome", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-25", "s": "X1", "r": 3, "a": "AX", "propagated_label": "Puja-kamer van V.T. Neelakantan, 9 Surammal Lane, Egmore", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-26", "s": "X1", "r": 3, "a": "LA", "propagated_label": "Grot bij Santopanth Tal", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-27", "s": "X1", "r": 3, "a": "LA", "propagated_label": "Santopanth/brongebied van de Alaknanda — Govindans darshan", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-28", "s": "X1", "r": 4, "a": "AX", "propagated_label": "Kumaon Hills — verschijning aan Swami Satyaswarananda", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-29", "s": "X1", "r": 5, "a": "LA", "propagated_label": "Gauri Shankara Pitha nabij Keshav Prayag", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-30", "s": "X1", "r": 3, "a": "PL", "propagated_label": "Dunagiri Harapriya Devi-tempel — omgeving", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-31", "s": "X1", "r": 4, "a": "AX", "propagated_label": "Shivalik Mountains — niet-gespecificeerde siddha-centra", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-32", "s": "X1", "r": 1, "a": "PP", "propagated_label": "Historische grot van Haidakhan", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-33", "s": "X1", "r": 3, "a": "LA", "propagated_label": "Kleine tempel op de top van Kumaon Mount Kailash/Adi Kailash bij Haidakhan", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-34", "s": "X1", "r": 1, "a": "PP", "propagated_label": "Haidakhan Vishwa Mahadham / negen tempels aan de Gautami Ganga", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-35", "s": "X1", "r": 1, "a": "PP", "propagated_label": "Maha Shakti Dhuni, Haidakhan", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-36", "s": "X1", "r": 1, "a": "PP", "propagated_label": "Anandpuri Ashram en tempel, Chilianaula", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-37", "s": "X1", "r": 1, "a": "PP", "propagated_label": "Kathgharia Ashram", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-38", "s": "X1", "r": 4, "a": "AX", "propagated_label": "Rechtbank van Haldwani", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-39", "s": "X1", "r": 4, "a": "AX", "propagated_label": "Militair ziekenhuis Allahabad", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-40", "s": "X1", "r": 1, "a": "PL", "propagated_label": "Samb Sadashiv Kunj, Vrindavan", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-41", "s": "X1", "r": 4, "a": "AX", "propagated_label": "Gwalior — niet-geïdentificeerde verblijf-/darshanplek", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-42", "s": "X1", "r": 4, "a": "AX", "propagated_label": "Jaipur — privévertrek/ontmoetingsplek", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-43", "s": "X1", "r": 5, "a": "LA", "propagated_label": "Kudsia/Qudsia Ghat aan de Yamuna", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-44", "s": "X1", "r": 4, "a": "AX", "propagated_label": "Huis van Mrs. Lal, Delhi", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-45", "s": "X1", "r": 4, "a": "AX", "propagated_label": "Overige devotee-huizen in Delhi", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-46", "s": "X1", "r": 4, "a": "AX", "propagated_label": "Devotee-huizen in Bombay/Mumbai", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-47", "s": "X1", "r": 4, "a": "AX", "propagated_label": "Privéhuis met grote tuin en tent in Wape/Vapi", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-48", "s": "X1", "r": 1, "a": "PP", "propagated_label": "Manda Ashram / Bhole Baba Gau-Seva Ashram", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-49", "s": "X1", "r": 1, "a": "PL", "propagated_label": "Mandir Shri Baba Haidakhan Mahayog Vishwa Kranti Ashram, Bandikui", "label_source": "freeze_heading_positional_verified"}
+{"id": "IR-50", "s": "X1", "r": 4, "a": "AX", "propagated_label": "Niet-geïdentificeerde familieboerderij bij/in Haldwani", "label_source": "freeze_heading_positional_verified"}
+{"id": "LM-001", "s": "X2", "r": 3, "a": "LA", "propagated_label": "Lahiri-voorouderlijk landgoed / geboortehuis (verdwenen)", "label_source": "freeze_heading_direct"}
+{"id": "LM-002", "s": "X2", "r": 3, "a": "LA", "propagated_label": "Zandige oever van de Jalangi bij het familie-erf", "label_source": "freeze_heading_direct"}
+{"id": "LM-003", "s": "X2", "r": 3, "a": "PL", "propagated_label": "Oorspronkelijke Lahiri Shiva-tempel / huidige Jaleshwar Shiva-claim", "label_source": "freeze_heading_direct"}
+{"id": "LM-004", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Tijdelijke gezinsverblijven in Benares vóór 1839", "label_source": "freeze_heading_direct"}
+{"id": "LM-005", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Vaderlijk huis in Siman Chouhatta, Madanpura", "label_source": "freeze_heading_direct"}
+{"id": "LM-006", "s": "X2", "r": 3, "a": "PL", "propagated_label": "Jainarain/Joy Narayan Ghosal mission school", "label_source": "freeze_heading_direct"}
+{"id": "LM-007", "s": "X2", "r": 3, "a": "PL", "propagated_label": "Engelse school behorend bij Government Sanskrit College / Benares College", "label_source": "freeze_heading_direct"}
+{"id": "LM-008", "s": "X2", "r": 3, "a": "PL", "propagated_label": "Bangalitola Preparatory / English High School", "label_source": "freeze_heading_direct"}
+{"id": "LM-009", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Military Engineering/PWD-kantoor Benares", "label_source": "freeze_heading_direct"}
+{"id": "LM-010", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Military Engineering/PWD-post Ghazipur", "label_source": "freeze_heading_direct"}
+{"id": "LM-011", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Military Engineering/PWD-post Mirzapur", "label_source": "freeze_heading_direct"}
+{"id": "LM-012", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Military Engineering/PWD-post Buxar", "label_source": "freeze_heading_direct"}
+{"id": "LM-013", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Military Engineering/PWD-post Gorakhpur", "label_source": "freeze_heading_direct"}
+{"id": "LM-014", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Military Engineering/PWD-post Naini Tal", "label_source": "freeze_heading_direct"}
+{"id": "LM-015", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Danapur Military Engineering-kantoor en verblijf", "label_source": "freeze_heading_direct"}
+{"id": "LM-016", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Ranikhet PWD/legerpost en kamp", "label_source": "freeze_heading_direct"}
+{"id": "LM-017", "s": "X2", "r": 3, "a": "LA", "propagated_label": "Dronagiri/Dunagiri-grottenveld en initiatiegrot", "label_source": "freeze_heading_direct"}
+{"id": "LM-018", "s": "X2", "r": 3, "a": "LA", "propagated_label": "Rotsige oever van de Gogash/Gaugus-rivier", "label_source": "freeze_heading_direct"}
+{"id": "LM-019", "s": "X2", "r": 5, "a": "AX", "propagated_label": "Plaats van het gematerialiseerde 'gouden paleis'", "label_source": "freeze_heading_direct"}
+{"id": "LM-020", "s": "X2", "r": 5, "a": "AX", "propagated_label": "Tempelpad / tempel nabij Dronagiri (Ashwatthama-overlevering)", "label_source": "freeze_heading_direct"}
+{"id": "LM-021", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Huis van een Bengaalse gastfamilie in Moradabad", "label_source": "freeze_heading_direct"}
+{"id": "LM-022", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Huurhuis na vertrek uit het vaderlijk huis", "label_source": "freeze_heading_direct"}
+{"id": "LM-023", "s": "X2", "r": 1, "a": "PL", "propagated_label": "Garudeshwar-huis / latere Lahiri-residentie", "label_source": "freeze_heading_direct"}
+{"id": "LM-024", "s": "X2", "r": 3, "a": "PL", "propagated_label": "Sri Kedarnath/Kedareshwar-tempel en Narada Ghat-omgeving", "label_source": "freeze_heading_direct"}
+{"id": "LM-025", "s": "X2", "r": 1, "a": "PL", "propagated_label": "Panchganga Ghat Ashram van Trailanga Swami", "label_source": "freeze_heading_direct"}
+{"id": "LM-026", "s": "X2", "r": 1, "a": "LA", "propagated_label": "Rana Mahal Ghat", "label_source": "freeze_heading_direct"}
+{"id": "LM-027", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Huis en binnenplaats van Krishnaram in Rana Mahal", "label_source": "freeze_heading_direct"}
+{"id": "LM-028", "s": "X2", "r": 1, "a": "PL", "propagated_label": "Ramnagar-paleis van de Kashi Naresh", "label_source": "freeze_heading_direct"}
+{"id": "LM-029", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Bishnupur, locatie van Dukari Lahiri's huwelijk", "label_source": "freeze_heading_direct"}
+{"id": "LM-030", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Geërfd perceel / familiebezit bij Krishnanagar", "label_source": "freeze_heading_direct"}
+{"id": "LM-031", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Monghyr/Munger als mogelijke reisstop", "label_source": "freeze_heading_direct"}
+{"id": "LM-032", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Bhagalpur als mogelijke reisstop", "label_source": "freeze_heading_direct"}
+{"id": "LM-033", "s": "X2", "r": 3, "a": "LA", "propagated_label": "Kumbha Mela-terrein, Allahabad/Prayagraj", "label_source": "freeze_heading_direct"}
+{"id": "LM-034", "s": "X2", "r": 1, "a": "PO", "propagated_label": "Manikarnika Ghat", "label_source": "freeze_heading_direct"}
+{"id": "LM-035", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Keshabananda's hermitage in Hardwar (verschijningsclaim vóór overlijden)", "label_source": "freeze_heading_direct"}
+{"id": "LM-036", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Keshabananda's kamer in Benares (postmortale verschijningsclaim)", "label_source": "freeze_heading_direct"}
+{"id": "LM-037", "s": "X2", "r": 4, "a": "AX", "propagated_label": "Panchanon Bhattacharya's huis in Calcutta (postmortale verschijningsclaim)", "label_source": "freeze_heading_direct"}
+{"id": "LM-038", "s": "X2", "r": 5, "a": "AX", "propagated_label": "Onbekende verblijfplaats van Pranabananda (postmortale verschijningsclaim)", "label_source": "freeze_heading_direct"}
+{"id": "LM-039", "s": "X2", "r": 5, "a": "AX", "propagated_label": "Onbenoemd hof van een maharaja", "label_source": "freeze_heading_direct"}
+{"id": "LM-040", "s": "X2", "r": 5, "a": "AX", "propagated_label": "Hut van een arme toegewijde nabij het naamloze hof", "label_source": "freeze_heading_direct"}
+{"id": "SY-001", "s": "X3", "r": 2, "a": "SV", "propagated_label": "Priyadham / hoofdhermitage en familiehuis van de Karars", "label_source": "freeze_heading_direct"}
+{"id": "SY-002", "s": "X3", "r": 4, "a": "AX", "propagated_label": "Huis van de familie Goswami", "label_source": "freeze_heading_direct"}
+{"id": "SY-003", "s": "X3", "r": 4, "a": "AX", "propagated_label": "Onbekende lagere/middelbare school van Priyanath", "label_source": "freeze_heading_direct"}
+{"id": "SY-004", "s": "X3", "r": 1, "a": "PL", "propagated_label": "Srirampur Christian Missionary College / Serampore College", "label_source": "freeze_heading_direct"}
+{"id": "SY-005", "s": "X3", "r": 3, "a": "PL", "propagated_label": "Calcutta Medical College", "label_source": "freeze_heading_direct"}
+{"id": "SY-006", "s": "X3", "r": 5, "a": "AX", "propagated_label": "Onbekend accountantskantoor", "label_source": "freeze_heading_direct"}
+{"id": "SY-007", "s": "X3", "r": 1, "a": "PL", "propagated_label": "Huis van Lahiri Mahasaya", "label_source": "freeze_heading_direct"}
+{"id": "SY-008", "s": "X3", "r": 4, "a": "LA", "propagated_label": "Onbekende Ganges-badplaats vóór de Kriya-inwijding", "label_source": "freeze_heading_direct"}
+{"id": "SY-009", "s": "X3", "r": 4, "a": "AX", "propagated_label": "Tijdelijke woning / huis van zijn moeder in Rana Mahal", "label_source": "freeze_heading_direct"}
+{"id": "SY-010", "s": "X3", "r": 3, "a": "PO", "propagated_label": "Onbekende smalle straat in het Bengaalse kwartier van Benares", "label_source": "freeze_heading_direct"}
+{"id": "SY-011", "s": "X3", "r": 5, "a": "AX", "propagated_label": "Onbekende crematieplaats aan de Ganges voor zijn moeder", "label_source": "freeze_heading_direct"}
+{"id": "SY-012", "s": "X3", "r": 3, "a": "PL", "propagated_label": "Benares Sanskrit College", "label_source": "freeze_heading_direct"}
+{"id": "SY-013", "s": "X3", "r": 3, "a": "LA", "propagated_label": "Babaji-kamp bij de Prayag Kumbha, richting Jhusi", "label_source": "freeze_heading_direct"}
+{"id": "SY-014", "s": "X3", "r": 4, "a": "AX", "propagated_label": "Christelijke missionarissen van Chandannagar", "label_source": "freeze_heading_direct"}
+{"id": "SY-015", "s": "X3", "r": 1, "a": "LA", "propagated_label": "Rai Ghat en de banyanboom", "label_source": "freeze_heading_direct"}
+{"id": "SY-016", "s": "X3", "r": 5, "a": "AX", "propagated_label": "Hut van een Santal-guru in een bergjungle", "label_source": "freeze_heading_direct"}
+{"id": "SY-017", "s": "X3", "r": 5, "a": "AX", "propagated_label": "Boshermitage van Dabru Ballav", "label_source": "freeze_heading_direct"}
+{"id": "SY-018", "s": "X3", "r": 4, "a": "AX", "propagated_label": "Onbekende geleerdenlocatie in Puri", "label_source": "freeze_heading_direct"}
+{"id": "SY-019", "s": "X3", "r": 1, "a": "PP", "propagated_label": "Karar Ashram en samadhi-graf", "label_source": "freeze_heading_direct"}
+{"id": "SY-020", "s": "X3", "r": 4, "a": "AX", "propagated_label": "Mahant-/monasterieplek te Buddha-Gaya", "label_source": "freeze_heading_direct"}
+{"id": "SY-021", "s": "X3", "r": 5, "a": "AX", "propagated_label": "Huis van Narendranath Basu, Jeletola Street", "label_source": "freeze_heading_direct"}
+{"id": "SY-022", "s": "X3", "r": 5, "a": "AX", "propagated_label": "Pranabashram, gehuurd huis in Benares", "label_source": "freeze_heading_direct"}
+{"id": "SY-023", "s": "X3", "r": 3, "a": "PP", "propagated_label": "Tulsi Bose-huis / Sadhana Mandir", "label_source": "freeze_heading_direct"}
+{"id": "SY-024", "s": "X3", "r": 1, "a": "PP", "propagated_label": "Familiehuis van Yogananda, 4 Garpar Road", "label_source": "freeze_heading_direct"}
+{"id": "SY-025", "s": "X3", "r": 2, "a": "SV", "propagated_label": "Panthi boardinghouse", "label_source": "freeze_heading_direct"}
+{"id": "SY-026", "s": "X3", "r": 1, "a": "PL", "propagated_label": "Serampore railway station", "label_source": "freeze_heading_direct"}
+{"id": "SY-027", "s": "X3", "r": 4, "a": "AX", "propagated_label": "Onbekende zakenlocatie in Calcutta", "label_source": "freeze_heading_direct"}
+{"id": "SY-028", "s": "X3", "r": 1, "a": "PL", "propagated_label": "Albert Hall (nu Indian Coffee House)", "label_source": "freeze_heading_direct"}
+{"id": "SY-029", "s": "X3", "r": 5, "a": "SV", "propagated_label": "Dihika Brahmacharya Vidyalaya", "label_source": "freeze_heading_direct"}
+{"id": "SY-030", "s": "X3", "r": 4, "a": "PO", "propagated_label": "Open markt en straten van Simla", "label_source": "freeze_heading_direct"}
+{"id": "SY-031", "s": "X3", "r": 5, "a": "AX", "propagated_label": "Tweelaagse herberg in Srinagar", "label_source": "freeze_heading_direct"}
+{"id": "SY-032", "s": "X3", "r": 1, "a": "PL", "propagated_label": "Tempel/hermitage van Swami Shankara", "label_source": "freeze_heading_direct"}
+{"id": "SY-033", "s": "X3", "r": 4, "a": "PO", "propagated_label": "Gulmarg", "label_source": "freeze_heading_direct"}
+{"id": "SY-034", "s": "X3", "r": 3, "a": "LA", "propagated_label": "Khilanmarg-pad en bergweiden", "label_source": "freeze_heading_direct"}
+{"id": "SY-035", "s": "X3", "r": 1, "a": "PL", "propagated_label": "Shalimar Bagh", "label_source": "freeze_heading_direct"}
+{"id": "SY-036", "s": "X3", "r": 1, "a": "PL", "propagated_label": "Nishat Bagh en paleisgedeelte", "label_source": "freeze_heading_direct"}
+{"id": "SY-037", "s": "X3", "r": 3, "a": "LA", "propagated_label": "Dal Lake, shikara’s/houseboats en kanalen", "label_source": "freeze_heading_direct"}
+{"id": "SY-038", "s": "X3", "r": 4, "a": "AX", "propagated_label": "Festivalterrein van de Ghatal Yogoda Satsanga Sabha", "label_source": "freeze_heading_direct"}
+{"id": "SY-039", "s": "X3", "r": 4, "a": "AX", "propagated_label": "Khukurdaha/Kukurdaha festivalplek", "label_source": "freeze_heading_direct"}
+{"id": "SY-040", "s": "X3", "r": 5, "a": "AX", "propagated_label": "Onbekend huis van een rijke discipel/maharaja", "label_source": "freeze_heading_direct"}
+{"id": "SY-041", "s": "X3", "r": 5, "a": "LA", "propagated_label": "Sri Yukteswar-kamp bij Ganga Sagar Mela", "label_source": "freeze_heading_direct"}
+{"id": "SY-042", "s": "X3", "r": 5, "a": "AX", "propagated_label": "Regent Hotel, Bombay — postmortale verschijning", "label_source": "freeze_heading_direct"}
+{"id": "NEG-BABAJI-01", "s": "X1", "k": "negative_control", "t": 1, "q": "Allahabad Kumbha, 23 Jan 1936", "propagated_label": "Allahabad Kumbha, 23 januari 1936", "label_source": "freeze_heading_positional_verified"}
+{"id": "NEG-BABAJI-02", "s": "X1", "k": "negative_control", "t": 1, "q": "YSS Dwarahat Ashram", "propagated_label": "YSS Dwarahat Ashram", "label_source": "freeze_heading_positional_verified"}
+{"id": "NEG-BABAJI-03", "s": "X1", "k": "negative_control", "t": 1, "q": "Government Rest House, Dwarahat", "propagated_label": "Government Rest House, Dwarahat", "label_source": "freeze_heading_positional_verified"}
+{"id": "NEG-BABAJI-04", "s": "X1", "k": "negative_control", "t": 1, "q": "Ranchi school/ashram, 1920", "propagated_label": "Ranchi Ashram/School, 1920", "label_source": "freeze_heading_positional_verified"}
+{"id": "NEG-BABAJI-05", "s": "X1", "k": "negative_control", "t": 1, "q": "Ranikhet route, Hariharananda", "propagated_label": "Ranikhet-bezoek van Hariharananda", "label_source": "freeze_heading_positional_verified"}
+{"id": "NEG-BABAJI-06", "s": "X1", "k": "negative_control", "t": 1, "q": "Nadia sand, Lahiri youth", "propagated_label": "Nadia-zand uit Lahiri’s jeugd", "label_source": "freeze_heading_positional_verified"}
+{"id": "NEG-BABAJI-07", "s": "X1", "k": "negative_control", "t": 1, "q": "Places of Shankara or Kabir", "propagated_label": "Plaatsen van Shankara of Kabir", "label_source": "freeze_heading_positional_verified"}
+{"id": "NEG-BABAJI-08", "s": "X1", "k": "negative_control", "t": 1, "q": "Palani, Tamil Nadu", "propagated_label": "Palani, Tamil Nadu", "label_source": "freeze_heading_positional_verified"}
+{"id": "NEG-BABAJI-09", "s": "X1", "k": "negative_control", "t": 1, "q": "Kataragama/Katirgama", "propagated_label": "Kataragama/Katirgama", "label_source": "freeze_heading_positional_verified"}
+{"id": "NEG-BABAJI-10", "s": "X1", "k": "negative_control", "t": 1, "q": "Modern Babaji ashrams/centres without visit claim", "propagated_label": "Moderne Babaji-ashrams, meditatiecentra en beelden elders in India", "label_source": "freeze_heading_positional_verified"}
+{"id": "NEG-BABAJI-11", "s": "X1", "k": "negative_control", "t": 1, "q": "Dunagiri/Pandukholi, Badrinath, Satopanth, Haidakhan caves", "propagated_label": "Dunagiri/Pandukholi, Badrinath-grot, Santopanth-grot en Haidakhan-grot", "label_source": "freeze_heading_positional_verified"}
+{"id": "NEG-BABAJI-12", "s": "X1", "k": "negative_control", "t": 1, "q": "Haidakhan Baba = Mahavatar Babaji", "propagated_label": "Haidakhan Baba = Mahavatar Babaji", "label_source": "freeze_heading_positional_verified"}
+{"id": "ext-B12", "s": "X4", "k": "external_only_claim", "r": 4, "a": "AX", "q": "Barrackpore/Barackpur — Shankari Mai Jiew room", "m": ["ext-B12"], "propagated_label": "Barrackpore/Barackpur — Shankari Mai Jiew room", "label_source": "delta_matrix_claim_label"}
+{"id": "ext-B16", "s": "X4", "k": "external_only_claim", "r": 5, "a": "LA", "q": "Ranikhet route — voice only", "m": ["ext-B16"], "propagated_label": "Ranikhet route — voice only", "label_source": "delta_matrix_claim_label"}
+{"id": "ext-B17", "s": "X4", "k": "external_only_claim", "r": 3, "a": "PL", "q": "Kathgodam railway waiting-room", "m": ["ext-B17"], "propagated_label": "Kathgodam railway waiting-room", "label_source": "delta_matrix_claim_label"}
+{"id": "ext-B18", "s": "X4", "k": "external_only_claim", "r": 1, "a": "EO", "q": "Government Rest House, Dwarahat", "m": ["ext-B18"], "propagated_label": "Government Rest House, Dwarahat", "label_source": "delta_matrix_claim_label"}
+{"id": "ext-B32", "s": "X4", "k": "external_only_claim", "r": 3, "a": "PP", "q": "Satyalok, Chousatti Ghat, Varanasi", "m": ["ext-B32"], "propagated_label": "Satyalok, Chousatti Ghat, Varanasi", "label_source": "delta_matrix_claim_label"}
+{"id": "ext-B19", "s": "X4", "k": "external_only_claim", "r": 3, "a": "LA", "q": "Neelkant/Neelkanth Hill zone", "m": ["ext-B19"], "propagated_label": "Neelkant/Neelkanth Hill zone", "label_source": "delta_matrix_claim_label"}
+{"id": "ext-B20", "s": "X4", "k": "external_only_claim", "r": 3, "a": "LA", "q": "Neelkant Hill — Mauni Baba cave zone", "m": ["ext-B20"], "propagated_label": "Neelkant Hill — Mauni Baba cave zone", "label_source": "delta_matrix_claim_label"}
+{"id": "ext-B21", "s": "X4", "k": "external_only_claim", "r": 3, "a": "LA", "q": "Panar / Kakbhusundi Tal zone", "m": ["ext-B21"], "propagated_label": "Panar / Kakbhusundi Tal zone", "label_source": "delta_matrix_claim_label"}
+{"id": "ext-B22", "s": "X4", "k": "external_only_claim", "r": 5, "a": "AX", "q": "Kedarnath — secret path", "m": ["ext-B22"], "propagated_label": "Kedarnath — secret path", "label_source": "delta_matrix_claim_label"}
+{"id": "ext-B23", "s": "X4", "k": "external_only_claim", "r": 4, "a": "AX", "q": "Jaisalmer", "m": ["ext-B23"], "propagated_label": "Jaisalmer", "label_source": "delta_matrix_claim_label"}
+{"id": "ext-B11-subclaim", "s": "X4", "k": "external_only_claim", "r": 1, "a": "PL", "q": "Lahiri house, Varanasi — Pranabananda subclaim", "m": ["ext-B11-subclaim"], "propagated_label": "Lahiri house, Varanasi — Pranabananda subclaim", "label_source": "delta_matrix_claim_label"}
+{"id": "NEG-LM-01", "s": "X2", "k": "negative_control", "propagated_label": "Satyalok, Chousatti Ghat", "label_source": "freeze_heading_direct"}
+{"id": "NEG-LM-02", "s": "X2", "k": "negative_control", "propagated_label": "Moderne `Lahiri Mahasaya Samadhi` / as-schrijn", "label_source": "freeze_heading_direct"}
+{"id": "NEG-LM-03", "s": "X2", "k": "negative_control", "propagated_label": "Keshav Ashram / Lahiri-as-schrijn in Haridwar", "label_source": "freeze_heading_direct"}
+{"id": "NEG-LM-04", "s": "X2", "k": "negative_control", "propagated_label": "Huis van de cholerapatiënt Rama in Benares", "label_source": "freeze_heading_direct"}
+{"id": "NEG-LM-05", "s": "X2", "k": "negative_control", "propagated_label": "`Babaji's Cave` als exact huidig grotadres", "label_source": "freeze_heading_direct"}
+{"id": "NEG-LM-06", "s": "X2", "k": "negative_control", "propagated_label": "Dashashwamedh Ghat als Babaji-beloftelocatie", "label_source": "freeze_heading_direct"}
+{"id": "intern-18-Gorakhpur-Abinash", "s": "X4", "k": "external_only_claim", "r": 4, "a": "AX", "q": "Gorakhpur — Abinash Babu materialization scene", "m": ["intern-18-Gorakhpur-Abinash"], "propagated_label": "Gorakhpur — Abinash Babu materialization scene", "label_source": "delta_matrix_claim_label"}
+{"id": "DELTA-LM-PP-ONLY-AGGREGATE", "s": "X4", "k": "aggregate_reference_only", "r": 5, "a": "AX", "t": 1, "q": "Additional PP-only sublocations including Panagarh and Burdwan-station", "propagated_label": "Additional PP-only sublocations including Panagarh and Burdwan-station", "label_source": "delta_matrix_claim_label"}
+{"id": "N-01", "s": "X3", "k": "negative_control", "propagated_label": "Jagannath Temple, Puri", "label_source": "freeze_heading_direct"}
+{"id": "N-02", "s": "X3", "k": "negative_control", "propagated_label": "Govardhan Peeth / Govardhan Math, Puri", "label_source": "freeze_heading_direct"}
+{"id": "N-03", "s": "X3", "k": "negative_control", "propagated_label": "Belur Math", "label_source": "freeze_heading_direct"}
+{"id": "N-04", "s": "X3", "k": "negative_control", "propagated_label": "Satsanga Sabhas in Jamalpur en Kanpur", "label_source": "freeze_heading_direct"}
+{"id": "N-05", "s": "X3", "k": "negative_control", "propagated_label": "Khidirpur/Kidderpore Satsanga-huizen", "label_source": "freeze_heading_direct"}
+{"id": "N-06", "s": "X3", "k": "negative_control", "propagated_label": "Serampore Sanskrit school", "label_source": "freeze_heading_direct"}
+{"id": "N-07", "s": "X3", "k": "negative_control", "propagated_label": "Bhaktashram in Chatra en Gurudham bij Motilals huis", "label_source": "freeze_heading_direct"}
+{"id": "N-08", "s": "X3", "k": "negative_control", "propagated_label": "Dihika opvolgsite, Kashimbazar-paleis en Ranchi-school", "label_source": "freeze_heading_direct"}
+{"id": "N-09", "s": "X3", "k": "negative_control", "propagated_label": "Rishikesh “siddha ashram”", "label_source": "freeze_heading_direct"}
+{"id": "N-10", "s": "X3", "k": "negative_control", "propagated_label": "Susanga-paleis/landgoed", "label_source": "freeze_heading_direct"}
+{"id": "N-11", "s": "X3", "k": "negative_control", "propagated_label": "Howrah en Bhandarhati", "label_source": "freeze_heading_direct"}
+{"id": "N-12", "s": "X3", "k": "negative_control", "propagated_label": "Rawalpindi en routeherbergen", "label_source": "freeze_heading_direct"}
+{"id": "N-13", "s": "X3", "k": "negative_control", "propagated_label": "“Mahakumar” als aparte plaats", "label_source": "freeze_heading_direct"}
+{"id": "N-14", "s": "X3", "k": "negative_control", "propagated_label": "Moyna Sri Sri Yukteswar Kanya Vidyapith (claim 1962)", "label_source": "freeze_heading_direct"}
+{"id": "DELTA-SY-SERAMPORE-MICRO-AGGREGATE", "s": "X4", "k": "aggregate_reference_only", "r": 3, "a": "SV", "t": 1, "q": "Serampore hermitage micro-sites: hall, courtyard, sitting room, eating patio, bedroom(s)", "m": ["intern-1", "ext-SY001-005", "ext-SY008"], "propagated_label": "Serampore hermitage micro-sites: hall, courtyard, sitting room, eating patio, bedroom(s)", "label_source": "delta_matrix_claim_label"}

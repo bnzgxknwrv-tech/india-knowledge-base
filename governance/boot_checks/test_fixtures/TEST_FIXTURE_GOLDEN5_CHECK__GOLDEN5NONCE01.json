@@ -1,0 +1,34 @@
+{
+  "india_session": "TEST_FIXTURE_GOLDEN5",
+  "start_nonce": "GOLDEN5NONCE01",
+  "check_nonce": "GOLDEN5CHECKN02",
+  "receipt_path": "governance/boot_receipts/test_fixtures/TEST_FIXTURE_GOLDEN5__GOLDEN5NONCE01.json",
+  "boot_head_final": "5fdee1bc0f0bc5bb893c2f9d9d419ccae33dc2ae",
+  "receipt_commit": "027c8d60c40fe9176ded9525accfab18c66addd4",
+  "check_mode": "LIGHT",
+  "challenges": [
+    {
+      "topic": "CURRENT_FRONTIER",
+      "question": "Self-check: what is the exact next substantive content action after authorization, and what must not be restarted first?",
+      "start_session_answer": "governance/CURRENT_STATE.md's INDIA15 EXACT FIRST SUBSTANTIVE ACTION section fixes the next content action as presenting/continuing the existing OPTIONAL WORLD SURVIVAL choice from packages A/B/C/D/E or a custom combination, with A as the current INDIA recommendation. Fixed-core content, LP/traveler integrity, real inter-core edges, the 34-day budget and the Delhi food/cinema pass are all already closed per the same file and must not be restarted or re-researched before this Mark-only gate is presented.",
+      "checker_evidence": "governance/CURRENT_STATE.md states 'FIRST_CONTENT_ACTION = present/continue the existing OPTIONAL WORLD SURVIVAL choice from A/B/C/D/E or custom, with A as current INDIA recommendation' and explicitly instructs not to restart already-closed fixed-core/LP/edge/budget/Delhi work.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "GEO_VETO",
+      "question": "Self-check: may an old, unreverified pin be used to justify a walking-distance claim between two sites in the current active cluster?",
+      "start_session_answer": "No. governance/MAP_COORDINATE_VERIFICATION_RULE.md and the map-verification checksum in governance/INDIA_MASTER_BOOT.md require the exact physical entity, a reliable coordinate/business-ref/address, independent cross-check where practical, same-name disambiguation and a geographic sanity check before any pin may support a proximity or route claim. An old pin that has not been reverified at the moment it becomes decision evidence does not meet that bar; if it cannot be resolved, the rule is simply NO PIN rather than a plausible-looking but unverified walking-distance claim.",
+      "checker_evidence": "governance/INDIA_MASTER_BOOT.md states 'A visually plausible wrong map is worse than no map' and requires a verified coordinate/business-ref/address basis plus independent cross-check and geographic sanity check before any pin may support a decision; unresolved means NO PIN.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "AL_BESLIST",
+      "question": "Self-check: may a LOCKED_BY_MARK hotel/base be re-presented next to fresh alternatives merely because a new research file lists other options?",
+      "start_session_answer": "No. governance/INDIA_MASTER_BOOT.md section 6 (AL BESLIST hard) forbids presenting a previously decided A+/A/A*/B/C item, hotel or sleeping base as a fresh choice unless there is a material new delta or Mark explicitly reopens it. A new research file merely listing alternative hotels is not, by itself, a material delta and is not an explicit Mark reopening, so a LOCKED_BY_MARK base such as Maya Heritage in governance/CURRENT_STATE.md stays locked and must not be re-presented as an open choice.",
+      "checker_evidence": "governance/INDIA_MASTER_BOOT.md states 'Never present a previously decided A+/A/A*/B/C, hotel, sleeping base, cluster or route as a fresh choice unless there is a material new delta or Mark explicitly reopens it,' and governance/CURRENT_STATE.md records Maya Heritage LOCKED_BY_MARK for Bodh Gaya / Gaya.",
+      "checker_verdict": "PASS"
+    }
+  ],
+  "check_created_utc": "2026-09-01T12:45:00Z",
+  "check_gate": "PASS"
+}
