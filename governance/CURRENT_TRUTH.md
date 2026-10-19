@@ -1,5 +1,10 @@
 # CURRENT TRUTH — INDIA TRIP, 19 DEC 2026 – 20 JAN 2027
 
+## LIVE BOOKING/COMMUNICATION OVERLAY — 2026-10-19
+
+Before using the historical body below, read `runs/active/INDIA25_TO_SUCCESSOR_LIVE_HANDOFF_2026-10-19.md`.
+That handoff supersedes this file for confirmed transport, bookings, current lodging choices, visa/contact status, and immediate next actions. In particular: all flights and six trains are booked; Dwarahat adiMOUNT is no longer active; Varanasi→Kolkata is booked train 13042; and Hotel New Frontier plus Hotel Tourist Rest House are booked. The remaining body retains the itinerary/site rationale until a full consolidation is performed.
+
 Status: **THE operational reference — read this first, not the older CURRENT_STATE / CURRENT_DECISIONS_MASTER / SUCCESSOR_SAFE_STATE files**
 Last updated: 2026-09-23
 Built by: CCI, per the consolidation model agreed by Mark and INDIA22 on 2026-09-14 (PR #23)
