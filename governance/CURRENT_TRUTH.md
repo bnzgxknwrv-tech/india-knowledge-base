@@ -41,7 +41,7 @@ Flagged by INDIA25/WORK, 2026-10-05 (PR #23 comment 5979473618), independently v
 - **Vaccinations: DONE 2026-10-08.** Mark confirms his vaccinations are complete and up to date for the trip.
 - **Visa: APPLICATION EMAILED 2026-10-08**, see visa section above — awaiting embassy reply on appointment timing/location.
 - **Passport photo: DONE** — new photo taken, correct white background, used in the visa submission.
-- **Travel/medical insurance: STILL OPEN** — not yet confirmed. Needs to cover the full 35-day trip duration and Kumaon-altitude activities (Kainchi Dham, Grot Vivekananda, Mahavatar Babaji's Cave trek).
+- **Travel/medical insurance: DEKKINGSVRAAG VERZONDEN 2026-10-19** aan Mark's verzekeringsagent Nico — vraagt of de doorlopende reisverzekering de volledige 35-daagse reis (loopt over de jaarwisseling heen) en het wandelen op hoogte in Kumaon dekt. Nog geen antwoord.
 - **Proof of address / bank statement: CONFIRMED NOT NEEDED** for the visa (checked directly against the official checklist, 2026-10-08) — do not revisit unless the embassy explicitly asks for it in their reply.
 
 ## WHAT THIS FILE IS
