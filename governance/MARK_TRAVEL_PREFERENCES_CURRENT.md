@@ -248,6 +248,14 @@ Every price shown to Mark — hotels, tickets, pickups, anything — must be sta
 
 This replaces the earlier informal practice in this project of quoting both ₹ and € or ₹ alone (seen e.g. in the train/flight booking write-ups) — those historical records stay as-is, but all NEW price mentions from now on are euro-only.
 
+## 5e. ROOM POLICY: ALWAYS PRIVATE ROOM, NEVER DORM; TARGET UNDER €40/NIGHT (Mark, 2026-10-19, `HARD_CURRENT`)
+
+Mark always wants a **private room** — never a dorm bed, even at a monastery/temple guesthouse that offers both. When presenting candidates, drop or clearly exclude dorm-only options rather than listing them as live choices.
+
+**Price target: under €40/night is the default expectation.** Anything above that is "unnecessarily expensive" by Mark's own words unless there is a concrete, specific reason (e.g. a genuine logistics need like the Agra two-night-to-keep-the-room construction, or a place with real unique character/story value that Mark explicitly decides is worth the extra). Always flag a candidate's price relative to this €40 line so Mark can see at a glance whether it is inside or outside his normal comfort zone, rather than burying it in a generic price list.
+
+This does not override the earlier Agra/Pawan Pandey pattern (character can outweigh price) — it sets the default anchor against which any higher price must justify itself explicitly, instead of higher prices being presented as normal.
+
 # 6. UNESCO MAGNETISM
 
 `HARD_CURRENT — MARK 2026-08-27`
