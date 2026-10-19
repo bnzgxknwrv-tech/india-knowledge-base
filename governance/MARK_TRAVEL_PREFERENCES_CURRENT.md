@@ -256,6 +256,20 @@ Mark always wants a **private room** — never a dorm bed, even at a monastery/t
 
 This does not override the earlier Agra/Pawan Pandey pattern (character can outweigh price) — it sets the default anchor against which any higher price must justify itself explicitly, instead of higher prices being presented as normal.
 
+## 5f. FIRST CONTACT EMAILS: ASK ONLY WHAT'S ESSENTIAL, DEFER THE REST TO A FOLLOW-UP (Mark, 2026-10-19, `HARD_CURRENT`)
+
+A first enquiry email to a hotel/guesthouse/ashram must only ask what is genuinely needed to get a useful reply at all — not every question CCI/WORK can think of. Cramming a long numbered checklist into a first mail is "not customer friendly" and reads as demanding to normal people running a small guesthouse.
+
+**Keep in the first mail:** the core ask (is a private room available, for these dates, roughly what price), and anything that is integral to the situation itself (e.g. the early-arrival/extra-night offer, because it changes whether they can even say yes).
+
+**Push to a follow-up mail (after they reply) instead of asking upfront:**
+- sub-breakdowns of price (e.g. AC vs non-AC price difference) — they'll mention it themselves;
+- logistics details on a request that's already implicitly agreed once they say yes (e.g. once they confirm a pickup is possible, THEN ask for the driver's name/phone — don't ask for it alongside the first "can you arrange a pickup" question);
+- things they will volunteer anyway once they know Mark is foreign (e.g. Form C/foreigner registration — he already says "I am from the Netherlands", no need to also ask about registration in mail 1);
+- payment methods — ask at the time, not in advance by email.
+
+This refines (does not replace) section 5b (standard pickup request): the *existence* of a pickup/drop-off ask can stay in mail 1 if relevant, but the driver-name/phone-in-advance *detail* moves to the follow-up. Same logic applies to every future first-contact email, not just this one.
+
 # 6. UNESCO MAGNETISM
 
 `HARD_CURRENT — MARK 2026-08-27`
