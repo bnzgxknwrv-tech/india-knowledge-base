@@ -1,16 +1,19 @@
 # CURRENT FRONTIER — PHASE AND REAL OPEN WORK
 
 Status: **ACTIVE COCKPIT — read before substantive work**
-Last updated: 2026-10-19
+Last updated: 2026-10-25 (latest ops/continuity pointers; original route/phase text retained)
 Current identity: **WORK / INDIA25**, collaborating with **CCI / Cloud** on PR #23
 
 ## MANDATORY LIVE OVERLAY
 
-After the boot gate, read:
+After the full boot gate/authorization, read IN THIS ORDER:
 
-`runs/active/INDIA25_TO_SUCCESSOR_LIVE_HANDOFF_2026-10-19.md`
+1. `runs/active/INDIA25_TO_SUCCESSOR_LIVE_HANDOFF_2026-10-19.md` — base October handoff.
+2. **`runs/active/INDIA26_CHAT_TO_SUCCESSOR_LIVE_HANDOFF_2026-10-25.md` — LATEST CHAT HANDOFF, takes precedence on later user decisions, email replies and hotel/transfer open questions.**
+3. **`runs/active/INDIA26_OPS_DEADLINES_AND_RESPONSES_2026-10-25.md` — actively maintained replies / checkpoints register.**
+4. Latest PR #23 discussion and original booking/correspondence before declaring any status confirmed.
 
-That handoff is the current authority for confirmed transport, bookings, live accommodation/contact status, visa status, CCI/WORK collaboration state, and the next actions. It corrects later real-world developments that are not yet fully consolidated into `governance/CURRENT_TRUTH.md`.
+These handoffs/register together route confirmed transport, bookings, live accommodation/contact status, visas, and newest replies. **The 19-October handoff alone contains stale communication claims**, e.g. no Karma enquiry sent, no Pawan contact, no YSS Christmas confirmation. 25-October files supersede those on real-world status only. See actual PR #23 comments before acting; this is not a substitute for canonical boot.
 
 ## CURRENT PHASE
 
@@ -24,16 +27,18 @@ Active work is now:
 
 ## IMMEDIATE LIVE DECISION
 
-**Bodh Gaya lodging, 1–4 January 2027.** The leading special options are Karma Temple Guest House and Maha Bodhi Society Pilgrims Rest House. Read PR #23 comments 6272290399 and 6272394457 plus the live handoff. Nothing has been sent or booked.
+**Current urgent decision cluster (25 Oct):** (A) Train 12988 / 1A FTQ `NO ROOM/0`, original paid booking, email sent 25 Oct with screenshot; support replied **non-substantively**, redirected to official eQuery; check 1 Nov ARP + 2 Nov escalation; **no cancellation/change requested**. (B) Delhi 19 Dec New Frontier replacement versus Aiwan-e-Shahi/Tara Palace/Le Mem and IRCTC DLI retiring room; hotel still paid/booked and free-cancellation limit 19 Dec 18:00 local hotel time. (C) Open ashram/hotel pickup/drop-off replies. **Karma Temple enquiry SENT 19 Oct, answer with twin room and tentative quote received through an unverified channel; nothing booked.** See detailed 25-Oct handoff and OPS ledger, PR comments 6397439601 / 6397410414 / 6397633195.
 
 ## OUTSTANDING RESPONSES
 
 - Indian Embassy: whether to wait until after 21 October for the appointment or resend anything.
 - Hotel Evelyn: availability/price/early-room/foreign-guest/heating/pickup.
 - Booking.com / Hotel New Frontier: airport pickup and early-arrival specifics.
-- YSS / Ananda: visitor status, Christmas programme, Pandey Home Stay contact.
+- YSS / Ananda: YSS **confirmed** all group meditations and Christmas attendance; **Pawan Pandey direct contact supplied**, Mark WhatsApped host 24 Oct, awaiting HOST reply outside Gmail. Christmas special schedule/meal still open.
 - Haidakhan Samaj: stay permission, 05:30 departure exception, Kathgodam driver.
-- Hotel Tourist Rest House: Taj transport, day use/late checkout, luggage and Agra Fort transfer.
+- Hotel Tourist Rest House: **replied 20 Oct**, confirmed room window, heating/hot water, Form C and advised simple **tuk-tuk Taj / station** — Mark explicitly says **no booked chauffeur needed in Agra**. Still check daytime access 31 Dec where relevant.
+- Karma Temple Bodh Gaya: early room, private twin status, taxes, Form C, **pickup Gaya Junction 1 Jan AND drop-off 4 Jan before 09:55 train**; no proof that follow-up with both transfers has been sent.
+- IRCTC eQuery: pending original `NO ROOM/0` questions after generic mail redirection 25 Oct. **See OPS ledger.**
 
 Some YSS and Haidakhan communication happened outside Gmail. Verify the correct channel.
 
