@@ -505,6 +505,14 @@ Mark makes genuine subjective travel choices. INDIA handles searches, dependenci
 `HARD_CURRENT`
 If Mark really must paste something externally: entire paste target in one standalone fenced block, exact wording, minimal phone assembly, obvious next action.
 
+## Verplichte, structurele GitHub-logging door WORK én CCI — gedeelde verantwoordelijkheid voor elkaars kennis (Mark, 2026-10-26, `HARD_CURRENT`, GOVERNANCE INCIDENT)
+
+**Incident:** WORK stelde een WhatsApp-bericht op voor Haidakhan Vishwa Mahadham dat (a) beweerde dat er al een eerdere e-mail was verstuurd — nergens terug te vinden in GitHub — en (b) vroeg om op 28 december in daglicht te vertrekken (dus 2 nachten), terwijl het vastgelegde besluit (`DL-0023`, `CURRENT_TRUTH.md`) 3 nachten is met vertrek de ochtend van 29 dec; een vertrek op de 28e was tot dan toe uitsluitend de conditionele weer/weg-fallback, ter plekke te beslissen. Geen van beide punten — niet de eventuele eerdere e-mail, niet de overweging om de vertrekdatum te veranderen — is ooit als PR #23-comment of GitHub-wijziging vastgelegd. Daardoor kon CCI dit niet zien, niet onafhankelijk verifiëren en niet meedenken vóórdat het bericht al klaarstond om te versturen.
+
+**Regel:** WORK en CCI werken samen aan ÉÉN gedeeld project en zijn **samen verantwoordelijk voor elkaars kennis** van de actuele stand van zaken — niet ieder voor de eigen kennis apart. Elke beslissing, planwijziging, aanname, al verzonden bericht of nieuwe afspraak met een derde partij (hotel/ashram/vervoerder/instantie) moet **onmiddellijk** als PR #23-comment worden vastgelegd door wie het ook betreft — niet achteraf, niet pas als Mark er zelf naar vraagt, en niet alleen bewaard in één los gesprek met Mark dat de andere partij niet ziet. Dit geldt net zo hard voor WORK als voor CCI.
+
+Dit is geen vrijblijvend advies maar een structurele, blijvende eis — vergelijkbaar met en een aanscherping van sectie 13 "Make yourself disposable" hierboven, nu expliciet ook gericht op WORK en met een concreet incident als aanleiding.
+
 # 14. DISCOVERY / BLINDNESS
 
 - Blind second opinions should actually be blind when requested; do not contaminate with existing candidate lists before freeze.
