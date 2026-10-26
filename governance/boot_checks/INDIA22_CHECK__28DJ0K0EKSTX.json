@@ -1,0 +1,114 @@
+{
+  "check_mode": "FULL",
+  "india_session": "INDIA22",
+  "start_nonce": "28DJ0K0EKSTX",
+  "check_nonce": "P31NXWBVJVUKH",
+  "receipt_path": "governance/boot_receipts/INDIA22__28DJ0K0EKSTX.json",
+  "boot_head_final": "8c4ac208d1f3cef1425da1c37e11cd61807b4b9d",
+  "receipt_commit": "48f0c2af2500b8bd0e2fa34fabeaa1865f81ca5e",
+  "check_created_utc": "2026-09-14T12:43:00Z",
+  "new_quotes": [
+    {
+      "source": "governance/MARK_TRAVEL_PREFERENCES_CURRENT.md",
+      "quote": "intercity/long-distance bus excluded as normal fallback."
+    },
+    {
+      "source": "governance/TRIP_FRAME_HARD.md",
+      "quote": "Never create a fictional Delhi hotel night on 18 Dec."
+    }
+  ],
+  "challenges": [
+    {
+      "topic": "TRAIN_FIRST_DOOR_TO_DOOR",
+      "question": "For the upcoming 21-Dec Nainital→Crank's Ridge→Nainital geometry: what is the default transport mode under the train-first/1A rule, and when would an exception (local taxi/shared ride) be allowed? Cite the exact rule.",
+      "start_session_answer": "For 21-Dec Hotel Evelyn/Nainital -> Kasar Devi/Crank's Ridge -> Hotel Evelyn, rail is not a useful local mountain mode. The hard rule in governance/MARK_TRAVEL_PREFERENCES_CURRENT.md section 10 is: \"train first when practical, especially useful overnight rail\" and \"private car for mountains/last mile/door-to-door wins\"; long-distance/intercity bus is excluded as normal fallback. Therefore the default for this mountain day is a prebooked private taxi/car. A shared local ride is only acceptable if it genuinely preserves the whole-human door-to-door geometry, access, daylight and dwell; it is not allowed merely to satisfy a nominal transport preference.",
+      "checker_evidence": "Verified: governance/MARK_TRAVEL_PREFERENCES_CURRENT.md section 10 confirmed contains 'train first when practical' and 'private car for mountains/last mile/door-to-door wins' verbatim at boot_head_final. Correctly applies the mountain-day exception logic rather than forcing an inapplicable rail default.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "AL_BESLIST",
+      "question": "Name three concretely already-locked Mark decisions relevant to the next task, with the exact source file per decision.",
+      "start_session_answer": "Three already-locked decisions relevant to this frontier:\n- Nainital remains a locked 3-night block - governance/CURRENT_STATE.md, section \"CURRENT NORTH SEQUENCE - DO NOT SILENTLY CHANGE\"; also governance/CURRENT_DECISIONS_MASTER.md section 2/5.\n- Grot Vivekananda / Kasar Devi Cave = A+ - governance/CURRENT_STATE.md and governance/CURRENT_DECISIONS_MASTER.md section 5.\n- Kakrighat / Swami Vivekananda Jnana Vriksha = A+ in the current 23-Dec architecture - same two current files.\nAlso relevant but not needed for the count: YSS Dwarahat = A and FULL DAY, no YSS overnight, in governance/CURRENT_DECISIONS_MASTER.md section 5.",
+      "checker_evidence": "Cross-checked governance/CURRENT_STATE.md and governance/CURRENT_DECISIONS_MASTER.md: Nainital 3n lock, Grot Vivekananda A+, and Kakrighat/Jnana Vriksha A+ all confirmed present in substance at the pinned commit. Correctly framed as non-reopenable.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "C_DO_NOT_RE_PRESENT",
+      "question": "Name one cluster/world that is FINAL OUT/C and must never be re-presented, with its source. State why Kasar Devi/Almora is NOT on that list anymore.",
+      "start_session_answer": "Example: Puri/Odisha is FINAL OUT and must not be re-presented absent explicit Mark reopening: governance/CURRENT_DECISIONS_MASTER.md section 11 and governance/INDIA_CURRENT_KNOWLEDGE_MAP.md section L. Kasar Devi/Almora is NOT on that list now: the Knowledge Map explicitly says \"The 21-Dec Kasar Devi/Crank's Ridge immersion-day question is NOT FINAL OUT\" and CURRENT_DECISIONS_MASTER likewise lists the dedicated 21-Dec ridge question as OPEN after exact entity/access/geometry work.",
+      "checker_evidence": "governance/CURRENT_DECISIONS_MASTER.md section 11 confirmed lists Puri/Odisha FINAL OUT; governance/INDIA_CURRENT_KNOWLEDGE_MAP.md confirmed states the ridge question is NOT FINAL OUT. Correct and current.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "NEWER_CENTRAL_OVER_CCI",
+      "question": "If an old CCI/WORK file conflicts with current CURRENT_DECISIONS_MASTER.md on Serampore's grades, which wins and why — quote both sides.",
+      "start_session_answer": "Newer central truth wins. Frozen CCI harvest runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/MARK_CURRENT_CANON_MASTER.md MRK-039 says: \"East route family - Ranchi + Kolkata/Hooghly/Serampore/Dakshineswar + Puri/Odisha - was EXPLICITLY SKIPPED for this trip... Only explicit Mark reopening restores it.\" That file itself says: \"Where a statement contradicts a newer explicit Mark decision, the newer Mark decision wins.\" New governance/CURRENT_DECISIONS_MASTER.md section 9 says \"Serampore/Srirampur - GRADED, NOT FINAL OUT\" and records SER-01 A+, SER-02 A+, SER-03 A+ if exact preserved Yogananda room is enterable/meditatable otherwise A*, SER-04 C, SER-05 C. Therefore the later explicit Mark reopening/grading controls.",
+      "checker_evidence": "MRK-039 quote confirmed verbatim in runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/MARK_CURRENT_CANON_MASTER.md at the pinned cci_commit (verified across multiple CHECK cycles); current SER-01..05 grades confirmed in governance/CURRENT_DECISIONS_MASTER.md section 9. Correct application of newer-central-wins.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "GEO_VETO",
+      "question": "May you currently make a travel-burden claim about the exact Nainital → Turiya Niwas/Govinda-Bodh Ashram → Nainital route? Why/why not?",
+      "start_session_answer": "No exact route-burden claim may yet be made for \"Nainital -> exact Turiya Niwas / exact Govinda-Bodh Ashram -> Nainital\", because the exact surviving physical entity/access point for Govinda/Bodh and the exact continuity/access point for Turiya still require closure. governance/INDIA_CURRENT_KNOWLEDGE_MAP.md section C explicitly says \"no map pin/proximity claim until exact entity/access point passes MAP_COORDINATE_VERIFICATION_RULE.md.\" Corridor-class/area-class estimates may be used only as provisional context, not as exact endpoint geometry.",
+      "checker_evidence": "governance/INDIA_CURRENT_KNOWLEDGE_MAP.md confirmed contains the exact 'no map pin/proximity claim until exact entity/access point passes MAP_COORDINATE_VERIFICATION_RULE.md' quote. Correct refusal to make an unverified route-burden claim.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "CURRENT_FRONTIER",
+      "question": "What is literally the next objective action right now, and from which exact file/section do you quote it?",
+      "start_session_answer": "Literally next objective action is from governance/CURRENT_STATE.md section EXACT CURRENT FRONTIER: \"verify exact current identity, physical continuity and visitor/access reality for Turiya Niwas\", then verify the exact surviving Lama Govinda/Bodh Ashram entity/name/access, then solve microcluster geometry. governance/INDIA_CURRENT_KNOWLEDGE_MAP.md section A says the same: verify present physical identity/access for both, then solve 21-Dec geometry and the 23-Dec transfer delta.",
+      "checker_evidence": "governance/CURRENT_STATE.md confirmed contains an 'EXACT CURRENT FRONTIER' section directing Turiya Niwas/Govinda-Bodh Ashram identity/access verification first. Matches governance/INDIA_CURRENT_KNOWLEDGE_MAP.md section A. Correct.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "ACTION_FIRST",
+      "question": "Give a concrete example of how your next reply would already ACT rather than only announce intent.",
+      "start_session_answer": "My next substantive reply must already perform the work. Concrete example: retrieve/verify current Turiya and Govinda/Bodh identity/access evidence, reconcile it against the owning recovery file, write any material new WHAT+WHY durably, and only then report the resulting visitability/geometry to Mark. I must not reply merely \"I will research this.\"",
+      "checker_evidence": "Consistent with governance/INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md's SCAN->DO->RECORD cycle; describes concrete verification/reconciliation action rather than a vague promise.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "DURABLE_WHAT_WHY",
+      "question": "If you found a new fact about Turiya Niwas/Govinda-Bodh Ashram right now, in which file would you record it, and why must it not stay chat-only?",
+      "start_session_answer": "New ridge facts belong first in the owning file research/KASAR_DEVI_CRANKS_RIDGE_SUNYATA_GOVINDA_RAM_DASS_RECOVERY_2026-09-14.md, with current-state/decision surfaces updated only if the material truth changes. They may not remain chat-only because successor continuity depends on GitHub external memory; governance/MARK_TRAVEL_PREFERENCES_CURRENT.md explicitly states GitHub exists because the project outgrew one model context, and the successor handoff forbids material knowledge from living only in a dying chat.",
+      "checker_evidence": "Correctly routes to research/KASAR_DEVI_CRANKS_RIDGE_SUNYATA_GOVINDA_RAM_DASS_RECOVERY_2026-09-14.md, the actual owning file, consistent with governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md's chat-only prohibition.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "PRESENTATION_AND_GRADE_LETTERS",
+      "question": "May \"A\"/\"B\"/\"C\" be used as a structural label instead of a real Mark grade? Cite the rule forbidding this.",
+      "start_session_answer": "No. decisions/PRESENTATION_GRADE_LETTERS_RESERVED_MARK_RULE_2026-09-02.md is LOCKED_BY_MARK and says: A+, A, A*, B, C are reserved exclusively for Mark's subjective travel grades/status semantics; never use A/B/C/D/E as scenario/corridor/package labels. Use numbers/descriptive headings instead.",
+      "checker_evidence": "decisions/PRESENTATION_GRADE_LETTERS_RESERVED_MARK_RULE_2026-09-02.md confirmed contains LOCKED_BY_MARK status and the grade-letter reservation at the pinned commit. The same rule is restated as FOUT 10 in governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md (no 1A/1B/cluster A/scenario B/route C as structural labels). Correct and current.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "RESEARCH_VS_TRIAGE_VS_DURATION",
+      "question": "Explain RESEARCH_COMPLETE_ENOUGH vs MARK_TRIAGE_COMPLETE vs DURATION_CLOSED for Bodh Gaya/Tiruvannamalai, and which status applies now.",
+      "start_session_answer": "These are distinct gates. Research can be complete enough to stop discovery without Mark having completed subjective selection/pace; Mark triage can be complete for site content without the night's/day's duration being locked; DURATION_CLOSED exists only after the executable geometry and Mark pace/night choice are actually closed. Current governance/CURRENT_DECISIONS_MASTER.md says Bodh Gaya/Gaya and Tiruvannamalai/Arunachala are \"not duration-closed\"; B3/T4 is the current subjective lead and B2/T5 the objective alternative, with the ballot deferred until the current recovered-place/frontier work is complete enough. So current controlling status = duration OPEN/deferred, not DURATION_CLOSED; prior research completion does not change that.",
+      "checker_evidence": "governance/CURRENT_DECISIONS_MASTER.md confirmed states Bodh Gaya/Tiruvannamalai are not duration-closed with B3/T4 as current subjective lead. Three-way distinction correctly applied to the live state.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "FRONTIER_CONTRADICTION_CHECK",
+      "question": "Is there any remaining contradiction about Serampore or Kasar Devi/Almora across CURRENT_STATE.md, CURRENT_DECISIONS_MASTER.md, and INDIA_CURRENT_KNOWLEDGE_MAP.md? Cite all three explicitly.",
+      "start_session_answer": "Across the three CURRENT surfaces there is no current operational contradiction on Serampore or the ridge:\n- governance/CURRENT_STATE.md: Serampore graded/not FINAL OUT; ridge distinct entities; 21-Dec question open after geometry.\n- governance/CURRENT_DECISIONS_MASTER.md: same current Serampore grades and same OPEN recovered ridge treatment.\n- governance/INDIA_CURRENT_KNOWLEDGE_MAP.md sections C-D: same.\nThere IS one shared historical-provenance wording defect now exposed by the archive recovery: current prose refers to an old combined \"Turiya Niwas + Bodh Ashram = C\" shorthand, while the recovered archive shows old site-level Turiya/Bodh grades were A/LOCKED_BY_MARK and the later change was a cluster/sleep-module drop, not a site-level C downgrade. This does not alter the current newly-split OPEN/UNGRADED treatment, but the historical wording should be repaired in the next safe governance batch rather than ignored.",
+      "checker_evidence": "Independently reread governance/CURRENT_STATE.md, governance/CURRENT_DECISIONS_MASTER.md, and governance/INDIA_CURRENT_KNOWLEDGE_MAP.md at boot_head_final: all three consistent on Serampore and ridge status. The flagged historical-wording defect (old Turiya/Bodh grade was A, not C) matches CCI's own independent finding from the same-day Kumaon archive recovery -- correct and independently corroborated.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "SUCCESSOR_ACTIVE_MEMORY_HANDOFF",
+      "question": "governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md gained a new FOUT 24 step 0 (orphan-scan) in this exact re-pin. Actually perform it now: name at least one file in this repository that self-declares HARD/MANDATORY/MUST-READ/SUCCESSOR-REQUIRED/BINDING status but is NOT in BOOT_MANIFEST_V8.json's required sets, state whether it is still live or superseded, and say concretely what you would do about it. A generic restatement of step 0's text without an actual scan result is a FAIL for this topic.",
+      "start_session_answer": "Actual live orphan #1: governance/MARK_PERSON_PROVENANCE_PLACE_MEANING_RULE.md self-declares \"Status: HARD / USER-PRESENTATION / SUCCESSOR-REQUIRED\"; it is NOT listed in BOOT_MANIFEST_V8.json central_required or active_cluster_required. It is still LIVE. I have read and am actively applying it now. It should be added to the manifest in the next safe post-authorization governance batch/fingerprint transition, not by mutating the in-flight manifest and causing another self-invalidating repin loop.\nActual live orphan #2: governance/MARK_FACING_PLACE_CARD_TRAVEL_VALUE_RULE_2026-09-13.md self-declares \"Status: BINDING PRESENTATION RULE\"; it too is absent from the manifest required sets. It is LIVE and directly controls whole-human card burden/skip-savings. I have read and am applying it now, and it should travel with the same safe manifest/fingerprint batch.\nThis is an actual scan result, not a restatement of FOUT24.",
+      "checker_evidence": "Independently verified: both governance/MARK_PERSON_PROVENANCE_PLACE_MEANING_RULE.md and governance/MARK_FACING_PLACE_CARD_TRAVEL_VALUE_RULE_2026-09-13.md are confirmed absent from governance/BOOT_MANIFEST_V8.json's required sets at the pinned commit -- exactly the two orphans CCI itself found independently earlier the same day via the orphan-scan procedure in governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md FOUT 24 step 0. Genuine, corroborated scan result, not a restatement of the rule's text.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "EXACT_DELEGATION_BINDING",
+      "question": "Which fields must a CCI/WORK delegation bind exactly per governance/EXACT_DELEGATION_BINDING_RULE.md? Quote at least two.",
+      "start_session_answer": "governance/EXACT_DELEGATION_BINDING_RULE.md requires, where applicable: exact PR number; exact task-comment ID; exact task header; exact commit SHA/AUDIT_PACKET_HEAD/frozen input; exact artifact/file path; exact counterparty result binding; explicit do-not-redo scope; exact expected result header; and solution-blind/independent-audit rule where relevant. Minimum examples quoted from the file are \"exact PR-comment-ID of the task\" and \"exact commit-SHA / AUDIT_PACKET_HEAD / frozen input commit\" plus \"exact expected result header\".",
+      "checker_evidence": "Both cited verbatim phrases confirmed present in governance/EXACT_DELEGATION_BINDING_RULE.md at the pinned commit. Correct and complete.",
+      "checker_verdict": "PASS"
+    }
+  ],
+  "check_gate": "PASS"
+}

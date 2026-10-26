@@ -1,0 +1,167 @@
+INDIA19_Kloktijdplanning_A79_v1 — FROZEN AUDIT MIRROR
+PDF SHA256: 0adec758a0b156d56fdd7c8552fa214b78f8e24291d9be759e367dde99d00716
+DOCX SHA256: 6f2369a804972da9325bbdac26033e07ca18833d6562859d7a6954b5ebc7619f
+Frozen A-ledger commit: a2b71b2563f446480b012f0b9176a87e96fcb003
+PDF pages: 26
+
+=== DAILY CLOCK TABLES 5-38 ===
+-- TABLE 6 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+10:15 | AI156 landt Delhi (werkvluchttijd uit canon). |  |  | 
+10:15-12:30 | Immigratie, bagage, SIM/geld en luchthavenfrictie. |  |  | 
+12:30-14:00 | Lunch + rustige reset; geen A-programma. |  |  | 
+14:00-17:00 | Rust/day-room of stille luchthavenbuffer; jetlag niet negeren. |  |  | 
+17:00-19:00 | Transfer naar Delhi Junction / definitief instapstation na ticketlock. |  |  | 
+19:00-21:15 | Diner, water, perronbuffer. |  |  | 
+~22:05 | 15013 Ranikhet Express richting Kathgodam (werktijd uit solve; LIVE_RECHECK_LATER). |  |  | 
+
+-- TABLE 8 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+~05:05 | Aankomst Kathgodam; toilet/thee/bagage. |  |  | 
+05:40-07:15 | Auto naar Nainital en Hotel Evelyn. |  |  | 
+07:15-11:30 | Ontbijt, check-in indien mogelijk, slaap/herstel. |  |  | 
+12:00-12:45 | A001 Hotel Evelyn als historische plek - rustig gebouw/terras bekijken. | Start/base: 0 km | Volgende A vandaag: geen | SCHEDULED
+13:00-16:00 | Lunch en vrije tijd/slaap. |  |  | 
+16:30-17:15 | A* S02 Sakley's: koffie/gebak alleen als energie goed is. |  |  | A* CONDITIONAL
+18:30-20:00 | Diner en vroeg terug. |  |  | 
+
+-- TABLE 10 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+07:30-08:00 | Ontbijt. |  |  | 
+08:00-09:15 | A002 Naini Lake circumambulation, ca. 3.2-3.5 km. | Vanaf Hotel Evelyn: ~0.3-0.8 km / 5-15 min | Naar A003: ~4-5 km / 15-25 min | SCHEDULED
+09:15-14:45 | Koffie, lunch, vrije Nainital-tijd. |  |  | 
+15:00-15:25 | Auto naar Hanuman Garhi. |  |  | 
+15:30-17:00 | A003 Hanuman Garhi + Maharajji kuti. | Vanaf A002: ~4-5 km / 15-25 min | Laatste A; terug Hotel Evelyn ~4-5 km / 15-25 min | SCHEDULED
+18:30 | Diner / avond vrij. |  |  | 
+
+-- TABLE 12 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+07:30 | Ontbijt. |  |  | 
+08:30-09:30 | Auto Nainital -> Kainchi. |  |  | 
+09:30-12:00 | A004 Kainchi Dham, onthaast bezoek. | Vanaf Hotel Evelyn: ~18-20 km / 45-70 min | Naar A005: 11.6 km / ~26 min | SCHEDULED
+12:00-13:00 | Lunch/thee. |  |  | 
+13:00-13:30 | Auto naar Bhumiadhar. |  |  | 
+13:30-14:15 | A005 Bhumiadhar. | Vanaf A004: 11.6 km / ~26 min | Laatste A; terug Nainital ~17-20 km / 45-60 min | SCHEDULED
+14:15-15:30 | Terugrit. |  |  | 
+16:00-avond | Rust, geen extra checklist. |  |  | 
+
+-- TABLE 14 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+07:30 | Ontbijt/check-out. |  |  | 
+08:30-10:00 | Vertrek Nainital richting Dhokaney/Suyalbari-corridor. |  |  | 
+10:00-11:00 | A006 Dhokaney Waterfall incl. korte bezoekwandeling. | Vanaf Nainital: ~40-50 km / 1.5-2 h (route-afhankelijk) | Volgende gewone A vandaag: geen | SCHEDULED
+11:00-12:00 | A* S03 Kakrighat alleen als route/energie klopt. |  |  | A* SKIP_FIRST
+12:00-13:00 | Lunch onderweg. |  |  | 
+13:00-15:30 | Door naar Dunagiri/Kukuchina; A* S04 Dwarahat tempelgroepen alleen bij ruime daglichtmarge. |  |  | A* SKIP_FIRST
+15:30-avond | Check-in, thee, rust. |  |  | 
+
+-- TABLE 16 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+07:00 | Ontbijt. |  |  | 
+08:00-09:00 | A007 Dunagiri Temple / Maa Dunagiri Vaishnavi Temple. | Vanaf slaapbasis: ~3-8 km / 10-25 min (basisafhankelijk) | Naar A008: ~10-12 km / 25-35 min | SCHEDULED
+09:00-09:35 | Auto richting Kukuchina/Babaji-route. |  |  | 
+09:35-10:15 | A008 Babaji Smriti Bhavan. | Vanaf A007: ~10-12 km / 25-35 min | Naar A009: ~0.5 km naar trailzone + 2-3 km klim / ~60-75 min | SCHEDULED
+10:15-11:30 | Klim naar Babaji's Cave. |  |  | 
+11:30-12:30 | A009 Mahavatar Babaji's Cave - stilte/meditatie. | Vanaf A008: trail totaal ~2-3 km omhoog / ~60-75 min | Laatste A; afdaling ~60-75 min | SCHEDULED
+12:30-14:00 | Afdalen. |  |  | 
+14:00-15:00 | Late lunch. |  |  | 
+15:00-avond | Vrij/herstel. |  |  | 
+
+-- TABLE 18 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+05:30 | Opstaan / lichte thee. |  |  | 
+05:45-06:25 | Transfer naar YSS Dwarahat. |  |  | 
+06:30-08:00 | A010 Christmas morning meditation (officieel gepubliceerd voor 25-12-2026). | Vanaf basis: ~15-25 km / 35-60 min, LIVE_RECHECK_LATER | Enige A vandaag | SCHEDULED
+08:00-09:00 | Ontbijt. |  |  | 
+09:00-12:00 | Ashramterrein, stilte, gesprek/retreat-achtig verblijf. |  |  | 
+12:00-14:30 | Lunch + rust; geen andere excursie. |  |  | 
+14:30-16:15 | Stille ashramtijd. |  |  | 
+16:30-18:30 | Christmas evening meditation (officieel gepubliceerd). |  |  | 
+18:30-19:30 | Terug naar basis. |  |  | 
+
+-- TABLE 20 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+07:30 | Ontbijt/check-out. |  |  | 
+08:30-14:00 | Bergtransfer Dunagiri -> true Haidakhan Vishwa Mahadham; exacte wintergeometrie LRL. |  |  | 
+14:00-15:00 | Check-in + lunch/thee. |  |  | 
+15:00-16:45 | A011 Haidakhan Vishwa Mahadham / ashram: eerste rustige verkenning. | Vanaf slaapruimte: 0-0.5 km | Naar A012: ~0.3-0.6 km binnen ashram/gufa-world | SCHEDULED
+16:45-17:30 | A012 Historic Haidakhan cave / gufa. | Vanaf A011: ~0.3-0.6 km / 5-15 min lopen | Laatste A; terug slaapruimte ~0.3-0.6 km | SCHEDULED
+avond | Ashramritme, vroeg slapen. |  |  | 
+
+-- TABLE 22 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+hele dag | Geen logistiek, geen nieuwe A-checklist. Ashramritme, rivier, meditatie, herbezoek A011/A012 naar behoefte. |  |  | 
+
+-- TABLE 24 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+hele dag | Geen logistiek, geen nieuwe A-checklist. Tweede complete rustige dag. |  |  | 
+
+-- TABLE 26 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+07:00 | Ontbijt/check-out. |  |  | 
+08:00-12:00 | Road Haidakhan -> Kathgodam, ruime winterbuffer. |  |  | 
+12:00-14:15 | Lunch + stationbuffer. |  |  | 
+15:15-20:55 | 12039 Kathgodam -> New Delhi (werkregeling uit solve; LRL voor reisdatum). |  |  | 
+21:20-22:00 | Hoteltransfer/check-in. |  |  | 
+
+-- TABLE 28 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+06:00 | Ontbijt/check-out. |  |  | 
+06:30-07:15 | Taxi naar Hazrat Nizamuddin. |  |  | 
+08:10-09:50 | Gatimaan naar Agra Cantt (werkregeling; LRL). |  |  | 
+10:15-10:45 | Bagage/hotel. |  |  | 
+11:00-11:45 | A013 Bedai at Deviram's. | Vanaf hotel: ~1-4 km / 10-20 min | Naar A014: ~1-2 km / 5-15 min | SCHEDULED
+11:45-12:00 | Korte transfer. |  |  | 
+12:00-12:20 | A014 Petha proeven/kopen. | Vanaf A013: ~1-2 km / 5-15 min | Naar A015: 0-0.5 km / 0-5 min, liefst zelfde food corridor | SCHEDULED
+12:20-12:35 | A015 Gajak proeven/kopen. | Vanaf A014: 0-0.5 km / 0-5 min | Laatste A; hotel ~1-4 km / 10-20 min | SCHEDULED
+13:00-avond | Lunch, rust, vroeg slapen voor Taj. |  |  | 
+
+-- TABLE 30 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+05:30 | Opstaan / thee. |  |  | 
+05:50-06:20 | Hotel -> East Gate / securitybuffer. |  |  | 
+06:35-10:15 | A016 Taj Mahal, rustig bezoek inclusief Yogananda memory cue. | Vanaf hotel: ~2-5 km / 10-25 min | Enige A vandaag | SCHEDULED
+10:30-11:30 | Brunch. |  |  | 
+11:30-16:00 | Hotelrust / douchen / pakken. |  |  | 
+16:00-17:15 | Check-out, vroege maaltijd, stationtransfer. |  |  | 
+~18:45 | 12988 Agra Fort -> Gaya sleeper (werkregeling; LRL). |  |  | 
+
+-- TABLE 32 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+~07:50 | Aankomst Gaya. |  |  | 
+08:10-08:35 | A* S07 Gaya Tilkut alleen als producent/shop praktisch op corridor ligt. |  |  | A* SKIP_FIRST
+08:35-10:00 | Auto Gaya -> Bodh Gaya + check-in/bagage. |  |  | 
+10:00-10:45 | Ontbijt/brunch. |  |  | 
+11:00-13:30 | A017 Mahabodhi Temple Complex + Bodhi Tree, eerste lange sessie. | Vanaf centrale slaapbasis: streef <0.8 km / 5-15 min | Enige nieuwe A vandaag | SCHEDULED
+13:30-16:00 | Lunch + rust. |  |  | 
+16:30-18:00 | Vrije terugkeer Mahabodhi/dusk, zelfde A017. |  |  | 
+
+-- TABLE 34 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+08:00 | Ontbijt. |  |  | 
+09:00-09:45 | A018 Great Buddha Statue. | Vanaf centrale basis: ~1-2 km / 10-20 min | Naar A019: ~0.5-1.5 km / 10-20 min lopen | SCHEDULED
+10:00-11:15 | A019 International monastery belt: 2-3 onderscheidende kloosters. | Vanaf A018: ~0.5-1.5 km / 10-20 min | Laatste nieuwe A; centrale basis ~1-2 km | SCHEDULED
+11:30-14:00 | Lunch / rust. |  |  | 
+14:00-avond | Vrije Mahabodhi-tijd, geen checklist. |  |  | 
+
+-- TABLE 36 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+07:30 | Ontbijt. |  |  | 
+08:30-09:30 | A020 Sujata Stupa. | Vanaf centrale Bodh-basis: ~3 km / 15-25 min | Naar A021: ~10-12 km / 25-35 min auto | SCHEDULED
+09:30-10:15 | Transfer richting Dungeshwari. |  |  | 
+10:15-12:15 | A021 Dungeshwari / Mahakala Caves. | Vanaf A020: ~10-12 km / 25-35 min | Naar A022: ~0.3-0.8 km omhoog / 15-30 min | SCHEDULED
+12:15-13:00 | A022 Ancient Pragbodhi/Dungeshwari stupa ridge, alleen bij veilige toegang. | Vanaf A021: ~0.3-0.8 km / 15-30 min omhoog | Laatste A; terug Bodh ~12-15 km / 30-45 min | SCHEDULED IF SAFE
+13:00-14:00 | Dalen / auto terug. |  |  | 
+14:00-15:00 | Late lunch. |  |  | 
+15:00-avond | Vrij/herstel. |  |  | 
+
+-- TABLE 38 --
+Tijd | Activiteit / A-nummer | Afstand vanaf vorige A | Afstand naar volgende A | Status
+07:30 | Ontbijt/check-out. |  |  | 
+08:45 | Station. |  |  | 
+09:55-13:00 | 20887 Gaya -> Varanasi (werkregeling; LRL). |  |  | 
+13:00-14:30 | Sahi River View / Assi: transfer, check-in, lunch. |  |  | 
+14:30-16:30 | Rust. |  |  | 
+16:30-17:10 | Auto/loop naar Dashashwamedh-zone. |  |  | 
+17:15-17:40 | A023 Shitala Mata Temple. | Vanaf Assi-basis: ~5-6 km / 20-35 min | Naar A024: ~0.1-0.3 km / 2-5 min lopen | SCHEDULED
+17:45-20:00 | A024 Dashashwamedh Ghat + Ganga Aarti, inclusief vroeg positie innemen. | Vanaf A023: ~0.1-0.3 km / 2-5 min | Laatste A; terug Assi ~5-6 km / 20-35 min | SCHEDULED
