@@ -59,18 +59,20 @@ andere vijf).
 
 ## Resterende actie — PNR/plaats-status rechecken na ARP-datum
 
-| Trein | ARP-datum (normale venster opent) |
-|---|---|
-| 15013 | 20-10-2026 |
-| 12988 | 01-11-2026 |
-| 13042 | 08-11-2026 (eigen berekening, zie boven) |
-| 20887 | 05-11-2026 |
-| 22604 | 20-11-2026 |
-| 15036 | 29-11-2026 |
+| Trein | ARP-datum (normale venster opent) | Status (Mark's "Booked Ticket History"-overzicht, gecheckt 08-11-2026) |
+|---|---|---|
+| 15013 | 20-10-2026 | **CNF bevestigd** |
+| 12988 | 01-11-2026 | **CNF bevestigd** |
+| 13042 | 08-11-2026 (eigen berekening, zie boven) | **Nog niet gecheckt** — overzicht toont alleen de knop "Check current status", geen waarde; ARP-datum is vandaag. Actie: zelf even klikken om de echte Current Status op te halen. |
+| 20887 | 05-11-2026 | **CNF bevestigd** |
+| 22604 | 20-11-2026 | nog FBKG/0 — normaal, ARP nog niet geopend |
+| 15036 | 29-11-2026 | nog FBKG/0 — normaal, ARP nog niet geopend |
 
 Check na elke datum de bijbehorende PNR via IRCTC → PNR Status om te bevestigen dat coach/plaats
-inmiddels is toegewezen. Dit is het enige nog openstaande actiepunt voor de treinen — alle zes
-transacties zelf zijn al afgerond.
+inmiddels is toegewezen. **CNF bevestigt een echte gegarandeerde plek in de geboekte klasse** (niet
+langer afhankelijk van het ARP-mechanisme); het exacte coach-/zitplaatsnummer wordt apart, vlak voor
+vertrek, bij "chart preparation" toegewezen — dat is een ander, later moment en geen reden tot zorg.
+Enige nog openstaande actie: 13042 checken (ARP vandaag geopend) en 22604/15036 na hun eigen ARP-datum.
 
 ---
 
