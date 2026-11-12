@@ -150,7 +150,7 @@ Trein 15013 (19/20 dec, Jaisalmer→Kathgodam) is al apart afgerond, zie
 
 ## KUMAON / HAIDAKHAN
 
-**Locked:** Hotel Evelyn (Nainital) 3 nights. **Dwarahat base, 3 nights, 23–25 Dec — OPEN AGAIN, 2026-10-06.** Haidakhan 3 nights + 2 full quiet days. No luggage moves beyond this skeleton.
+**Locked:** Hotel Evelyn (Nainital) 3 nights. **Dwarahat base, 3 nights, 23–25 Dec — OPEN AGAIN, 2026-10-06.** **Haidakhan 2 nights (26–27 Dec) + Kathgodam overnight 28→29 Dec (corrected 2026-10-26, see below — this line previously still said "3 nights," now fixed to match the actual locked change).** No luggage moves beyond this skeleton.
 
 **REOPENED 2026-10-06 — Hotel adiMOUNT dropped by Mark, "belachelijk duur" (ridiculously expensive).** Hotel adiMOUNT/Kumaon Eco Resort is no longer the base. Needs a genuine walking-distance replacement from the YSS Dwarahat ashram gate — candidates under live cross-check with WORK (PR #23 comments 6016888680/6016895559): Himalayan Homestay (on Yogda Ashram Road itself), Dwarika Hotel & Resort (~1.5km, borderline walkable), Hotel Apoorva, Om Taj Guest House, Katyuri Kings Village Homestay (exact distances pending). Avatara Hotel (6.8km) and Vanprastha Resorts (5.6km) are already ruled out as too far to walk.
 
