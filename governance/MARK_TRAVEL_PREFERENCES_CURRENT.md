@@ -256,6 +256,12 @@ Mark always wants a **private room** — never a dorm bed, even at a monastery/t
 
 This does not override the earlier Agra/Pawan Pandey pattern (character can outweigh price) — it sets the default anchor against which any higher price must justify itself explicitly, instead of higher prices being presented as normal.
 
+## 5h. NEVER PROPOSE A PHONE CALL TO INDIA AS THE VERIFICATION METHOD — TEXT CHANNELS ONLY (Mark, 2026-11-12, `HARD_CURRENT`)
+
+CCI/WORK must never propose "bellen" / a phone call to an India-based hotel/ashram/contact as the way to verify or confirm something (opening hours, availability, anything else). Mark will not do this — it "werkt niet voor mij." Always use a text-based channel instead: email, WhatsApp, Facebook, Instagram, or whatever the organization actually has — check what channels exist before recommending one, same diligence as any other contact attempt. If genuinely no text channel exists and a fact stays unverifiable, say so plainly as an open risk instead of defaulting to "bel maar even."
+
+**Reason (Mark, 2026-11-12), re: the Anandamayi Ma Ashram opening-hours question:** "ik ga niet telefonisch iets regelen in Varanassi zelf moet echt via andere kanalen desnoods facebook of instagran etc maar niet daar gaan bellen om openingstijden dat werkt niet voor mij!" This applies to every future open-verification item, not just this one case.
+
 ## 5g. NEVER PRESENT A SEND-CAPABLE ACTION IN CHAT — TEXT ONLY, NEVER A BUTTON/DRAFT-WITH-SEND (Mark, 2026-11-12, `HARD_CURRENT`)
 
 CCI must **never** give Mark a clickable "send" action for a message in chat — no send button, no quick-action, and no tool call that creates an actual mail draft sitting one click away from going out (e.g. a Gmail draft opened with its own Send button visible). Always present message text as plain, inert copy-paste text only, exactly as 5c already requires for the sending decision itself.
