@@ -39,7 +39,7 @@ Flagged by INDIA25/WORK, 2026-10-05 (PR #23 comment 5979473618), independently v
 ## PERSONAL READINESS (non-itinerary logistics)
 
 - **Vaccinations: DONE 2026-10-08.** Mark confirms his vaccinations are complete and up to date for the trip.
-- **Visa: APPLICATION EMAILED 2026-10-08**, see visa section above — awaiting embassy reply on appointment timing/location.
+- **Visa: APPLICATION EMAILED 2026-10-08, application reference NLDTV007F426**, see visa section above. Embassy replied 2026-11-xx (Bart J. Kortekaas): application being processed, no insight into Consular section's own planning; appointment slots release each Thursday morning at 09:00 via the official booking site, https://appointment.indianembassynetherland.com/ ("Regular Embassy Appointment").
 - **Passport photo: DONE** — new photo taken, correct white background, used in the visa submission.
 - **Travel/medical insurance: DEKKINGSVRAAG VERZONDEN 2026-10-19** aan Mark's verzekeringsagent Nico — vraagt of de doorlopende reisverzekering de volledige 35-daagse reis (loopt over de jaarwisseling heen) en het wandelen op hoogte in Kumaon dekt. Nog geen antwoord.
 - **Proof of address / bank statement: CONFIRMED NOT NEEDED** for the visa (checked directly against the official checklist, 2026-10-08) — do not revisit unless the embassy explicitly asks for it in their reply.
