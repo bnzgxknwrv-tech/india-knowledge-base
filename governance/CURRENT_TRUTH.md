@@ -39,9 +39,9 @@ Flagged by INDIA25/WORK, 2026-10-05 (PR #23 comment 5979473618), independently v
 ## PERSONAL READINESS (non-itinerary logistics)
 
 - **Vaccinations: DONE 2026-10-08.** Mark confirms his vaccinations are complete and up to date for the trip.
-- **Visa: APPLICATION EMAILED 2026-10-08, application reference NLDTV007F426**, see visa section above. Embassy replied 2026-11-xx (Bart J. Kortekaas): application being processed, no insight into Consular section's own planning; appointment slots release each Thursday morning at 09:00 via the official booking site, https://appointment.indianembassynetherland.com/ ("Regular Embassy Appointment").
+- **Visa: APPOINTMENT BOOKED.** Application reference NLDTV007F426. Embassy (Bart J. Kortekaas) confirmed 10 Nov 2026: appointment auto-confirmed for **10 December 2026, 10:34-10:42, The Hague, appointment no. NL-AP-202658546** — only 8 days before departure (18 Dec), but Kortekaas personally assures this still delivers the visa in time. New slots release every Thursday 09:00 at https://appointment.indianembassynetherland.com/ ("Regular Embassy Appointment") — Mark is actively checking for an earlier slot (started 12 Nov, the next Thursday release). **Do not cancel the 10 Dec booking until and unless a genuinely confirmed earlier replacement exists.**
 - **Passport photo: DONE** — new photo taken, correct white background, used in the visa submission.
-- **Travel/medical insurance: DEKKINGSVRAAG VERZONDEN 2026-10-19** aan Mark's verzekeringsagent Nico — vraagt of de doorlopende reisverzekering de volledige 35-daagse reis (loopt over de jaarwisseling heen) en het wandelen op hoogte in Kumaon dekt. Nog geen antwoord.
+- **Travel/medical insurance: ALREADY COVERED, confirmed 2026-10-26** — Nico (insurance agent) replied with the policy sheet: he does not consider Himalayan-foothill walking a special/high-risk sport and considers it ordinarily covered under the continuous worldwide policy (60-day coverage window). This had been stale-marked as "no reply" in this file; no further follow-up needed absent a new risk.
 - **Proof of address / bank statement: CONFIRMED NOT NEEDED** for the visa (checked directly against the official checklist, 2026-10-08) — do not revisit unless the embassy explicitly asks for it in their reply.
 
 ## WHAT THIS FILE IS
