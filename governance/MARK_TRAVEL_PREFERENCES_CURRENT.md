@@ -256,6 +256,12 @@ Mark always wants a **private room** — never a dorm bed, even at a monastery/t
 
 This does not override the earlier Agra/Pawan Pandey pattern (character can outweigh price) — it sets the default anchor against which any higher price must justify itself explicitly, instead of higher prices being presented as normal.
 
+## 5i. OPEN TO TEMPLE/ASHRAM LODGING, IF FREE DAYTIME MOVEMENT IS CONFIRMED (Mark, 2026-11-12, `HARD_CURRENT`)
+
+Mark is genuinely open to staying in a temple/ashram guesthouse (like the Maha Bodhi Society in Bodh Gaya) instead of a commercial hotel, wherever one is realistically available — not just as a fallback, but as a preferred option when it fits. The one hard condition: **he must be able to move freely during the day for sightseeing**, not be locked into a program/retreat schedule. Before treating any ashram/temple guesthouse as usable, confirm (don't assume either way): whether daytime movement is unrestricted (an evening gate-closing time is normal and fine, a daytime program obligation is not), private room availability, and foreign-guest acceptance — same diligence as any hotel, not a free pass just because it's religious.
+
+**Reason (Mark, 2026-11-12):** "ik wil ook best in een tempel of een ashram verblijven zoals bij de boeddha ofzo. Als dat beter werkt maar ik moet wel vrij kunnen bewegen al die dagen?" This reopens any ashram/guesthouse option previously dismissed only on a vague "probably devotees-only" assumption (e.g. Belur Math) — ask directly instead of assuming disqualification, consistent with §5h (text channel, not a phone call).
+
 ## 5h. NEVER PROPOSE A PHONE CALL TO INDIA AS THE VERIFICATION METHOD — TEXT CHANNELS ONLY (Mark, 2026-11-12, `HARD_CURRENT`)
 
 CCI/WORK must never propose "bellen" / a phone call to an India-based hotel/ashram/contact as the way to verify or confirm something (opening hours, availability, anything else). Mark will not do this — it "werkt niet voor mij." Always use a text-based channel instead: email, WhatsApp, Facebook, Instagram, or whatever the organization actually has — check what channels exist before recommending one, same diligence as any other contact attempt. If genuinely no text channel exists and a fact stays unverifiable, say so plainly as an open risk instead of defaulting to "bel maar even."
