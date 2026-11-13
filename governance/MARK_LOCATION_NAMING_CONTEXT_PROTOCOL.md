@@ -1,0 +1,252 @@
+# MARK LOCATION NAMING + GEOGRAPHIC CONTEXT PROTOCOL
+
+**BACK IN REQUIRED READING 2026-09-14** — briefly condensed out of the boot into `governance/HOW_TO_WORK_WITH_MARK.md` during the successor-boot slimming (PR #23), then restored to `BOOT_MANIFEST_V8.json`'s `central_required` the same day after a confirmed `READ_COMPLETE != MARK_WORKING_MODEL_ACTIVE` failure showed the condensed version lost real behavioral detail. Read this file in full; `governance/HOW_TO_WORK_WITH_MARK.md` §5 summarizes it but does not replace it.
+
+Status: **HARD / UNIVERSAL / ALL INDIA CHATS / ALL USER-FACING LOCATION OUTPUT**
+Effective: 2026-08-28
+Authority: newest explicit Mark presentation requirement.
+
+## 1. ABSOLUTE NAME FORMAT
+EVERY user-facing Indian location name MUST be self-explanatory on every occurrence where the user needs to recognize the place.
+
+Mandatory format:
+
+`FULL CANONICAL PLACE NAME — SHORT DUTCH RECOGNITION HOOK (CITY / MICROCLUSTER) [GRADE] [UNESCO WHEN EXACT]`
+
+Examples:
+- `Mahabodhi Temple Complex + Bodhi Tree — verlichtingstempel + Bodhiboom waar Boeddha ontwaakte (Bodh Gaya) [A+] [UNESCO WH]`
+- `Dungeshwari / Mahakala Caves — ascetengrotten van Siddhartha vóór de verlichting (Bodh Gaya outer) [A+]`
+- `Brahmakund — hete heilige badbronnen (Rajgir) [A]`
+- `Vishwa Shanti Stupa + Rajgir Ropeway — Peace Pagoda op Ratnagiri Hill + kabelbaan vanaf de voet van de heuvel (Rajgir) [B]`
+
+A bare unfamiliar Indian name such as `Brahmakund`, `Sarnath`, `Tergar`, `Kainchi`, `Manikarnika` or `Dungeshwari` is a PRESENTATION FAILURE unless the immediate surrounding wording already supplies the same recognition information unmistakably.
+
+### NO SHORTHAND ESCAPE — HARD / ABSOLUTE
+The naming rule applies to **EVERY occurrence**, not only the first mention and not only headings/cards.
+
+It is explicitly FORBIDDEN to collapse later references into shorthand such as:
+- `Rajgir/Brahmakund + Dungeshwari + Sujata + Mahabodhi`;
+- `Sarnath + Manikarnika`;
+- `Kainchi / Dwarahat / Dunagiri`;
+- any slash-list, plus-list, parenthetical recap, table shorthand, route summary, day summary, comparison sentence or concluding sentence containing bare unfamiliar Indian names.
+
+Even when the full formatted name appeared earlier in the same answer, later references MUST remain recognition-rich enough that Mark never has to remember what the name means.
+
+Required style in compact recaps is therefore still self-explanatory, for example:
+`Brahmakund — hete heilige badbronnen waar Mark wil baden (Rajgir) [A] + Dungeshwari / Mahakala Caves — ascetengrotten van Siddhartha vóór de verlichting (Bodh Gaya outer) [A+] + Sujata Stupa — plek van Sujata's melkrijstgift en de overgang naar de Middenweg (Bakraur) [A+] + Mahabodhi Temple Complex + Bodhi Tree — verlichtingstempel + Bodhiboom waar Boeddha ontwaakte (Bodh Gaya) [A+] [UNESCO WH]`.
+
+If repetition makes a sentence long, shorten the Dutch recognition hook, **never remove it**. Clarity has priority over elegance or brevity.
+
+The recognition hook answers in a few Dutch words: **WAT IS DIT / WAAROM HERKEN IK HET?** It is not marketing prose.
+
+### Typography — HARD
+User-facing location labels must normally be **bold text at the same body-text size as the surrounding answer**. Do NOT use oversized Markdown headings merely to make a place name prominent. A place label may start a normal paragraph or table cell in bold. Hierarchy comes from wording/layout, not giant type.
+
+## 2. UMBRELLA / COMPLEX RULE
+If a parent name hides the physical experience, expose the meaningful physical components in the name/hook.
+
+Forbidden: `Mahabodhi Temple Complex — A+` when the Bodhi Tree is the experiential core.
+Required: `Mahabodhi Temple Complex + Bodhi Tree — verlichtingstempel + Bodhiboom ...`
+
+Micro-sites remain governed by `MARK_DECISION_PARENT_MICROCLUSTER_RULE_2026-08-20.md`; this rule changes presentation, not decision cardinality.
+
+## 3. GEOGRAPHIC CONTEXT IS PART OF THE ITEM, NOT AN AFTERTHOUGHT
+Whenever a place is being proposed, compared, timed or shown as actionable content, INDIA MUST state its geographic burden relative to the **actual retained base / host / larger mini-cluster**, not merely its own on-site dwell.
+
+Minimum context when materially relevant:
+- host city / mini-cluster;
+- distance from current cluster anchor or actual base;
+- realistic one-way travel time and mode;
+- if paired: distance/time from the natural companion stop;
+- whether it is LOCAL, OUTER-CLUSTER, CORRIDOR-BY-CATCH, or EFFECTIVELY-A-SEPARATE-DAY;
+- total excursion burden where that is decision-relevant.
+
+A site 70 km away may NEVER be presented as `1.5 h visit` if reaching it turns the choice into a 6–8 h excursion/day. The decision surface must show the whole human-time cost BEFORE Mark grades it.
+
+## 4. SEQUENCE-AWARE CORRIDOR RULE — HARD
+A location may not be evaluated only as an out-and-back from the sleeping base. INDIA must first place it inside the **actual larger journey sequence**.
+
+For every non-local A/A*/B candidate or selected place, explicitly test:
+1. **Waar komt Mark vandaan vóór deze cluster?** Use the current retained predecessor world/base/transfer hypothesis, not a generic city centre.
+2. **Waar gaat Mark hierna heen?** Use the current retained successor world/base/transfer hypothesis.
+3. **Ligt de locatie langs de inkomende corridor, uitgaande corridor, of tussen twee reeds geselecteerde stops?**
+4. **Wat is de netto extra afstand en netto extra reistijd versus de verplaatsing die Mark toch al maakt?**
+5. **Kan de stop op een aankomst-, vertrek- of transferdag zonder terugrijden worden gevangen?**
+6. **Welke B/A* of andere geselecteerde plek bundelt dan natuurlijk mee?**
+7. **Ontstaat er backtracking?** If yes, quantify it and say so.
+
+This corridor test comes BEFORE calling something a `separate day` or `detour`.
+
+A place that is 70 km from the hotel can still be nearly free if it lies on the next transfer spine. Conversely, a place only 40 km from the hotel can be expensive if it lies in the opposite direction from both predecessor and successor.
+
+Required comparison surfaces where relevant:
+- `BASE -> SITE -> BASE`
+- `PREDECESSOR -> SITE -> CURRENT BASE`
+- `CURRENT BASE -> SITE -> SUCCESSOR`
+- direct baseline `PREDECESSOR -> CURRENT BASE` or `CURRENT BASE -> SUCCESSOR`
+- **NETTO DELTA** in km and human time.
+
+Do not claim corridor convenience from straight-line geography. Use practical road/rail/flight geometry and actual access points.
+
+## 5. MINI-CLUSTER FIRST
+Distance must be judged against where Mark is already going, not only against a headline city.
+
+For each candidate ask:
+1. Which retained A+/A host or mini-cluster puts Mark nearest this place?
+2. What extra travel does the candidate add FROM THAT REAL HOST?
+3. Does another selected/B item bundle naturally there?
+4. Does accepting it create a new half-day/day/base/transfer burden?
+
+If one site creates a distant mini-cluster, say so explicitly before subjective grading.
+
+## 6. ROPEWAY / WALK / BOAT / SPECIAL-ACCESS RULE
+An attraction involving transport inside the attraction must state BOTH endpoints/context.
+
+Example:
+`Vishwa Shanti Stupa + Rajgir Ropeway — Peace Pagoda op Ratnagiri Hill; kabelbaan vertrekt vanaf Rajgir Ropeway Base aan de voet van Ratnagiri Hill (Rajgir) [B]`.
+
+Never write only `ropeway` or `kabelbaan` without saying what it connects and where the boarding/start point is relative to the rest of the mini-cluster.
+
+## 7. TIME FORMAT FOR BUSINESSLIKE OVERVIEWS
+When Mark asks for a factual/compact overview, default to compact fields, not narrative paragraphs:
+- `Geschatte lengte: ...`
+- `Vanaf hoofdanker: ... km / ... min`
+- `Vanaf vorige echte stop/wereld: ... km / ... min`
+- `Naar volgende echte stop/wereld: ... km / ... min`
+- `Netto corridor-delta: ... km / ... min`
+- `Vanaf natuurlijke buurstop: ... km / ... min`
+- `Context: LOCAL / OUTER / APARTE DAG / INKOMENDE CORRIDOR / UITGAANDE CORRIDOR / TRANSFER-BY-CATCH`
+
+Narrative spiritual/human explanation is added only when needed to understand or decide the place.
+
+## 8. MAP REQUIREMENT
+When spatial relation is the issue, provide a map/geo view where the interface supports it. The map does NOT replace textual distance/context: both are required.
+
+A useful map should show, where relevant, not only local attractions but also the **predecessor direction, successor direction and corridor relationship** so Mark can see whether a remote-looking place is actually on-route.
+
+## 9. PRE-REPLY VIOLATION TEST
+Before every user-facing India reply containing locations, scan **every occurrence of every location name, including shorthand recaps and route/day summaries**:
+- Does it follow `FULL NAME — DUTCH RECOGNITION HOOK (PLACE/CLUSTER)` or an equally recognition-rich compact form?
+- Have I accidentally reduced a later mention to a bare/slash/plus shorthand name?
+- Is it bold at normal body-text size rather than an oversized place-name heading?
+- Is grade/UNESCO correct where shown?
+- If distance matters, is burden stated from the real host/mini-cluster?
+- For non-local items: are predecessor, successor and corridor delta tested?
+- Has transfer-day capture been tested before calling it a separate excursion?
+- If the place is remote, is whole excursion/day cost visible?
+- If special internal transport is named, are start/end/context explicit?
+- Is this check actually running, even though the reply is a short chat message or quick clarification rather than a formal document (§12)?
+- Does any place in this reply already exist under a different description earlier in the conversation/document — and if so, is the equivalence stated explicitly rather than left for Mark to infer (§13)?
+
+If any answer is NO, the reply MUST be fixed before sending.
+
+## 10. WHY THIS IS HARD
+Mark must never need to memorize unfamiliar Indian names, infer the route spine himself, or discover only after grading that a seemingly remote attraction lay almost directly on a transfer he was making anyway. Recognition, predecessor/successor context and **net marginal travel cost** are part of decision quality, not optional presentation polish.
+
+## 11. CLOCK-LEVEL DAYPLAN FORMAT — HARD / UNIVERSAL
+When INDIA presents a day plan, itinerary day, cluster execution day or trial day to Mark, a clock time beside an unfamiliar Indian place is NEVER sufficient. The plan must read like a human journey that Mark can mentally follow without a map.
+
+Every travel day is numbered `DAG 1`, `DAG 2`, etc. Every movement inside that day is written in chronological order.
+
+For EVERY movement between sleep base / station / airport / attraction / restaurant / next attraction / sleep base, show:
+- `VERTREK VAN:` full recognition-rich origin;
+- `NAAR:` full recognition-rich destination with current grade if it is graded content;
+- `AFSTAND:` practical route km or walking km; if not decision-grade verified, state an honest range or `NOG LIVE TE VERIFIËREN` rather than inventing precision;
+- `VERVOER:` walk / auto-rickshaw / taxi-car / local train / long-distance train / flight / boat etc.;
+- `REISTIJD:` conservative human planning time, not ideal map time;
+- `VERTREKTIJD:` planned clock time;
+- `AANKOMSTTIJD:` planned clock time;
+- `TER PLEKKE:` recommended dwell and WHY that amount is appropriate;
+- `VOLGENDE STAP:` where Mark goes next, again with km/time/mode.
+
+For the FIRST stop of every local day, distance/time MUST be stated FROM THE ACTUAL SLEEP BASE. For every later stop, distance/time MUST be stated FROM THE IMMEDIATELY PREVIOUS REAL STOP. If the day returns to the sleep base, the final return distance/time/mode is shown too.
+
+If walking is plausible, INDIA explicitly compares `LOPEN: ... km / ... min` against the recommended motorized option. If walking is not sensible because of heat, darkness, road quality, luggage, fatigue or distance, say so in ordinary Dutch.
+
+For hikes/circuits, show:
+- actual trail/start point;
+- how Mark gets from the sleep base to that start point;
+- walk distance;
+- realistic walking time including Mark-appropriate stops;
+- elevation/technical burden where material;
+- where the walk physically ends;
+- how Mark gets from the endpoint back to the sleep base/next stop.
+
+For transfer/arrival days, show the complete chain from the PREVIOUS REAL SLEEP BASE through airport/station changes to the NEW sleep base. Do not write `flight to Chennai, then train` without saying which station, how far it is from the airport, connection/wait assumptions and the final station-to-hotel/ashram leg.
+
+A dayplan must visually distinguish:
+1. `VERPLAATSING` — km/min/mode;
+2. `BEZOEK / ERVARING` — what Mark actually does and why;
+3. `RUST / ETEN / BUFFER` — real human time;
+4. `SLAAP` — exact selected base or clearly labeled provisional fallback zone.
+
+The plan must end with:
+- `TOTAAL LOPEN:` approximate km for the whole day;
+- `TOTAAL GEMOTORISEERD / RAIL:` approximate occupied travel time;
+- `BELASTING:` LOW LOAD / NORMAL / FULL / HIGH FRICTION / OVERLOADED;
+- `ROBUSTHEID:` ROBUST / SENSITIVE / BRITTLE plus what drops first under +30/+60 min delay.
+
+### DAYPLAN FAILURE CONDITIONS
+The output is a PRESENTATION FAILURE and must be repaired before sending if any of these occur:
+- an activity starts at e.g. `06:15` but Mark cannot see how he gets there from his actual sleep base;
+- a later stop is listed without distance/time/mode from the previous stop;
+- visit duration is shown but travel burden is hidden;
+- an unfamiliar place name appears without Dutch recognition hook and grade where applicable;
+- the plan assumes geography Mark has to infer himself;
+- a walking route does not state where it starts/ends;
+- a transfer day skips station/airport access or final hotel/ashram access.
+
+The human test is absolute:
+`KAN MARK DE HELE DAG IN ZIJN HOOFD VOLGEN VANAF HET MOMENT DAT HIJ ZIJN SLAAPPLEK VERLAAT TOTDAT HIJ WEER SLAAPT, ZONDER GOOGLE MAPS OF KENNIS VAN INDIA?`
+If NO, the dayplan may not be sent.
+
+## 12. SCOPE — LIVE CHAT AND QUICK CLARIFICATIONS ARE FULL SCOPE, NOT A LOWER TIER — HARD
+
+Added 2026-10-06 after a concrete repeat failure (`FOUT 31`, `governance/MARK_TO_INDIA_SUCCESSOR_HUMAN_HANDOFF.md`): this entire protocol was being treated as if it only governs formal deliverables — written day-plan documents, PDFs, the kind of output that gets reviewed before sending. It does not. **A one-line chat answer, a quick follow-up clarification, a mid-conversation correction, and a casual "oh and also X" aside are all "user-facing India output" in the full sense of this file.** There is no lower-effort tier where bare names are acceptable because the exchange feels informal or fast-moving. Mark explicitly said this matters MORE in back-and-forth chat, not less, because that is exactly where names get dropped without the care a written document would get.
+
+Practical consequence: the PRE-REPLY VIOLATION TEST in §9 runs on every reply containing a place name, including a two-sentence chat message, not only on multi-paragraph dayplans. If running the full checklist feels disproportionate to a short reply, that is a signal the reply is about to violate this rule, not a reason to skip the check.
+
+## 13. SAME-PLACE RELABELING RULE — HARD
+
+Added 2026-10-06 after the same incident (`FOUT 31`): a second, distinct failure mode exists alongside "bare unfamiliar name." It is **introducing the same physical place under a new descriptive label without saying it is the same place.** Concrete example of what happened: a site was first called "de hoofdashram" (the main ashram), and in a later message the same physical site was called "zijn graf" (his grave) — both correct descriptions of the same location, but because the equivalence was never stated, Mark reasonably read it as a fourth, newly invented location on top of the ashram and two houses already discussed, and said so directly: "dus het graf heb je ineens erbij verzonnen."
+
+**Rule:** whenever a place already established earlier in the same conversation or document is referred to again using a different noun, description, or angle (an "ashram" later called "the grave," a "house" later called "the museum," a "temple" later called "the shrine"), the reference MUST explicitly anchor it back: `dezelfde plek als [eerdere naam/omschrijving], namelijk ...`. Never rely on the reader inferring that two different-sounding descriptions point at one place. When in doubt, over-anchor rather than under-anchor — a redundant "dit is dezelfde plek" costs nothing; a silent relabeling costs trust and forces the user to re-litigate something already settled.
+
+## 14. HUMAN-SCALE TIME + PRECISION RULE — HARD / ANTI-PRECISION-THEATRE
+Dayplanning is for a real traveller, not for a dispatch computer. INDIA must use the **coarsest precision that still changes the travel decision**.
+
+Hard rules:
+- Do NOT state wake-up / get-out-of-bed / shower / dress times unless Mark explicitly asks. Start the operational day at the relevant `VERTREKTIJD` from the sleep base.
+- Ordinary local-day times are normally rounded to **15-minute blocks**; use **30-minute blocks** whenever that is equally useful. Examples: `06:00 vertrek`, `ca. 06:15 aanwezig`, `08:45 verder`.
+- Do NOT convert an 8–12 minute drive into pseudo-precision such as `06:12 arrival`. If departure is 06:00, write `ca. 06:15 aanwezig`.
+- Exact minutes are reserved for externally fixed events where the minute matters: train/flight departure, reservation/check-in deadline, timed entry, official puja/ceremony time, or a documented connection. Even then, surrounding human buffers remain rounded/conservative.
+- Travel times are normally shown as human ranges or rounded planning values: `10–15 min`, `ca. 20 min`, `30–40 min`, not false exactness.
+- Small route/distance differences that do not alter mode, burden class, arrival block, day count or choice are operationally equivalent. Example: 27 km versus 28 km normally belongs to the same planning class; do not manufacture a different schedule merely because one source is 1 km different.
+- Small coordinate disagreements within the same securely identified small property/site (tens of metres; sometimes up to roughly 100 m when the planning consequence is unchanged) are NOT a reason to halt planning. The existing fit-for-purpose GEO rule controls: correct entity + uncertainty too small to affect the decision = usable.
+- Never average two coordinates if there is a real possibility they refer to different entities or materially different access points. Human reasonableness does NOT override entity certainty.
+- Build realistic slack into movement. A 10-minute nominal auto leg is not a promise; present it as approximately 10–15 minutes and schedule the next meaningful block accordingly.
+- A dayplan should feel calm enough that a normal delay of 10–20 minutes does not make every later line 'wrong'.
+
+### WALK / GIRIVALAM START RULE
+For a selected walk that is practically walkable from the actual sleep base, the operational journey starts **at the sleep base**. Do not invent a separate taxi/trailhead transfer merely because a mapping app labels a route start elsewhere.
+
+For **Giripradakshina / Girivalam — volledige 14 km heilige rondgang rond Arunachala (Tiruvannamalai) [A]**, Mark's intended operational start is his Tiruvannamalai sleep base in/near the Sri Ramanasramam zone: walk from the sleep base onto the circuit, follow the best verified official/Komoot-compatible circuit geometry, and return on foot to the sleep base when practical. The dayplan must therefore show `bed/base -> walking route -> base` as one human walking experience, with any small connector distance included in the day's total rather than treated as a separate transport problem.
+
+### HUMAN REASONABLENESS VETO
+Before sending any dayplan ask:
+`ZOU EEN NORMAAL MENS DIT ALS EEN RUSTIGE, BRUIKBARE REISPLANNING LEZEN — OF ALS EEN SCHEMA DAT DOET ALSOF ELKE MINUUT EN METER EXACT VOORSPELBAAR IS?`
+If it reads like the latter, round it, add realistic slack, remove irrelevant personal-routine timing, and re-present before sending.
+
+## 15. TRAIN/TRANSPORT REFERENCE FORMAT — HARD
+
+Added 2026-10-06, direct Mark instruction during live train-booking work: a bare station code or
+train number is exactly the same kind of unexplained-name failure as SS1-SS13 above, just applied to
+transport instead of places. **Every time a train is mentioned in chat or in a document, give all
+four of: the three-letter station code, the station's full name, the relevant time, and the train
+number** — never just one or two of these in isolation.
+
+Correct form: `KGM (Kathgodam) 08:40 — trein 15036`, not `15036 vertrekt om 08:40` and not
+`KGM 08:40` alone. Apply this to both the departure and arrival side of a leg when both are
+relevant, and to every train mentioned, not only the first time it comes up in a conversation —
+same logic as SS12 (live chat is full scope, not a lower tier) and SS13 (no silent relabeling):
+shorthand used once does not excuse dropping the full form later in the same exchange.

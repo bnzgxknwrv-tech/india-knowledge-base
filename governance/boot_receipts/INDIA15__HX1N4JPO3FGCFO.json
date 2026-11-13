@@ -1,0 +1,66 @@
+{
+  "india_session": "INDIA15",
+  "nonce": "HX1N4JPO3FGCFO",
+  "receipt_created_utc": "2026-09-01T11:30:45Z",
+  "boot_head_initial": "a57218a8d5ee0221109b8e0dfb309c97e78bfde9",
+  "boot_head_final": "a57218a8d5ee0221109b8e0dfb309c97e78bfde9",
+  "manifest_path": "governance/BOOT_MANIFEST_V8.json",
+  "manifest_blob": "d522d55278e369ee6aeac333e0b8ba7e3a5d5223",
+  "central_reads": [
+    {"path":"governance/FRESH_SESSION_BOOT_GATE.md","blob_sha":"787d9c382be9f0080ff53a1e28a6717d65b7d25d","eof_reached":true,"tool_truncated":false,"byte_length":4413,"read_ranges":[[0,4413]]},
+    {"path":"governance/INDIA_MASTER_BOOT.md","blob_sha":"e4d692f2deb392ca6e05299b6990b23a4ca9b68c","eof_reached":true,"tool_truncated":false,"byte_length":43051,"read_ranges":[[0,43051]]},
+    {"path":"governance/INDIA_BEHAVIORAL_EXECUTION_CONTRACT.md","blob_sha":"8830af87a5c3847522da1ac41196d0f329f2f893","eof_reached":true,"tool_truncated":false,"byte_length":18523,"read_ranges":[[0,18523]]},
+    {"path":"governance/MARK_TRAVEL_PREFERENCES_CURRENT.md","blob_sha":"a0cf4b779ef77e5f25eb6b7cf9f1289b87c7be57","eof_reached":true,"tool_truncated":false,"byte_length":23952,"read_ranges":[[0,23952]]},
+    {"path":"governance/MARK_LOCATION_NAMING_CONTEXT_PROTOCOL.md","blob_sha":"c120ac795d8d45f02de103705292066e4ff3da55","eof_reached":true,"tool_truncated":false,"byte_length":16658,"read_ranges":[[0,16658]]},
+    {"path":"governance/MAP_COORDINATE_VERIFICATION_RULE.md","blob_sha":"37e2aec6ecb3dff495732d2271193d3e399331fd","eof_reached":true,"tool_truncated":false,"byte_length":12299,"read_ranges":[[0,12299]]},
+    {"path":"governance/INDIA_HUMAN_CENTERED_COMPLEX_TRIP_PLANNING_STANDARD.md","blob_sha":"19821e7c09c6b37fa836605d05d2fc9fbaaa1924","eof_reached":true,"tool_truncated":false,"byte_length":19640,"read_ranges":[[0,19640]]},
+    {"path":"governance/FINAL_COMFORT_SWEEP_RULE_2026-08-23.md","blob_sha":"3e3d833d5f22b7d05801361a61c013fd5690b72e","eof_reached":true,"tool_truncated":false,"byte_length":5303,"read_ranges":[[0,5303]]},
+    {"path":"governance/TRIP_FRAME_HARD.md","blob_sha":"5c61ce61e857379a09b10b596d75c5c41843f581","eof_reached":true,"tool_truncated":false,"byte_length":3271,"read_ranges":[[0,3271]]},
+    {"path":"governance/CURRENT_DECISIONS_MASTER.md","blob_sha":"7251e09c0aeca7e017bd48a542ba210a4dbbe4f4","eof_reached":true,"tool_truncated":false,"byte_length":21799,"read_ranges":[[0,21799]]},
+    {"path":"governance/DECISION_LEDGER.jsonl","blob_sha":"214090c83d9571ce4cf4eda1260c56c2067dbc40","eof_reached":true,"tool_truncated":false,"byte_length":34151,"read_ranges":[[0,34151]]},
+    {"path":"governance/CURRENT_STATE.md","blob_sha":"c5dc630e718574f1de51f5c573c68ab85369b7c1","eof_reached":true,"tool_truncated":false,"byte_length":15023,"read_ranges":[[0,15023]]},
+    {"path":"governance/SUCCESSOR_SAFE_STATE.md","blob_sha":"527cef3f763aa9a3920f74186c18f141f8d2986d","eof_reached":true,"tool_truncated":false,"byte_length":9548,"read_ranges":[[0,9548]]},
+    {"path":"governance/INDIA_RECOVERY_DELTAS_CURRENT.md","blob_sha":"fd27628cc88b417ed0c8d823862d1dabdfae2b09","eof_reached":true,"tool_truncated":false,"byte_length":34423,"read_ranges":[[0,34423]]},
+    {"path":"governance/INDIA_CURRENT_KNOWLEDGE_MAP.md","blob_sha":"cc255381946d95f06db5ed476d0bdbff2a895d54","eof_reached":true,"tool_truncated":false,"byte_length":27400,"read_ranges":[[0,27400]]},
+    {"path":"governance/INDIA14_START_AND_INDEPENDENT_CHECK.md","blob_sha":"8db6dd208bf664775780e9aebfa906ad79a7a496","eof_reached":true,"tool_truncated":false,"byte_length":14876,"read_ranges":[[0,14876]]}
+  ],
+  "cci_reads": [
+    {"path":"runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUCCESSOR_START_HERE.md","blob_sha":"4d44f6e65c78e37417aad4f55c29eac778a1c72d","eof_reached":true,"tool_truncated":false,"byte_length":12814,"read_ranges":[[0,12814]]},
+    {"path":"runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUPERSEDED_AND_DO_NOT_REVIVE.md","blob_sha":"d4d44b4324f99fa25c9ab66c2711f833146ce974","eof_reached":true,"tool_truncated":false,"byte_length":16649,"read_ranges":[[0,16649]]},
+    {"path":"runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/MARK_CURRENT_CANON_MASTER.md","blob_sha":"8bacfe65eaca2ca7d1d6cd4afc36de449a555b07","eof_reached":true,"tool_truncated":false,"byte_length":51311,"read_ranges":[[0,51311]]},
+    {"path":"runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/PROJECT_PHILOSOPHY_AND_SELECTION_MODEL.md","blob_sha":"33b80cdf9a6fceebee75482d2f4db7fde08639b0","eof_reached":true,"tool_truncated":false,"byte_length":28366,"read_ranges":[[0,28366]]},
+    {"path":"runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/OPEN_MARK_DECISIONS_ONLY.md","blob_sha":"0ae043fc71805b925a5ce0ea78cfb0484ac11db6","eof_reached":true,"tool_truncated":false,"byte_length":13736,"read_ranges":[[0,13736]]},
+    {"path":"runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/CURRENT_TRAVEL_EXECUTION_CANON.md","blob_sha":"d4fbd1edd26733e626af443df2623d2484e9d1c6","eof_reached":true,"tool_truncated":false,"byte_length":40501,"read_ranges":[[0,40501]]}
+  ],
+  "active_cluster_reads": [
+    {"path":"governance/INDIA14_TO_INDIA15_HANDOFF_2026-09-01.md","blob_sha":"7d6854232ad90cabe426ed897f7f74e838121d37","eof_reached":true,"tool_truncated":false,"byte_length":16452,"read_ranges":[[0,16452]]},
+    {"path":"runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/FIXED_CORE_REAL_INTERCORE_EDGES_AND_34_DAY_BUDGET_2026-09-01.md","blob_sha":"b23a12b8e065367d240cc7cebb857db349711bf5","eof_reached":true,"tool_truncated":false,"byte_length":12914,"read_ranges":[[0,12914]]},
+    {"path":"runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRAVELER_LAYER_INTEGRITY_AUDIT_2026-08-31.md","blob_sha":"fa3e23f47d58f4ebb22749bab5525aa29c153f54","eof_reached":true,"tool_truncated":false,"byte_length":12410,"read_ranges":[[0,12410]]},
+    {"path":"runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/TRAVELER_LAYER_TARGETED_REPAIRS_2026-09-01.md","blob_sha":"a7c95d0bbf3e16f1e3b1a7a975c045ee2f5185c6","eof_reached":true,"tool_truncated":false,"byte_length":18613,"read_ranges":[[0,18613]]},
+    {"path":"runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/DELHI_TRAVELER_FOOD_CINEMA_FINAL_PASS_2026-09-01.md","blob_sha":"bf4f74ea3bb639d205d7a84ee2cb1ec993ea1bbb","eof_reached":true,"tool_truncated":false,"byte_length":10142,"read_ranges":[[0,10142]]},
+    {"path":"runs/active/INDIA10-CLUSTER-COVERAGE-REAUDIT-001/OPTIONAL_WORLD_SURVIVAL_DECISION_READY_2026-09-01.md","blob_sha":"dee382ed959185d4aa9f79e2e89342947c42d276","eof_reached":true,"tool_truncated":false,"byte_length":16128,"read_ranges":[[0,16128]]}
+  ],
+  "delta_reread_paths": [],
+  "proof_of_read": [
+    {"source":"governance/SUCCESSOR_SAFE_STATE.md","category":"current_state_or_safe","quote":"The live frontier is the genuine Mark-only `OPTIONAL WORLD SURVIVAL` choice."},
+    {"source":"governance/INDIA_RECOVERY_DELTAS_CURRENT.md","category":"newest_recovery_delta","quote":"A \"next step\" field is read in the future by someone who was not present when it was written. If it describes an action synchronous with its own writing, it is already false the moment it is committed — write every forward-looking field as if the ink is already dry on everything this commit did."},
+    {"source":"runs/active/CCI-FULL-REPO-KNOWLEDGE-HARVEST-001/SUCCESSOR_START_HERE.md","category":"cci","quote":"Where a statement contradicts a newer explicit Mark decision, **the newer Mark decision wins**."}
+  ],
+  "active_cluster": "GLOBAL_OPTIONAL_WORLD_SURVIVAL",
+  "validator_mode": "--require-session-receipt",
+  "summary_substitution_used": false,
+  "unfinished_truncations": 0,
+  "control_veto_checksum": {
+    "TRAIN_FIRST_DOOR_TO_DOOR": true,
+    "AL_BESLIST": true,
+    "NAMING_EVERY_OCCURRENCE": true,
+    "GEO_VERIFICATION_NO_GUESSED_PIN": true,
+    "ACTION_FIRST": true,
+    "SAME_TURN_DURABLE_WHAT_WHY": true,
+    "CCI_THREE_WAY_FILTER": ["CURRENT_STILL_VALID", "LIVE_RECHECK_LATER", "SUPERSEDED"],
+    "SAFE_STATE": true,
+    "FULL_SOURCE_LAYER": true,
+    "NU_DOEN": true
+  },
+  "boot_gate": "PASS"
+}

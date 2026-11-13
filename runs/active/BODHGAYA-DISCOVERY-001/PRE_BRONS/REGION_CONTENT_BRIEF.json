@@ -1,0 +1,39 @@
+{
+  "region": "BODHGAYA",
+  "run_id": "BODHGAYA-DISCOVERY-001",
+  "area_definition": "Bodh Gaya (Mahabodhi Tempelcomplex, centrumpunt) + straal van circa 20 km, met een uitsluitend signalerende blik tot circa 30 km voor uitzonderlijke 'zou zonde zijn geweest'-locaties (conform INDIA5_REGION_START_PROTOCOL.md, stap 2). Exacte kernstraal-coordinaten en preciese afstanden tot randlocaties (bv. Dungeshwari-grotten, Gaya-stad) worden tijdens Discovery met een kaartbron geverifieerd -- in deze PRE-BRONS-fase nog niet vastgesteld, uitsluitend globaal benoemd. Grotere, bekende locaties duidelijk buiten elke redelijke straal (Nalanda, Rajgir, Barabar-grotten) worden voorlopig als buiten scope beschouwd, te bevestigen tijdens Discovery.",
+  "mark_known_interests": "Boeddha staat op positie 7 van Marks vaste 13-persoonsindex (PRIORITY_GROUPS.md, commit 709fafe). Diezelfde bron vermeldt expliciet een bestaand precedent: 'Bodh Gaya werd een A-cluster puur door de kracht van de plek zelf' -- een reeds vastgelegde, hoge persoonlijke waardering van Mark voor Bodh Gaya als geheel, van vóór de huidige granulaire kandidaat-tracking. Dit is GEEN vrijbrief om elke afzonderlijke locatie in Bodh Gaya automatisch A te maken -- elke gedecomponeerde kandidaat doorloopt nog steeds zelfstandig de NOT_TO_BE_MISSED-poort (zie PRE_BRONS.md-regel dat de index geen automatische waardering toekent). Sarnath (Boeddha's eerste prediking) is al volledig verwerkt in de Varanasi-regio (006, 029-034, allen A) -- Bodh Gaya vertegenwoordigt het andere, apart te onderscheiden narratieve moment: de verlichting zelf.",
+  "mark_known_anchors": "Boeddha (PRIORITY_GROUPS.md positie 7); het bestaande Bodh-Gaya-A-clusterprecedent (PRIORITY_GROUPS.md); Mark's eigen Kriya Yoga/Yogananda-lijn (geen bevestigde directe Bodh-Gaya-verbinding gevonden of aangenomen -- expliciet te onderzoeken via DET-BGY-P004, niet vooraf te veronderstellen).",
+  "relevant_traditions": [
+    "Boeddhisme (Theravada/Mahayana/Vajrayana, internationaal vertegenwoordigd) -- de dominante traditie van het gebied, met de verlichtingsplek van Boeddha als centraal punt",
+    "Hindoeisme (Gaya-stadsgebied, Vishnupad-tempel, Falgu-rivier) -- binnen de straal aanwezig, nog niet onderzocht, geen aanname over aanwezigheid of afwezigheid van NOT_TO_BE_MISSED-waarde",
+    "Kriya Yoga/Yogananda-lijn -- geen bevestigde connectie, expliciet te onderzoeken, niet aan te nemen"
+  ],
+  "active_detectors_applied": [],
+  "provisional_detectors_introduced": [
+    {"detector_id": "DET-BGY-P001", "name": "PRIMARY_ENLIGHTENMENT_SITE_DECOMPOSITION_DETECTOR"},
+    {"detector_id": "DET-BGY-P002", "name": "PRE_ENLIGHTENMENT_NARRATIVE_SITE_DETECTOR"},
+    {"detector_id": "DET-BGY-P003", "name": "INTERNATIONAL_MONASTERY_LIVING_TRADITION_DETECTOR"},
+    {"detector_id": "DET-BGY-P004", "name": "KRIYA_LINEAGE_TEXT_DETECTOR"},
+    {"detector_id": "DET-BGY-P005", "name": "ARCHAEOLOGICAL_ASI_DETECTOR"},
+    {"detector_id": "DET-BGY-P006", "name": "NON_BUDDHIST_IN_RADIUS_DETECTOR"},
+    {"detector_id": "DET-BGY-P007", "name": "INSIDER_LOCAL_PRACTICE_SOURCE_DETECTOR"}
+  ],
+  "planned_source_families": [
+    {"name": "unesco_bron", "detector_id": ["DET-BGY-P001"], "example": "whc.unesco.org"},
+    {"name": "academische_bron", "detector_id": ["DET-BGY-P001", "DET-BGY-P002", "DET-BGY-P005"], "example": "researchgate.net, link.springer.com"},
+    {"name": "religieuze_naslagbron", "detector_id": ["DET-BGY-P001", "DET-BGY-P002"], "example": "Pali-canon-vertalingen, Ashokavadana"},
+    {"name": "primaire_historische_reisverslagen", "detector_id": ["DET-BGY-P001", "DET-BGY-P005"], "example": "Xuanzang/Hiuen Tsang 7e-eeuwse reisverslagen"},
+    {"name": "officiele_overheids_toerismebron", "detector_id": ["DET-BGY-P005", "DET-BGY-P006"], "example": "incredibleindia.gov.in, Bihar-staatstoerismebron"},
+    {"name": "encyclopedie", "detector_id": ["DET-BGY-P001", "DET-BGY-P002", "DET-BGY-P003", "DET-BGY-P005", "DET-BGY-P006"], "example": "Wikipedia"},
+    {"name": "reis_kruiscontrole", "detector_id": ["DET-BGY-P002", "DET-BGY-P003", "DET-BGY-P006"], "example": "meerdere onafhankelijke reissites per claim"},
+    {"name": "primaire_tekst_AOAY", "detector_id": ["DET-BGY-P004"], "example": "Autobiography of a Yogi, primaire tekst"},
+    {"name": "insider_lokale_praktijkbron", "detector_id": ["DET-BGY-P003", "DET-BGY-P007"], "example": "NOG NIET BESCHIKBAAR"}
+  ],
+  "known_risks_blind_spots": "Nog geen kaartbron-geverifieerde exacte straal/afstanden (volgt tijdens Discovery). Geen insider-/kloosterbron beschikbaar (zelfde structurele hiaat als Varanasi). Risico op verkeerde decompositie van het dichte Mahabodhi-complex (te grof of te fijn). Geen bevestigde Kriya-lijnverbinding met Bodh Gaya -- moet apart geverifieerd worden, niet aangenomen op basis van het algemene A-clusterprecedent. Sterke commerciele/toeristische druk rond de hoofdtempel kan 'beroemd-maar-oppervlakkig'-risico verhogen bij individuele kloosters/winkelgebieden.",
+  "expected_candidate_categories": "Geen vooraf verplichte categorieen (conform de hoofdvraag-regel: categorievolledigheid is nooit een reden om te zoeken of toe te voegen). Wel actief te onderzoeken richtingen, uitsluitend als zoekhulpmiddel: onderdelen van het Mahabodhi-complex zelf; pre-verlichtingsnarratiefplekken (Sujata-dorp, Dungeshwari-grotten, Niranjana/Falgu-oever); individuele internationale kloosters met een uitzonderlijk kenmerk; archeologische/ASI-laag; eventuele niet-boeddhistische krachtplekken binnen de straal (Gaya/Vishnupad-gebied); eventuele Kriya-lijnverbinding.",
+  "saturation_and_stop_criteria": "Zoals vastgelegd in india4/protocols/INDIA5-PROTOCOL.md en herbevestigd in INDIA5_REGION_START_PROTOCOL.md, stap 2: per detector minimaal twee wezenlijk verschillende zoekbenaderingen en minimaal twee relevante bronfamilies, gevolgd door drie opeenvolgende materieel verschillende richtingen zonder nieuwe high-value lead. Sweepniveau DISCOVERY_SATURATED pas wanneer alle zeven detectoren een afsluitstatus hebben, alle geplande bronfamilies zijn uitgevoerd of expliciet ONBESCHIKBAAR, en geen open lead redelijkerwijs een dramatisch te missen locatie kan zijn.",
+  "dramatic_miss_check": "Twee concrete risico's. Eerste: het Mahabodhi-tempelcomplex verkeerd decomponeren -- als één koepelnaam behandelen zou losse, verhaaltechnisch onderscheiden onderdelen (Vajrasana, de Bodhi-boom-nakomeling, Animeshlochan Chaitya, Muchalinda-vijver) laten samensmelten tot een vage generieke vermelding; te fijn opknippen zou omgekeerd kunstmatige kandidaten opleveren die individueel de NOT_TO_BE_MISSED-poort niet zouden doorstaan. DET-BGY-P001 bestaat specifiek om dit te voorkomen. Tweede: de Dungeshwari-grotten (Mahakala-grotten, plek van Boeddha's extreme ascese vóór de verlichting) liggen verder van het hoofdcomplex en zijn minder bekend dan de hoofdtempel -- een reeel risico om over het hoofd te zien ondanks een sterke, onvervangbare eenmalige-gebeurtenis-claim; DET-BGY-P002 is hier specifiek op gericht.",
+  "written_at": "2026-08-03",
+  "written_by": "CCI"
+}

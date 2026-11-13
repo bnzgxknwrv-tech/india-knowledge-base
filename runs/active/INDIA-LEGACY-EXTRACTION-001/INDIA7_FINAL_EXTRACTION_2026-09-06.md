@@ -1,0 +1,8 @@
+# INDIA7 — FINAL EXTRACTION — 2026-09-06
+
+1. **WAAROM:** Het besluit om na IndiaROOD niet meteen nóg een ChatGPT-sweep te starten kwam voort uit de wens eerst de unieke verifieerbare meeropbrengst van ROOD te meten en pas bij een finale gapsweep andere modelfamilies te gebruiken, zodat duplicatie en detectorbesmetting worden beperkt.
+2. **AFGEWEZEN OPTIES:** Een nieuwe blanco externe sweep voor Babaji, Lahiri Mahasaya en Sri Yukteswar viel af omdat de bestaande onafhankelijke ChatGPT-branch al acht freezes met 708 records had voltooid en herhaling dus dubbel werk zou zijn.
+3. **FOUT GECORRIGEERD:** Een Work-venster dat na ruim tien uur nog lijkt te draaien bewijst niet dat onderzoek onaf is, en een lokaal `/Users/RETINA/...`-bestand telt niet als duurzame input totdat branch, volledig commit-SHA en GitHub-pad zijn geverifieerd.
+4. **LOSSE OPMERKING VAN MARK:** Mark staat open voor meerdere AI-detectoren en eventueel een finale sweep met andere onbetaalde AI’s, maar wil dat zulke inzet aantoonbaar helpt om personen eerst heatmap-ready te krijgen in plaats van onderzoek eindeloos te stapelen.
+5. **HALF AFGEROND:** Bij het stoppen moest nog live worden geverifieerd dat de drie IndiaROOD-SHA’s werkelijk op GitHub stonden, of CCI_TASK 090 klaar was, en daarna moest de lossless IndiaROOD-deltareconciliatie voor Babaji, Lahiri Mahasaya en Sri Yukteswar worden aangezet.
+6. **VERWARRING OVER GITHUB:** De externe ChatGPT-branch stond al op `ALL_EIGHT_PRE_COMPARE_FREEZES_COMPLETE_STOP` terwijl de Work-interface nog actief leek en CCI’s reconciliatie tegelijk provisioneel bleef door ontbrekende IndiaROOD-input, waardoor alleen concrete branchheads en commits een betrouwbare voortgangsbron vormen.

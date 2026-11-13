@@ -1,0 +1,34 @@
+{
+  "india_session": "INDIA15",
+  "start_nonce": "9WT6G2WTETWAC",
+  "check_nonce": "L8Q4V7M2X9CP",
+  "receipt_path": "governance/boot_receipts/INDIA15__9WT6G2WTETWAC.json",
+  "boot_head_final": "a6697f5e52aff8595d8319a1ab358a86bd11284b",
+  "receipt_commit": "3f87b1216fb82dcf378077f7b540474c1d2a7f5f",
+  "check_mode": "LIGHT",
+  "challenges": [
+    {
+      "topic": "CURRENT_FRONTIER",
+      "question": "After authorization and the mandatory three-pass parity audit, should INDIA15 reopen fixed-core edge, budget, traveler-layer or Delhi fine-detail work before doing anything else?",
+      "start_session_answer": "No. The current pinned frontier is the genuine Mark-only OPTIONAL WORLD SURVIVAL choice. governance/CURRENT_STATE.md records the fixed six-world duration work, traveler-layer integrity/repairs, real inter-core edges, 34-day/33-night budget and Delhi food/cinema detail as already complete, and fixes the first substantive content action as presenting or continuing the existing A/B/C/D/E optional-world packages or a custom combination, with A as the current INDIA recommendation. Those closed workstreams must not be restarted first.",
+      "checker_evidence": "governance/CURRENT_STATE.md is a mandatory central source and explicitly marks the completed global stages, the OPTIONAL WORLD SURVIVAL Mark-only frontier, and the exact first substantive action after authorization; it therefore directly supports this answer.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "TRAIN_FIRST_DOOR_TO_DOOR",
+      "question": "When INDIA15 later closes the exact Varanasi-to-Tiruvannamalai transfer, may it simply default to a Chennai-to-Tiruvannamalai private car without comparing rail because the flight into Chennai is already fixed as the planning baseline?",
+      "start_session_answer": "No. governance/CURRENT_STATE.md preserves Varanasi to Tiruvannamalai as flight VNS-to-MAA followed by a rail-first MAA/Tambaram-to-Tiruvannamalai comparison under Mark's comfort rule, while governance/INDIA_MASTER_BOOT.md keeps train-first and true door-to-door human burden as hard planning logic. A private car may still win after the real date-specific comparison if it is materially better overall, but it cannot be made the default by skipping the rail comparison merely because the inbound flight lands at Chennai.",
+      "checker_evidence": "governance/CURRENT_STATE.md explicitly states that the Varanasi-to-Tiruvannamalai edge requires a rail-first MAA/Tambaram-to-Tiruvannamalai comparison, and governance/INDIA_MASTER_BOOT.md is the mandatory central rule source for train-first and true door-to-door burden.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "AL_BESLIST",
+      "question": "If a later Bodh Gaya hotel research file lists attractive alternatives, may INDIA15 re-present Maya Heritage beside those hotels as a fresh accommodation choice for Mark?",
+      "start_session_answer": "No. governance/CURRENT_STATE.md records Maya Heritage as LOCKED_BY_MARK for Bodh Gaya/Gaya. Under the AL BESLIST rule in governance/INDIA_MASTER_BOOT.md, an already decided hotel or sleeping base is not re-presented as a fresh choice merely because alternatives exist in research. It would require a material new delta that actually affects the decision or an explicit reopening by Mark; absent that, Maya Heritage remains the locked base and the alternatives stay background research rather than a new choice set.",
+      "checker_evidence": "governance/CURRENT_STATE.md is the mandatory current-state source and records Maya Heritage LOCKED_BY_MARK; governance/INDIA_MASTER_BOOT.md is the mandatory central source for the AL BESLIST prohibition on re-presenting already decided hotels or bases without a material delta or explicit Mark reopening.",
+      "checker_verdict": "PASS"
+    }
+  ],
+  "check_created_utc": "2026-09-01T21:23:00Z",
+  "check_gate": "PASS"
+}

@@ -1,12 +1,17 @@
 schema_version: 2
 run_id: VARANASI-GEO-DELIVERY-REPAIR-001
 system: INDIA4
-status: BRONS_B03_IN_PROGRESS
-status_corrected_at: 2026-07-28
+status: BRONS_ZILVER_GOUD_COMPLETE_ALL_40_AWAITING_MARK_DECISIONS
+status_corrected_at: 2026-08-02
 status_correction_note: >
-  Voorheen stond hier READY_FOR_BRONS_B01, sterk verouderd t.o.v. de werkelijke voortgang
-  (B01+B02 waren toen al volledig af). Zie ROOT_CAUSE.md. Vertrouw voor de actuele stand
-  altijd scripts/next_candidate.py, niet dit veld.
+  Bijgewerkt op 2026-08-02 na de eerste INDIA5-PROTOCOL testsweep (india4/protocols/INDIA5-PROTOCOL.md).
+  Alle 40 Varanasi-kandidaten hebben nu een BRONS-record (B01 t/m B04 compleet). Mark heeft op
+  2026-08-02 expliciet gekozen om de testsweep op de resterende 19 kandidaten (VNS-CAND-022 t/m 040)
+  te draaien i.p.v. de oorspronkelijk gevraagde 20, omdat er in candidates.jsonl geen 20e overbleef
+  na VNS-CAND-021 (zie journaal runs.jsonl voor het besluitmoment). ZILVER/GOUD voor deze testsweep
+  dekken uitsluitend VNS-CAND-022 t/m 040. ZILVER-Z01 (001-020) en een volledige regio-GOUD (alle 40)
+  vallen BUITEN deze testsweep en blijven openstaand voor een latere, aparte doorloop. Vertrouw voor
+  de actuele BRONS-stand altijd scripts/next_candidate.py, niet dit veld.
 created_at: 2026-07-24
 batch_model: AUTONOMOUS_SEQUENTIAL_COMMIT_PER_CANDIDATE
 objective:
@@ -18,12 +23,55 @@ inputs:
   candidate_source: runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/INPUT/candidates.jsonl
   old_geo_comparison: runs/active/VARANASI-GEO-DELIVERY-REPAIR-001/INPUT/old_geo_comparison.jsonl
 protected_mark_decisions:
+  # Bijgewerkt 2026-08-02: eerste ronde vastgelegd in MARK_DECISIONS_2026-08-02.jsonl (commit
+  # 58be47b), aanvullend afgerond met Marks laatste besluiten in dezelfde CCI-sessie (012=B,
+  # 019=A, 040=C, en expliciete bevestiging dat 029-034 ook A worden). Alle 40 kandidaten hebben
+  # nu een definitieve A/B/C-keuze; geen kandidaat is nog DOOR_MARK_TE_BEOORDELEN.
   VNS-CAND-001: A
   VNS-CAND-002: A
   VNS-CAND-003: A
+  VNS-CAND-004: A
+  VNS-CAND-005: A
+  VNS-CAND-006: A
   VNS-CAND-007: A
   VNS-CAND-008: B
-  all_other_35: DOOR_MARK_TE_BEOORDELEN
+  VNS-CAND-009: A
+  VNS-CAND-010: A
+  VNS-CAND-011: A
+  VNS-CAND-012: B
+  VNS-CAND-013: B
+  VNS-CAND-014: A
+  VNS-CAND-015: A
+  VNS-CAND-016: A
+  VNS-CAND-017: A
+  VNS-CAND-018: A
+  VNS-CAND-019: A
+  VNS-CAND-020: A
+  VNS-CAND-021: A
+  VNS-CAND-022: A
+  VNS-CAND-023: B
+  VNS-CAND-024: A
+  VNS-CAND-025: B
+  VNS-CAND-026: C
+  VNS-CAND-027: C
+  VNS-CAND-028: A
+  VNS-CAND-029: A
+  VNS-CAND-030: A
+  VNS-CAND-031: A
+  VNS-CAND-032: A
+  VNS-CAND-033: A
+  VNS-CAND-034: A
+  VNS-CAND-035: A
+  VNS-CAND-036: A
+  VNS-CAND-037: A
+  VNS-CAND-038: A
+  VNS-CAND-039: A
+  VNS-CAND-040: C
+  note: >
+    Alle 40 Varanasi-kandidaten hebben een definitieve Mark-keuze: 32x A, 5x B, 3x C. De eerder
+    gesignaleerde tegenstrijdigheid over de zes Sarnath-deelsites (029-034) is door Mark expliciet
+    bevestigd op te lossen als "allemaal A" -- dit is geen automatische afleiding uit het 006=A-
+    besluit, maar een apart, expliciet bevestigd besluit van Mark zelf.
 explicit_rejections:
   - candidate_id: VNS-CAND-008
     coordinate: [25.3045, 82.979369]
@@ -43,25 +91,50 @@ batches:
     output: BRONS/BRONS-B02.jsonl
   BRONS-B03:
     range: [VNS-CAND-021, VNS-CAND-030]
-    status: IN_PROGRESS
+    status: COMPLETED
     output: BRONS/BRONS-B03.jsonl
   BRONS-B04:
     range: [VNS-CAND-031, VNS-CAND-040]
-    status: WAITING
+    status: COMPLETED
     output: BRONS/BRONS-B04.jsonl
   ZILVER-Z01:
-    range: [VNS-CAND-001, VNS-CAND-020]
-    prerequisites: [BRONS-B01, BRONS-B02]
-    status: WAITING
+    range: [VNS-CAND-001, VNS-CAND-021]
+    prerequisites: [BRONS-B01, BRONS-B02, BRONS-B03]
+    status: COMPLETED
     output: ZILVER/ZILVER-Z01.jsonl
-  ZILVER-Z02:
-    range: [VNS-CAND-021, VNS-CAND-040]
+    note: Bereik uitgebreid met VNS-CAND-021 op 2026-08-02 (dekkingsgat gedicht, zie CORRECTIERAPPORT.md).
+  ZILVER-TESTSWEEP-022-040:
+    range: [VNS-CAND-022, VNS-CAND-040]
     prerequisites: [BRONS-B03, BRONS-B04]
-    status: WAITING
-    output: ZILVER/ZILVER-Z02.jsonl
-  GOUD:
-    prerequisites: [BRONS-B01, BRONS-B02, BRONS-B03, BRONS-B04, ZILVER-Z01, ZILVER-Z02]
-    status: WAITING
+    status: COMPLETED
+    output: ZILVER/ZILVER-TESTSWEEP-022-040.jsonl
+    summary: 19/19 kandidaten gecontroleerd; 3 opgewaardeerd naar VERIFIED_OFFICIAL_MAP_LINK (officiele
+      Google Earth entity-links gevonden voor VNS-CAND-029, 031, 033), overige 16 blijven
+      GOOGLE_MAPS_MARKER_NOT_CONFIRMED (kandidaatgebonden onzekerheid, geen blokkade).
+  GOUD-TESTSWEEP-022-040:
+    prerequisites: [ZILVER-TESTSWEEP-022-040]
+    status: COMPLETED
+    outputs:
+      - GOUD/TESTSWEEP-022-040/USER/VARANASI_TESTSWEEP_022-040.kml
+      - GOUD/TESTSWEEP-022-040/USER/VARANASI_TESTSWEEP_022-040_KEUZE.pdf
+      - GOUD/TESTSWEEP-022-040/GEO_AUDIT.md
+      - GOUD/TESTSWEEP-022-040/CORRECTIERAPPORT.md
+      - GOUD/TESTSWEEP-022-040/COMPLETION.md
+    note: Testsweep-only pakket (19 kandidaten), voorafgaand aan het volledige regio-pakket.
+  GOUD-REGIONAL-ALL-40:
+    prerequisites: [ZILVER-Z01, ZILVER-TESTSWEEP-022-040]
+    status: COMPLETED
+    outputs:
+      - GOUD/REGIONAL/DATASET_VARANASI_40.jsonl
+      - GOUD/REGIONAL/USER/VARANASI_40_KANDIDATEN.kml
+      - GOUD/REGIONAL/USER/VARANASI_40_KEUZE.pdf
+      - GOUD/REGIONAL/USER/VARANASI_40_KEUZE_REISGIDS.pdf
+      - GOUD/REGIONAL/GEO_AUDIT.md
+      - GOUD/REGIONAL/CORRECTIERAPPORT.md
+      - GOUD/REGIONAL/BESLISOVERZICHT.md
+      - GOUD/REGIONAL/COMPLETION.md
+    note: Volledig regionaal eindpakket, alle 40 kandidaten. Centrale India-master-KML niet bijgewerkt
+      (forbidden_outputs, ongewijzigd).
 required_goud_outputs:
   - GOUD/USER/VARANASI_40_KANDIDATEN.kml
   - GOUD/USER/VARANASI_KEUZE.pdf

@@ -1,0 +1,60 @@
+name: INDIA boot receipt validation
+
+on:
+  push:
+    branches:
+      - agent/india8-cluster-casting
+    paths:
+      - 'governance/boot_receipts/INDIA*__*.json'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-receipt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/india8-cluster-casting
+          fetch-depth: 0
+
+      - name: Resolve and verify receipt commit
+        id: meta
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = "${GITHUB_SHA}"
+          test "$(git rev-list --parents -n 1 HEAD | awk '{print NF-1}')" -eq 1
+
+          mapfile -t rows < <(git diff-tree --no-commit-id --name-status -r HEAD^ HEAD)
+          test "${#rows[@]}" -eq 1
+          status="$(printf '%s\n' "${rows[0]}" | cut -f1)"
+          path="$(printf '%s\n' "${rows[0]}" | cut -f2-)"
+          test "${status}" = "A"
+          [[ "${path}" =~ ^governance/boot_receipts/INDIA[0-9]+__[A-Z0-9]{6,32}\.json$ ]]
+
+          python3 - "${path}" >> "${GITHUB_OUTPUT}" <<'PY'
+          import json, re, sys
+          path = sys.argv[1]
+          data = json.load(open(path, encoding="utf-8"))
+          session = data.get("india_session", "")
+          nonce = data.get("nonce", "")
+          if not re.fullmatch(r"INDIA[0-9]+", session):
+              raise SystemExit("invalid india_session")
+          if not re.fullmatch(r"[A-Z0-9]{6,32}", nonce):
+              raise SystemExit("invalid nonce")
+          expected = f"governance/boot_receipts/{session}__{nonce}.json"
+          if path != expected:
+              raise SystemExit(f"filename/json mismatch: {path} != {expected}")
+          print(f"session={session}")
+          print(f"nonce={nonce}")
+          PY
+
+      - name: Run canonical boot gate
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 governance/scripts/boot_gate.py \
+            "${{ steps.meta.outputs.session }}" \
+            "${{ steps.meta.outputs.nonce }}"

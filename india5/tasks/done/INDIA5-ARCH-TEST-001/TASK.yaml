@@ -1,0 +1,28 @@
+task_id: INDIA5-ARCH-TEST-001
+protocol_version: "1.0.0"
+issued_by: CCI
+issued_at: "2026-08-02T19:00:00Z"
+target_branch: claude/werk-je-nu-of-niet-oa10y7
+expected_head: "30c9a51ce2c42a1cda5dfdc7543e45602a65ffd9"
+task_file: TASK.md
+task_file_sha256: "9142dfd95cdb84724b82a837d7147d62ffbdcee5b9066a89f8684394f4c70ddf"
+scope: ARCHITECTURE
+required_inputs:
+  - india5/TASK_PROTOCOL.md
+allowed_reads:
+  - india5/
+allowed_writes:
+  - india5/tasks/active/INDIA5-ARCH-TEST-001/
+  - india5/tasks/done/INDIA5-ARCH-TEST-001/
+  - india5/tasks/failed/INDIA5-ARCH-TEST-001/
+forbidden_writes:
+  - runs/
+  - india4/
+  - india5/schemas/
+  - india5/scripts/
+  - india5/TASK_PROTOCOL.md
+expected_outputs:
+  - india5/tasks/done/INDIA5-ARCH-TEST-001/TEST_OUTPUT.md
+  - india5/tasks/done/INDIA5-ARCH-TEST-001/RESULT.md
+status: QUEUED
+completion_marker: "INDIA5-TASK-COMPLETE::INDIA5-ARCH-TEST-001"

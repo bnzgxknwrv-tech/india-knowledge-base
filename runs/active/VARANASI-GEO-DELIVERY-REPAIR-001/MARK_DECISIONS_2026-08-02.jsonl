@@ -1,0 +1,36 @@
+{"decision_type":"NUMBERING_CANON","scope":"ALL_INDIA_LOCATIONS","rule":"Every candidate and location always starts with its permanent numeric ID. Once assigned, the number never changes, is never reused, and remains permanently linked to that physical location. Numbering may continue through 999 or use reserved leading digits per cluster, but existing numbers are immutable.","decided_by":"Mark","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-004","display_id":"004","name":"Shri Tailanga Swami Math","mark_status":"A","cluster":"MANIKARNIKA_LALITA_PANCHGANGA_SCINDIA","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-005","display_id":"005","name":"Shree Shree Ma Anandamayi Ashram, Bhadaini","mark_status":"A","cluster":"BHADAINI_ASSI","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-006","display_id":"006","name":"Sarnath sacred complex","mark_status":"A","cluster":"SARNATH","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-007","display_id":"007","name":"Shri Kashi Vishwanath Temple","mark_status":"A","cluster":"VISHWANATH_OLD_CITY","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-008","display_id":"008","name":"Yogoda Satsanga Dhyana Mandali, Varanasi","mark_status":"B","cluster":"MAHMOORGANJ","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-009","display_id":"009","name":"Dashashwamedh Ghat","mark_status":"A","cluster":"DASHASHWAMEDH_OLD_GHATS","visit_note":"Evening Ganga Aarti around sunset; preferably viewed from a boat.","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-010","display_id":"010","name":"Assi Ghat","mark_status":"A","cluster":"BHADAINI_ASSI","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-011","display_id":"011","name":"Panchganga Ghat","mark_status":"A","cluster":"MANIKARNIKA_LALITA_PANCHGANGA_SCINDIA","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-013","display_id":"013","name":"Kaal Bhairav Temple","mark_status":"B","cluster":"NORTH_OLD_CITY","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-014","display_id":"014","name":"Maa Annapurna Temple","mark_status":"A","cluster":"VISHWANATH_OLD_CITY","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-015","display_id":"015","name":"Sankat Mochan Hanuman Temple","mark_status":"A","cluster":"DURGAKUND_SOUTH_VARANASI","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-016","display_id":"016","name":"Durga Temple and Durga Kund","mark_status":"A","cluster":"DURGAKUND_SOUTH_VARANASI","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-017","display_id":"017","name":"Vishalakshi Gauri Temple","mark_status":"A","cluster":"VISHWANATH_OLD_CITY","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-018","display_id":"018","name":"Sankatha Devi Temple","mark_status":"A","cluster":"MANIKARNIKA_LALITA_PANCHGANGA_SCINDIA","decision_reason":"Useful stop directly on the same walking route; included as A because it is immediate route-side bycatch.","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-020","display_id":"020","name":"Lalita Ghat","mark_status":"A","cluster":"MANIKARNIKA_LALITA_PANCHGANGA_SCINDIA","decision_reason":"Immediate route-side bycatch on the same core ghat walk.","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-021","display_id":"021","name":"Nepali Temple / Kathwala Temple","mark_status":"A","cluster":"MANIKARNIKA_LALITA_PANCHGANGA_SCINDIA","decision_reason":"Immediate route-side bycatch on the same core ghat walk.","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-022","display_id":"022","name":"Bindu Madhav Temple","mark_status":"A","cluster":"MANIKARNIKA_LALITA_PANCHGANGA_SCINDIA","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-023","display_id":"023","name":"Mrityunjay Mahadev Temple","mark_status":"B","cluster":"NORTH_VARANASI","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-024","display_id":"024","name":"Kabir Chaura Math","mark_status":"A","cluster":"KABIR","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-025","display_id":"025","name":"Lahartara Kabir birthplace memorial","mark_status":"B","cluster":"KABIR","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-026","display_id":"026","name":"Ramakrishna Mission Home of Service","mark_status":"C","cluster":"RAMAKRISHNA_AGHOR","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-027","display_id":"027","name":"Baba Keenaram Sthal / Krim Kund","mark_status":"C","cluster":"RAMAKRISHNA_AGHOR","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-028","display_id":"028","name":"Bhaskarananda Samadhi / Anand Bagh","mark_status":"A","cluster":"DURGAKUND_SOUTH_VARANASI","decision_reason":"Immediately adjacent to Durga Temple and Durga Kund, so included in the same A cluster.","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-035","display_id":"035","name":"Tulsi Manas Temple","mark_status":"A","cluster":"DURGAKUND_SOUTH_VARANASI","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-036","display_id":"036","name":"Tulsi Ghat","mark_status":"A","cluster":"BHADAINI_ASSI","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-037","display_id":"037","name":"Lolark Kund","mark_status":"A","cluster":"BHADAINI_ASSI","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-038","display_id":"038","name":"Ratneshwar Mahadev Temple","mark_status":"A","cluster":"MANIKARNIKA_LALITA_PANCHGANGA_SCINDIA","decided_at":"2026-08-02"}
+{"candidate_id":"VNS-CAND-039","display_id":"039","name":"Shitala Mata Temple, Dashashwamedh","mark_status":"A","cluster":"DASHASHWAMEDH_OLD_GHATS","decided_at":"2026-08-02"}
+{"decision_type":"CLUSTER_DECISION","cluster":"VISHWANATH_OLD_CITY","members":["007","014","017"],"all_status":"A","decided_at":"2026-08-02"}
+{"decision_type":"CLUSTER_DECISION","cluster":"PANCHGANGA_CORE","members":["004","011","022"],"all_status":"A","decided_at":"2026-08-02"}
+{"decision_type":"CLUSTER_DECISION","cluster":"MANIKARNIKA_LALITA_PANCHGANGA_SCINDIA","core":["003","011","038"],"route_bycatch":["018","020","021","022","004"],"all_status":"A","decided_at":"2026-08-02"}
+{"decision_type":"CLUSTER_DECISION","cluster":"DASHASHWAMEDH_OLD_GHATS","members":["009","039","003"],"all_status":"A","visit_note":"Plan 009 Dashashwamedh Ghat for evening Aarti around sunset, preferably by boat.","decided_at":"2026-08-02"}
+{"decision_type":"CLUSTER_DECISION","cluster":"BHADAINI_ASSI","members":["005","010","036","037"],"all_status":"A","decided_at":"2026-08-02"}
+{"decision_type":"CLUSTER_DECISION","cluster":"DURGAKUND_SOUTH_VARANASI","members":["015","016","028","035"],"all_status":"A","decided_at":"2026-08-02"}
+{"decision_type":"CLUSTER_DECISION","cluster":"SARNATH","members":["006"],"all_status":"A","note":"Only the umbrella candidate 006 is decided A in this decision. Specific sub-sites 029-034 remain unchanged until Mark decides them separately.","decided_at":"2026-08-02"}
