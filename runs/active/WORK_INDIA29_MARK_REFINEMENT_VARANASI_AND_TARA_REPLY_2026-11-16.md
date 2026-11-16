@@ -69,3 +69,9 @@ Mark: "Probeer te vragen makkelijk betaallink en idd een chauffeur die me ophaal
 > Mark de Vries
 
 **Status: DRAFT ONLY, gebruiker kopieert en verstuurt zelf. Nog geen bewijs dat hotel transfer gereserveerd heeft of betaallink heeft gestuurd; kamer evenmin definitief zolang aanbetaling ontbreekt.**
+
+## 5. STATUSVERANDERING: Mark heeft antwoord zelf verzonden
+
+Mark bevestigt in chat op **16 november 2026**: **"Verzonden noteer op github"**, als directe opvolging op de tekst onder §4. Daarmee is het antwoord naar **Hotel Tara Palace Daryaganj, contact@tarapalace.com** door Mark **zelf verzonden**. Bericht betreft internationale veilige betaallink voor de Deluxe Single van 19 december, en verzoek om privéchauffeur voor Air India AI156 (aankomst Delhi T3 10:15), bij publieke aankomsthal met bord **Mark de Vries**; Mark accepteert **₹1.200 plus parkeerkosten**.
+
+**Status: door Mark als VERZONDEN bevestigd; hotelantwoord op dit laatste bericht nog niet ontvangen/gecontroleerd.** Hotelkamer pas geboekt na daadwerkelijke bevestiging/aanbetaling; chauffeur/naambord en online creditcardbetalingsmogelijkheid evenmin door hotel bevestigd. **Geen tweede bericht sturen.** Eerdere §4 'DRAFT ONLY' beschrijft de status vóór deze gebruikersbevestiging en is hiermee voor dit specifieke bericht vervallen.
