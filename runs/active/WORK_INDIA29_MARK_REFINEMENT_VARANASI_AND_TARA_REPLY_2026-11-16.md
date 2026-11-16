@@ -42,3 +42,30 @@ Volledige contactthread onafhankelijk gelezen, vier berichten:
 - Bestaande New Frontier fallback niet annuleren vóór vervangende hotelreservering werkelijk bevestigd is.
 
 Niets verzonden/geboekt/gewijzigd buiten dit onderzoekslog.
+
+## 4. Mark kiest transfer en vraagt opnieuw een toegankelijke betaallink (16 nov, vervolgchat)
+
+Mark: "Probeer te vragen makkelijk betaallink en idd een chauffeur die me ophaalt bij de aankomsthal met bordje met mn naam, ik betaal de p kosten."
+
+**Beslissing/voorkeur:** Mark wil privé-ophalen bij Delhi Airport T3 op 19 december voor **₹1.200 + parkeerkosten (door Mark geaccepteerd)**, met een chauffeur bij de **publiek toegankelijke aankomst-ontmoetingsplaats na immigratie/douane**, herkenbaar aan bordje **Mark de Vries**. Flight AI156 aankomst 10:15 uur. Hotel heeft dit detail over chauffeur/naambord **nog NIET expliciet bevestigd**. Betalingsvoorkeur: eenvoudige **veilige online betaallink die buitenlandse creditcard accepteert**; huidige hotelopties uitsluitend bankoverschrijving en Indiase UPI-QR, online kaartbetaling nog NIET aangeboden. Niet stellen dat eerdere mail hierdoor is geannuleerd.
+
+**AI heeft alleen een kopieerbare antwoordtekst voor Mark opgesteld, niet verzonden.** Tekst:
+
+> Dear Tara Palace,
+>
+> Thank you for your quick reply!
+>
+> I would like to confirm the Deluxe Single Room for 19 December.
+>
+> Could you please offer a secure online payment link that accepts an international credit card? I am in the Netherlands and cannot use Indian UPI payments.
+>
+> I would also like to confirm the private airport pickup for ₹1,200 plus parking charges. I am happy to pay the parking costs.
+>
+> My flight AI156 arrives at Delhi Airport Terminal 3 at 10:15 AM on 19 December. Could the driver please meet me at the public arrivals meeting area, after customs, holding a sign with my name, Mark de Vries?
+>
+> Thank you very much!
+>
+> Kind regards,
+> Mark de Vries
+
+**Status: DRAFT ONLY, gebruiker kopieert en verstuurt zelf. Nog geen bewijs dat hotel transfer gereserveerd heeft of betaallink heeft gestuurd; kamer evenmin definitief zolang aanbetaling ontbreekt.**
