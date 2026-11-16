@@ -1,6 +1,8 @@
 # CURRENT FRONTIER — PHASE AND REAL OPEN WORK
 
-Status: **ACTIVE COCKPIT — read this before your first substantive reply**
+**DEPRECATED, 2026-11-16 — DO NOT TREAT AS ACTIVE.** This file describes a project phase ("A-timing / whole-human feasibility") that closed months ago. Every item in its "REAL OPEN DECISIONS" list below is now either resolved (Bodh Gaya/Tiruvannamalai trade-off, Turiya Niwas, J.C. Bose identity, Lala Badri Shah House) or already tracked accurately in `governance/CURRENT_TRUTH.md`'s own "OPEN DECISIONS" section (Evam Choskhorling permission, Crank's Ridge guide, Jama Masjid/astrologer). Its claim that "booking/contact phase has not started anywhere yet" is wildly out of date — nearly all trains/flights are booked and extensive hotel/YSS-center contact is underway (see `governance/DECISION_LEDGER.jsonl`). This file was never added to `CURRENT_TRUTH.md`'s own supersede-list, which was itself a gap — fixed now. Read `governance/CURRENT_TRUTH.md` instead; it is the one active operational reference.
+
+Status (historical, kept for provenance only): ~~ACTIVE COCKPIT — read this before your first substantive reply~~
 Last updated: 2026-09-14
 
 ## CURRENT PROJECT PHASE: A-TIMING / WHOLE-HUMAN FEASIBILITY

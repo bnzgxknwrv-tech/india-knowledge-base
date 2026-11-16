@@ -310,6 +310,7 @@ alle PNR's: `governance/TREINEN_BOEKINGSOVERZICHT_NU_LATER_2026-10-06.md`.
 - `governance/CURRENT_STATE.md`
 - `governance/CURRENT_DECISIONS_MASTER.md`
 - `governance/SUCCESSOR_SAFE_STATE.md`
+- `governance/CURRENT_FRONTIER.md` (added 2026-11-16 — it had never been added here despite being equally stale; see the deprecation notice at its own top)
 
 ## WHERE TO LOOK FOR MORE DEPTH (only when needed)
 
