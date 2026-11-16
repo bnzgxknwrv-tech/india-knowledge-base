@@ -150,6 +150,7 @@ Trein 15013 (19/20 dec, Jaisalmer→Kathgodam) is al apart afgerond, zie
 
 ## KUMAON / HAIDAKHAN
 
+**NIEUW, 2026-11-16 — bonus-vondst tijdens Kolkata-check:** een vierde YSS-centrum, **Yogoda Satsanga Dhyana Mandali – Gaulapar** (c/o Sri Hemant Kumar Gururani, Vill. Madanpur, P.O. Kishanpur, Haldwani, Nainital 263139) ligt maar **~5-8 km van Kathgodam** — vrijwel naast de al geplande overnachting daar op 28→29 dec. Nog niet bevestigd of dit praktisch (adres is een specifiek dorp binnen groter Haldwani) echt dichtbij genoeg is, en nog geen contactkanaal gevonden.
 **Locked:** Hotel Evelyn (Nainital) 3 nights. **Dwarahat base, 3 nights, 23–25 Dec — OPEN AGAIN, 2026-10-06.** **Haidakhan 2 nights (26–27 Dec) + Kathgodam overnight 28→29 Dec (corrected 2026-10-26, see below — this line previously still said "3 nights," now fixed to match the actual locked change).** No luggage moves beyond this skeleton.
 
 **REOPENED 2026-10-06 — Hotel adiMOUNT dropped by Mark, "belachelijk duur" (ridiculously expensive).** Hotel adiMOUNT/Kumaon Eco Resort is no longer the base. Needs a genuine walking-distance replacement from the YSS Dwarahat ashram gate — candidates under live cross-check with WORK (PR #23 comments 6016888680/6016895559): Himalayan Homestay (on Yogda Ashram Road itself), Dwarika Hotel & Resort (~1.5km, borderline walkable), Hotel Apoorva, Om Taj Guest House, Katyuri Kings Village Homestay (exact distances pending). Avatara Hotel (6.8km) and Vanprastha Resorts (5.6km) are already ruled out as too far to walk.
