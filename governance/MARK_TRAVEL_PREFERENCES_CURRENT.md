@@ -298,7 +298,8 @@ This refines (does not replace) section 5b (standard pickup request): the *exist
 From now on, by default, **every outgoing written message to an Indian contact (email, WhatsApp, or any other channel) comes as a set, not a single message:**
 1. a simple, respectful, easy-to-read English (or Dutch/English as now) version — unchanged, still follows 5f/5b/etc.;
 2. a content-equivalent, natural, respectful translation into Hindi (or the locally correct regional language — see caveat below) of that same message — no added content, no dropped content, same place names/dates/modality;
-3. where it fits naturally (typically the first message to a new contact), a short, respectful line in the Hindi/regional-language message itself noting that Mark uses AI to translate so language is not a barrier, and that the contact is welcome to reply **in their own native language** (not narrowly phrased as "in Hindi," since the contact's actual first language isn't always known/confirmed) — Mark will also use AI to translate their reply back into Dutch.
+3. where it fits naturally (typically the first message to a new contact), a short, respectful line in the Hindi/regional-language message itself noting that Mark uses AI to translate so language is not a barrier, and that the contact is welcome to reply **in whichever language they prefer** (not narrowly phrased as "in Hindi" or even "in their native language," since the contact's actual first/preferred language isn't always known/confirmed) — Mark will also use AI to translate their reply back into Dutch;
+4. when both language versions are sent together as one message (e.g. one email), a short transition line between them — e.g. "(A Hindi translation follows below — please feel free to reply in whichever language you prefer.)" — so the recipient isn't confused by two blocks of text with no explanation.
 
 This applies going forward to all contacts — hosts, drivers, hotels, ashrams/YSS-type centers, anyone — not just one case. Still subject to every other rule in this section: both language versions are plain copy-paste text only (5g), nothing is sent by CCI/WORK itself, Mark always reviews and sends it himself (5c), and this does not override 5f's "keep the first message short" guidance — the translated version mirrors whatever length/content the other-language one already has, it does not add new substantive content (the AI-disclosure line is a framing addition, not new substance).
 
@@ -307,6 +308,8 @@ This applies going forward to all contacts — hosts, drivers, hotels, ashrams/Y
 **Caveat:** the actual regional language may not always be Hindi (e.g. Tamil in Tamil Nadu for Tiruvannamalai-area contacts) — use Hindi as the default assumption for North Indian contacts, but check and use the regionally correct language where it's clearly different. Do not blindly assume everyone speaks Hindi.
 
 **Refinement (Mark, 2026-11-18, re: the Rajesh Mehra/Haidakhan message):** "Graag erbij zetten antwoord in je native tongue, ik vertaal terug. Geen probleem." — phrase the reply-invitation generically ("your own native language") rather than assuming Hindi specifically, since a given contact's actual first language is often not confirmed.
+
+**Further refinement (Mark, 2026-11-18, re: the Nirmal Dham message):** "Graag ervoor zetten: skip English? Hindi translation at the end, of iets beters en dat ze mogen antwoorden in een taal naar eigen keuze." — generalize once more, from "native language" to **"whichever language they prefer"** (item 3 above), and add a short transition line when both versions are sent as one combined message (item 4 above).
 
 # 6. UNESCO MAGNETISM
 
