@@ -293,6 +293,12 @@ A first enquiry email to a hotel/guesthouse/ashram must only ask what is genuine
 
 This refines (does not replace) section 5b (standard pickup request): the *existence* of a pickup/drop-off ask can stay in mail 1 if relevant, but the driver-name/phone-in-advance *detail* moves to the follow-up. Same logic applies to every future first-contact email, not just this one.
 
+## 5j. SECOND MESSAGE IN HINDI BY DEFAULT, FOR ALL COMMUNICATION TO INDIAN CONTACTS (Mark, 2026-11-18, `HARD_CURRENT`)
+
+From now on, by default, **every outgoing message to an Indian contact (email, WhatsApp, or any other channel) is followed by a second message: a Hindi translation of the same content**, with a short added line making clear a reply in Hindi is welcome too. This applies going forward to all contacts — hosts, drivers, hotels, ashrams/YSS-type centers, anyone — not just a specific case. Still subject to every other rule in this section: the Hindi version is also plain copy-paste text only (5g), nothing is sent by CCI/WORK itself (5c), and it does not override 5f's "keep the first message short" guidance — the Hindi message mirrors whatever length the English one already is, it does not add new content.
+
+**Reason (Mark, 2026-11-18):** "Vanaf nu standaard alle comm ook in de standaardtaal van de Indiërs als tweede bericht erbij en zet erbij dat ze mogen antwoorden in Hindi." Note: the actual regional language may not always be Hindi (e.g. Tamil in Tamil Nadu for Tiruvannamalai-area contacts) — use Hindi as the default assumption for North Indian contacts, but check and use the regionally correct language where it's clearly different.
+
 # 6. UNESCO MAGNETISM
 
 `HARD_CURRENT — MARK 2026-08-27`
