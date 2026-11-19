@@ -69,9 +69,9 @@ If something in this file conflicts with an older file, **this file wins**, unle
 | 2 | Sun 20 Dec | Nainital / Hotel Evelyn | arrival day |
 | 3 | Mon 21 Dec | Nainital | **LOCK 2026-11-19: Kasar Devi Temple + adjoining Swami Vivekananda Cave (1890)**; long ~3h Crank's Ridge solo forest walk **CANCELLED FOR SAFETY**. Cave access still requires local safety check; Evam Choskhorling permission open. |
 | 4 | Tue 22 Dec | Nainital | Kainchi Dham + Bhumiadhar |
-| 5 | Wed 23 Dec | **Dwarahat base — see Kumaon section** | **LOCK 2026-11-19: Hotel Evelyn → Kakrighat [A+, BOTH spiritual subplaces] → via Ranikhet → Dwarahat**; Kasar Devi Cave moved to 21 Dec. **Dhokaney Waterfall [A*]** near Suyalbari remains a named, optional zero-reserved-time reserve only if no material detour/delay. |
-| 6 | Thu 24 Dec | **Dwarahat base — OPEN** | Babaji's Cave mountain-presence day |
-| 7 | Fri 25 Dec | **Dwarahat base — OPEN** | YSS Dwarahat day — needs a genuine walking-distance hotel from the YSS gate |
+| 5 | Wed 23 Dec | **Dwarahat — Pawan Pandey House, 3 nights (23, 24, 25 Dec), PERSONAL WHATSAPP CONFIRMED** | **LOCK 2026-11-19: Hotel Evelyn → Kakrighat [A+, BOTH spiritual subplaces] → via Ranikhet → Dwarahat**; Kasar Devi Cave moved to 21 Dec. **Dhokaney Waterfall [A*]** near Suyalbari remains a named, optional zero-reserved-time reserve only if no material detour/delay. |
+| 6 | Thu 24 Dec | **Dwarahat — Pawan Pandey House, confirmed stay** | Babaji's Cave mountain-presence day |
+| 7 | Fri 25 Dec | **Dwarahat — Pawan Pandey House, confirmed stay** | YSS Dwarahat day — needs a genuine walking-distance hotel from the YSS gate |
 | 8 | Sat 26 Dec | Haidakhan Vishwa Mahadham | arrival |
 | 9 | Sun 27 Dec | Haidakhan | protected quiet day 1/2 |
 | 10 | Mon 28 Dec | Haidakhan → Kathgodam | **CHANGED BY MARK 2026-10-26 (supersedes DL-0023's 3-night lock): Haidakhan is now 2 nights (26, 27 Dec), checkout 28 Dec IN DAYLIGHT, drive to Kathgodam, overnight there (hotel/retiring room) before the train.** Reason (Mark's own, not a WORK assumption): avoids a dark mountain-road departure at ~05:30, with its risk of breakdown/delay causing a missed, already-confirmed train 15036. |
