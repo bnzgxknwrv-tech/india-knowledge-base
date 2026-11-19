@@ -1,0 +1,79 @@
+{
+  "india_session": "TEST_FIXTURE_GOLDEN4",
+  "start_nonce": "GOLDEN4NONCE01",
+  "check_nonce": "GOLDEN4CHECKN02",
+  "receipt_path": "governance/boot_receipts/test_fixtures/TEST_FIXTURE_GOLDEN4__GOLDEN4NONCE01.json",
+  "boot_head_final": "4bdd928dcbb9984187ddcc0ccb12cbd682cbf963",
+  "receipt_commit": "5508d9d1b20aca9f7154510fd48d8332524a23b5",
+  "check_mode": "FULL",
+  "new_quotes": [
+    {
+      "source": "governance/MAP_COORDINATE_VERIFICATION_RULE.md",
+      "quote": "A map shown to Mark is decision evidence."
+    },
+    {
+      "source": "governance/CURRENT_DECISIONS_MASTER.md",
+      "quote": "New discovery may add context/candidates but never silently reopen a C or mutate an existing grade."
+    }
+  ],
+  "challenges": [
+    {
+      "topic": "TRAIN_FIRST_DOOR_TO_DOOR",
+      "question": "For an inter-core transfer, may a flight-plus-long-car default be presented before a rail-first comparison is even attempted?",
+      "start_session_answer": "No. governance/INDIA_MASTER_BOOT.md's hard planning-rules checksum requires train first, targets 1A where appropriate, excludes long-distance bus, and controls the decision by true door-to-door burden rather than raw transit time. A flight/road-heavy option may only win after that full human-burden comparison shows a meaningful true door-to-door benefit; it may never be the presented default before rail-first is tested.",
+      "checker_evidence": "governance/INDIA_MASTER_BOOT.md section 9 states: 'train first; 1A target where appropriate; long-distance bus excluded; true door-to-door burden controls' as part of the hard planning-rules checksum every successor must apply.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "AL_BESLIST",
+      "question": "May Maya Heritage be re-presented alongside three alternative Bodh Gaya hotels as a fresh open choice for Mark?",
+      "start_session_answer": "No. governance/CURRENT_STATE.md records Maya Heritage as LOCKED_BY_MARK for Bodh Gaya/Gaya, and governance/INDIA_MASTER_BOOT.md section 6 (AL BESLIST hard) forbids presenting a previously decided hotel/base as a fresh choice unless there is a material new delta or Mark explicitly reopens it. Neither condition is met, so it must not be re-presented.",
+      "checker_evidence": "governance/CURRENT_STATE.md states Maya Heritage LOCKED_BY_MARK for Bodh Gaya / Gaya, and governance/INDIA_MASTER_BOOT.md states 'Never present a previously decided A+/A/A*/B/C, hotel, sleeping base, cluster or route as a fresh choice unless there is a material new delta or Mark explicitly reopens it.'",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "C_DO_NOT_RE_PRESENT",
+      "question": "New research makes Barabar/Nagarjuni Caves look exceptionally interesting. May it be re-presented as an open Bodh Gaya choice?",
+      "start_session_answer": "No. governance/INDIA_RECOVERY_DELTAS_CURRENT.md R10 fixes Barabar/Nagarjuni Caves as C / DO NOT RE-PRESENT because no later explicit Mark reopening was ever found for it, unlike Dungeshwari-Mahakala Caves and the Great Buddha Statue which WERE later reopened. Attractive new research evidence enriches provenance only; it cannot silently reopen a C grade. Only an explicit Mark reopening can.",
+      "checker_evidence": "governance/INDIA_RECOVERY_DELTAS_CURRENT.md R10 states 'Barabar/Nagarjuni Caves (Mauryan polished rock caves) — C / DO NOT RE-PRESENT' and that 'research evidence may enrich provenance but cannot reopen C automatically'.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "NEWER_CENTRAL_OVER_CCI",
+      "question": "The frozen CCI harvest and the current central frontier disagree on an open item. Which wins, and why is CCI still read at all?",
+      "start_session_answer": "Newer central truth wins. governance/INDIA_MASTER_BOOT.md section 2A is explicit that the CCI files are recovery evidence frozen in time, not a higher authority than later central Mark decisions -- if a CCI frontier/open item has since been closed centrally, the newer central truth controls. CCI remains mandatory reading because it recovers still-valid philosophy/WHY/anti-regression knowledge that the former central boot alone had actually lost (R25), not because it can override current central state.",
+      "checker_evidence": "governance/INDIA_MASTER_BOOT.md section 2A states 'The CCI files are recovery evidence frozen in time, not a higher authority than later central Mark decisions... If a CCI frontier/open item has since been closed centrally, the newer central truth wins.'",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "GEO_VETO",
+      "question": "A predecessor's old pin claims two Bodh Gaya sites are five minutes apart. May that be shown to Mark as a proximity fact without reverification?",
+      "start_session_answer": "No. governance/MAP_COORDINATE_VERIFICATION_RULE.md and governance/INDIA_MASTER_BOOT.md require every decision-relevant pin to resolve the exact physical entity, obtain a reliable coordinate/business-ref/address, cross-check independently where practical, disambiguate same-name traps and pass a geographic sanity check before it may support a proximity or route claim; an old, unreverified pin is not sufficient, and if it cannot be resolved the rule is simply NO PIN rather than showing a plausible-looking but unverified map.",
+      "checker_evidence": "governance/INDIA_MASTER_BOOT.md states 'A visually plausible wrong map is worse than no map' and requires a verified coordinate/business-ref/address basis, independent cross-check and geographic sanity check before any pin may support a decision; unresolved means NO PIN.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "CURRENT_FRONTIER",
+      "question": "After valid content authorization, what is the exact next substantive action, and what must NOT happen first?",
+      "start_session_answer": "The exact next substantive action is to present/continue the existing OPTIONAL WORLD SURVIVAL choice from packages A/B/C/D/E or a custom combination, with A as the current INDIA recommendation, per governance/CURRENT_STATE.md's INDIA15 EXACT FIRST SUBSTANTIVE ACTION section. Fixed-core content, LP/traveler integrity, inter-core edges, the 34-day budget and Delhi food/cinema work are all already closed and must not be restarted; no other planning question may be asked before this Mark-only gate.",
+      "checker_evidence": "governance/CURRENT_STATE.md states 'FIRST_CONTENT_ACTION = present/continue the existing OPTIONAL WORLD SURVIVAL choice from A/B/C/D/E or custom, with A as current INDIA recommendation' and explicitly forbids restarting already-closed fixed-core/LP/edge/budget/Delhi work first.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "ACTION_FIRST",
+      "question": "The next step is known, authorized and executable right now. Is it acceptable to reply 'the next step is that I will research this' and stop?",
+      "start_session_answer": "No. governance/INDIA_MASTER_BOOT.md section 12 is a hard execution veto: if the next step is known, authorized and executable with available tools, it must be executed in the current turn before replying, following SCAN -> DO -> RECORD -> RESCAN -> DO NEXT EXECUTABLE STEP -> ... -> STOP ONLY AT GENUINE MARK-ONLY DECISION OR HARD EXTERNAL BLOCKER -> REPLY. Future-tense narration about work that could already be done now is explicitly forbidden.",
+      "checker_evidence": "governance/INDIA_MASTER_BOOT.md section 12 states the mandatory execution loop 'SCAN -> DO -> RECORD -> RESCAN -> DO NEXT EXECUTABLE STEP -> ... -> STOP ONLY AT GENUINE MARK-ONLY DECISION OR HARD EXTERNAL BLOCKER -> REPLY' and forbids replacing executable work with future-tense narration.",
+      "checker_verdict": "PASS"
+    },
+    {
+      "topic": "DURABLE_WHAT_WHY",
+      "question": "A material new research result is found but Mark has not yet decided on it, and this chat could die right after. What must happen before replying, and why?",
+      "start_session_answer": "The WHAT and WHY of that result must be durably committed to GitHub -- in the owning artifact, with frontier/state routing updated if it changes the controlling picture -- before replying, because governance/INDIA_MASTER_BOOT.md section 13A asks exactly this test: IF THIS CHAT DIES NOW, CAN INDIA(N+1) RECOVER THIS NEW KNOWLEDGE FROM THE MANDATORY BOOT + ITS EXPLICIT KNOWLEDGE-MAP ROUTES WITHOUT MARK OR CHAT HISTORY? If the honest answer is no, the material knowledge may not live only in chat and must be written first.",
+      "checker_evidence": "governance/INDIA_MASTER_BOOT.md section 13A states the durable-memory test 'IF THIS CHAT DIES NOW, CAN INDIA(N+1) RECOVER THIS NEW KNOWLEDGE FROM THE MANDATORY BOOT + ITS EXPLICIT KNOWLEDGE-MAP ROUTES WITHOUT MARK OR CHAT HISTORY?' and requires writing it before replying if the answer is no.",
+      "checker_verdict": "PASS"
+    }
+  ],
+  "check_created_utc": "2026-09-01T12:15:00Z",
+  "check_gate": "PASS"
+}

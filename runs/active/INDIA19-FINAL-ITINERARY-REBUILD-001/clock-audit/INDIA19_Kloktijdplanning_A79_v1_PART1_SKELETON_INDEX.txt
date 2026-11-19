@@ -1,0 +1,123 @@
+INDIA19_Kloktijdplanning_A79_v1 — FROZEN AUDIT MIRROR
+PDF SHA256: 0adec758a0b156d56fdd7c8552fa214b78f8e24291d9be759e367dde99d00716
+DOCX SHA256: 6f2369a804972da9325bbdac26033e07ca18833d6562859d7a6954b5ebc7619f
+Frozen A-ledger commit: a2b71b2563f446480b012f0b9176a87e96fcb003
+PDF pages: 26
+
+=== 33-NIGHT SKELETON ===
+Nacht | Datum | Slaapbasis | Burden | Kern
+1 | 19 dec 2026 (za) | Delhi -> nachttrein | HIGH FRICTION | Aankomst India en door naar Kumaon
+2 | 20 dec (zo) | Nainital | LOW LOAD | Herstel en Hotel Evelyn
+3 | 21 dec (ma) | Nainital | NORMAL | Naini Lake en Hanuman Garhi
+4 | 22 dec (di) | Nainital | FULL | Kainchi Dham + Bhumiadhar
+5 | 23 dec (wo) | Dunagiri/Kukuchina | HIGH FRICTION | Basiswissel naar Dunagiri
+6 | 24 dec (do) | Dunagiri/Kukuchina | FULL | Babaji-pilgrimage
+7 | 25 dec (vr) | Dunagiri/Kukuchina | FULL | Volledige YSS Dwarahat-dag
+8 | 26 dec (za) | Haidakhan | NORMAL | Aankomst Haidakhan en eerste oriëntatie
+9 | 27 dec (zo) | Haidakhan | LOW LOAD | Beschermde rustige ashramdag 1
+10 | 28 dec (ma) | Haidakhan | LOW LOAD | Beschermde rustige ashramdag 2
+11 | 29 dec (di) | Delhi transit | FULL | Haidakhan -> Kathgodam -> Delhi
+12 | 30 dec (wo) | Agra | NORMAL | Delhi -> Agra + Agra-foodlaag
+13 | 31 dec (do) | Agra -> nachttrein | FULL | Taj bij eerste licht + vertrek naar Gaya
+14 | 1 jan 2027 (vr) | Bodh Gaya | NORMAL | Aankomst Bodh Gaya + Mahabodhi
+15 | 2 jan (za) | Bodh Gaya | LOW/NORMAL | Great Buddha + internationale kloosters
+16 | 3 jan (zo) | Bodh Gaya | FULL | Sujata - Dungeshwari pelgrimsdag
+17 | 4 jan (ma) | Varanasi | FULL | Gaya -> Varanasi + Ganga Aarti
+18 | 5 jan (di) | Varanasi | HIGH FRICTION | Dawn boat + Old City + Kabir
+19 | 6 jan (wo) | Varanasi | FULL | Assi-Tulsi + Anandamayi Ma
+20 | 7 jan (do) | Varanasi | FULL | Subah-e-Banaras + Kriya-dag
+21 | 8 jan (vr) | Varanasi | NORMAL | Zuid-Varanasi tempels
+22 | 9 jan (za) | Varanasi | OVERLOADED | Grote noord-naar-zuid ghatwandeling
+23 | 10 jan (zo) | Varanasi/Sarnath | FULL | Sarnath op open museumdag
+24 | 11 jan (ma) | Varanasi | LOW LOAD | Buffer, recovery en retries
+25 | 12 jan (di) | Kolkata/Dakshineswar | HIGH FRICTION | Vlucht naar Kolkata - géén A-programma
+26 | 13 jan (wo) | Kolkata/Dakshineswar | FULL | Dakshineswar + Belur
+27 | 14 jan (do) | Kolkata | NORMAL/FULL | Yogananda Garpar-dag
+28 | 15 jan (vr) | Tiruvannamalai | HIGH FRICTION | CCU -> Chennai -> Tiruvannamalai
+29 | 16 jan (za) | Tiruvannamalai | FULL | Ramana hill + vroege biografische plekken
+30 | 17 jan (zo) | Tiruvannamalai | FULL / PHYSICAL | Girivalam + tempel
+31 | 18 jan (ma) | Tiruvannamalai | LOW/NORMAL | Standalone Ramanasramam-immersiedag
+32 | 19 jan (di) | Chennai airportzone | LOW TRANSFER | Tiruvannamalai -> Chennai
+33 | 20 jan (wo) | Delhi final | OVERLOADED / FLIGHT-SAFETY FIRST | Vroege vlucht + drie Delhi A-items
+
+=== A001-A079 INDEX ===
+Nr | Bron-ID | Grade | Datum | Tijd | Locatie | Wereld
+A001 | KUM-03 | A+ | 20 dec (zo) | 12:00-12:45 | Hotel Evelyn | Nainital
+A002 | KUM-04 | A+ | 21 dec (ma) | 08:00-09:15 | Naini Lake circumambulation walk | Nainital
+A003 | KUM-08 | A | 21 dec (ma) | 15:30-17:00 | Hanuman Garhi + Maharajji kuti | Nainital
+A004 | KUM-05 | A+ | 22 dec (di) | 09:30-12:00 | Kainchi Dham | Kumaon
+A005 | KUM-07 | A | 22 dec (di) | 13:30-14:15 | Bhumiadhar | Kumaon
+A006 | KUM-09 | A | 23 dec (wo) | 10:00-11:00 | Dhokaney Waterfall | Kumaon transfer corridor
+A007 | KUM-11 | A | 24 dec (do) | 08:00-09:00 | Dunagiri Temple / Maa Dunagiri Vaishnavi Temple | Dunagiri
+A008 | KUM-12 | A | 24 dec (do) | 09:35-10:15 | Babaji Smriti Bhavan | Dunagiri/Kukuchina
+A009 | KUM-06 | A+ | 24 dec (do) | 11:30-12:30 | Mahavatar Babaji's Cave | Kukuchina-Dunagiri
+A010 | KUM-10 | A | 25 dec (vr) | 06:30-08:00 | Yogoda Satsanga Sakha Ashram, Dwarahat | Dwarahat
+A011 | KUM-01 | A+ | 26 dec (za) | 15:00-16:45 | Haidakhan Vishwa Mahadham / Haidakhan Ashram | Haidakhan
+A012 | KUM-02 | A+ | 26 dec (za) | 16:45-17:30 | Historic Haidakhan cave / gufa | Haidakhan
+A013 | AGR-02 | A | 30 dec (wo) | 11:00-11:45 | Bedai at Deviram's | Agra
+A014 | AGR-03 | A | 30 dec (wo) | 12:00-12:20 | Petha | Agra
+A015 | AGR-04 | A | 30 dec (wo) | 12:20-12:35 | Gajak | Agra
+A016 | AGR-01 | A+ | 31 dec (do) | 06:35-10:15 | Taj Mahal | Agra
+A017 | BOD-01 | A+ | 1 jan 2027 (vr) | 11:00-13:30 | Mahabodhi Temple Complex + Bodhi Tree | Bodh Gaya
+A018 | BOD-04 | A | 2 jan (za) | 09:00-09:45 | Great Buddha Statue | Bodh Gaya
+A019 | BOD-07 | A | 2 jan (za) | 10:00-11:15 | International monastery belt | Bodh Gaya
+A020 | BOD-02 | A+ | 3 jan (zo) | 08:30-09:30 | Sujata Stupa | Bodh Gaya/Bakraur
+A021 | BOD-03 | A+ | 3 jan (zo) | 10:15-12:15 | Dungeshwari / Mahakala Caves | Near Bodh Gaya
+A022 | BOD-05 | A | 3 jan (zo) | 12:15-13:00 | Ancient Pragbodhi/Dungeshwari stupa ridge | Near Bodh Gaya
+A023 | VNS-21 | A | 4 jan (ma) | 17:15-17:40 | Shitala Mata Temple | Varanasi
+A024 | VNS-03 | A+ | 4 jan (ma) | 17:45-20:00 | Dashashwamedh Ghat + evening Ganga Aarti | Varanasi
+A025 | VNS-10 | A | 5 jan (di) | 05:30-08:00 | Ganges dawn rowboat | Varanasi
+A026 | VNS-27 | A | 5 jan (di) | 10:00-11:00 | Shri Kashi Vishwanath Temple | Varanasi
+A027 | VNS-11 | A | 5 jan (di) | 11:05-11:30 | Maa Annapurna Temple | Varanasi
+A028 | VNS-12 | A | 5 jan (di) | 11:40-12:05 | Vishalakshi Gauri Temple | Varanasi
+A029 | VNS-07 | A | 5 jan (di) | 12:15-13:15 | Bengali Tola - Thatheri Bazaar - Chowk lanes | Varanasi
+A030 | VNS-06 | A | 5 jan (di) | 13:15-13:35 | Banarasi paan | Varanasi
+A031 | VNS-37 | A | 5 jan (di) | 15:00-16:00 | Kabir Chaura Math | Varanasi
+A032 | VNS-08 | A | 6 jan (wo) | 05:30-08:30 | Assi-Tulsi slow dawn ghat walk | Varanasi
+A033 | VNS-28 | A+ | 6 jan (wo) | 05:35-06:05 | Assi Ghat | Varanasi
+A034 | VNS-39 | A | 6 jan (wo) | 06:45-07:15 | Tulsi Ghat | Varanasi
+A035 | VNS-40 | A | 6 jan (wo) | 07:20-07:45 | Lolark Kund | Varanasi
+A036 | VNS-26 | A+ | 6 jan (wo) | 10:00-11:30 | Shree Shree Ma Anandamayi Ashram, Bhadaini | Varanasi
+A037 | VNS-09 | A | 7 jan (do) | 05:30-07:30 | Subah-e-Banaras at Assi Ghat | Varanasi
+A038 | VNS-02 | A+ | 7 jan (do) | 10:00-11:30 | New Bhrigu Karyalaya / Bhadury Sadan | Varanasi
+A039 | VNS-20 | A+ | 7 jan (do) | 14:00-15:00 | Lahiri Mahasaya original/family house | Varanasi
+A040 | VNS-24 | A | 7 jan (do) | 15:30-16:30 | Lahiri Mahasaya Samadhi / Satyalok | Varanasi
+A041 | VNS-30 | A | 8 jan (vr) | 08:00-09:00 | Sankat Mochan Hanuman Temple | Varanasi
+A042 | VNS-31 | A | 8 jan (vr) | 09:15-10:15 | Durga Temple and Durga Kund | Varanasi
+A043 | VNS-33 | A | 8 jan (vr) | 15:30-17:00 | Kedareshwar Temple and Kedar Ghat | Varanasi
+A044 | VNS-41 | A | 9 jan (za) | 07:00-08:00 | Adi Keshava Ghat + Temple | Varanasi
+A045 | VNS-25 | A | 9 jan (za) | 08:30-09:15 | Shri Tailanga Swami Math | Varanasi
+A046 | VNS-29 | A | 9 jan (za) | 09:15-09:45 | Panchganga Ghat | Varanasi
+A047 | VNS-36 | A | 9 jan (za) | 09:45-10:15 | Bindu Madhav Temple | Varanasi
+A048 | VNS-34 | A | 9 jan (za) | 11:15-11:45 | Lalita Ghat | Varanasi
+A049 | VNS-35 | A | 9 jan (za) | 11:45-12:15 | Nepali / Kathwala Temple | Varanasi
+A050 | VNS-32 | A | 9 jan (za) | 13:30-14:00 | Sankatha Devi Temple | Varanasi
+A051 | VNS-05 | A+ | 9 jan (za) | 14:15-15:15 | Ratneshwar Mahadev leaning river temple | Varanasi
+A052 | VNS-01 | A+ | 9 jan (za) | 15:15-18:30 | Manikarnika Ghat | Varanasi
+A053 | VNS-04 | A+ | 10 jan (zo) | 08:20-08:40 | Sarnath sacred-archaeological world | Sarnath
+A054 | VNS-16 | A | 10 jan (zo) | 08:40-09:15 | Chaukhandi Stupa | Sarnath
+A055 | VNS-38 | A | 10 jan (zo) | 09:30-10:45 | Sarnath Archaeological Museum | Sarnath
+A056 | VNS-14 | A | 10 jan (zo) | 11:00-11:45 | Dhamek Stupa | Sarnath
+A057 | VNS-17 | A | 10 jan (zo) | 11:45-12:15 | Deer Park | Sarnath
+A058 | VNS-15 | A | 10 jan (zo) | 13:15-14:00 | Mulagandha Kuti Vihara | Sarnath
+A059 | VNS-23 | A | 10 jan (zo) | 14:15-15:00 | Shreyansanath Jain Tirth | Sarnath
+A060 | VNS-18 | A | 10 jan (zo) | 15:15-16:00 | Saranganath Temple | Sarnath
+A061 | KOL-01 | A+ | 13 jan (wo) | 07:00-09:30 | Dakshineswar Kali Temple | Kolkata/Dakshineswar
+A062 | KOL-02 | A+ | 13 jan (wo) | 09:45-11:30 | Yogoda Satsanga Math, Dakshineswar | Kolkata/Dakshineswar
+A063 | KOL-03 | A | 13 jan (wo) | 13:30-17:00 | Belur Math | Belur/Howrah
+A064 | KOL-04 | A+ | 14 jan (do) | 10:30-12:00 | 4 Garpar Road | Kolkata
+A065 | KOL-05 | A+ | 14 jan (do) | 14:00-16:00 | YSS Dhyana Kendra - Garpar, 37A Raja Dinendra Street | Kolkata
+A066 | TIR-01 | A+ | 15 jan (vr) | 16:45-17:30 | Arunachala / Ramana sacred mountain world | Tiruvannamalai
+A067 | TIR-09 | A | 15 jan (vr) | 19:00-20:30 | The Dreaming Tree | Tiruvannamalai
+A068 | TIR-03 | A | 16 jan (za) | 08:00-09:30 | Virupaksha Cave | Arunachala
+A069 | TIR-04 | A | 16 jan (za) | 09:45-10:45 | Skandashram | Arunachala
+A070 | TIR-06 | A | 16 jan (za) | 15:30-16:15 | Gurumurtam | Tiruvannamalai
+A071 | TIR-07 | A | 16 jan (za) | 16:30-17:15 | Pavalakunru | Tiruvannamalai
+A072 | TIR-10 | A | 16 jan (za) | 19:00-20:15 | The Inner Child | Tiruvannamalai
+A073 | TIR-08 | A | 17 jan (zo) | 04:30-09:00 | Giripradakshina / Girivalam 14 km circuit | Arunachala
+A074 | TIR-05 | A | 17 jan (zo) | 16:00-18:00 | Arunachaleswarar / Annamalaiyar Temple | Tiruvannamalai
+A075 | TIR-11 | A | 17 jan (zo) | 18:30-19:45 | Amutham | Tiruvannamalai
+A076 | TIR-02 | A | 18 jan (ma) | 07:30-12:00 | Sri Ramanasramam | Tiruvannamalai
+A077 | DEL-01 | A+ | 20 jan (wo) | 11:00-13:00 | Nirmal Dham / Shri Mataji Nirmala Devi Ashram | Delhi
+A078 | DEL-03 | A | 20 jan (wo) | 15:00-16:15 | Lotus Temple / Baha'i House of Worship | Delhi
+A079 | DEL-02 | A | 20 jan (wo) | 18:30-21:30 | PVR Priya IMAX | Delhi

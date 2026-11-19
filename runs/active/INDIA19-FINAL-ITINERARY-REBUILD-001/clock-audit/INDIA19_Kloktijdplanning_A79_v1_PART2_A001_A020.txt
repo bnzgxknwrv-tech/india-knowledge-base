@@ -1,0 +1,86 @@
+INDIA19_Kloktijdplanning_A79_v1 — FROZEN AUDIT MIRROR
+PDF SHA256: 0adec758a0b156d56fdd7c8552fa214b78f8e24291d9be759e367dde99d00716
+DOCX SHA256: 6f2369a804972da9325bbdac26033e07ca18833d6562859d7a6954b5ebc7619f
+Frozen A-ledger commit: a2b71b2563f446480b012f0b9176a87e96fcb003
+PDF pages: 26
+
+=== DETAILED A001-A020 CARDS ===
+A001  A+  Hotel Evelyn  [KUM-03]
+Wat is het? Historic Nainital hotel/property linked in the project research to Ram Dass travel history. The value is the physical building/terrace atmosphere; no exact historic room or floor is claimed. Waarom voor Mark? This is not just a bed: the property itself is part of the retained A+ Nainital experience and provides a low-friction first base after the night train. AOAY/persoon: Ram Dass. No direct Autobiography of a Yogi (AOAY) link; this belongs to the Neem Karoli Baba/Ram Dass layer.
+Klokblok: 12:00-12:45. Vorige A: Start/base: 0 km. Volgende A: Volgende A vandaag: geen. Uitvoeringsstatus: SCHEDULED.
+
+A002  A+  Naini Lake circumambulation walk  [KUM-04]
+Wat is het? A full lakeside walking circuit around Naini Lake, roughly 3.2-3.5 km. The plan gives it a calm morning slot rather than treating the lake as scenery seen from a taxi. Waarom voor Mark? A signature Nainital experience and a deliberate gentle day after the first recovery day. It also lets you judge whether the north-first pace feels right before harder mountain transfers begin. AOAY/persoon: No direct AOAY person-link. General Nainital / experiential value.
+Klokblok: 08:00-09:15. Vorige A: Vanaf Hotel Evelyn: ~0.3-0.8 km / 5-15 min. Volgende A: Naar A003: ~4-5 km / 15-25 min. Uitvoeringsstatus: SCHEDULED.
+
+A003  A  Hanuman Garhi + Maharajji kuti  [KUM-08]
+Wat is het? Hanuman temple on the hill above Nainital together with the Maharajji/Neem Karoli Baba kuti context. Waarom voor Mark? Adds a real Neem Karoli Baba devotional stop without consuming a separate travel day. AOAY/persoon: Neem Karoli Baba. No direct AOAY link; strong Ram Dass/Neem Karoli Baba relevance.
+Klokblok: 15:30-17:00. Vorige A: Vanaf A002: ~4-5 km / 15-25 min. Volgende A: Laatste A; terug Hotel Evelyn ~4-5 km / 15-25 min. Uitvoeringsstatus: SCHEDULED.
+
+A004  A+  Kainchi Dham  [KUM-05]
+Wat is het? Neem Karoli Baba ashram and temple complex near Kainchi. The schedule protects a long, unhurried visit rather than a short photo stop. Waarom voor Mark? One of the core personal-devotional anchors of Kumaon. AOAY/persoon: Neem Karoli Baba / Ram Dass layer. No direct AOAY link.
+Klokblok: 09:30-12:00. Vorige A: Vanaf Hotel Evelyn: ~18-20 km / 45-70 min. Volgende A: Naar A005: 11.6 km / ~26 min. Uitvoeringsstatus: SCHEDULED.
+
+A005  A  Bhumiadhar  [KUM-07]
+Wat is het? Small Neem Karoli Baba-era locality/site close enough to Kainchi to be naturally combined the same day. Waarom voor Mark? Retained because it adds real Maharajji-era context at modest extra burden once Kainchi is already being visited. AOAY/persoon: Neem Karoli Baba context; no direct AOAY link.
+Klokblok: 13:30-14:15. Vorige A: Vanaf A004: 11.6 km / ~26 min. Volgende A: Laatste A; terug Nainital ~17-20 km / 45-60 min. Uitvoeringsstatus: SCHEDULED.
+
+A006  A  Dhokaney Waterfall  [KUM-09]
+Wat is het? Short waterfall walk on the Nainital-to-Dunagiri movement corridor. The visit is treated as genuine A content, not just a roadside glance. Waarom voor Mark? Provides nature content during an otherwise transfer-heavy day without adding a separate base or night. AOAY/persoon: No AOAY link; nature/general-traveler layer.
+Klokblok: 10:00-11:00. Vorige A: Vanaf Nainital: ~40-50 km / 1.5-2 h (route-afhankelijk). Volgende A: Volgende gewone A vandaag: geen. Uitvoeringsstatus: SCHEDULED.
+
+A007  A  Dunagiri Temple / Maa Dunagiri Vaishnavi Temple  [KUM-11]
+Wat is het? Living Vaishnavi Devi temple in the Dunagiri sacred landscape. Waarom voor Mark? Adds the local sacred geography around the Babaji pilgrimage rather than reducing the area to one cave. AOAY/persoon: Indirect Kriya geography. The direct AOAY anchor nearby is Mahavatar Babaji's Cave, not this temple itself.
+Klokblok: 08:00-09:00. Vorige A: Vanaf slaapbasis: ~3-8 km / 10-25 min (basisafhankelijk). Volgende A: Naar A008: ~10-12 km / 25-35 min. Uitvoeringsstatus: SCHEDULED.
+
+A008  A  Babaji Smriti Bhavan  [KUM-12]
+Wat is het? Memorial/commemoration place in the same pilgrimage world as the Mahavatar Babaji cave. Waarom voor Mark? It extends the cave visit with explicit Babaji memory while adding little route burden. AOAY/persoon: Mahavatar Babaji - direct AOAY/Kriya lineage relevance.
+Klokblok: 09:35-10:15. Vorige A: Vanaf A007: ~10-12 km / 25-35 min. Volgende A: Naar A009: ~0.5 km naar trailzone + 2-3 km klim / ~60-75 min. Uitvoeringsstatus: SCHEDULED.
+
+A009  A+  Mahavatar Babaji's Cave  [KUM-06]
+Wat is het? The mountain cave associated with Mahavatar Babaji, reached by a roughly 2-3 km climb from the local approach. Waarom voor Mark? One of the strongest Kriya-pilgrimage anchors of the entire trip and therefore given a real hike, cave stay and descent window. AOAY/persoon: Mahavatar Babaji - direct, central AOAY link; also inseparable from Lahiri Mahasaya's Kriya lineage story.
+Klokblok: 11:30-12:30. Vorige A: Vanaf A008: trail totaal ~2-3 km omhoog / ~60-75 min. Volgende A: Laatste A; afdaling ~60-75 min. Uitvoeringsstatus: SCHEDULED.
+
+A010  A  Yogoda Satsanga Sakha Ashram, Dwarahat  [KUM-10]
+Wat is het? YSS/Yogananda-linked ashram at Dwarahat. Mark's rule is a dedicated full day, not an item squeezed between other excursions. Waarom voor Mark? Direct Yogananda/Kriya relevance. The date also matches the published 25 Dec 2026 Christmas meditations, making this a particularly strong fit if access remains as published. AOAY/persoon: Paramahansa Yogananda, Mahavatar Babaji, Lahiri Mahasaya and Sri Yukteswar - direct AOAY/Kriya lineage context.
+Klokblok: 06:30-08:00. Vorige A: Vanaf basis: ~15-25 km / 35-60 min, LIVE_RECHECK_LATER. Volgende A: Enige A vandaag. Uitvoeringsstatus: SCHEDULED.
+
+A011  A+  Haidakhan Vishwa Mahadham / Haidakhan Ashram  [KUM-01]
+Wat is het? Working ashram/temple/river complex that also functions as the sleep base for three nights. Waarom voor Mark? The trip protects two complete quiet days here; the point is immersion rather than sightseeing density. AOAY/persoon: Haidakhan Babaji. Important: this project does not silently equate Haidakhan Babaji with AOAY's Mahavatar Babaji.
+Klokblok: 15:00-16:45. Vorige A: Vanaf slaapruimte: 0-0.5 km. Volgende A: Naar A012: ~0.3-0.6 km binnen ashram/gufa-world. Uitvoeringsstatus: SCHEDULED.
+
+A012  A+  Historic Haidakhan cave / gufa  [KUM-02]
+Wat is het? Historic cave/gufa within the Haidakhan ashram world. Waarom voor Mark? A physically distinct devotional point inside the ashram, therefore individually visible even though no separate regional transfer is required. AOAY/persoon: Haidakhan Babaji; no automatic AOAY Mahavatar Babaji identity claim.
+Klokblok: 16:45-17:30. Vorige A: Vanaf A011: ~0.3-0.6 km / 5-15 min lopen. Volgende A: Laatste A; terug slaapruimte ~0.3-0.6 km. Uitvoeringsstatus: SCHEDULED.
+
+A013  A  Bedai at Deviram's  [AGR-02]
+Wat is het? Specific Agra breakfast/food experience: bedai at Deviram's. Waarom voor Mark? A genuine Mark-graded food item with near-zero independent route weight, placed on the otherwise light arrival day. AOAY/persoon: No AOAY person-link.
+Klokblok: 11:00-11:45. Vorige A: Vanaf hotel: ~1-4 km / 10-20 min. Volgende A: Naar A014: ~1-2 km / 5-15 min. Uitvoeringsstatus: SCHEDULED.
+
+A014  A  Petha  [AGR-03]
+Wat is het? Agra's characteristic petha sweet, planned as a short tasting/purchase rather than a sightseeing stop. Waarom voor Mark? Preserves the A-grade food layer without stealing time from the Taj. AOAY/persoon: No AOAY person-link.
+Klokblok: 12:00-12:20. Vorige A: Vanaf A013: ~1-2 km / 5-15 min. Volgende A: Naar A015: 0-0.5 km / 0-5 min, liefst zelfde food corridor. Uitvoeringsstatus: SCHEDULED.
+
+A015  A  Gajak  [AGR-04]
+Wat is het? Sesame-jaggery gajak tasting/purchase in the Agra food corridor. Waarom voor Mark? Another Mark-graded local food item with minimal burden. AOAY/persoon: No AOAY person-link.
+Klokblok: 12:20-12:35. Vorige A: Vanaf A014: 0-0.5 km / 0-5 min. Volgende A: Laatste A; hotel ~1-4 km / 10-20 min. Uitvoeringsstatus: SCHEDULED.
+
+A016  A+  Taj Mahal  [AGR-01]
+Wat is het? The Taj Mahal at first practical light, with enough time for the East Gate approach, security, grounds and mausoleum experience. Waarom voor Mark? The sole protected Agra sightseeing reason. The schedule deliberately keeps the rest of Agra free of filler and preserves onward rail. AOAY/persoon: Paramahansa Yogananda - direct historical onsite memory cue in the project canon; this is the explicit AOAY/Yogananda connection to remember while there.
+Klokblok: 06:35-10:15. Vorige A: Vanaf hotel: ~2-5 km / 10-25 min. Volgende A: Enige A vandaag. Uitvoeringsstatus: SCHEDULED.
+
+A017  A+  Mahabodhi Temple Complex + Bodhi Tree  [BOD-01]
+Wat is het? UNESCO Buddhist pilgrimage complex marking the Buddha's enlightenment, including the Bodhi Tree. Waarom voor Mark? The central Bodh Gaya anchor; three nights are used partly to make this unhurried rather than transactional. AOAY/persoon: Buddha is spiritually important in Yogananda's worldview, but there is no site-specific AOAY biographical claim used here.
+Klokblok: 11:00-13:30. Vorige A: Vanaf centrale slaapbasis: streef <0.8 km / 5-15 min. Volgende A: Enige nieuwe A vandaag. Uitvoeringsstatus: SCHEDULED.
+
+A018  A  Great Buddha Statue  [BOD-04]
+Wat is het? Large seated Buddha landmark near the monastery zone. Waarom voor Mark? Compact Buddhist-heritage/general-traveler content that fits naturally with the monastery walk. AOAY/persoon: Buddha context; no direct site-specific AOAY event claimed.
+Klokblok: 09:00-09:45. Vorige A: Vanaf centrale basis: ~1-2 km / 10-20 min. Volgende A: Naar A019: ~0.5-1.5 km / 10-20 min lopen. Uitvoeringsstatus: SCHEDULED.
+
+A019  A  International monastery belt  [BOD-07]
+Wat is het? A flexible walk past 2-3 visually distinct international Buddhist monasteries near central Bodh Gaya; not a checklist of every monastery. Waarom voor Mark? Mark explicitly wanted this layer; it adds cultural breadth at low burden. AOAY/persoon: Buddhist context; no direct AOAY person/site link.
+Klokblok: 10:00-11:15. Vorige A: Vanaf A018: ~0.5-1.5 km / 10-20 min. Volgende A: Laatste nieuwe A; centrale basis ~1-2 km. Uitvoeringsstatus: SCHEDULED.
+
+A020  A+  Sujata Stupa  [BOD-02]
+Wat is het? Stupa associated with Sujata's offering to the Buddha before enlightenment. Waarom voor Mark? A core pilgrimage step and the first anchor of the protected excursion beyond central Bodh Gaya. AOAY/persoon: Buddha/Sujata context; no direct AOAY biographical link.
+Klokblok: 08:30-09:30. Vorige A: Vanaf centrale Bodh-basis: ~3 km / 15-25 min. Volgende A: Naar A021: ~10-12 km / 25-35 min auto. Uitvoeringsstatus: SCHEDULED.

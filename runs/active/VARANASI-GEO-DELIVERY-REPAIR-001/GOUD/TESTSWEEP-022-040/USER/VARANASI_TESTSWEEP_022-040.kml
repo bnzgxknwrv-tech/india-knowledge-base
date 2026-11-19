@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>VARANASI INDIA5-testsweep VNS-CAND-022 t/m 040</name>
+<description>19 testkandidaten, INDIA5-PROTOCOL testsweep 2026-08-02. Groene markers = VERIFIED_OFFICIAL_MAP_LINK (bevestigd via officiele Google-kaartbron). Gele markers = ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED); positie is uitsluitend het oude vergelijkingscoordinaat, GEEN gevalideerd eindpunt.</description>
+<Style id="confirmed"><IconStyle><color>ff00c853</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-stars.png</href></Icon></IconStyle></Style>
+<Style id="unconfirmed"><IconStyle><color>ff00d7ff</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href></Icon></IconStyle></Style>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-022 -- Bindu Madhav Temple</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Sri Bindu Madhava Perumal Temple / Bindu Madhav Mandir, Panchganga Ghat
+Adres: Sri Bindu Madhava Perumal Temple, Panch Ganga Ghat, Ratan Phatak, Ghasi Tola, Varanasi, Uttar Pradesh 221001, India
+Fysieke identiteit: CONFIRMED
+Reden: De kandidaat is geidentificeerd als de Bindu Madhav-tempel (Vishnu) direct aan Panchganga Ghat, bevestigd door een officiele overheids-listing en de eigen tempelinstitutie. Geen publieke Google Maps-plaatslink met ingesloten marker-coordinaat kon worden vastgesteld; het oude vergelijkingscoordinaat is niet hergebruikt als eindpunt.</description>
+<Point><coordinates>83.0125,25.3187,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-023 -- Mrityunjay Mahadev Temple</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Mrityunjay Mahadev Mandir
+Adres: Maha Mritunjay Rd, Bagh, Daranagar, Kotwali, Varanasi, Uttar Pradesh 221001, India (alt: K52/39 Daranagar Visheshwarganj)
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit bevestigd via meerdere onafhankelijke bronnen op Daranagar/Bagh, Kotwali. LET OP voor ZILVER/GOUD: de Wikipedia-coordinaat (25.317645,82.973914) ligt ca. 3 km van het oude vergelijkingscoordinaat (25.3291,83.0056) -- dit is geen Google Maps-marker en dus geen eindpunt, maar het verschil is groot genoeg om apart te vermelden in het correctierapport. Geen publieke Google Maps-marker vastgesteld; geen schatting overgenomen.</description>
+<Point><coordinates>83.0056,25.3291,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-024 -- Kabir Chaura Math</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Kabir Math, Kabirchaura
+Adres: C23/5, Kotwali, Dav College Road, Piplani Katra, Varanasi, Uttar Pradesh 221001, India
+Fysieke identiteit: CONFIRMED
+Reden: Kabir Chaura Math is geidentificeerd als een apart, gevestigd math-complex in de wijk Kabir Chaura (te onderscheiden van het Lahartara-herdenkingspunt, VNS-CAND-025). Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; het oude vergelijkingscoordinaat is niet hergebruikt.</description>
+<Point><coordinates>82.9992,25.3233,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-025 -- Lahartara Kabir birthplace memorial</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (APPROXIMATE_LOCAL_POINT), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Lahartara Pond / Kabir Math, Lahartara
+Adres: Lahartara, Varanasi, Uttar Pradesh, India (nabij Kabir Math Lahartara)
+Fysieke identiteit: PARTIAL
+Reden: Bronidentiteit bevestigt de Lahartara-vijver/herdenkingszone als traditionele Kabir-geboorteplek, met een apart Kabir-tempel/Math-punt in dezelfde locatie. De brondata markeerde physical_identity al als PARTIAL (meerdere structuren in een zone); dat is bevestigd, geen precieze enkele gebouwmarker vastgesteld. Geen Google Maps-marker geconfirmeerd; geen schatting of terreinmiddelpunt overgenomen.</description>
+<Point><coordinates>82.966,25.304,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-026 -- Ramakrishna Mission Home of Service</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Ramakrishna Mission Home of Service
+Adres: Ramakrishna Mission Home of Service, Luxa Road, Ramapura Luxa, Varanasi, Uttar Pradesh 221010, India
+Fysieke identiteit: CONFIRMED
+Reden: Institutionele identiteit sluitend bevestigd via de officiele Belur Math-bronvermelding en de instelling zelf op Luxa Road. Een Mappls (MapmyIndia)-vermelding bevatte een coordinaat-achtige URL-parameter, maar dit is geen Google Maps-bron en is daarom NIET gebruikt als eindcoordinaat (Google Maps is de enige geaccepteerde bron van waarheid). Geen publieke Google Maps-marker geconfirmeerd; oude vergelijkingscoordinaat niet hergebruikt.</description>
+<Point><coordinates>82.9974,25.309,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-027 -- Baba Keenaram Sthal / Krim Kund</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Baba Keenaram Sthal / Kreem Kund
+Adres: Ravindrapuri Rd, Anandbagh, Bhelupur, Varanasi, Uttar Pradesh 221005, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit sluitend: Aghor-hoofdzetel op Ravindrapuri Road, Bhelupur. De encyclopedische coordinaat (25.29608,83.00264) ligt dicht bij (~0.4 km) het oude vergelijkingscoordinaat, wat de algemene locatie ondersteunt, maar telt niet als Google Maps-marker. Geen publieke Google Maps-marker geconfirmeerd; geen schatting overgenomen.</description>
+<Point><coordinates>83.001,25.2928,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-028 -- Bhaskarananda Samadhi / Anand Bagh</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (APPROXIMATE_LOCAL_POINT), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Anand Bagh (samadhi-herdenking Swami Bhaskarananda Saraswati)
+Adres: Durgakund Road, Anandbagh, Bhelupur, near Vankatti Hanumanji Mandir, Durgakund, Varanasi, Uttar Pradesh 221005, India
+Fysieke identiteit: PARTIAL
+Reden: Fysieke identiteit bevestigd als samadhi-herdenkingscomplex (Anand Bagh) direct bij Durga Kund; de brondata markeerde physical_identity al als PARTIAL, wat overeind blijft omdat het een herdenkingsterrein is zonder eenduidig hoofdgebouw. Geen publieke Google Maps-marker geconfirmeerd; geen schatting of terreinmiddelpunt overgenomen.</description>
+<Point><coordinates>82.9968,25.2868,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>VNS-CAND-029 -- Dhamek Stupa</name>
+<styleUrl>#confirmed</styleUrl>
+<description>STATUS: BEVESTIGD (VERIFIED_OFFICIAL_MAP_LINK)
+Cluster: Dhamek Stupa
+Adres: Dhamek Stupa, Sarnath, Varanasi, Uttar Pradesh 221007, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit ondubbelzinnig: hoofdstupa van Sarnath. De encyclopedische coordinaat (25.3808,83.0245) komt vrijwel exact overeen met het oude vergelijkingscoordinaat (25.3807,83.0245), een sterke onafhankelijke bevestiging van de bestaande pin, maar dit is geen Google Maps-marker en telt daarom niet als eindbevestiging. Geen publieke Google Maps-marker geconfirmeerd; het bestaande punt is niet automatisch overgenomen. ZILVER-correctie: een officiele Google-kaartbron (Google Earth entity-API, geen Wikipedia/OSM-afgeleide) met expliciet coordinaat en feature-ID gevonden voor Dhamek Stupa. S</description>
+<Point><coordinates>83.024276,25.380889,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-030 -- Mulagandha Kuti Vihara</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Mulagandha Kuti Vihara
+Adres: Singhpuri, Sarnath, Varanasi, Uttar Pradesh 221007, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit bevestigd als actieve Mahabodhi Society-vihara in Singhpuri, Sarnath, ca. 1 km van Dhamek Stupa. Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt.</description>
+<Point><coordinates>83.0216,25.3819,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>VNS-CAND-031 -- Chaukhandi Stupa</name>
+<styleUrl>#confirmed</styleUrl>
+<description>STATUS: BEVESTIGD (VERIFIED_OFFICIAL_MAP_LINK)
+Cluster: Chaukhandi Stupa
+Adres: 92FF+JC4, Rishipattan Rd, Sarnath, Varanasi, Uttar Pradesh 221007, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit bevestigd als apart, zuidelijker gelegen stupa-monument in Sarnath (los van Dhamek Stupa). Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt. ZILVER-correctie: officiele Google-kaartbron (Google Earth entity-API) gevonden voor Chaukhandi Stupa. Status opgewaardeerd van GOOGLE_MAPS_MARKER_NOT_CONFIRMED naar VERIFIED_OFFICIAL_MAP_LINK; coordinaat overgenomen als eindpunt.</description>
+<Point><coordinates>83.023588,25.37402,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-032 -- Sarnath Archaeological Museum</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Sarnath Museum
+Adres: Archaeological Museum Sarnath, Sarnath Station Rd, Sarnath, Varanasi, Uttar Pradesh 221007, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit sluitend bevestigd, inclusief een gevonden publieke Google Maps-plaatspagina voor 'Sarnath Museum'. Uit die pagina kon echter geen exact marker-coordinaat worden afgelezen (geen '@lat,lng' in de URL, en interactief openen van de Maps-pagina was niet mogelijk in deze sessie); daarom blijft de status GOOGLE_MAPS_MARKER_NOT_CONFIRMED in plaats van EXACT_GOOGLE_MAPS_MARKER. Geen schatting overgenomen.</description>
+<Point><coordinates>83.0205,25.3817,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>VNS-CAND-033 -- Deer Park / Isipatana sacred landscape</name>
+<styleUrl>#confirmed</styleUrl>
+<description>STATUS: BEVESTIGD (VERIFIED_OFFICIAL_MAP_LINK)
+Cluster: Sarnath Deer Park (Isipatana)
+Adres: Deer Park, Sarnath, Varanasi, Uttar Pradesh 221007, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit bevestigd als het historische Isipatana-hertenpark, onderdeel van het Sarnath-heiligdomlandschap. Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt. ZILVER-correctie: officiele Google-kaartbron (Google Earth entity-API) gevonden voor Deer Park/Isipatana. Status opgewaardeerd van GOOGLE_MAPS_MARKER_NOT_CONFIRMED naar VERIFIED_OFFICIAL_MAP_LINK; coordinaat overgenomen als eindpunt.</description>
+<Point><coordinates>83.024445,25.3825,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-034 -- Saranganath Temple</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Saranganath Mahadev Mandir
+Adres: Baraipur, Sarnath, Varanasi, Uttar Pradesh 221007, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit bevestigd als lokale Shiva-tempel in Baraipur, Sarnath, met twee lingams (Sarang Nath en Somnath). Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt.</description>
+<Point><coordinates>83.0225,25.3833,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-035 -- Tulsi Manas Temple</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Tulsi Manas Mandir
+Adres: Durga Kund, Bhelupur, Varanasi, Uttar Pradesh, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit ondubbelzinnig bevestigd. De encyclopedische coordinaat (25.287206,83.000417) komt vrijwel exact overeen met het oude vergelijkingscoordinaat, een sterke onafhankelijke bevestiging, maar geen Google Maps-marker. Geen publieke Google Maps-marker geconfirmeerd; het bestaande punt is niet automatisch overgenomen.</description>
+<Point><coordinates>83.0003,25.2883,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-036 -- Tulsi Ghat</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Tulsi Ghat
+Adres: B2/40, Assi Rd, Ghats of Varanasi, Shivala, Varanasi, Uttar Pradesh 221001, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit bevestigd als de ghat waar Tulsidas woonde, in de Shivala-wijk. Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt.</description>
+<Point><coordinates>83.0068,25.2906,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-037 -- Lolark Kund</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Lolark Kund / Sri Lolarkeshwar Mahadev Temple
+Adres: Bhadaini, near Assi/Tulsi Ghat, Shivala, Varanasi, Uttar Pradesh 221005, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit bevestigd als rechthoekige heilige waterput (kund) met Lolarkeshwar Mahadev-tempel, nabij Assi/Tulsi Ghat. Geen decimale coordinaten in de gevonden bronnen en geen publieke Google Maps-marker vastgesteld; oude vergelijkingscoordinaat niet hergebruikt.</description>
+<Point><coordinates>83.0038,25.2875,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-038 -- Ratneshwar Mahadev Temple</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Ratneshwar Mahadev Mandir (het 'scheve/leunende' tempel)
+Adres: Manikarnika Ghat, Varanasi, Uttar Pradesh, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit ondubbelzinnig: het bekende scheve Shiva-tempeltje aan Manikarnika Ghat. De encyclopedische coordinaat (25.3119,83.01603) ligt dicht bij het oude vergelijkingscoordinaat, een goede onafhankelijke bevestiging, maar geen Google Maps-marker. Geen publieke Google Maps-marker geconfirmeerd; bestaand punt niet automatisch overgenomen.</description>
+<Point><coordinates>83.0145,25.3113,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-039 -- Shitala Mata Temple, Dashashwamedh</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Shitala Mata Mandir, Shitala Ghat
+Adres: Shitala Ghat / near Dashashwamedh Ghat, Ghasi Tola / Bangali Tola, Varanasi, Uttar Pradesh 221001, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit bevestigd als Shakti-tempel op Shitala Ghat, direct ten zuiden van Dashashwamedh Ghat. Geen publieke Google Maps-marker met ingesloten coordinaat vastgesteld; oude vergelijkingscoordinaat niet hergebruikt.</description>
+<Point><coordinates>83.0105,25.3064,0</coordinates></Point>
+</Placemark>
+<Placemark>
+<name>[ONBEVESTIGD] VNS-CAND-040 -- Bharat Mata Temple</name>
+<styleUrl>#unconfirmed</styleUrl>
+<description>STATUS: ONBEVESTIGD (GOOGLE_MAPS_MARKER_NOT_CONFIRMED) -- positie is het oude vergelijkingscoordinaat (WORKING_GOOGLE_MAPS_PIN), GEEN gevalideerde Google Maps-marker. Niet gebruiken als definitief adrespunt.
+Cluster: Bharat Mata Mandir
+Adres: Mahatma Gandhi Kashi Vidyapeeth campus, Varanasi, Uttar Pradesh, India
+Fysieke identiteit: CONFIRMED
+Reden: Fysieke identiteit ondubbelzinnig bevestigd: het civiele 'tempel'-monument met reliëfkaart van India op de Kashi Vidyapeeth-campus. De encyclopedische coordinaat (25.317222,82.989167) komt vrijwel exact overeen met het oude vergelijkingscoordinaat, een sterke onafhankelijke bevestiging, maar geen Google Maps-marker. Geen publieke Google Maps-marker geconfirmeerd; bestaand punt niet automatisch overgenomen.</description>
+<Point><coordinates>82.989,25.317,0</coordinates></Point>
+</Placemark>
+</Document>
+</kml>

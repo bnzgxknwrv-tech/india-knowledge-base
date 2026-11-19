@@ -1,11 +1,12 @@
 system: INDIA4
 run_id: VARANASI-GEO-DELIVERY-REPAIR-001
-status: BRONS_B03_IN_PROGRESS
-current_role: BRONS
-next_role: ZILVER
+status: REGIONAL_GOUD_COMPLETE_ALL_40_AWAITING_MARK_DECISIONS
+current_role: none
+next_role: MARK_DECISIONS_THEN_POSSIBLE_RESEARCH_FOLLOWUP
 closed: false
-updated_at: 2026-07-28
+updated_at: 2026-08-02
 note: >
-  Gecorrigeerd op 2026-07-28 (zie ROOT_CAUSE.md) -- stond hier al sinds 2026-07-24 op
-  READY_FOR_BRONS/"geen onderzoek uitgevoerd", terwijl 21 kandidaten al af waren.
-  Dit veld is niet langer de bron van waarheid; gebruik altijd scripts/next_candidate.py.
+  Bijgewerkt op 2026-08-02 tijdens de eerste INDIA5-PROTOCOL testsweep. BRONS is compleet voor
+  alle 40 Varanasi-kandidaten. De testsweep zelf (autonoom BRONS->ZILVER->GOUD, INDIA5-PROTOCOL)
+  dekt uitsluitend VNS-CAND-022 t/m 040 (19 kandidaten, Mark-besluit 2026-08-02). Dit veld is niet
+  de bron van waarheid voor BRONS-voortgang; gebruik altijd scripts/next_candidate.py.

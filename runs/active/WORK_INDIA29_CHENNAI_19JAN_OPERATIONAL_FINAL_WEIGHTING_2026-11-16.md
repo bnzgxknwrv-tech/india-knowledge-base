@@ -1,0 +1,47 @@
+# WORK_RESULT → CCI — Chennai 19→20 januari 2027: alle variabelen, operationele eindafweging
+
+Datum: 16 november 2026. Op basis van Marks directe verzoek om een echte onafhankelijke totaleweging en CCI's in chat geciteerde oordeel **K11 Golden Gate als hoofdkeuze**. **Geen boeking, geen contact, geen wijziging van Marks harde beslissingen.**
+
+## ACTUELE MARK-ROUTE (niet herschrijven)
+
+- **Di 19 jan 2027** trein 22604 uit Tiruvannamalai arriveert **PER Perambur ca. 15:40–15:45**. Daarna eigen rit naar hotel (geen vaste afspraak). De enige facultatieve spirituele Chennai-plek is **Sri Ramakrishna Math Mylapore [A* soft]**, niet Vivekanandar Illam (B).
+- **Wo 20 jan 2027** Air India **AI2526 MAA→DEL 09:50**, volgens Air India's actuele MAA-terminalbeschrijving **domestic T4**, T4 verifiëren op werkelijk ticket/boardingpass. **DELHI OVERNACHTING 20→21 JAN** blijft apart geboekt/gepland. **Do 21 jan** internationale Air India **AI155 DEL→AMS ~12:20** volgens januarirooster en canon. **CCI's zin 'mis je AI2526, dan mis je je aansluiting naar huis' is dus te stellig**: vlucht missen brengt thuiskomst wel in gevaar, maar er is een **bewuste buffer-overnachting in Delhi**; het is **geen same-day-connecting vlucht**.
+- Beide hotels in **Mylapore/Alwarpet**. Mark wil rust, betaalbaar <€40, privé badkamer, gast met Nederlands paspoort geaccepteerd, vrijheid eigen avond, liefst gunstig Math-bezoek als tijd en zin.
+- Geen hotel geboekt, geen chauffeur bevestigd.
+
+## Cruciale nieuwe geverifieerde feiten
+
+1. **Officieel Air India domestic policy:** check-inbalie sluit 60 minuten vóór vertrek (08:50 bij vlucht 09:50); boardinggate 20 min vóór vertrek. Air India Chennai Airport FAQ noemt **T4 voor alle binnenlandse Air India-operaties**. Bronnen: https://www.airindia.com/in/en/experience/airport/domestic-check-in.html ; https://www.airindia.com/in/en/travel-information/airport-information/chennai.html .
+2. **TomTom Chennai Traffic Index 2025:** gemiddeld **~33m54 voor 10 km tijdens ochtendspits**; woensdagvoorbeeld rond **06:00 ~24m/10km, 07:00 ~27m/10km, 08:00 ~32m/10km** stadsbreed. Geen exacte hotel→MAA-voorspelling. Een rit van ongeveer 9–12km vanaf K11/Happy kan als conservatieve plannorm **30–50 min**, bij verstoring tot 60+min, dus **hotelpickup rond 06:50–07:00** en **airport uiterlijk ca. 07:45–07:50** (2 uur vooruit). Bron: https://www.tomtom.com/traffic-index/city/chennai/ . Niet pas 07:30 of 08:00 vertrekken.
+3. **Pongal 2027 is concreet:** Tamil Nadu officiële Government Gazette holiday notification No.437 van 06-10-2026 noemt **15 jan Pongal, 16 jan Thiruvalluvar, 17 jan Uzhavar**; **19 en 20 jan zijn géén officiële feestdagen**. Wel mogelijke extra vakantie-nasleepdrukte, niet bewezen. Bron: https://egazette.servantsofknowledge.in/details/in.gazette.tamilnadu.2026-10-06.Extraordinary_437_Part-II_Section-1/ .
+4. **Sri Ramakrishna Math Mylapore (officieel):** open 15:00–21:00, **18:30 Aratrikam**, dinsdag Tamil spirituele lezing 17:30–18:30. **Nieuw klein relevant lineage-bonusfeit:** 19 jan 2027 valt op **Pausha Putrada Ekadashi**, onafhankelijke Chennai panchangs bevestigen; Math zegt bij iedere Ekadashi **Ramnama Sankirtanam 19:00–20:00**. Niet bevestigd of voor specifieke 19 jan afwijkend programma geldt — behandel uitsluitend als kans, niet als harde agenda. Bronnen https://chennaimath.org/spiritual , https://vedicdrishti.in/ekadashi/2027/chennai , https://panchang.com/chennai/2027-01-19 .
+5. **K11 Golden Gate:** 104 Chamiers Rd, Alwarpet, **Booking 8,1–8,2/10 uit ~62–63**; 24-uursreceptie, express-check-out, privékamer/eigen badkamer, betaalde luchthaven-shuttle **AANGEBODEN, NIET voor vroeg 20 jan of prijs bevestigd**; rooms with quiet street view listed; ontbijtpakket/meenemen geadverteerd (tijd vóór 07:00 onbekend). Adres niet ambigu, credit/debitcard beschreven in Google's hotelgegevens. Cruciale gate: eigen Booking-house rules noemen check-in **12:00–12:30** en check-out **09:30–10:00** (vreemd krappe vensters; geen bewijs dat 17:00 arrival/07:00 departure verboden zijn); **EXPLICIET SCHRIFTELIJK bevestigen** dat laatmiddag-checkin PER ~17:00 en vroege checkout ~06:50 mogelijk zijn. Bron https://www.booking.com/hotel/in/the-k11-golden-gate.en-gb.html ; https://www.google.com/travel/hotels/entity/ChkIwonXzuPJnuVzGg0vZy8xMXg4ZG1iOGdxEAE .
+6. **Happy Planet:** ca. 11km van MAA (dus niet veel verder), Booking **8,8/10 ~117**; rustige woonbuurt en kleinschalig persoonlijke B&B, 1,5km Sri Ramakrishna Math (K11 ~2,2km), recensies tonen host helpt met vroege vliegveldtaxi. Maar **BEDUIDEND NIEUW RISICO**: Booking-house rules **cash-only / bank transfer en ₹2.500 CONTANTE waarborgsom bij aankomst, cash restitutie NA inspectie bij checkout**, normale checkout 11:00–12:00, quiet hours 21:00–08:00. Voor **06:50–07:00 vertrek** is early-host/check-out/refund-eigenlijk een harde operationele complicatie; alleen kiezen als zij vooraf schriftelijk bevestigen dat **refund vóór 07:00** of anders **voorafgaande inspectie/verrekening** en chauffeur is geregeld. Daarnaast heeft de listing op aggregators 2 adresvormen (17/4 Shanthi Villa Abhiramapuram vs 19/25 Prithvi Avenue), en business listing 'Sundararajan Street'; exacte actuele ingang + checkin vaststellen. Bron https://www.booking.com/hotel/in/happy-planet.html ; https://www.booking.com/hotel/in/happy-planet.en-gb.html .
+7. **Madras Inn:** eerdere CCI-overzicht claimt 9,0 totaalscore; aantoonbaar was dit alleen Booking LOCATIEscore, overall **8,2–8,3**. Airportshuttle volgens Expedia ca ₹3.000 (!) per voertuig op andere data, geen bevestiging 20 jan. Reviews over breakfast/response wisselend. Eerder in onafhankelijke shortlist geanalyseerd. Geen reden nog als vanzelfsprekend #1.
+8. **Vervoers-backup:** Uber Reserve claimt 24/7 luchthavenritten en vooruit reserveren, maar **geen garantie** tot chauffeur daadwerkelijk is gekoppeld. Een vooraf schriftelijk bevestigde hotelpickup of betrouwbare externe vooruitbestelde taxi met naam/nummer is hoofdplan; app als backup, niet enige plan. Bron: https://www.uber.com/global/en/r/airports/maa/ .
+
+## Realistisch schema als trein redelijk op tijd rijdt (PLANNINGSRAMING, niet bevestigd)
+
+- **15:40–16:10** PER uitstappen / stationsuitgang / vooraf geregelde taxi treffen.
+- **16:10–17:10** PER → K11, buffer vanwege middag/avond verkeer en station-chaos (niet empirisch gemeten).
+- **17:10–17:45** inchecken, douchen, 20–35 min rust, tas klaarzetten, bevestig 07:00 rit bij receptie.
+- **17:45–18:15** korte rit naar Sri Ramakrishna Math (optioneel, tijdsraming 15–30 min inclusief taxi wachten; public 18:30 arati). Bij treinvertraging >~45-60 min **Math overslaan**; rust primeert. 
+- **18:30–19:00** Aratrikam mogelijk; **19:00–20:00 Ekadashi Ramnama chanting mogelijk**; alleen bij zin en energie, eventueel deels.
+- **19:30–20:30** avondeten afhankelijk vertrek uit Math, liefst lokaal nabij hotel, niet veel extra verplaatsingen; geen laat zwaar diner nodig.
+- **20:30–21:15** terug hotel / nachtvoorbereiding, slaap uiterlijk ca. 21:30–22:00.
+- **Wo 20 jan ~06:00** wakker, licht ontbijt reeds vorige avond gekocht (banaan/yoghurt/water) of officieel bevestigd takeaway van K11 vóór 06:50; **niet wachten op hotelontbijt**.
+- **06:50–07:00** vooraf bevestigde auto aan hotel (liefst vroegte maakt regen/spits/taxi-uitval robuust).
+- **07:30–07:50** verwachte MAA aankomst bij normale 30–50m, vraag expliciet **T4 Domestic Air India**. De vlucht is **09:50**; tijdslimiet counter **08:50**. Als taxi 15m te laat -> bel via hotel naar backup; niemand kan 'geen enkel risico' beloven.
+
+## EINDOORDEEL / VOORSTEL CONSENSUS
+
+**WORK kiest nu K11 Golden Gate als CONDITIONELE #1** voor dit bijzondere vroege-vluchtscenario. NIET omdat Happy Planet geografisch slecht ligt of omdat 24h balie automatisch vertrek garandeert. Doorslag:
+- vergelijkbare reistijd naar MAA (9km resp. ~11km; weinig verschil);
+- K11 **24h staffed desk**, express checkout, **expliciet betaalde airport shuttle** en normale kaartbetaling;
+- Happy Planet **cash ₹2.500 borg bij checkin en restitutie bij checkout plus kassituatie** bij vertrek om 06:50, ambigu fysiek adres, geen 24h receptionist bevestigd.
+- minder sterke K11-gastbeoordeling (**8,1–8,2 vs 8,8**) en mogelijk Chamiers Road-verkeersgeluid: **vraag rustige kamer achterzijde / quiet-street view**.
+- 19 jan **Ekadashi** kan optioneel extra spiritueel programma bij Sri Ramakrishna Math opleveren: qua ligging zijn beide hotels geschikt, kleine Happy Planet-loopafstandvoorsprong doet niets af aan K11's operationele betrouwbaarheid.
+
+**Boekingsgates voordat Mark definitief kiest:** voor K11 schriftelijke bevestiging (1) privé/quiet room + private bathroom + foreign passport/Form C, (2) beschikbaar **19 jan 17:00 check-in → 20 jan 06:45 check-out**, (3) **vooraf bevestigde 06:50–07:00 chauffeur naar MAA T4** met ALL-IN prijs en fallback, (4) tarief incl tax <€40/cancellation, (5) eventueel vroeg 'breakfast-to-go' vóór 06:50; geen ontbijt is geen blokkade. Als K11 niet overtuigend voldoet, Happy Planet heropenen **alleen als borg/refund/early checkout en adres worden opgelost**; desnoods een regulier hotel dichter bij airport, niet automatische wissel.
+ 
+**CONSENSUS TYPE:** duidelijk onafhankelijk WORK-advies dat aansluit bij CCI's aanbeveling, dus **inhoudelijke consensus voor K11 als eerste te verifiëren keuze**, **geen definitieve hotelboeking of bindende Mark-keuze**. **Geen Booking.com-bericht namens Mark, geen email, geen boeking.**
