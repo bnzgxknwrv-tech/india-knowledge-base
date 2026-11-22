@@ -116,8 +116,10 @@ Account compleet: geregistreerd, fee betaald, e-mail + mobiel geverifieerd, prof
 IRCTC's eigen officiële voorbeeld (Pin code = willekeurig 6-cijferig getal, State = "Netherlands",
 City/Town = echte woonplaats, Post Office = woonplaats/wijk nogmaals).
 
-## Apart, nog in behandeling — niet treinen
+## Apart, niet treinen — BEIDE INMIDDELS GEBOEKT
 
-De twee binnenlandse **vluchten** (Kolkata→Chennai 15 jan, Chennai→Delhi 20 jan) lopen via een eigen,
-nog lopend CCI/WORK-consensustraject (`runs/active/BINNENLANDSE_VLUCHTEN_STARTVRAAG_2026-10-06.md`)
-en hebben geen ARP-systeem zoals treinen — die komen apart terug.
+**GECORRIGEERD 2026-11-22 (repo-hygiëne-audit — dit blok was nooit bijgewerkt na boeken).** De twee binnenlandse
+**vluchten** (Kolkata→Chennai 15 jan = IndiGo 6E563, Chennai→Delhi 20 jan = AI2526) zijn beide volledig
+GEBOEKT/BEVESTIGD/betaald — zie `governance/CURRENT_TRUTH.md` (Tiruvannamalai- en Delhi-secties). Het
+genoemde consensustraject (`runs/active/BINNENLANDSE_VLUCHTEN_STARTVRAAG_2026-10-06.md`) is afgerond,
+geen open actie meer.

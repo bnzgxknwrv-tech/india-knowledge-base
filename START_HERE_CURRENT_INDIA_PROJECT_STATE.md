@@ -1,3 +1,5 @@
+> **GEARCHIVEERD 2026-11-22 (repo-hygiëne-audit) — NIET GEBRUIKEN.** Dit bestand is sinds 2026-09-09 niet meer bijgewerkt en wijst naar een dode branch (`agent/india8-cluster-casting`). Het noemt Serampore en Vrindavan/Braj/Mathura/Govardhan nog als "FINAL OUT — nooit meer presenteren", terwijl beide inmiddels kernonderdelen van de geboekte reis zijn. **Gebruik in plaats hiervan `README.md` + `governance/CURRENT_TRUTH.md` + `governance/MARK_TRAVEL_PREFERENCES_CURRENT.md`, branch `claude/werk-je-nu-of-niet-oa10y7`.** Alles hieronder is historisch, voor herleidbaarheid bewaard, niet als actuele waarheid.
+
 # START HERE — CURRENT INDIA PROJECT STATE
 
 **Updated:** 2026-09-09  
