@@ -86,7 +86,7 @@ De waarde hier is biografische continuïteit, niet architectuur — rustig zitte
 
 TIJD: 11:15-12:45
 
-Ramana Maharshi's hoofdashram aan de voet van Arunachala. Paramahansa Yogananda ontmoette Ramana Maharshi hier op 29 november 1935 — een directe link met jouw eigen lineage naast de Ramana-lijn zelf.
+Ramana Maharshi's hoofdashram aan de voet van Arunachala. **CORRECTIE 2026-11-23 (feasibility-audit vond deze claim nog ongewijzigd staan): "Yogananda ontmoette Ramana Maharshi hier op 29 november 1935" is NIET onafhankelijk bevestigd** — eerder deze sessie (22 nov) onderzocht via een gerichte web-fetch-check voor de Ramanasramam-motivatiebrief, geen betrouwbare bron vond datum/locatie/foto, bewust NIET in die brief gebruikt. Deze regel hier was destijds niet gecorrigeerd. Behandel als onbevestigd, niet als vaststaand feit — het bezoek aan Ramanasramam zelf staat vanzelfsprekend niet ter discussie, alleen deze specifieke historische claim.
 
 Concreet, per WORK's onderzoek (30 sep): **Bhagavan Samadhi Hall** (Ramana's eigen samadhi-schrijn); **Mother's Shrine** (boven Alagammal's samadhi, de Sri Chakra erin door Ramana zelf geconsacreerd); **Old Hall** (1928, waar Ramana tot 1949 woonde en darshan gaf — zijn eigen bank/couch staat er nog); **Nirvana Room** (de exacte kamer waar hij op 14 april 1950 stierf, persoonlijke voorwerpen bewaard); **New Hall** (stenen Ramana-beeld vóór de stenen couch van zijn laatste maanden). Dit is dus precies je eigen "foto/bloemen/reliek/bewaarde kamer"-type plek, niet alleen een institutioneel terrein. Fotograferen is binnen niet toegestaan.
 
