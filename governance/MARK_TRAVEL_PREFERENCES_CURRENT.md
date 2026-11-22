@@ -509,6 +509,17 @@ Mark wants to learn why recommendations make sense. Explain decision-relevant pr
 
 # 13. AI / GITHUB COLLABORATION
 
+## §13a. Every detail plan must be indexed into CURRENT_TRUTH the same session
+`HARD_CURRENT — Mark, 2026-11-22, adopted from WORK's audit proposal (PR #23 comment 7023222933)`
+
+When CCI, WORK or any other assistant creates, substantively revises, or replaces a quarterhour plan, full day-plan, or logistical clock-time plan (in `runs/active/` or elsewhere), the author writes, **in that same session**, a compact status/navigation line of at most a few sentences into the relevant cluster section of `governance/CURRENT_TRUTH.md`. Required: (1) the exact repo file path and its internal last-revision date/version; (2) an explicit status — **MARK_LOCKED / WORKING_PROPOSAL / PARTIALLY_SUPERSEDED / SUPERSEDED** — including which later decision takes precedence; (3) the fixed day-by-day allocation with its reason, and any hard day-of-week/opening-hour windows that force the order; (4) a short pointer to the deciding source/ledger entry and any still-OPEN verification points. This is an index, **not** a copy of the whole detail plan.
+
+No outcome may be presented as Mark's decision or a new lock without his explicit decision. Where a CCI/Mark countercheck is still missing, label the sync as **PROPOSED — AWAITING CCI / MARK**, without replacing existing locks. A revised version must simultaneously mark the old plan reference as historical/partially superseded. If exact reconciliation isn't yet possible, record a **SYNC_PENDING** note in the same session with the file link, the concrete conflicting lines, and who owns the countercheck — do not close the task as "done" regardless.
+
+An assistant that is about to say something is "not yet decided" or "not yet researched" checks `CURRENT_TRUTH.md` + the linked detail plans + recent ledger/PR updates **first**. The absence of detail in the master summary is never, by itself, evidence that the research doesn't exist. Mark should never have to dig this back up himself.
+
+**Why:** repeats the pattern from `DL-0149` (the 30-Sept Kolkata plan — Garpar day, 5+1 base and ferry already worked out, but never synced back) — the same 19-Nov repo-audit (`DL-0304` and its linked PR comments) found fresh instances of the same gap in the Varanasi, Agra, Chennai, Bodh Gaya and Kolkata sections.
+
 ## Make yourself disposable
 `HARD_CURRENT — reinforced by Mark 2026-09-04`
 Before every material reply ask: `CAN INDIA(N+1) CONTINUE FROM GITHUB WITHOUT MARK REPEATING OR RECONSTRUCTING ANYTHING?` If no, checkpoint first.
