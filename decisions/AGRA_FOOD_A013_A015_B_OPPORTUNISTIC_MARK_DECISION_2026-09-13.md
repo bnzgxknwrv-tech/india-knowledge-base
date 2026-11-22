@@ -1,3 +1,5 @@
+> **SUPERSEDED 2026-09-26 (repo-hygiëne-audit 2026-11-22, PR #23 comment 7083051241).** Bedai/Petha/Gajak zijn later opgewaardeerd naar **[A*]**: zie `decisions/INDIA23_AGRA_A013_A015_FOOD_DOWNGRADE_TO_ASTAR_MARK_DECISION_2026-09-26.md`. De [B]-grade hieronder geldt niet meer.
+
 # MARK DECISION — AGRA FOOD A013–A015 -> B / OPPORTUNISTIC TRY-TO-INCLUDE
 
 Date: 2026-09-13

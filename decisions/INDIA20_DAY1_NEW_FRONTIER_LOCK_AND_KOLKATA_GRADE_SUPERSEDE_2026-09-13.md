@@ -1,3 +1,5 @@
+> **NEW FRONTIER-DEEL SUPERSEDED/ANNULLED 2026-11-17 (repo-hygiëne-audit 2026-11-22, PR #23 comment 7083053104).** Hotel New Frontier is door Mark geannuleerd; de 19-dec-basis is nu Tara Palace Daryaganj (kamer+pickup aangevraagd 16 nov, antwoord afwachten — zie `governance/CURRENT_TRUTH.md:68`, `DL-0316`). Alleen het New Frontier-gedeelte hieronder is vervallen; het Kolkata-grade-gedeelte van dit bestand geldt voor zover elders niet superseded.
+
 # INDIA20 — DAY 1 NEW FRONTIER LOCK + KOLKATA GRADE SUPERSEDE
 
 Date: 2026-09-13

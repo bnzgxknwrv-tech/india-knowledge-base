@@ -1,3 +1,5 @@
+> **SUPERSEDED BY 2026-11-19 REALLOCATION (repo-hygiëne-audit 2026-11-22, PR #23 comment 7083052130).** Vivekananda Cave staat nu op **21 dec**, geen grot-detour meer op 23 dec (dat is Kakrighat → Ranikhet → Dwarahat). Zie `governance/CURRENT_TRUTH.md:168-170`. Turiya Niwas (hieronder nog als bycatch genoemd) staat al sinds 21 sept op B/uit de planning (`:162`). Onderstaande "23 ok"-inhoud is historisch.
+
 # INDIA22 — MARK DECISION — GROT VIVEKANANDA ON 23 DECEMBER
 
 Date: 2026-09-14

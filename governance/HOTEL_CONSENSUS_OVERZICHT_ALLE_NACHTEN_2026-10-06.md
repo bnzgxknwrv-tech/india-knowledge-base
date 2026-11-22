@@ -8,7 +8,7 @@ Treinen en vluchten zijn allemaal al geboekt (zie `CURRENT_TRUTH.md`); dit is he
 boekingsblok. Gebaseerd op `governance/CURRENT_TRUTH.md` (33-nachten-skelet + TREINEN-sectie) en alle
 onderliggende decision-bestanden.
 
-**ACTUEEL 2026-11-17 — DELHI 19 DEC:** Hotel New Frontier is door Mark geannuleerd; Booking.com heeft per e-mail dezelfde avond bevestigd: **gratis annulering**, **automatische terugbetaling binnen 7–12 dagen**, nog niet aantoonbaar ontvangen. New Frontier vervalt als back-up. **Tara Palace Daryaganj** is wel beschikbaar (Deluxe Single ₹2.625 inclusief GST, betaalmogelijkheid/aanbetaling en definitieve hotelboeking nog open). **Er is geen bevestigde rustkamer voor 19 december.** Oudere tekst in de archiefkolommen moet voor deze status worden genegeerd.
+**ACTUEEL 2026-11-17 — DELHI 19 DEC:** Hotel New Frontier is door Mark geannuleerd; Booking.com heeft per e-mail dezelfde avond bevestigd: **gratis annulering**, **automatische terugbetaling binnen 7–12 dagen** (controledatum ~24-29 nov, zie CURRENT_TRUTH). New Frontier vervalt als back-up. **GECORRIGEERD 2026-11-22 (WORK brede eindcontrole, PR #23 comment 7083047641; `DL-0316`) — de bal ligt NIET meer bij Mark.** Mark heeft op 16 nov 19:34 zelf al de Tara Palace-kamer + luchthaven-pickup (₹1.200+parkeren) bevestigd, vluchtgegevens/WhatsApp doorgegeven en om een internationale kaart-betaallink gevraagd (geen UPI mogelijk vanuit NL). Hotel heeft daar nog niet op geantwoord — geen openstaande keuze meer voor Mark, gewoon afwachten. Nog niets betaald/definitief.
 
 **Status-legenda:**
 - **GEBOEKT** = daadwerkelijk gereserveerd en betaald
@@ -60,20 +60,24 @@ onderliggende decision-bestanden.
 
 ## SAMENVATTING — WAT NOG MOET GEBEUREN
 
-**5 hotels met basis gelockt, boeking zelf nog te checken/bevestigen:**
-1. Hotel New Frontier (Delhi) — **GEANNULEERD 17-11-2026, gratis; GEEN betaalde fallback meer; terugbetaling nog open (7–12 dagen)**; CP Villa dagkamer-aanvraag verzonden 8 nov 2026, antwoord nog open (zie sectie 1)
-2. Hotel Evelyn (Nainital) — **KAMER + TAXI WHATSAPP BEVESTIGD (8–10 nov 2026)**; vroege toegang 07:30 eveneens al bevestigd; alleen laatste praktische chauffeursdetails desgewenst vlak voor aankomst checken
-3. Hotel adiMOUNT (Dwarahat) — boeking checken
-4. Haidakhan Vishwa Mahadham — ashram-toegang/contact apart regelen (geen normale hotelboeking)
-5. **Sahi River View Guesthouse (Varanasi) — GEBOEKT/BEVESTIGD volgens Mark, 19 nov**, Balcony View AC, 5 nachten betaald voor kamer tot avond 8 jan. Alleen ophalen station: prijs en ophaalafspraak staan nog open; geen herboekingsverzoek.
+**GECORRIGEERD 2026-11-22 (WORK brede eindcontrole, PR #23 comment 7083036944) — deze samenvatting was maanden ouder dan de tabel erboven en kon een opvolger vier al gesloten zoekopdrachten laten heropenen. Herschreven vanuit de actuele tabelstatus (rijen 1-12 hierboven).**
 
-**6 locaties nog volledig open (geen hotel gekozen):**
-6. Greater Noida/Pari Chowk (1 nacht, 29 dec)
-7. Bodh Gaya (3 nachten, 1-3 jan) — Maha Bodhi Society-aanvraag verzonden 8 nov 2026, antwoord nog open (zie sectie 7)
-8. Kolkata (6 nachten, 9-14 jan) — **grootste gat, reken vanaf Howrah**
-9. Tiruvannamalai (4 nachten, 15-18 jan)
-10. Chennai (1 nacht, 19 jan) — **hangt samen met nog te regelen Perambur→Chennai-transfer**
-11. Delhi laatste nacht (1 nacht, 20 jan)
+**GEBOEKT/BEVESTIGD, geen zoekactie meer:**
+1. Hotel New Frontier (Delhi 19 dec) — geannuleerd, vervallen als optie.
+2. **Tara Palace Daryaganj (Delhi 19 dec)** — kamer + pickup door Mark aangevraagd/bevestigd (16 nov), internationale betaallink gevraagd, hotelantwoord afwachten (zie boven, `DL-0316`).
+3. Hotel Evelyn (Nainital, 20-23 dec) — kamer + taxi WhatsApp-bevestigd.
+4. **Dwarahat — Pawan Pandey House (23-26 dec)** — persoonlijk bevestigd + taxi's bevestigd (`DL-0293`); oude adiMOUNT-zoektocht gesloten.
+5. Haidakhan Vishwa Mahadham (26-27 dec) — ashram-toegang bevestigd, taxi-aanwijzingen nog open.
+6. **Kathgodam — Tewari Home Stay (28-29 dec)** — kamer+auto aangevraagd/bevestigd (`DL-0304`/`DL-0305`), antwoord afwachten.
+7. Sahi River View Guesthouse (Varanasi, 4-8 jan) — bevestigd, alleen stationpickup-prijs nog open.
+8. **Maha Bodhi Society Pilgrims Rest House (Bodh Gaya, 1-3 jan)** — bevestigd per mail 9 nov, zie sectie 7.
+9. **Dwaraka Guest House (Tiruvannamalai, 15-18 jan)** — geboekt (`DL-0292`/`DL-0300`), annuleerbare achtervang voor eventuele Ramanasramam-overstap.
+10. **Madras Inn, Alwarpet (Chennai, 19 jan)** — geboekt (`DL-0202`e.v.), Perambur→hotel-transfer nog niet geregeld.
+11. **The Hosteller Delhi (laatste nacht, 20 jan)** — geboekt (`DL-0295`).
+
+**Nog echt open (geen hotel gekozen):**
+12. Greater Noida/Pari Chowk (1 nacht, 29 dec) — Sunny Feast kandidaat, nog niet benaderd.
+13. **Kolkata (5+1 nachten, 9-15 jan)** — architectuur een Mark-besluit (`:280`), exacte hotels nog open; Debasis Maity/Gurujis India-aanvraag loopt, antwoord bevestigd onderweg.
 
 **Agra/Taj-gebied (30-31 dec): GEBOEKT** — Hotel Tourist Rest House, zie sectie 6 hierboven.
 

@@ -1,3 +1,5 @@
+> **GRADES SUPERSEDED (repo-hygiëne-audit 2026-11-22, PR #23 comment 7083051241).** Dit bestand zet Shyampukur Bati op A en Vivekanandar Illam/Ice House op A* — beide zijn later anders gegradeerd: Shyampukur Bati is **A*** (`DL-0100`), Ice House is **B** (`DL-0097`; `governance/CURRENT_TRUTH.md:290,313`). Gebruik die nieuwere grades, niet onderstaande.
+
 # INDIA20 — KOLKATA RECOVERED SITES + VIVEKANANDA PRIORITY + CHENNAI BYCATCH — MARK DECISION
 
 Date: 2026-09-13

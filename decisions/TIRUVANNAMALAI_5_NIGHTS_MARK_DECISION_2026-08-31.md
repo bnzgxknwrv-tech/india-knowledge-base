@@ -1,3 +1,5 @@
+> **SUPERSEDED 2026-09-26 (repo-hygiëne-audit 2026-11-22, PR #23 comment 7083050256).** Mark koos later **4 nachten**, gekoppeld aan Bodh Gaya's 3e nacht: zie `decisions/INDIA23_BODHGAYA_3N_TIRUVANNAMALAI_4N_NIGHT_TRADE_LOCK_MARK_DECISION_2026-09-26.md` en `governance/CURRENT_TRUTH.md:303`. De "4 nights is no longer active"-instructie hieronder geldt niet meer. Historisch bewaard.
+
 # TIRUVANNAMALAI / ARUNACHALA — 5 NIGHTS — MARK DECISION — 2026-08-31
 
 Status: **LOCKED_BY_MARK**

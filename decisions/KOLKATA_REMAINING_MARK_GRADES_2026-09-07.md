@@ -1,3 +1,5 @@
+> **GRADES SUPERSEDED 2026-09-13 (repo-hygiëne-audit 2026-11-22, PR #23 comment 7083051241).** Balaram Mandir en Vivekananda Birthplace staan hieronder op B; een latere beslissing (13 sept) maakt ze **A+** — zie `governance/CURRENT_TRUTH.md:286,291`. Gebruik die nieuwere grade.
+
 # KOLKATA / DAKSHINESWAR — REMAINING MARK GRADES
 
 Date: 2026-09-07

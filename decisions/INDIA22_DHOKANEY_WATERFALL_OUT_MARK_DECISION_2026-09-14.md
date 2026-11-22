@@ -1,3 +1,5 @@
+> **SUPERSEDED 2026-09-16, verduidelijkt 2026-11-19 (repo-hygiëne-audit 2026-11-22, PR #23 comment 7083049268).** Dit OUT-besluit is overruled door `decisions/INDIA22_DHOKANEY_WATERFALL_A_STAR_OPTIONAL_RESERVE_MARK_DECISION_2026-09-16.md`: Dhokaney Waterfall is nu **[A*], optionele zero-reserved-time bycatch** op 23 dec, niet langer verboden. Zie `governance/CURRENT_TRUTH.md` (Kumaon-sectie) voor de actuele status. Onderstaande tekst is historisch, niet meer bindend.
+
 # INDIA22 — MARK DECISION — DHOKANEY WATERFALL OUT OF ACTIVE TRIP
 
 Date: 2026-09-14
