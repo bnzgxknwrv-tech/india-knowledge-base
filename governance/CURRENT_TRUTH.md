@@ -63,16 +63,9 @@ If something in this file conflicts with an older file, **this file wins**, unle
 - Train preferred where practical (target 1st AC); flight only for real time savings; private car in the mountains; no long-distance bus.
 - **International flights BOOKED AND CONFIRMED (e-ticket seen 2026-10-06):** AI156 AMS→DEL departs 18 Dec 2026 20:35, arrives 19 Dec 2026 10:15; AI155 DEL→AMS departs 21 Jan 2027 12:20, arrives 18:35. Booking reference 8GLX4Y, issued 8 Jul 2026, status OK on both segments — exactly matches all planning assumptions used throughout this document, no discrepancy. **ALL SIX train legs booked 2026-10-06 — CORRECTED 2026-11-22 (WORK audit, PR #23 comment 7081220231; this line was stale, contradicting the Kolkata section's own "ALLE ZES TREINEN GEBOEKT" note).** First booked: 15013 Ranikhet Express (19/20 Dec, PNR 2960524646) — see 33-night skeleton row 1 and `governance/TREINEN_BOEKINGSOVERZICHT_NU_LATER_2026-10-06.md` for the full PNR table. Two technical FTQ/ARP statuses still need rechecking, not booking: train 15036 (PNR shows `FBKG`, recheck on/after 29 Nov) and train 13042 (IRCTC eQuery filed, `DL-0298`/`DL-0299`). Some research/access contacts already exist, including Turiya Niwas host Harshit Karki.
 
-## §5e-NALEVINGSGAT GEVONDEN 2026-11-23 (kritische standing-rules audit) — 5 accommodaties zonder vastgelegde privébadkamer-bevestiging
+## §5e-BADKAMERPUNT BEWUST AFGESLOTEN DOOR MARK 2026-11-23 (`DL-0334`) — GEEN ACTIE, NIET OPNIEUW OPENEN
 
-Mark's harde regel (§5e: altijd privékamer + privébadkamer, nooit gedeeld) is bij elke hotelboeking via Booking.com automatisch gedekt, maar bij 5 informeel-geregelde verblijven is dit **nooit expliciet gevraagd of bevestigd**, ook al is de rest van de afspraak (kamer, prijs, data) wel rond:
-1. **Hotel Evelyn (Nainital, 20-23 dec)** — "Deluxe Double Balcony" bevestigd, badkamerstatus nergens genoemd.
-2. **Pawan Pandey House (Dwarahat, 23-26 dec)** — "Deluxe kamer... warm water (geiser)" bevestigd, privé vs. gedeelde badkamer nooit gevraagd.
-3. **Haidakhan Vishwa Mahadham (ashram, 26-27 dec)** — bevestiging is slechts "YOUR STAY IS CONFIRMED......." — geen kamertype, geen badkamer, **ook geen prijs** vastgelegd.
-4. **Hotel Tourist Rest House, Agra (30 dec-1 jan)** — "raamkamer weg van keuken/straat/receptie" bevestigd, badkamerstatus niet expliciet genoemd.
-5. **Maha Bodhi Society Pilgrims Rest House (Bodh Gaya, 1-3 jan)** — "KAMER BEVESTIGD per mail", geen kamertype, geen badkamer, **ook geen prijs** vastgelegd.
-
-Alle vijf zijn hoogstwaarschijnlijk in orde (kleine, nette verblijven, geen eerdere aanwijzing van gedeelde voorzieningen) — maar dit is nooit hard bevestigd, in tegenstelling tot elke Booking.com-boeking waar dit wel expliciet in de bevestiging staat. **Conceptberichten klaargezet voor Mark om zelf te versturen, nog niet verzonden — zie DL-0328.**
+Kritische audit vond op 23 nov dat 5 informeel-geregelde verblijven (Hotel Evelyn, Pawan Pandey House, Haidakhan Vishwa Mahadham, Hotel Tourist Rest House Agra, Maha Bodhi Society) geen expliciete privébadkamer-bevestiging in het dossier hadden, en stelde 5 conceptberichten op. **Mark heeft dit expliciet afgewezen: "Vergeet de badkamer... geen issue."** Geen berichten verzonden, geen verdere actie. Niet opnieuw als gat melden bij een volgende audit — dit is een bewuste Mark-beslissing, geen vergeten taak.
 
 ## THE 33-NIGHT SKELETON (locked structure; exact train/flight times still to reconfirm closer to the date)
 
