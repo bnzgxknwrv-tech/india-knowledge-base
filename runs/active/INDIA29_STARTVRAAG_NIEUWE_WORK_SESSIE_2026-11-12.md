@@ -38,7 +38,7 @@ Zodra jij iets weet, doet of hoort (een mail/WhatsApp-antwoord, een prijsafspraa
 
 ## Snapshot van de actuele stand (12 nov 2026) — check dit zelf tegen de repo
 
-- **Visum:** aanvraag NLDTV007F426. Afspraak verplaatst naar **19 november 2026, 12:58-13:06**, Oranjestraat 12, Den Haag, appointment NL-AP-202658623 (oude 10-dec-afspraak officieel geannuleerd). 29 dagen buffer voor vertrek.
+- **Visum:** aanvraag [VISUM-AANVRAAGNR — PRIVÉ, verwijderd 2026-11-23]. Afspraak verplaatst naar **19 november 2026, 12:58-13:06**, Oranjestraat 12, Den Haag, appointment [AFSPRAAKNR — PRIVÉ, verwijderd 2026-11-23] (oude 10-dec-afspraak officieel geannuleerd). 29 dagen buffer voor vertrek.
 - **Treinen:** alle 6 geboekt. 15013/12988/20887 CNF. 13042 geeft herhaaldelijk fout 10022002 bij status-check (ticket zelf wel Booked/betaald, geen bewijs van annulering). 15036/22604 nog FBKG/0, normaal (ARP nog niet open).
 - **Delhi 19 dec (dagkamer):** nieuwe actieve 1e kandidaat **Hotel Broadway (An Alivaa Collection), Asaf Ali Road** — door CCI en WORK onafhankelijk gevonden. Eerste, extreem korte contactmail is (of wordt) verstuurd. Hotel New Frontier is bevestigd **volledig non-responsive** (nul reactie op Booking.com én mail) — blijft alleen betaald noodvangnet. Reserve: Hotel Tara Palace (Daryaganj, 749 reviews/7-7,6/10), daarna Maidens, dan Aiwan-e-Shahi.
 - **Hotel Evelyn (Nainital):** WhatsApp-bevestigd, ₹9.000/3 nachten, contact Pooran Singh Sijwali. Taxi (Pankaj, ₹2.000) nog niet volledig bevestigd.
