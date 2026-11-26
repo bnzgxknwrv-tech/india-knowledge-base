@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "india5/schemas/knowledge_gate.schema.json",
+  "title": "INDIA5 KNOWLEDGE_GATE_REVIEW",
+  "description": "Machineleesbare rubriek voor CCI-kennis/capability-gates (INDIA5-ARCH-HARDEN-002). Vervangt het beoordelen van vrijgave op basis van één lange prose-comment door een vaste, vergelijkbare checklist.",
+  "type": "object",
+  "required": ["gate_id", "reviewed_at", "reviewed_by", "items", "overall_verdict"],
+  "properties": {
+    "gate_id": {"type": "string"},
+    "reviewed_at": {"type": "string", "format": "date-time"},
+    "reviewed_by": {"type": "string"},
+    "items": {
+      "type": "array",
+      "description": "Minimaal de vaste onderwerpenlijst uit INDIA5-PR23-KNOWLEDGE-GATE-002 Deel 5; extra onderwerpen mogen worden toegevoegd, geen mogen ontbreken.",
+      "items": {
+        "type": "object",
+        "required": ["topic", "verdict", "evidence_path", "notes"],
+        "properties": {
+          "topic": {"type": "string"},
+          "verdict": {"type": "string", "enum": ["PASS", "FAIL", "PARTIAL", "NOT_APPLICABLE"]},
+          "evidence_path": {
+            "type": "string",
+            "description": "Repo-relatief pad + optioneel commit-SHA dat het verdict onderbouwt. 'NOT_PROVEN_IN_GITHUB' toegestaan als letterlijke waarde wanneer er geen bewijs bestaat."
+          },
+          "notes": {"type": "string"}
+        }
+      },
+      "minItems": 1
+    },
+    "overall_verdict": {
+      "type": "string",
+      "enum": ["READY", "NOT_READY", "READY_WITH_CONDITIONS"]
+    },
+    "conditions": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Verplicht niet-leeg wanneer overall_verdict = READY_WITH_CONDITIONS."
+    }
+  },
+  "additionalProperties": true
+}

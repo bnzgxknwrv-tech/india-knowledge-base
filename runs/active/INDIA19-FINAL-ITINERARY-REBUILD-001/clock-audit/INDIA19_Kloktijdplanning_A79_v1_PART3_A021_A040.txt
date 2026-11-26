@@ -1,0 +1,86 @@
+INDIA19_Kloktijdplanning_A79_v1 — FROZEN AUDIT MIRROR
+PDF SHA256: 0adec758a0b156d56fdd7c8552fa214b78f8e24291d9be759e367dde99d00716
+DOCX SHA256: 6f2369a804972da9325bbdac26033e07ca18833d6562859d7a6954b5ebc7619f
+Frozen A-ledger commit: a2b71b2563f446480b012f0b9176a87e96fcb003
+PDF pages: 26
+
+=== DETAILED A021-A040 CARDS ===
+A021  A+  Dungeshwari / Mahakala Caves  [BOD-03]
+Wat is het? Cave complex associated with the Buddha's pre-enlightenment ascetic period. Waarom voor Mark? Core A+ pilgrimage content that becomes much more humane with the third Bodh Gaya night. AOAY/persoon: Buddha context; no direct AOAY site-specific link.
+Klokblok: 10:15-12:15. Vorige A: Vanaf A020: ~10-12 km / 25-35 min. Volgende A: Naar A022: ~0.3-0.8 km omhoog / 15-30 min. Uitvoeringsstatus: SCHEDULED.
+
+A022  A  Ancient Pragbodhi/Dungeshwari stupa ridge  [BOD-05]
+Wat is het? Ancient stupa remains on the same hill/ridge above the Dungeshwari cave area, attempted only if terrain and access are safe. Waarom voor Mark? This was previously at risk of disappearing inside the cave parent; it remains visible as its own A while carrying essentially zero extra route weight. AOAY/persoon: Buddhist historical context; no direct AOAY biographical link.
+Klokblok: 12:15-13:00. Vorige A: Vanaf A021: ~0.3-0.8 km / 15-30 min omhoog. Volgende A: Laatste A; terug Bodh ~12-15 km / 30-45 min. Uitvoeringsstatus: SCHEDULED IF SAFE.
+
+A023  A  Shitala Mata Temple  [VNS-21]
+Wat is het? Living Shitala Mata temple in the Dashashwamedh riverfront zone. Waarom voor Mark? A real temple visit placed immediately before the evening riverfront block so it cannot disappear as mere context. AOAY/persoon: No specific AOAY person-link.
+Klokblok: 17:15-17:40. Vorige A: Vanaf Assi-basis: ~5-6 km / 20-35 min. Volgende A: Naar A024: ~0.1-0.3 km / 2-5 min lopen. Uitvoeringsstatus: SCHEDULED.
+
+A024  A+  Dashashwamedh Ghat + evening Ganga Aarti  [VNS-03]
+Wat is het? Varanasi's defining central ghat and its major evening Ganga Aarti ceremony. Waarom voor Mark? One of Mark's defining India experiences; given a full evening rather than a short timed photo stop. AOAY/persoon: No direct AOAY person-link; strong sacred-Kashi context.
+Klokblok: 17:45-20:00. Vorige A: Vanaf A023: ~0.1-0.3 km / 2-5 min. Volgende A: Laatste A; terug Assi ~5-6 km / 20-35 min. Uitvoeringsstatus: SCHEDULED.
+
+A025  A  Ganges dawn rowboat  [VNS-10]
+Wat is het? Protected dawn rowboat experience on the Ganges, including embark/disembark margin. Waarom voor Mark? Iconic experiential layer that must remain distinct from the other Assi dawn experiences. AOAY/persoon: No direct AOAY person-link; experiential Varanasi layer.
+Klokblok: 05:30-08:00. Vorige A: Vanaf Assi-basis: ~0-0.5 km. Volgende A: Naar A026: ~5-6 km / 20-35 min. Uitvoeringsstatus: SCHEDULED.
+
+A026  A  Shri Kashi Vishwanath Temple  [VNS-27]
+Wat is het? Major Jyotirlinga Shiva temple and living sacred core of Kashi. Waarom voor Mark? A central Hindu sacred-site anchor; security and queues are given their own time rather than hidden. AOAY/persoon: Indirect sacred-Kashi context; no specific AOAY episode is claimed for this visit.
+Klokblok: 10:00-11:00. Vorige A: Vanaf A025-eindpunt/Assi: ~5-6 km / 20-35 min. Volgende A: Naar A027: ~0.1 km / 2-5 min. Uitvoeringsstatus: SCHEDULED.
+
+A027  A  Maa Annapurna Temple  [VNS-11]
+Wat is het? Temple of Annapurna near the Kashi Vishwanath zone. Waarom voor Mark? Retained A and individually timed so it does not vanish inside a broad Old City label. AOAY/persoon: No specific AOAY link.
+Klokblok: 11:05-11:30. Vorige A: Vanaf A026: ~0.1 km. Volgende A: Naar A028: ~0.3 km / 5-10 min. Uitvoeringsstatus: SCHEDULED.
+
+A028  A  Vishalakshi Gauri Temple  [VNS-12]
+Wat is het? Shakti Peetha temple in the Old City sacred zone. Waarom voor Mark? A distinct physical temple in the same microcluster as Vishwanath/Annapurna. AOAY/persoon: No specific AOAY link.
+Klokblok: 11:40-12:05. Vorige A: Vanaf A027: ~0.3 km / 5-10 min. Volgende A: Naar A029: ~0.4-0.8 km / 10-20 min. Uitvoeringsstatus: SCHEDULED.
+
+A029  A  Bengali Tola - Thatheri Bazaar - Chowk lanes  [VNS-07]
+Wat is het? A deliberate one-hour route-through walk in the Old Kashi lane/bazaar network. Waarom voor Mark? Preserves the human-texture/general-traveler Varanasi layer without creating a separate day. AOAY/persoon: No AOAY person-link; urban-cultural layer.
+Klokblok: 12:15-13:15. Vorige A: Vanaf A028: ~0.4-0.8 km. Volgende A: Naar A030: ~0.1 km / 2-5 min. Uitvoeringsstatus: SCHEDULED.
+
+A030  A  Banarasi paan  [VNS-06]
+Wat is het? A real paan tasting while already moving through the Old City. Waarom voor Mark? Mark-graded local-culture item; kept small but explicit rather than silently omitted. AOAY/persoon: No AOAY link.
+Klokblok: 13:15-13:35. Vorige A: Vanaf A029: ~0.1 km. Volgende A: Naar A031: ~3 km / 20-30 min auto. Uitvoeringsstatus: SCHEDULED.
+
+A031  A  Kabir Chaura Math  [VNS-37]
+Wat is het? Living centre of Kabir and the Kabir Panth tradition. Waarom voor Mark? Adds a major devotional/literary saint tradition beyond the Kriya and ghat layers. AOAY/persoon: Kabir is a major Indian saint; no direct AOAY episode is relied on here.
+Klokblok: 15:00-16:00. Vorige A: Vanaf A030: ~3 km / 20-30 min. Volgende A: Laatste A; terug Assi ~5 km / 25-40 min. Uitvoeringsstatus: SCHEDULED.
+
+A032  A  Assi-Tulsi slow dawn ghat walk  [VNS-08]
+Wat is het? A slow contemplative dawn walk along the Assi-Tulsi riverfront. Waarom voor Mark? Explicitly protected as a separate 3-hour experience; not merged with boat or Subah-e-Banaras simply to save time. AOAY/persoon: No direct AOAY link; contemplative Varanasi experience.
+Klokblok: 05:30-08:30. Vorige A: Vanaf Assi-basis: ~0-0.3 km. Volgende A: A033 ligt in het startgebied: 0 km extra. Uitvoeringsstatus: SCHEDULED.
+
+A033  A+  Assi Ghat  [VNS-28]
+Wat is het? The physical Assi Ghat itself, separately recognised from experiences that happen there. Waarom voor Mark? An A+ anchor of the Bhadaini-Assi world and also the practical neighborhood base. AOAY/persoon: No specific AOAY person-link.
+Klokblok: 05:35-06:05. Vorige A: Binnen A032: 0 km extra. Volgende A: Naar A034: ~1.0-1.3 km lopen. Uitvoeringsstatus: SCHEDULED.
+
+A034  A  Tulsi Ghat  [VNS-39]
+Wat is het? Historic ghat named for Tulsidas, physically distinct from Assi. Waarom voor Mark? Kept individually visible because a dawn walk name alone is not sufficient physical coverage. AOAY/persoon: Tulsidas context; no direct AOAY link.
+Klokblok: 06:45-07:15. Vorige A: Vanaf A033: ~1.0-1.3 km / 15-25 min lopen. Volgende A: Naar A035: ~0.3-0.5 km / 5-10 min. Uitvoeringsstatus: SCHEDULED.
+
+A035  A  Lolark Kund  [VNS-40]
+Wat is het? Old stepped ritual tank in the Bhadaini-Assi area. Waarom voor Mark? A distinct sacred water site a short walk from Tulsi Ghat. AOAY/persoon: No direct AOAY link.
+Klokblok: 07:20-07:45. Vorige A: Vanaf A034: ~0.3-0.5 km. Volgende A: Naar A036: ~0.8-1.2 km / 10-20 min. Uitvoeringsstatus: SCHEDULED.
+
+A036  A+  Shree Shree Ma Anandamayi Ashram, Bhadaini  [VNS-26]
+Wat is het? Ashram associated with Anandamayi Ma in Bhadaini. Waarom voor Mark? A standalone A+ devotional anchor rather than a generic Assi-cluster subpoint. AOAY/persoon: Anandamayi Ma - direct AOAY link: Yogananda met and wrote about the "Joy-Permeated Mother"; strong person-memory cue.
+Klokblok: 10:00-11:30. Vorige A: Vanaf A035: ~0.8-1.2 km / 10-20 min. Volgende A: Laatste A; terug Assi-basis ~1 km. Uitvoeringsstatus: SCHEDULED.
+
+A037  A  Subah-e-Banaras at Assi Ghat  [VNS-09]
+Wat is het? Early-morning cultural/devotional riverside programme at Assi Ghat. Waarom voor Mark? Kept as its own morning because Mark explicitly did not want all dawn experiences merged. AOAY/persoon: No direct AOAY link; local cultural/devotional experience.
+Klokblok: 05:30-07:30. Vorige A: Vanaf Assi-basis: ~0-0.5 km. Volgende A: Naar A038: ~4 km / 20-30 min. Uitvoeringsstatus: SCHEDULED; exact winterprogramma LRL.
+
+A038  A+  New Bhrigu Karyalaya / Bhadury Sadan  [VNS-02]
+Wat is het? Book of Bhrigu consultation site in Ramapura-Luxa. Waarom voor Mark? A highly personal special-interest stop tied to Mark's Kriya/Ananda interests and deliberately separated from the Manikarnika day. AOAY/persoon: Swami Kriyananda / Ananda-lineage motivation; not itself an AOAY person/site.
+Klokblok: 10:00-11:30. Vorige A: Vanaf A037: ~4 km / 20-30 min. Volgende A: Naar A039: ~2-4 km / 15-30 min, exact adresroute LRL. Uitvoeringsstatus: SCHEDULED.
+
+A039  A+  Lahiri Mahasaya original/family house  [VNS-20]
+Wat is het? Family home associated with Lahiri Mahasaya; access must be confirmed and cannot be assumed. Waarom voor Mark? One of the strongest Kriya-lineage physical anchors in Varanasi. AOAY/persoon: Lahiri Mahasaya - direct central AOAY link; also Yogananda and Sri Yukteswar lineage memory.
+Klokblok: 14:00-15:00. Vorige A: Vanaf A038: ~2-4 km / 15-30 min. Volgende A: Naar A040: ~1-3 km / 15-25 min, exact LRL. Uitvoeringsstatus: SCHEDULED; ACCESS MUST CONFIRM.
+
+A040  A  Lahiri Mahasaya Samadhi / Satyalok  [VNS-24]
+Wat is het? Samadhi/memorial site of Lahiri Mahasaya, physically distinct from the family home. Waarom voor Mark? Prevents the Lahiri devotional world from being falsely counted as one address. AOAY/persoon: Lahiri Mahasaya - direct central AOAY/Kriya link.
+Klokblok: 15:30-16:30. Vorige A: Vanaf A039: ~1-3 km / 15-25 min. Volgende A: Laatste A; Assi-basis ~4-6 km. Uitvoeringsstatus: SCHEDULED.

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Bodh Gaya -- 046-049 (CORE_PASS + OPTIONAL_PASS)</name>
+  <description>run_id: BODHGAYA-DISCOVERY-001. Uitsluitend de vier genummerde kandidaten. Geen A/B/C toegekend -- kleuren duiden uitsluitend GEO-bevestigingsstatus aan, geen Mark-keuze. 046 en 047 hebben een bevestigde Google Maps/Earth-marker. 048 en 049 hebben GEEN bevestigde marker en staan daarom zonder puntgeometrie, uitsluitend als tekstuele placemark met adres -- conform protocol nooit een geraden of overgenomen coordinaat.</description>
+
+  <Style id="confirmed">
+    <IconStyle>
+      <color>ff00ff00</color>
+      <scale>1.2</scale>
+    </IconStyle>
+  </Style>
+
+  <Folder>
+    <name>Kerncluster (bevestigde markers)</name>
+    <Placemark>
+      <name>046 Mahabodhi Temple Complex</name>
+      <description>CORE_PASS. GEO-status: CONFIRMED (rechtstreekse Google Maps/Earth-entiteit). Bodh Gaya, Bihar 824231, India.</description>
+      <styleUrl>#confirmed</styleUrl>
+      <Point>
+        <coordinates>84.9914193,24.6959222,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>047 Sujata Stupa, Bakraur</name>
+      <description>CORE_PASS. GEO-status: CONFIRMED (rechtstreekse Google Maps/Earth-entiteit, Google Plus Code M2X3+58W). Bakraur, Sujata, Bihar 824231, India.</description>
+      <styleUrl>#confirmed</styleUrl>
+      <Point>
+        <coordinates>85.0033228,24.6979887,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+
+  <Folder>
+    <name>Aanvullende cluster (geen bevestigde marker)</name>
+    <Placemark>
+      <name>048 Dungeshwari Cave Temples (Mahakala Caves) -- GEEN BEVESTIGDE MARKER</name>
+      <description>CORE_PASS. GEO-status: GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Geen puntgeometrie -- vijf zoekpogingen over twee ZILVER-rondes leverden geen rechtstreekse Google Maps-marker op. Adres: Larpur village, near Bodh Gaya, Gaya district, Bihar, India (circa 12-14 km van Bodh Gaya, bronafhankelijk). Zie GOUD-rapport voor volledige toelichting.</description>
+    </Placemark>
+  </Folder>
+
+  <Folder>
+    <name>Losse optionele plek (geen bevestigde marker)</name>
+    <Placemark>
+      <name>049 Great Buddha Statue -- GEEN BEVESTIGDE MARKER</name>
+      <description>OPTIONAL_PASS. GEO-status: GOOGLE_MAPS_MARKER_NOT_CONFIRMED. Geen puntgeometrie -- geen rechtstreekse Google Maps-marker gevonden ondanks drie zoekpogingen. Wikipedia-infobox-coordinaat (24.690472, 84.981806) bestaat wel, maar wordt conform protocol NIET als vervanging voor een geverifieerde marker gebruikt. Adres: Daijokyo Buddhist Temple, Great Buddha Statue Road, P.O. Bodhgaya 824231, Gaya, Bihar, India. Zie GOUD-rapport voor volledige toelichting.</description>
+    </Placemark>
+  </Folder>
+
+</Document>
+</kml>

@@ -1,0 +1,82 @@
+INDIA19_Kloktijdplanning_A79_v1 — FROZEN AUDIT MIRROR
+PDF SHA256: 0adec758a0b156d56fdd7c8552fa214b78f8e24291d9be759e367dde99d00716
+DOCX SHA256: 6f2369a804972da9325bbdac26033e07ca18833d6562859d7a6954b5ebc7619f
+Frozen A-ledger commit: a2b71b2563f446480b012f0b9176a87e96fcb003
+PDF pages: 26
+
+=== DETAILED A061-A079 CARDS ===
+A061  A+  Dakshineswar Kali Temple  [KOL-01]
+Wat is het? Sri Ramakrishna's Kali temple world, including his room/Panchavati context where accessible. Waarom voor Mark? Major Ramakrishna anchor and one of the strongest Bengal spiritual places. AOAY/persoon: Sri Ramakrishna. Indirect AOAY context: Yogananda reveres the broader Ramakrishna/Vivekananda tradition, but this is not a Yogananda biographical site.
+Klokblok: 07:00-09:30. Vorige A: Vanaf Dakshineswar-basis: ~0.5-2 km / 5-15 min. Volgende A: Naar A062: ~0.8-1.5 km / 10-20 min. Uitvoeringsstatus: SCHEDULED; official temple open 06:30-12:30.
+
+A062  A+  Yogoda Satsanga Math, Dakshineswar  [KOL-02]
+Wat is het? YSS/Yogananda ashram and headquarters in Dakshineswar. Waarom voor Mark? Direct Yogananda/Kriya anchor adjacent to the Ramakrishna world. AOAY/persoon: Paramahansa Yogananda - direct AOAY/Kriya lineage link.
+Klokblok: 09:45-11:30. Vorige A: Vanaf A061: ~0.8-1.5 km / 10-20 min. Volgende A: Naar A063: ~8 km road / 30-45 min; ferryoptie LRL. Uitvoeringsstatus: SCHEDULED.
+
+A063  A  Belur Math  [KOL-03]
+Wat is het? Ramakrishna Math & Mission headquarters with concentrated Ramakrishna, Sarada Devi and Vivekananda heritage. Waarom voor Mark? A high-density way to experience the Ramakrishna lineage in one long afternoon. AOAY/persoon: Ramakrishna, Sarada Devi, Vivekananda. Indirect AOAY context, not a Yogananda-home site.
+Klokblok: 13:30-17:00. Vorige A: Vanaf A062: ~8 km road / 30-45 min (of ferrycorridor). Volgende A: Laatste A; terug basis ~8-12 km. Uitvoeringsstatus: SCHEDULED.
+
+A064  A+  4 Garpar Road  [KOL-04]
+Wat is het? Yogananda family home/meditation-attic world with Babaji-linked family history; access requires pre-arrival arrangement. Waarom voor Mark? One of the most personally relevant Yogananda biographical addresses in India. AOAY/persoon: Paramahansa Yogananda and Mahavatar Babaji - direct AOAY biographical link.
+Klokblok: 10:30-12:00. Vorige A: Vanaf basis: ~15-20 km / 45-75 min. Volgende A: Naar A065: ~0.5-1 km / 5-15 min lopen. Uitvoeringsstatus: SCHEDULED; PRE-ARRIVAL EMAIL REQUIRED.
+
+A065  A+  YSS Dhyana Kendra - Garpar, 37A Raja Dinendra Street  [KOL-05]
+Wat is het? Living YSS/Yogananda meditation centre in Garpar. Waarom voor Mark? Lets the trip include living practice, not only historic addresses. AOAY/persoon: Paramahansa Yogananda - direct AOAY/Kriya link.
+Klokblok: 14:00-16:00. Vorige A: Vanaf A064: ~0.5-1 km / 5-15 min. Volgende A: Laatste A; terug basis/hotel ~15-20 km. Uitvoeringsstatus: SCHEDULED; exact Jan-2027 programme LRL.
+
+A066  A+  Arunachala / Ramana sacred mountain world  [TIR-01]
+Wat is het? The physical mountain Arunachala and the sacred town/world around it. Waarom voor Mark? This is the parent A+ whose value is low-tempo presence across four nights; it is made visible as a dedicated orientation/quiet block rather than a hidden label. AOAY/persoon: Sri Ramana Maharshi - major Mark priority. No direct AOAY claim used.
+Klokblok: 16:45-17:30. Vorige A: Vanaf slaapbasis: 0-2 km / zicht-/loopafstand. Volgende A: Naar A067: ~1-2 km / 5-15 min. Uitvoeringsstatus: SCHEDULED.
+
+A067  A  The Dreaming Tree  [TIR-09]
+Wat is het? Selected cafe/restaurant used as an actual dinner stop. Waarom voor Mark? A Mark-graded comfort/food item with zero independent night weight. AOAY/persoon: No AOAY link.
+Klokblok: 19:00-20:30. Vorige A: Vanaf A066/base: ~1-2 km / 5-15 min. Volgende A: Laatste A. Uitvoeringsstatus: SCHEDULED.
+
+A068  A  Virupaksha Cave  [TIR-03]
+Wat is het? Cave on Arunachala where Ramana Maharshi lived for years. Waarom voor Mark? Core Ramana biographical pilgrimage site and the lower anchor of the hill day. AOAY/persoon: Sri Ramana Maharshi; no direct AOAY claim.
+Klokblok: 08:00-09:30. Vorige A: Vanaf basis/ashramzone: ~1.5-2 km trail / 30-50 min. Volgende A: Naar A069: ~0.7 km omhoog / 20-30 min. Uitvoeringsstatus: SCHEDULED.
+
+A069  A  Skandashram  [TIR-04]
+Wat is het? Hermitage above Virupaksha Cave where Ramana later lived. Waarom voor Mark? Natural continuation of the Ramana hill pilgrimage with modest incremental distance. AOAY/persoon: Sri Ramana Maharshi; no direct AOAY claim.
+Klokblok: 09:45-10:45. Vorige A: Vanaf A068: ~0.7 km / 20-30 min klim. Volgende A: Naar A070: afdaling + road totaal ~5 km / 45-60 min. Uitvoeringsstatus: SCHEDULED.
+
+A070  A  Gurumurtam  [TIR-06]
+Wat is het? Site associated with Ramana's early period in Tiruvannamalai. Waarom voor Mark? Adds a distinct early-Ramana biographical location after the hill circuit. AOAY/persoon: Sri Ramana Maharshi; no direct AOAY claim.
+Klokblok: 15:30-16:15. Vorige A: Vanaf A069 via afdaling/base: ~5 km / 45-60 min totaal. Volgende A: Naar A071: ~2.5 km / 10-20 min. Uitvoeringsstatus: SCHEDULED.
+
+A071  A  Pavalakunru  [TIR-07]
+Wat is het? Arunachala spur/temple associated with Ramana's early history. Waarom voor Mark? Another specific Ramana-era physical anchor, kept separate from the mountain parent. AOAY/persoon: Sri Ramana Maharshi; no direct AOAY claim.
+Klokblok: 16:30-17:15. Vorige A: Vanaf A070: ~2.5 km / 10-20 min. Volgende A: Naar A072: ~2 km / 10-15 min. Uitvoeringsstatus: SCHEDULED.
+
+A072  A  The Inner Child  [TIR-10]
+Wat is het? Selected cafe/restaurant, used as dinner after the hill/biography day. Waarom voor Mark? Mark-graded comfort item with no independent route weight. AOAY/persoon: No AOAY link.
+Klokblok: 19:00-20:15. Vorige A: Vanaf A071/base: ~2 km / 10-15 min. Volgende A: Laatste A. Uitvoeringsstatus: SCHEDULED.
+
+A073  A  Giripradakshina / Girivalam 14 km circuit  [TIR-08]
+Wat is het? The 14 km circumambulation of Arunachala, starting and ending at the actual sleep base. Waarom voor Mark? A central Arunachala pilgrimage practice; given a pre-dawn window and protected recovery afterwards. AOAY/persoon: Sri Ramana Maharshi / Arunachala devotional practice; no direct AOAY claim.
+Klokblok: 04:30-09:00. Vorige A: Start = slaapbasis. Volgende A: Naar A074 na herstel: ~2-3 km / 10-20 min. Uitvoeringsstatus: SCHEDULED.
+
+A074  A  Arunachaleswarar / Annamalaiyar Temple  [TIR-05]
+Wat is het? Large Shiva temple complex at the base of Arunachala. Waarom voor Mark? Core sacred-town content and natural late-afternoon anchor after Girivalam recovery. AOAY/persoon: Arunachala/Shiva context; no direct AOAY claim.
+Klokblok: 16:00-18:00. Vorige A: Vanaf basis: ~2-3 km / 10-20 min. Volgende A: Naar A075: ~1 km / 5-10 min. Uitvoeringsstatus: SCHEDULED.
+
+A075  A  Amutham  [TIR-11]
+Wat is het? Selected restaurant used as the dinner stop after Arunachaleswarar. Waarom voor Mark? Mark-graded comfort/food item, explicitly visible but not used to argue for extra nights. AOAY/persoon: No AOAY link.
+Klokblok: 18:30-19:45. Vorige A: Vanaf A074: ~1 km / 5-10 min. Volgende A: Laatste A. Uitvoeringsstatus: SCHEDULED.
+
+A076  A  Sri Ramanasramam  [TIR-02]
+Wat is het? Ramana Maharshi's ashram, scheduled as a stand-alone immersion day rather than a quick stop. Waarom voor Mark? This solves the strongest argument for five Tiru nights while still preserving Bodh Gaya at three: one full ashram day remains intact. AOAY/persoon: Sri Ramana Maharshi - direct person link; no direct AOAY claim.
+Klokblok: 07:30-12:00. Vorige A: Vanaf slaapbasis: streef ~0-2 km / 5-15 min. Volgende A: Enige A vandaag. Uitvoeringsstatus: SCHEDULED.
+
+A077  A+  Nirmal Dham / Shri Mataji Nirmala Devi Ashram  [DEL-01]
+Wat is het? Sacred ashram destination in southwest Delhi, reserved for the final Delhi buffer day rather than the arrival day. Waarom voor Mark? A fixed A+ personal spiritual anchor, but international-flight safety outranks it if disruption consumes the buffer. AOAY/persoon: Shri Mataji Nirmala Devi; no AOAY link.
+Klokblok: 11:00-13:00. Vorige A: Vanaf DEL/hotelzone: ~15-25 km / 35-60 min. Volgende A: Naar A078: ~35-40 km / 75-100 min. Uitvoeringsstatus: SCHEDULED; flight safety outranks visit if disruption.
+
+A078  A  Lotus Temple / Baha'i House of Worship  [DEL-03]
+Wat is het? Lotus-shaped Baha'i House of Worship with contemplative interior/grounds. Waarom voor Mark? Architectural and quiet-space value in the final Delhi day. AOAY/persoon: No AOAY link.
+Klokblok: 15:00-16:15. Vorige A: Vanaf A077: ~35-40 km / 75-100 min. Volgende A: Naar A079: ~12-14 km / 30-45 min. Uitvoeringsstatus: SCHEDULED.
+
+A079  A  PVR Priya IMAX  [DEL-02]
+Wat is het? Historic cinema/IMAX experience, used only if a worthwhile Hindi/Bollywood title and suitable showtime exist. Waarom voor Mark? A real A-grade cultural item but conditionally executable; the PDF keeps it visible rather than pretending a film is known months in advance. AOAY/persoon: No AOAY link.
+Klokblok: 18:30-21:30. Vorige A: Vanaf A078: ~12-14 km / 30-45 min. Volgende A: Laatste A; hotel/IGI ~8-15 km / 20-45 min. Uitvoeringsstatus: SCHEDULED CONDITIONALLY.
